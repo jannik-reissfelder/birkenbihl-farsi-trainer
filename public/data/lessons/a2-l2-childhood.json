@@ -1,0 +1,18 @@
+{
+  "id": "a2-l2-childhood",
+  "title": "A2 Lektion 2: Kindheitserinnerungen",
+  "description": "Eine Erzählung über die Kindheit mit Vergangenheitsformen und Gewohnheiten.",
+  "sentences": [
+    { "id": 1, "farsi": "وقتی کودک بودم، در شهر کوچکی زندگی می‌کردم.", "latin": "Vaghti kūdak būdam, dar shahr-e kūchakī zendegī mikarddam.", "germanDecode": "Als Kind war-ich, in Stadt-von klein Leben machte-ich.", "germanTranslation": "Als ich ein Kind war, lebte ich in einer kleinen Stadt." },
+    { "id": 2, "farsi": "خانه ما باغ بزرگی داشت که پر از درخت میوه بود.", "latin": "Khāne-ye mā bāgh-e bozorgī dāsht ke por az darakht-e mīve būd.", "germanDecode": "Haus-von uns Garten-von groß hatte-es dass voll von Baum-von Frucht war-es.", "germanTranslation": "Unser Haus hatte einen großen Garten, der voller Obstbäume war." },
+    { "id": 3, "farsi": "هر تابستان با برادرم در باغ بازی می‌کردیم.", "latin": "Har tābestān bā barādaram dar bāgh bāzī mikardīm.", "germanDecode": "Jeden Sommer mit Bruder-meinem in Garten Spiel machten-wir.", "germanTranslation": "Jeden Sommer spielten wir mit meinem Bruder im Garten." },
+    { "id": 4, "farsi": "مادرم برای ما شیرینی درست می‌کرد و ما خوشحال بودیم.", "latin": "Mādaram barāye mā shīrīnī dorost mikard va mā khoshhāl būdīm.", "germanDecode": "Mutter-meine für uns Süßigkeit richtig machte-sie und wir glücklich waren-wir.", "germanTranslation": "Meine Mutter machte für uns Süßigkeiten und wir waren glücklich." },
+    { "id": 5, "farsi": "پدربزرگم قصه‌های جالبی برای ما تعریف می‌کرد.", "latin": "Pedarbozorgam ghesse-hāye jālebī barāye mā ta'rīf mikard.", "germanDecode": "Großvater-mein Geschichten-von interessant für uns Erzählung machte-er.", "germanTranslation": "Mein Großvater erzählte uns interessante Geschichten." },
+    { "id": 6, "farsi": "شب‌ها کنار پنجره نشسته و ستاره‌ها را نگاه می‌کردم.", "latin": "Shabhā kenār-e panjere neshaste va setārehā rā negāh mikarddam.", "germanDecode": "Nächte neben-von Fenster gesetzt und Sterne D.O. Blick machte-ich.", "germanTranslation": "Nachts saß ich am Fenster und schaute die Sterne an." },
+    { "id": 7, "farsi": "در مدرسه دوستان زیادی داشتم و با آنها بازی می‌کردم.", "latin": "Dar madrese dūstān-e ziyādī dāshtam va bā ānhā bāzī mikarddam.", "germanDecode": "In Schule Freunde-von viele hatte-ich und mit ihnen Spiel machte-ich.", "germanTranslation": "In der Schule hatte ich viele Freunde und spielte mit ihnen." },
+    { "id": 8, "farsi": "معلم ما مهربان بود و ما او را دوست داشتیم.", "latin": "Mo'allem-e mā mehrabān būd va mā ū rā dūst dāshtīm.", "germanDecode": "Lehrer-von uns freundlich war-er und wir er D.O. lieb hatten-wir.", "germanTranslation": "Unser Lehrer war freundlich und wir mochten ihn." },
+    { "id": 9, "farsi": "آخر هفته‌ها خانواده ما به پارک می‌رفت.", "latin": "Ākhar-e hafte-hā khānevāde-ye mā be pārk miraft.", "germanDecode": "Ende-von Wochen Familie-von uns zu Park ging-sie.", "germanTranslation": "An den Wochenenden ging unsere Familie in den Park." },
+    { "id": 10, "farsi": "آن روزها ساده و شاد بودم و نگرانی نداشتم.", "latin": "Ān rūzhā sāde va shād būdam va nagarānī nadāshtam.", "germanDecode": "Jene Tage einfach und fröhlich war-ich und Sorge nicht-hatte-ich.", "germanTranslation": "In jenen Tagen war ich einfach und fröhlich und hatte keine Sorgen." },
+    { "id": 11, "farsi": "اکنون که بزرگ شده‌ام، آن دوران را یاد می‌آورم.", "latin": "Aknūn ke bozorg shodeam, ān dūrān rā yād mīyāvaram.", "germanDecode": "Jetzt dass groß geworden-ich-bin, jene Zeit D.O. Erinnerung bringe-ich.", "germanTranslation": "Jetzt, da ich erwachsen geworden bin, erinnere ich mich an jene Zeit." }
+  ]
+}

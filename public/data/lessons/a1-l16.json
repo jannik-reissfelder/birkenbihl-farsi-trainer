@@ -1,0 +1,11 @@
+
+{
+  "id": "a1-l16",
+  "title": "Lektion 16: Verbindungen und Vergleiche",
+  "description": "Sätze mit Konjunktionen wie 'und', 'aber' verbinden.",
+  "sentences": [
+    { "id": 1, "farsi": "او می‌خواهد برود، ولی من می‌خواهم بمانم.", "latin": "Ū mikhāhad beravad, vali man mikhāham bemānam.", "germanDecode": "er will-er gehen-er, aber ich will-ich bleiben-ich.", "germanTranslation": "Er will gehen, aber ich will bleiben." },
+    { "id": 2, "farsi": "من با دوستم به مدرسه می‌روم.", "latin": "Man bā dūstam be madreseh miravam.", "germanDecode": "Ich mit Freund-mein zur Schule gehe-ich.", "germanTranslation": "Ich gehe mit meinem Freund zur Schule." },
+    { "id": 3, "farsi": "من خوب هستم و شما بد هستید.", "latin": "Man khūb hastam va shomā bad hastīd.", "germanDecode": "Ich gut bin-ich und Sie schlecht sind-Sie.", "germanTranslation": "Mir geht es gut und Ihnen geht es schlecht." }
+  ]
+}

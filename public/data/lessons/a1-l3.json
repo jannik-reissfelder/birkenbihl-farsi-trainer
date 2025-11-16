@@ -1,0 +1,13 @@
+
+{
+  "id": "a1-l3",
+  "title": "Lektion 3: Familie und Beruf",
+  "description": "Verb \"haben\" (darad/hat), Substantive im Plural.",
+  "sentences": [
+    { "id": 1, "farsi": "این خانواده من است", "latin": "In khānevāde-ye man ast", "germanDecode": "Dies Familie-von mein ist", "germanTranslation": "Das ist meine Familie" },
+    { "id": 2, "farsi": "من یک برادر و یک خواهر دارم", "latin": "Man yek barādar va yek khāhar dāram", "germanDecode": "Ich ein Bruder und ein Schwester habe-ich", "germanTranslation": "Ich habe einen Bruder und eine Schwester" },
+    { "id": 3, "farsi": "شغل شما چیست؟", "latin": "Shoghl-e shomā chist?", "germanDecode": "Beruf-von Ihr was ist?", "germanTranslation": "Was ist Ihr Beruf?" },
+    { "id": 4, "farsi": "من دانشجو هستم", "latin": "Man dāneshjū hastam", "germanDecode": "Ich Student bin-ich", "germanTranslation": "Ich bin Student/in" },
+    { "id": 5, "farsi": "پدر من دکتر است", "latin": "Pedar-e man doktor ast", "germanDecode": "Vater-von mein Arzt ist", "germanTranslation": "Mein Vater ist Arzt" }
+  ]
+}

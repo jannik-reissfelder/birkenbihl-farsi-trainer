@@ -1,0 +1,19 @@
+{
+  "id": "a2-l4-job-change",
+  "title": "A2 Lektion 4: Berufswechsel",
+  "description": "Eine Erzählung über einen Arbeitsplatzwechsel und neue Erfahrungen.",
+  "sentences": [
+    { "id": 1, "farsi": "سال گذشته در یک بانک کار می‌کردم اما خوشحال نبودم.", "latin": "Sāl-e gozashte dar yek bānak kār mikarddam ammā khoshhāl nabūdam.", "germanDecode": "Jahr-von vergangen in ein Bank Arbeit machte-ich aber glücklich nicht-war-ich.", "germanTranslation": "Letztes Jahr arbeitete ich in einer Bank, aber ich war nicht glücklich." },
+    { "id": 2, "farsi": "کار همیشه یکسان بود و من احساس کسالت می‌کردم.", "latin": "Kār hamīshe yeksān būd va man ehsās-e kesālat mikarddam.", "germanDecode": "Arbeit immer gleich war-es und ich Gefühl-von Langeweile machte-ich.", "germanTranslation": "Die Arbeit war immer dieselbe und ich langweilte mich." },
+    { "id": 3, "farsi": "مدیرم آدم سختی بود و با کارمندان بد رفتار می‌کرد.", "latin": "Modīram ādam-e sakhtī būd va bā kārmandān bad raftār mikard.", "germanDecode": "Chef-mein Mensch-von hart war-er und mit Angestellten schlecht Verhalten machte-er.", "germanTranslation": "Mein Chef war ein harter Mensch und behandelte die Angestellten schlecht." },
+    { "id": 4, "farsi": "یک روز تصمیم گرفتم شغلم را عوض کنم.", "latin": "Yek rūz tasmīm gereftam shogh-lam rā avaz konam.", "germanDecode": "Ein Tag Entscheidung nahm-ich Beruf-meinen D.O. wechseln mache-ich.", "germanTranslation": "Eines Tages entschied ich mich, meinen Beruf zu wechseln." },
+    { "id": 5, "farsi": "به دوستانم گفتم و آنها از تصمیمم حمایت کردند.", "latin": "Be dūstānam goftam va ānhā az tasmīm-am hemāyat kardand.", "germanDecode": "Zu Freunden-meinen sagte-ich und sie von Entscheidung-meiner Unterstützung machten-sie.", "germanTranslation": "Ich sagte es meinen Freunden und sie unterstützten meine Entscheidung." },
+    { "id": 6, "farsi": "چند ماه رزومه فرستادم و مصاحبه رفتم.", "latin": "Chand māh rezyūme ferestādam va mosāhebe raftam.", "germanDecode": "Einige Monate Lebenslauf sendete-ich und Interview ging-ich.", "germanTranslation": "Einige Monate sendete ich Lebensläufe und ging zu Interviews." },
+    { "id": 7, "farsi": "بالاخره در یک شرکت کامپیوتری پذیرفته شدم.", "latin": "Belākhere dar yek sherkat-e kāmpyūterī pazīrafte shodam.", "germanDecode": "Schließlich in ein Firma-von Computer akzeptiert wurde-ich.", "germanTranslation": "Schließlich wurde ich in einer Computerfirma angenommen." },
+    { "id": 8, "farsi": "همکاران جدیدم مهربان و دوستانه بودند.", "latin": "Hamkārān-e jadīdam mehrabān va dūstāne būdand.", "germanDecode": "Kollegen-von neue-meine freundlich und freundschaftlich waren-sie.", "germanTranslation": "Meine neuen Kollegen waren freundlich und kameradschaftlich." },
+    { "id": 9, "farsi": "محیط کار آنجا راحت بود و من می‌توانستم یاد بگیرم.", "latin": "Mohīt-e kār ānjā rāhat būd va man mītavānestam yād begiram.", "germanDecode": "Umgebung-von Arbeit dort bequem war-es und ich konnte-ich Lernen nehme-ich.", "germanTranslation": "Die Arbeitsumgebung dort war angenehm und ich konnte lernen." },
+    { "id": 10, "farsi": "حقوقم کمتر شد اما خوشحال‌تر بودم.", "latin": "Hoghūgh-am kamtar shod ammā khoshhāl-tar būdam.", "germanDecode": "Gehalt-mein weniger wurde-es aber glücklicher war-ich.", "germanTranslation": "Mein Gehalt wurde weniger, aber ich war glücklicher." },
+    { "id": 11, "farsi": "اکنون هر روز با انرژی به کار می‌روم.", "latin": "Aknūn har rūz bā enerzī be kār mīravam.", "germanDecode": "Jetzt jeden Tag mit Energie zu Arbeit gehe-ich.", "germanTranslation": "Jetzt gehe ich jeden Tag mit Energie zur Arbeit." },
+    { "id": 12, "farsi": "فهمیدم که پول تنها چیز مهم در زندگی نیست.", "latin": "Fahmīdam ke pūl tanhā chīz-e mohem dar zendegī nīst.", "germanDecode": "Verstand-ich dass Geld allein Ding-von wichtig in Leben nicht-ist.", "germanTranslation": "Ich verstand, dass Geld nicht das einzig Wichtige im Leben ist." }
+  ]
+}

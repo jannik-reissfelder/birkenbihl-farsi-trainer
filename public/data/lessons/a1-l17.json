@@ -1,0 +1,10 @@
+
+{
+  "id": "a1-l17",
+  "title": "Lektion 17: Tagesablauf und Ereignisse",
+  "description": "Beschreiben von Ereignissen zu bestimmten Tageszeiten.",
+  "sentences": [
+    { "id": 1, "farsi": "توریست‌ها غروب را دیدند.", "latin": "Toorīsthā ghorūb rā dīdand.", "germanDecode": "Touristen-PL Sonnenuntergang D.O. sahen-sie.", "germanTranslation": "Die Touristen sahen den Sonnenuntergang." },
+    { "id": 2, "farsi": "حدود نیمه شب می‌خوابم.", "latin": "Hodūd-e nime-shab mikhābam.", "germanDecode": "Ungefähr-von halb-Nacht schlafe-ich.", "germanTranslation": "Ich schlafe ungefähr um Mitternacht." }
+  ]
+}

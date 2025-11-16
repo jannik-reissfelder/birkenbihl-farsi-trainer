@@ -1,0 +1,12 @@
+{
+  "id": "a1-l8",
+  "title": "Lektion 8: Morgenroutine",
+  "description": "Verben und Vokabular rund um den Start in den Tag.",
+  "sentences": [
+    { "id": 1, "farsi": "من ساعت هفت صبح بیدار می‌شوم.", "latin": "Man sā'at-e haft-e sobh bidār mishavam.", "germanDecode": "Ich Uhr-von sieben-von Morgen wach werde-ich.", "germanTranslation": "Ich wache um sieben Uhr morgens auf." },
+    { "id": 2, "farsi": "من زنگ آلارم را خاموش می‌کنم.", "latin": "Man zang-e ālarm rā khāmūsh mikonam.", "germanDecode": "Ich Klingel-von Alarm D.O. aus mache-ich.", "germanTranslation": "Ich schalte den Wecker aus." },
+    { "id": 3, "farsi": "من از رختخواب بیرون می‌آیم.", "latin": "Man az rakht-e-khāb biroon miāyam.", "germanDecode": "Ich aus Bett heraus komme-ich.", "germanTranslation": "Ich stehe aus dem Bett auf." },
+    { "id": 4, "farsi": "من صبحانه می‌خورم.", "latin": "Man sobhāne mikhoram.", "germanDecode": "Ich Frühstück esse-ich.", "germanTranslation": "Ich esse Frühstück." },
+    { "id": 5, "farsi": "من با عجله به کار می‌روم.", "latin": "Man bā ajaleh be kār miravam.", "germanDecode": "Ich mit Eile zur Arbeit gehe-ich.", "germanTranslation": "Ich gehe eilig zur Arbeit." }
+  ]
+}

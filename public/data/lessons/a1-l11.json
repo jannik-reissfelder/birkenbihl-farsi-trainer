@@ -1,0 +1,11 @@
+
+{
+  "id": "a1-l11",
+  "title": "Lektion 11: Küche und Bad",
+  "description": "Gegenstände und Handlungen in Küche und Bad.",
+  "sentences": [
+    { "id": 1, "farsi": "یخچال در آشپزخانه است.", "latin": "Yakhchāl dar āshpazkhāne ast.", "germanDecode": "Kühlschrank in Küche ist.", "germanTranslation": "Der Kühlschrank ist in der Küche." },
+    { "id": 2, "farsi": "من ظرف‌ها را می‌شویم.", "latin": "Man zarf-hā rā mishūyam.", "germanDecode": "Ich Geschirr-PL D.O. wasche-ich.", "germanTranslation": "Ich wasche das Geschirr." },
+    { "id": 3, "farsi": "حمام کجاست؟", "latin": "Hammām kojāst?", "germanDecode": "Bad wo-ist?", "germanTranslation": "Wo ist das Badezimmer?" }
+  ]
+}

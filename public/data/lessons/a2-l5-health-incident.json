@@ -1,0 +1,19 @@
+{
+  "id": "a2-l5-health-incident",
+  "title": "A2 Lektion 5: Ein Gesundheitsproblem",
+  "description": "Eine Erzählung über einen Arztbesuch und Gesundheitsprobleme.",
+  "sentences": [
+    { "id": 1, "farsi": "دو هفته پیش احساس بدی داشتم و مریض شدم.", "latin": "Do hafte pīsh ehsās-e badī dāshtam va marīz shodam.", "germanDecode": "Zwei Wochen vorher Gefühl-von schlecht hatte-ich und krank wurde-ich.", "germanTranslation": "Vor zwei Wochen fühlte ich mich schlecht und wurde krank." },
+    { "id": 2, "farsi": "صبح که از خواب بیدار شدم، تب شدید داشتم.", "latin": "Sobh ke az khāb bīdār shodam, tab-e shadīd dāshtam.", "germanDecode": "Morgen als aus Schlaf wach wurde-ich, Fieber-von stark hatte-ich.", "germanTranslation": "Als ich morgens aufwachte, hatte ich starkes Fieber." },
+    { "id": 3, "farsi": "سر و گلوی من خیلی درد می‌کرد.", "latin": "Sar va galūye man kheylī dard mikard.", "germanDecode": "Kopf und Hals-von mir sehr Schmerz machte-er.", "germanTranslation": "Mein Kopf und Hals taten sehr weh." },
+    { "id": 4, "farsi": "به مادرم زنگ زدم و او نگران شد.", "latin": "Be mādaram zang zadam va ū nagarān shod.", "germanDecode": "Zu Mutter-meiner Klingel schlug-ich und sie besorgt wurde-sie.", "germanTranslation": "Ich rief meine Mutter an und sie wurde besorgt." },
+    { "id": 5, "farsi": "او گفت باید فوراً به دکتر بروم.", "latin": "Ū goft bāyad fowran be doktor beravam.", "germanDecode": "Sie sagte muss sofort zu Arzt gehe-ich.", "germanTranslation": "Sie sagte, ich müsse sofort zum Arzt gehen." },
+    { "id": 6, "farsi": "تاکسی گرفتم و به مطب دکتر رفتم.", "latin": "Tāksī gereftam va be matab-e doktor raftam.", "germanDecode": "Taxi nahm-ich und zu Praxis-von Arzt ging-ich.", "germanTranslation": "Ich nahm ein Taxi und ging zur Arztpraxis." },
+    { "id": 7, "farsi": "در مطب نیم ساعت منتظر ماندم.", "latin": "Dar matab nīm sā'at montazer māndam.", "germanDecode": "In Praxis halb Stunde wartend blieb-ich.", "germanTranslation": "In der Praxis wartete ich eine halbe Stunde." },
+    { "id": 8, "farsi": "دکتر مرا معاینه کرد و گفت سرماخوردگی سادی است.", "latin": "Doktor marā mo'āyene kard va goft sarmākhordeagī-ye sādī ast.", "germanDecode": "Arzt mich D.O. Untersuchung machte-er und sagte Erkältung-von einfach ist.", "germanTranslation": "Der Arzt untersuchte mich und sagte, es sei eine einfache Erkältung." },
+    { "id": 9, "farsi": "برایم دارو نوشت و گفت استراحت کنم.", "latin": "Barāyam dārū nevesht va goft esterāhat konam.", "germanDecode": "Für-mich Medizin schrieb-er und sagte Ruhe mache-ich.", "germanTranslation": "Er verschrieb mir Medizin und sagte, ich solle mich ausruhen." },
+    { "id": 10, "farsi": "به داروخانه رفتم و داروها را خریدم.", "latin": "Be dārūkhāne raftam va dārūhā rā kharīdam.", "germanDecode": "Zu Apotheke ging-ich und Medikamente D.O. kaufte-ich.", "germanTranslation": "Ich ging zur Apotheke und kaufte die Medikamente." },
+    { "id": 11, "farsi": "سه روز در خانه ماندم و دارو خوردم.", "latin": "Seh rūz dar khāne māndam va dārū khordam.", "germanDecode": "Drei Tage in Haus blieb-ich und Medizin aß-ich.", "germanTranslation": "Drei Tage blieb ich zu Hause und nahm Medizin." },
+    { "id": 12, "farsi": "حالا کاملاً خوب شده‌ام و به کارم برگشته‌ام.", "latin": "Hālā kāmelan khūb shodeam va be kāram bargashteam.", "germanDecode": "Jetzt vollständig gut geworden-ich-bin und zu Arbeit-meiner zurückgekehrt-ich-bin.", "germanTranslation": "Jetzt bin ich vollständig gesund geworden und zur Arbeit zurückgekehrt." }
+  ]
+}

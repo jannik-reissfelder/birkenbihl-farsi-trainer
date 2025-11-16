@@ -1,0 +1,19 @@
+{
+  "id": "a2-l1-yesterday",
+  "title": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit",
+  "description": "Eine zusammenhängende Erzählung über einen vergangenen Tag mit einfacher Vergangenheit.",
+  "sentences": [
+    { "id": 1, "farsi": "دیروز صبح ساعت شش از خواب بیدار شدم.", "latin": "Dīrūz sobh sā'at-e shesh az khāb bīdār shodam.", "germanDecode": "Gestern Morgen Uhr-von sechs aus Schlaf wach wurde-ich.", "germanTranslation": "Gestern Morgen bin ich um sechs Uhr aufgewacht." },
+    { "id": 2, "farsi": "ابتدا به حمام رفتم و دوش گرفتم.", "latin": "Ebtedā be hammām raftam va dūsh gereftam.", "germanDecode": "Zuerst zu Badezimmer ging-ich und Dusche nahm-ich.", "germanTranslation": "Zuerst ging ich ins Badezimmer und duschte." },
+    { "id": 3, "farsi": "سپس لباس‌هایم را پوشیدم و به آشپزخانه رفتم.", "latin": "Sepas lebāshāyam rā pūshīdam va be āshpazkhhāne raftam.", "germanDecode": "Dann Kleider-meine D.O. zog-ich-an und zu Küche ging-ich.", "germanTranslation": "Dann zog ich meine Kleider an und ging in die Küche." },
+    { "id": 4, "farsi": "برای صبحانه نان و پنیر خوردم و چای نوشیدم.", "latin": "Barāye sobhāne nān va panīr khordam va chāy nūshīdam.", "germanDecode": "Für Frühstück Brot und Käse aß-ich und Tee trank-ich.", "germanTranslation": "Zum Frühstück aß ich Brot und Käse und trank Tee." },
+    { "id": 5, "farsi": "بعد از صبحانه کیف کاری‌ام را برداشتم.", "latin": "Ba'd az sobhāne kīf-e kārī-am rā bardāshtam.", "germanDecode": "Nach von Frühstück Tasche-von Arbeit-meine D.O. nahm-ich.", "germanTranslation": "Nach dem Frühstück nahm ich meine Arbeitstasche." },
+    { "id": 6, "farsi": "از خانه بیرون آمدم و به ایستگاه اتوبوس رفتم.", "latin": "Az khāne bīrūn āmadam va be īstgāh-e otobūs raftam.", "germanDecode": "Aus Haus hinaus kam-ich und zu Station-von Bus ging-ich.", "germanTranslation": "Ich verließ das Haus und ging zur Bushaltestelle." },
+    { "id": 7, "farsi": "اتوبوس دیر آمد و من پانزده دقیقه منتظر ماندم.", "latin": "Otobūs dīr āmad va man pānzdah daghīghe montazer māndam.", "germanDecode": "Bus spät kam-er und ich fünfzehn Minute wartend blieb-ich.", "germanTranslation": "Der Bus kam spät und ich wartete fünfzehn Minuten." },
+    { "id": 8, "farsi": "در اتوبوس نشستم و به دفتر کارم رسیدم.", "latin": "Dar otobūs nashestam va be daftar-e kāram resīdam.", "germanDecode": "In Bus setzte-ich-mich und zu Büro-von Arbeit-meine erreichte-ich.", "germanTranslation": "Ich setzte mich in den Bus und erreichte mein Büro." },
+    { "id": 9, "farsi": "روز کاری طولانی و مشغولی داشتم.", "latin": "Rūz-e kārī-ye tūlānī va mashghūlī dāshtam.", "germanDecode": "Tag-von Arbeit-von lang und beschäftigt hatte-ich.", "germanTranslation": "Ich hatte einen langen und beschäftigten Arbeitstag." },
+    { "id": 10, "farsi": "عصر ساعت پنج کار تمام شد و به خانه برگشتم.", "latin": "Asr sā'at-e panj kār tamām shod va be khāne bargashtam.", "germanDecode": "Abend Uhr-von fünf Arbeit beendet wurde-es und zu Haus kehrte-ich-zurück.", "germanTranslation": "Am Abend um fünf Uhr war die Arbeit beendet und ich kehrte nach Hause zurück." },
+    { "id": 11, "farsi": "شب با خانواده شام خوردم و تلویزیون تماشا کردم.", "latin": "Shab bā khānevāde shām khordam va televizyon tamāshā kardam.", "germanDecode": "Nacht mit Familie Abendessen aß-ich und Fernseher Schauen machte-ich.", "germanTranslation": "Abends aß ich mit der Familie zu Abend und schaute Fernsehen." },
+    { "id": 12, "farsi": "ساعت یازده شب خسته بودم و به رختخواب رفتم.", "latin": "Sā'at-e yāzdah-e shab khaste būdam va be rakht-e-khāb raftam.", "germanDecode": "Uhr-von elf-von Nacht müde war-ich und zu Bett ging-ich.", "germanTranslation": "Um elf Uhr nachts war ich müde und ging ins Bett." }
+  ]
+}

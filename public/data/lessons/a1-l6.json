@@ -1,0 +1,12 @@
+
+{
+  "id": "a1-l6",
+  "title": "Lektion 6: Freizeit & Hobbys",
+  "description": "Erste einfache Trennung von Subjekt/Objekt/Verb zur Festigung der SOV-Regel.",
+  "sentences": [
+    { "id": 1, "farsi": "شما در وقت آزاد خود چه کار می کنید؟", "latin": "Shomā dar vaght-e āzād-e khod che kār mikonid?", "germanDecode": "Sie in Zeit-die freie-von Ihr was Arbeit machen-Sie?", "germanTranslation": "Was machen Sie in Ihrer Freizeit?" },
+    { "id": 2, "farsi": "من کتاب می خوانم", "latin": "Man ketāb mikhānam", "germanDecode": "Ich Buch lese-ich", "germanTranslation": "Ich lese ein Buch" },
+    { "id": 3, "farsi": "سرگرمی من نقاشی است", "latin": "Sargarmi-e man naqqāshi ast", "germanDecode": "Hobby-von mein Malen ist", "germanTranslation": "Mein Hobby ist Malen" },
+    { "id": 4, "farsi": "آخر هفته من به سینما می روم", "latin": "Ākhar-e hafte man be sinamā miravam", "germanDecode": "Ende-von Woche ich zu Kino gehe-ich", "germanTranslation": "Am Wochenende gehe ich ins Kino" }
+  ]
+}

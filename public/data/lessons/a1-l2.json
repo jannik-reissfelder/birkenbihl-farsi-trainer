@@ -1,0 +1,13 @@
+
+{
+  "id": "a1-l2",
+  "title": "Lektion 2: Herkunft & Identität",
+  "description": "Verb \"sein\" (hastam/bin), Präpositionen (von, aus).",
+  "sentences": [
+    { "id": 1, "farsi": "شما اهل کجا هستید؟", "latin": "Shomā ahl-e kojā hastid?", "germanDecode": "Sie von wo sind-Sie?", "germanTranslation": "Woher kommen Sie?" },
+    { "id": 2, "farsi": "من اهل آلمان هستم", "latin": "Man ahl-e Ālmān hastam", "germanDecode": "Ich von Deutschland bin-ich", "germanTranslation": "Ich komme aus Deutschland" },
+    { "id": 3, "farsi": "من آلمانی هستم", "latin": "Man Ālmāni hastam", "germanDecode": "Ich Deutsch bin-ich", "germanTranslation": "Ich bin Deutscher" },
+    { "id": 4, "farsi": "شما اینجا چه کار می کنید؟", "latin": "Shomā injā che kār mikonid?", "germanDecode": "Sie hier was Arbeit machen-Sie?", "germanTranslation": "Was machen Sie hier?" },
+    { "id": 5, "farsi": "من برای تعطیلات اینجا هستم", "latin": "Man barāye ta'tilāt injā hastam", "germanDecode": "Ich für Urlaub hier bin-ich", "germanTranslation": "Ich bin hier im Urlaub" }
+  ]
+}

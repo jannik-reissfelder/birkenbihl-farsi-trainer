@@ -1,0 +1,13 @@
+
+{
+  "id": "a1-l1",
+  "title": "Lektion 1: Begrüßungen",
+  "description": "Verb \"sein\" (ist/sind), Personalpronomina in einfachen Nennsätzen.",
+  "sentences": [
+    { "id": 1, "farsi": "سلام", "latin": "Salām", "germanDecode": "Hallo", "germanTranslation": "Hallo" },
+    { "id": 2, "farsi": "حال شما چطور است؟", "latin": "Hāl-e shomā chetor ast?", "germanDecode": "Zustand-von Ihr wie ist?", "germanTranslation": "Wie geht es Ihnen?" },
+    { "id": 3, "farsi": "من خوبم، ممنون", "latin": "Man khūbam, mamnūn", "germanDecode": "Ich gut-bin, danke", "germanTranslation": "Mir geht es gut, danke" },
+    { "id": 4, "farsi": "اسم شما چیست؟", "latin": "Esm-e shomā chist?", "germanDecode": "Name-von Ihr was ist?", "germanTranslation": "Wie heißen Sie?" },
+    { "id": 5, "farsi": "اسم من ... است", "latin": "Esm-e man ... ast", "germanDecode": "Name-von mein ... ist", "germanTranslation": "Mein Name ist ..." }
+  ]
+}

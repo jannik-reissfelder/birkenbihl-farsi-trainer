@@ -1,0 +1,2513 @@
+[
+  {
+    "id": 1,
+    "farsi": "سلام",
+    "latin": "Salām",
+    "germanDecode": "Hallo",
+    "germanTranslation": "Hallo",
+    "lessonId": "a1-l1",
+    "lessonTitle": "Lektion 1: Begrüßungen"
+  },
+  {
+    "id": 2,
+    "farsi": "حال شما چطور است؟",
+    "latin": "Hāl-e shomā chetor ast?",
+    "germanDecode": "Zustand-von Ihr wie ist?",
+    "germanTranslation": "Wie geht es Ihnen?",
+    "lessonId": "a1-l1",
+    "lessonTitle": "Lektion 1: Begrüßungen"
+  },
+  {
+    "id": 3,
+    "farsi": "من خوبم، ممنون",
+    "latin": "Man khūbam, mamnūn",
+    "germanDecode": "Ich gut-bin, danke",
+    "germanTranslation": "Mir geht es gut, danke",
+    "lessonId": "a1-l1",
+    "lessonTitle": "Lektion 1: Begrüßungen"
+  },
+  {
+    "id": 4,
+    "farsi": "اسم شما چیست؟",
+    "latin": "Esm-e shomā chist?",
+    "germanDecode": "Name-von Ihr was ist?",
+    "germanTranslation": "Wie heißen Sie?",
+    "lessonId": "a1-l1",
+    "lessonTitle": "Lektion 1: Begrüßungen"
+  },
+  {
+    "id": 5,
+    "farsi": "اسم من ... است",
+    "latin": "Esm-e man ... ast",
+    "germanDecode": "Name-von mein ... ist",
+    "germanTranslation": "Mein Name ist ...",
+    "lessonId": "a1-l1",
+    "lessonTitle": "Lektion 1: Begrüßungen"
+  },
+  {
+    "id": 1,
+    "farsi": "خانه اتاق‌های زیادی دارد.",
+    "latin": "Khāne otāgh-hāye ziyādi dārad.",
+    "germanDecode": "Haus Zimmer-PL-die viele hat-es.",
+    "germanTranslation": "Das Haus hat viele Zimmer.",
+    "lessonId": "a1-l10",
+    "lessonTitle": "Lektion 10: Im Haus"
+  },
+  {
+    "id": 2,
+    "farsi": "مبل در اتاق نشیمن است.",
+    "latin": "Mobl dar otāgh-e neshiman ast.",
+    "germanDecode": "Sofa in Zimmer-von sitzen ist.",
+    "germanTranslation": "Das Sofa ist im Wohnzimmer.",
+    "lessonId": "a1-l10",
+    "lessonTitle": "Lektion 10: Im Haus"
+  },
+  {
+    "id": 3,
+    "farsi": "من فرش را دوست دارم.",
+    "latin": "Man farsh rā dūst dāram.",
+    "germanDecode": "Ich Teppich D.O. Freund habe-ich.",
+    "germanTranslation": "Ich mag den Teppich.",
+    "lessonId": "a1-l10",
+    "lessonTitle": "Lektion 10: Im Haus"
+  },
+  {
+    "id": 1,
+    "farsi": "یخچال در آشپزخانه است.",
+    "latin": "Yakhchāl dar āshpazkhāne ast.",
+    "germanDecode": "Kühlschrank in Küche ist.",
+    "germanTranslation": "Der Kühlschrank ist in der Küche.",
+    "lessonId": "a1-l11",
+    "lessonTitle": "Lektion 11: Küche und Bad"
+  },
+  {
+    "id": 2,
+    "farsi": "من ظرف‌ها را می‌شویم.",
+    "latin": "Man zarf-hā rā mishūyam.",
+    "germanDecode": "Ich Geschirr-PL D.O. wasche-ich.",
+    "germanTranslation": "Ich wasche das Geschirr.",
+    "lessonId": "a1-l11",
+    "lessonTitle": "Lektion 11: Küche und Bad"
+  },
+  {
+    "id": 3,
+    "farsi": "حمام کجاست؟",
+    "latin": "Hammām kojāst?",
+    "germanDecode": "Bad wo-ist?",
+    "germanTranslation": "Wo ist das Badezimmer?",
+    "lessonId": "a1-l11",
+    "lessonTitle": "Lektion 11: Küche und Bad"
+  },
+  {
+    "id": 1,
+    "farsi": "سبزیجات برای شما خوب است.",
+    "latin": "Sabzijāt barāye shomā khūb ast.",
+    "germanDecode": "Gemüse für Sie gut ist.",
+    "germanTranslation": "Gemüse ist gut für Sie.",
+    "lessonId": "a1-l12",
+    "lessonTitle": "Lektion 12: Lebensmittel"
+  },
+  {
+    "id": 2,
+    "farsi": "من یک سیب می‌خورم.",
+    "latin": "Man yek sīb mikhoram.",
+    "germanDecode": "Ich ein Apfel esse-ich.",
+    "germanTranslation": "Ich esse einen Apfel.",
+    "lessonId": "a1-l12",
+    "lessonTitle": "Lektion 12: Lebensmittel"
+  },
+  {
+    "id": 3,
+    "farsi": "آشپز آب پرتقال درست کرد.",
+    "latin": "Āshpaz āb porteghāl dorost kard.",
+    "germanDecode": "Koch Saft Orange richtig machte.",
+    "germanTranslation": "Der Koch hat Orangensaft gemacht.",
+    "lessonId": "a1-l12",
+    "lessonTitle": "Lektion 12: Lebensmittel"
+  },
+  {
+    "id": 1,
+    "farsi": "ساعت کوچک است.",
+    "latin": "Sā'at koochak ast.",
+    "germanDecode": "Uhr klein ist.",
+    "germanTranslation": "Die Uhr ist klein.",
+    "lessonId": "a1-l13",
+    "lessonTitle": "Lektion 13: Beschreibungen (Adjektive)"
+  },
+  {
+    "id": 2,
+    "farsi": "گل زیبا است.",
+    "latin": "Gol zibā ast.",
+    "germanDecode": "Blume schön ist.",
+    "germanTranslation": "Die Blume ist schön.",
+    "lessonId": "a1-l13",
+    "lessonTitle": "Lektion 13: Beschreibungen (Adjektive)"
+  },
+  {
+    "id": 3,
+    "farsi": "زبان انگلیسی دشوار است.",
+    "latin": "Zabān-e englisi doshvār ast.",
+    "germanDecode": "Sprache-die englische schwierig ist.",
+    "germanTranslation": "Die englische Sprache ist schwierig.",
+    "lessonId": "a1-l13",
+    "lessonTitle": "Lektion 13: Beschreibungen (Adjektive)"
+  },
+  {
+    "id": 1,
+    "farsi": "آنها به جوک می‌خندند.",
+    "latin": "Ānhā be jok mikhandand.",
+    "germanDecode": "Sie zu Witz lachen-sie.",
+    "germanTranslation": "Sie lachen über den Witz.",
+    "lessonId": "a1-l14",
+    "lessonTitle": "Lektion 14: Gefühle und Zustände"
+  },
+  {
+    "id": 2,
+    "farsi": "او زیبا است.",
+    "latin": "Ū zibā ast.",
+    "germanDecode": "er schön ist.",
+    "germanTranslation": "Sie ist schön.",
+    "lessonId": "a1-l14",
+    "lessonTitle": "Lektion 14: Gefühle und Zustände"
+  },
+  {
+    "id": 3,
+    "farsi": "من از خانه دور هستم.",
+    "latin": "Man az khāne door hastam.",
+    "germanDecode": "Ich von Haus weit bin-ich.",
+    "germanTranslation": "Ich bin weit von zu Hause.",
+    "lessonId": "a1-l14",
+    "lessonTitle": "Lektion 14: Gefühle und Zustände"
+  },
+  {
+    "id": 1,
+    "farsi": "کتاب روی میز است.",
+    "latin": "Ketāb ruy-e mīz ast.",
+    "germanDecode": "Buch auf-von Tisch ist.",
+    "germanTranslation": "Das Buch ist auf dem Tisch.",
+    "lessonId": "a1-l15",
+    "lessonTitle": "Lektion 15: Orte und Präpositionen"
+  },
+  {
+    "id": 2,
+    "farsi": "بعد از تعطیلات، من می‌آیم.",
+    "latin": "Ba'd az ta'tilāt, man miāyam.",
+    "germanDecode": "Nach von Urlaub, ich komme-ich.",
+    "germanTranslation": "Nach dem Urlaub komme ich.",
+    "lessonId": "a1-l15",
+    "lessonTitle": "Lektion 15: Orte und Präpositionen"
+  },
+  {
+    "id": 3,
+    "farsi": "ماشین در پارکینگ است.",
+    "latin": "Māshin dar pārking ast.",
+    "germanDecode": "Auto in Garage ist.",
+    "germanTranslation": "Das Auto ist in der Garage.",
+    "lessonId": "a1-l15",
+    "lessonTitle": "Lektion 15: Orte und Präpositionen"
+  },
+  {
+    "id": 1,
+    "farsi": "او می‌خواهد برود، ولی من می‌خواهم بمانم.",
+    "latin": "Ū mikhāhad beravad, vali man mikhāham bemānam.",
+    "germanDecode": "er will-er gehen-er, aber ich will-ich bleiben-ich.",
+    "germanTranslation": "Er will gehen, aber ich will bleiben.",
+    "lessonId": "a1-l16",
+    "lessonTitle": "Lektion 16: Verbindungen und Vergleiche"
+  },
+  {
+    "id": 2,
+    "farsi": "من با دوستم به مدرسه می‌روم.",
+    "latin": "Man bā dūstam be madreseh miravam.",
+    "germanDecode": "Ich mit Freund-mein zur Schule gehe-ich.",
+    "germanTranslation": "Ich gehe mit meinem Freund zur Schule.",
+    "lessonId": "a1-l16",
+    "lessonTitle": "Lektion 16: Verbindungen und Vergleiche"
+  },
+  {
+    "id": 3,
+    "farsi": "من خوب هستم و شما بد هستید.",
+    "latin": "Man khūb hastam va shomā bad hastīd.",
+    "germanDecode": "Ich gut bin-ich und Sie schlecht sind-Sie.",
+    "germanTranslation": "Mir geht es gut und Ihnen geht es schlecht.",
+    "lessonId": "a1-l16",
+    "lessonTitle": "Lektion 16: Verbindungen und Vergleiche"
+  },
+  {
+    "id": 1,
+    "farsi": "توریست‌ها غروب را دیدند.",
+    "latin": "Toorīsthā ghorūb rā dīdand.",
+    "germanDecode": "Touristen-PL Sonnenuntergang D.O. sahen-sie.",
+    "germanTranslation": "Die Touristen sahen den Sonnenuntergang.",
+    "lessonId": "a1-l17",
+    "lessonTitle": "Lektion 17: Tagesablauf und Ereignisse"
+  },
+  {
+    "id": 2,
+    "farsi": "حدود نیمه شب می‌خوابم.",
+    "latin": "Hodūd-e nime-shab mikhābam.",
+    "germanDecode": "Ungefähr-von halb-Nacht schlafe-ich.",
+    "germanTranslation": "Ich schlafe ungefähr um Mitternacht.",
+    "lessonId": "a1-l17",
+    "lessonTitle": "Lektion 17: Tagesablauf und Ereignisse"
+  },
+  {
+    "id": 1,
+    "farsi": "شما اهل کجا هستید؟",
+    "latin": "Shomā ahl-e kojā hastid?",
+    "germanDecode": "Sie von wo sind-Sie?",
+    "germanTranslation": "Woher kommen Sie?",
+    "lessonId": "a1-l2",
+    "lessonTitle": "Lektion 2: Herkunft & Identität"
+  },
+  {
+    "id": 2,
+    "farsi": "من اهل آلمان هستم",
+    "latin": "Man ahl-e Ālmān hastam",
+    "germanDecode": "Ich von Deutschland bin-ich",
+    "germanTranslation": "Ich komme aus Deutschland",
+    "lessonId": "a1-l2",
+    "lessonTitle": "Lektion 2: Herkunft & Identität"
+  },
+  {
+    "id": 3,
+    "farsi": "من آلمانی هستم",
+    "latin": "Man Ālmāni hastam",
+    "germanDecode": "Ich Deutsch bin-ich",
+    "germanTranslation": "Ich bin Deutscher",
+    "lessonId": "a1-l2",
+    "lessonTitle": "Lektion 2: Herkunft & Identität"
+  },
+  {
+    "id": 4,
+    "farsi": "شما اینجا چه کار می کنید؟",
+    "latin": "Shomā injā che kār mikonid?",
+    "germanDecode": "Sie hier was Arbeit machen-Sie?",
+    "germanTranslation": "Was machen Sie hier?",
+    "lessonId": "a1-l2",
+    "lessonTitle": "Lektion 2: Herkunft & Identität"
+  },
+  {
+    "id": 5,
+    "farsi": "من برای تعطیلات اینجا هستم",
+    "latin": "Man barāye ta'tilāt injā hastam",
+    "germanDecode": "Ich für Urlaub hier bin-ich",
+    "germanTranslation": "Ich bin hier im Urlaub",
+    "lessonId": "a1-l2",
+    "lessonTitle": "Lektion 2: Herkunft & Identität"
+  },
+  {
+    "id": 1,
+    "farsi": "این خانواده من است",
+    "latin": "In khānevāde-ye man ast",
+    "germanDecode": "Dies Familie-von mein ist",
+    "germanTranslation": "Das ist meine Familie",
+    "lessonId": "a1-l3",
+    "lessonTitle": "Lektion 3: Familie und Beruf"
+  },
+  {
+    "id": 2,
+    "farsi": "من یک برادر و یک خواهر دارم",
+    "latin": "Man yek barādar va yek khāhar dāram",
+    "germanDecode": "Ich ein Bruder und ein Schwester habe-ich",
+    "germanTranslation": "Ich habe einen Bruder und eine Schwester",
+    "lessonId": "a1-l3",
+    "lessonTitle": "Lektion 3: Familie und Beruf"
+  },
+  {
+    "id": 3,
+    "farsi": "شغل شما چیست؟",
+    "latin": "Shoghl-e shomā chist?",
+    "germanDecode": "Beruf-von Ihr was ist?",
+    "germanTranslation": "Was ist Ihr Beruf?",
+    "lessonId": "a1-l3",
+    "lessonTitle": "Lektion 3: Familie und Beruf"
+  },
+  {
+    "id": 4,
+    "farsi": "من دانشجو هستم",
+    "latin": "Man dāneshjū hastam",
+    "germanDecode": "Ich Student bin-ich",
+    "germanTranslation": "Ich bin Student/in",
+    "lessonId": "a1-l3",
+    "lessonTitle": "Lektion 3: Familie und Beruf"
+  },
+  {
+    "id": 5,
+    "farsi": "پدر من دکتر است",
+    "latin": "Pedar-e man doktor ast",
+    "germanDecode": "Vater-von mein Arzt ist",
+    "germanTranslation": "Mein Vater ist Arzt",
+    "lessonId": "a1-l3",
+    "lessonTitle": "Lektion 3: Familie und Beruf"
+  },
+  {
+    "id": 1,
+    "farsi": "یک، دو، سه، چهار، پنج",
+    "latin": "Yek, do, se, chahār, panj",
+    "germanDecode": "Eins, zwei, drei, vier, fünf",
+    "germanTranslation": "Eins, zwei, drei, vier, fünf",
+    "lessonId": "a1-l4",
+    "lessonTitle": "Lektion 4: Zahlen und Zeit"
+  },
+  {
+    "id": 2,
+    "farsi": "ساعت چند است؟",
+    "latin": "Sā'at chand ast?",
+    "germanDecode": "Stunde wie-viel ist?",
+    "germanTranslation": "Wie spät ist es?",
+    "lessonId": "a1-l4",
+    "lessonTitle": "Lektion 4: Zahlen und Zeit"
+  },
+  {
+    "id": 3,
+    "farsi": "ساعت سه است",
+    "latin": "Sā'at se ast",
+    "germanDecode": "Stunde drei ist",
+    "germanTranslation": "Es ist drei Uhr.",
+    "lessonId": "a1-l4",
+    "lessonTitle": "Lektion 4: Zahlen und Zeit"
+  },
+  {
+    "id": 4,
+    "farsi": "امروز چه روزی است؟",
+    "latin": "Emruz che ruzi ast?",
+    "germanDecode": "Heute welcher Tag ist?",
+    "germanTranslation": "Welcher Tag ist heute?",
+    "lessonId": "a1-l4",
+    "lessonTitle": "Lektion 4: Zahlen und Zeit"
+  },
+  {
+    "id": 5,
+    "farsi": "فردا سه شنبه است",
+    "latin": "Fardā se shanbe ast",
+    "germanDecode": "Morgen Dienstag ist",
+    "germanTranslation": "Morgen ist Dienstag.",
+    "lessonId": "a1-l4",
+    "lessonTitle": "Lektion 4: Zahlen und Zeit"
+  },
+  {
+    "id": 1,
+    "farsi": "من یک قهوه می خواهم",
+    "latin": "Man yek qahve mikham",
+    "germanDecode": "Ich ein Kaffee will-ich",
+    "germanTranslation": "Ich möchte einen Kaffee",
+    "lessonId": "a1-l5",
+    "lessonTitle": "Lektion 5: Im Restaurant"
+  },
+  {
+    "id": 2,
+    "farsi": "یک لیوان آب لطفا",
+    "latin": "Yek livān āb lotfan",
+    "germanDecode": "Ein Glas Wasser bitte",
+    "germanTranslation": "Ein Glas Wasser, bitte",
+    "lessonId": "a1-l5",
+    "lessonTitle": "Lektion 5: Im Restaurant"
+  },
+  {
+    "id": 3,
+    "farsi": "صورت حساب لطفا",
+    "latin": "Sūrat hesāb lotfan",
+    "germanDecode": "Form Rechnung bitte",
+    "germanTranslation": "Die Rechnung, bitte",
+    "lessonId": "a1-l5",
+    "lessonTitle": "Lektion 5: Im Restaurant"
+  },
+  {
+    "id": 4,
+    "farsi": "غذا خیلی خوشمزه بود",
+    "latin": "Ghazā kheyli khoshmaze būd",
+    "germanDecode": "Essen sehr lecker war",
+    "germanTranslation": "Das Essen war sehr lecker",
+    "lessonId": "a1-l5",
+    "lessonTitle": "Lektion 5: Im Restaurant"
+  },
+  {
+    "id": 5,
+    "farsi": "آیا می توانم منو را ببینم؟",
+    "latin": "Āyā mitavānam menu rā bebinam?",
+    "germanDecode": "Ob kann-ich Menü D.O. sehe-ich?",
+    "germanTranslation": "Kann ich die Speisekarte sehen?",
+    "lessonId": "a1-l5",
+    "lessonTitle": "Lektion 5: Im Restaurant"
+  },
+  {
+    "id": 1,
+    "farsi": "من خوب هستم.",
+    "latin": "Man khūb hastam.",
+    "germanDecode": "Ich gut bin-ich.",
+    "germanTranslation": "Mir geht es gut.",
+    "lessonId": "a1-l6-verbs",
+    "lessonTitle": "Essentielle Verben Teil 1"
+  },
+  {
+    "id": 2,
+    "farsi": "شما یک کتاب دارید.",
+    "latin": "Shomā yek ketāb dārīd.",
+    "germanDecode": "Sie ein Buch haben-Sie.",
+    "germanTranslation": "Sie haben ein Buch.",
+    "lessonId": "a1-l6-verbs",
+    "lessonTitle": "Essentielle Verben Teil 1"
+  },
+  {
+    "id": 3,
+    "farsi": "او چای می خواهد.",
+    "latin": "Ū chāy mikhāhad.",
+    "germanDecode": "er Tee will-er.",
+    "germanTranslation": "Er möchte Tee.",
+    "lessonId": "a1-l6-verbs",
+    "lessonTitle": "Essentielle Verben Teil 1"
+  },
+  {
+    "id": 4,
+    "farsi": "ما به بازار می رویم.",
+    "latin": "Mā be bāzār miravīm.",
+    "germanDecode": "Wir zum Markt gehen-wir.",
+    "germanTranslation": "Wir gehen zum Markt.",
+    "lessonId": "a1-l6-verbs",
+    "lessonTitle": "Essentielle Verben Teil 1"
+  },
+  {
+    "id": 5,
+    "farsi": "من شام می خورم.",
+    "latin": "Man shām mikhoram.",
+    "germanDecode": "Ich Abendessen esse-ich.",
+    "germanTranslation": "Ich esse zu Abend.",
+    "lessonId": "a1-l6-verbs",
+    "lessonTitle": "Essentielle Verben Teil 1"
+  },
+  {
+    "id": 6,
+    "farsi": "تو او را می بینی.",
+    "latin": "To ū rā mibīnī.",
+    "germanDecode": "Du er D.O. siehst-du.",
+    "germanTranslation": "Du siehst ihn/sie.",
+    "lessonId": "a1-l6-verbs",
+    "lessonTitle": "Essentielle Verben Teil 1"
+  },
+  {
+    "id": 7,
+    "farsi": "آنها کار می کنند.",
+    "latin": "Ānhā kār mikonand.",
+    "germanDecode": "Sie Arbeit machen-sie.",
+    "germanTranslation": "Sie arbeiten.",
+    "lessonId": "a1-l6-verbs",
+    "lessonTitle": "Essentielle Verben Teil 1"
+  },
+  {
+    "id": 1,
+    "farsi": "ما به خانه می‌آییم.",
+    "latin": "Mā be khāne miāyīm.",
+    "germanDecode": "Wir zum Haus kommen-wir.",
+    "germanTranslation": "Wir kommen nach Hause.",
+    "lessonId": "a1-l6-verbs2",
+    "lessonTitle": "Essentielle Verben Teil 2"
+  },
+  {
+    "id": 2,
+    "farsi": "او با من صحبت می‌کند.",
+    "latin": "Ū bā man sohbat mikonad.",
+    "germanDecode": "er mit mir Gespräch macht-er.",
+    "germanTranslation": "Er spricht mit mir.",
+    "lessonId": "a1-l6-verbs2",
+    "lessonTitle": "Essentielle Verben Teil 2"
+  },
+  {
+    "id": 3,
+    "farsi": "من این را به او می‌دهم.",
+    "latin": "Man in rā be ū mīdaham.",
+    "germanDecode": "Ich dies D.O. zu er gebe-ich.",
+    "germanTranslation": "Ich gebe ihm/ihr das.",
+    "lessonId": "a1-l6-verbs2",
+    "lessonTitle": "Essentielle Verben Teil 2"
+  },
+  {
+    "id": 4,
+    "farsi": "آنها هر روز کار می‌کنند.",
+    "latin": "Ānhā har rūz kār mikonand.",
+    "germanDecode": "Sie jeden Tag Arbeit machen-sie.",
+    "germanTranslation": "Sie arbeiten jeden Tag.",
+    "lessonId": "a1-l6-verbs2",
+    "lessonTitle": "Essentielle Verben Teil 2"
+  },
+  {
+    "id": 5,
+    "farsi": "تو به مادرت حقیقت را می‌گویی.",
+    "latin": "To be mādar-at haghighat rā migūyī.",
+    "germanDecode": "Du zu Mutter-deiner Wahrheit D.O. sagst-du.",
+    "germanTranslation": "Du sagst deiner Mutter die Wahrheit.",
+    "lessonId": "a1-l6-verbs2",
+    "lessonTitle": "Essentielle Verben Teil 2"
+  },
+  {
+    "id": 6,
+    "farsi": "من باید الآن بروم.",
+    "latin": "Man bāyad alān beravam.",
+    "germanDecode": "Ich muss jetzt gehen-ich.",
+    "germanTranslation": "Ich muss jetzt gehen.",
+    "lessonId": "a1-l6-verbs2",
+    "lessonTitle": "Essentielle Verben Teil 2"
+  },
+  {
+    "id": 7,
+    "farsi": "من امروز هیچ چیز نمی‌بینم.",
+    "latin": "Man emrooz hich chiz nemībīnam.",
+    "germanDecode": "Ich heute kein Ding nicht-sehe-ich.",
+    "germanTranslation": "Ich sehe heute nichts.",
+    "lessonId": "a1-l6-verbs2",
+    "lessonTitle": "Essentielle Verben Teil 2"
+  },
+  {
+    "id": 1,
+    "farsi": "من می توانم بخوانم.",
+    "latin": "Man mitavānam bekhvānam.",
+    "germanDecode": "Ich kann-ich lese-ich.",
+    "germanTranslation": "Ich kann lesen.",
+    "lessonId": "a1-l6-verbs3",
+    "lessonTitle": "Essentielle Verben Teil 3"
+  },
+  {
+    "id": 2,
+    "farsi": "شما می توانید انگلیسی صحبت کنید.",
+    "latin": "Shomā mitavānīd englīsi sohbat konīd.",
+    "germanDecode": "Sie können-Sie Englisch Gespräch machen-Sie.",
+    "germanTranslation": "Sie können Englisch sprechen.",
+    "lessonId": "a1-l6-verbs3",
+    "lessonTitle": "Essentielle Verben Teil 3"
+  },
+  {
+    "id": 3,
+    "farsi": "آنها جواب را می دانند.",
+    "latin": "Ānhā javāb rā mīdānand.",
+    "germanDecode": "Sie Antwort D.O. wissen-sie.",
+    "germanTranslation": "Sie wissen die Antwort.",
+    "lessonId": "a1-l6-verbs3",
+    "lessonTitle": "Essentielle Verben Teil 3"
+  },
+  {
+    "id": 4,
+    "farsi": "ما به شهر جدید می آییم.",
+    "latin": "Mā be shahr-e jadīd miāyīm.",
+    "germanDecode": "Wir zur Stadt-die neue kommen-wir.",
+    "germanTranslation": "Wir kommen in die neue Stadt.",
+    "lessonId": "a1-l6-verbs3",
+    "lessonTitle": "Essentielle Verben Teil 3"
+  },
+  {
+    "id": 5,
+    "farsi": "او غذا را درست می کند.",
+    "latin": "Ū ghazā rā dorost mikonad.",
+    "germanDecode": "er Essen D.O. richtig macht-er.",
+    "germanTranslation": "Er bereitet das Essen zu.",
+    "lessonId": "a1-l6-verbs3",
+    "lessonTitle": "Essentielle Verben Teil 3"
+  },
+  {
+    "id": 6,
+    "farsi": "من می خواهم یک آزمایش بکنم.",
+    "latin": "Man mikhāham yek āzmāyaš bokonam.",
+    "germanDecode": "Ich will-ich ein Test machen-ich.",
+    "germanTranslation": "Ich möchte einen Test machen.",
+    "lessonId": "a1-l6-verbs3",
+    "lessonTitle": "Essentielle Verben Teil 3"
+  },
+  {
+    "id": 7,
+    "farsi": "بچه ها می خندند.",
+    "latin": "Bachchehā mīkhandand.",
+    "germanDecode": "Kinder-PL lachen-sie.",
+    "germanTranslation": "Die Kinder lachen.",
+    "lessonId": "a1-l6-verbs3",
+    "lessonTitle": "Essentielle Verben Teil 3"
+  },
+  {
+    "id": 1,
+    "farsi": "شما در وقت آزاد خود چه کار می کنید؟",
+    "latin": "Shomā dar vaght-e āzād-e khod che kār mikonid?",
+    "germanDecode": "Sie in Zeit-die freie-von Ihr was Arbeit machen-Sie?",
+    "germanTranslation": "Was machen Sie in Ihrer Freizeit?",
+    "lessonId": "a1-l6",
+    "lessonTitle": "Lektion 6: Freizeit & Hobbys"
+  },
+  {
+    "id": 2,
+    "farsi": "من کتاب می خوانم",
+    "latin": "Man ketāb mikhānam",
+    "germanDecode": "Ich Buch lese-ich",
+    "germanTranslation": "Ich lese ein Buch",
+    "lessonId": "a1-l6",
+    "lessonTitle": "Lektion 6: Freizeit & Hobbys"
+  },
+  {
+    "id": 3,
+    "farsi": "سرگرمی من نقاشی است",
+    "latin": "Sargarmi-e man naqqāshi ast",
+    "germanDecode": "Hobby-von mein Malen ist",
+    "germanTranslation": "Mein Hobby ist Malen",
+    "lessonId": "a1-l6",
+    "lessonTitle": "Lektion 6: Freizeit & Hobbys"
+  },
+  {
+    "id": 4,
+    "farsi": "آخر هفته من به سینما می روم",
+    "latin": "Ākhar-e hafte man be sinamā miravam",
+    "germanDecode": "Ende-von Woche ich zu Kino gehe-ich",
+    "germanTranslation": "Am Wochenende gehe ich ins Kino",
+    "lessonId": "a1-l6",
+    "lessonTitle": "Lektion 6: Freizeit & Hobbys"
+  },
+  {
+    "id": 1,
+    "farsi": "یک سال دوازده ماه است.",
+    "latin": "Yek sāl davāzdah māh ast.",
+    "germanDecode": "Ein Jahr zwölf Monat ist.",
+    "germanTranslation": "Ein Jahr hat zwölf Monate.",
+    "lessonId": "a1-l7",
+    "lessonTitle": "Lektion 7: Zeit und Kalender"
+  },
+  {
+    "id": 2,
+    "farsi": "امروز سه‌شنبه است.",
+    "latin": "Emrooz se-shanbe ast.",
+    "germanDecode": "Heute Dienstag ist.",
+    "germanTranslation": "Heute ist Dienstag.",
+    "lessonId": "a1-l7",
+    "lessonTitle": "Lektion 7: Zeit und Kalender"
+  },
+  {
+    "id": 3,
+    "farsi": "یک ساعت شصت دقیقه دارد.",
+    "latin": "Yek sā'at shast daqiqe dārad.",
+    "germanDecode": "Eine Stunde sechzig Minute hat-es.",
+    "germanTranslation": "Eine Stunde hat sechzig Minuten.",
+    "lessonId": "a1-l7",
+    "lessonTitle": "Lektion 7: Zeit und Kalender"
+  },
+  {
+    "id": 4,
+    "farsi": "ساعت هفت و سی دقیقه است.",
+    "latin": "Sā'at-e haft o si daqiqe ast.",
+    "germanDecode": "Stunde-von sieben und dreißig Minute ist.",
+    "germanTranslation": "Es ist sieben Uhr dreißig.",
+    "lessonId": "a1-l7",
+    "lessonTitle": "Lektion 7: Zeit und Kalender"
+  },
+  {
+    "id": 5,
+    "farsi": "دیروز خوب بود، امروز بد است.",
+    "latin": "Dīrooz khūb būd, emrooz bad ast.",
+    "germanDecode": "Gestern gut war, heute schlecht ist.",
+    "germanTranslation": "Gestern war es gut, heute ist es schlecht.",
+    "lessonId": "a1-l7",
+    "lessonTitle": "Lektion 7: Zeit und Kalender"
+  },
+  {
+    "id": 1,
+    "farsi": "من ساعت هفت صبح بیدار می‌شوم.",
+    "latin": "Man sā'at-e haft-e sobh bidār mishavam.",
+    "germanDecode": "Ich Uhr-von sieben-von Morgen wach werde-ich.",
+    "germanTranslation": "Ich wache um sieben Uhr morgens auf.",
+    "lessonId": "a1-l8",
+    "lessonTitle": "Lektion 8: Morgenroutine"
+  },
+  {
+    "id": 2,
+    "farsi": "من زنگ آلارم را خاموش می‌کنم.",
+    "latin": "Man zang-e ālarm rā khāmūsh mikonam.",
+    "germanDecode": "Ich Klingel-von Alarm D.O. aus mache-ich.",
+    "germanTranslation": "Ich schalte den Wecker aus.",
+    "lessonId": "a1-l8",
+    "lessonTitle": "Lektion 8: Morgenroutine"
+  },
+  {
+    "id": 3,
+    "farsi": "من از رختخواب بیرون می‌آیم.",
+    "latin": "Man az rakht-e-khāb biroon miāyam.",
+    "germanDecode": "Ich aus Bett heraus komme-ich.",
+    "germanTranslation": "Ich stehe aus dem Bett auf.",
+    "lessonId": "a1-l8",
+    "lessonTitle": "Lektion 8: Morgenroutine"
+  },
+  {
+    "id": 4,
+    "farsi": "من صبحانه می‌خورم.",
+    "latin": "Man sobhāne mikhoram.",
+    "germanDecode": "Ich Frühstück esse-ich.",
+    "germanTranslation": "Ich esse Frühstück.",
+    "lessonId": "a1-l8",
+    "lessonTitle": "Lektion 8: Morgenroutine"
+  },
+  {
+    "id": 5,
+    "farsi": "من با عجله به کار می‌روم.",
+    "latin": "Man bā ajaleh be kār miravam.",
+    "germanDecode": "Ich mit Eile zur Arbeit gehe-ich.",
+    "germanTranslation": "Ich gehe eilig zur Arbeit.",
+    "lessonId": "a1-l8",
+    "lessonTitle": "Lektion 8: Morgenroutine"
+  },
+  {
+    "id": 1,
+    "farsi": "زن کارهای خانه را انجام می‌دهد.",
+    "latin": "Zan kār-hāye khāne rā anjām midahad.",
+    "germanDecode": "Frau Arbeiten-PL-von Haus D.O. Vollendung gibt-er.",
+    "germanTranslation": "Die Frau erledigt die Hausarbeiten.",
+    "lessonId": "a1-l9",
+    "lessonTitle": "Lektion 9: Tägliche Aktivitäten"
+  },
+  {
+    "id": 2,
+    "farsi": "او برنامه‌ریزی برای فردا می‌کند.",
+    "latin": "U barnāmerizi barāye fardā mikonad.",
+    "germanDecode": "er Planung für morgen macht-er.",
+    "germanTranslation": "Er plant für morgen.",
+    "lessonId": "a1-l9",
+    "lessonTitle": "Lektion 9: Tägliche Aktivitäten"
+  },
+  {
+    "id": 3,
+    "farsi": "ما از این میز استفاده می‌کنیم.",
+    "latin": "Mā az in mīz estefāde mikonim.",
+    "germanDecode": "Wir von diesem Tisch Gebrauch machen-wir.",
+    "germanTranslation": "Wir benutzen diesen Tisch.",
+    "lessonId": "a1-l9",
+    "lessonTitle": "Lektion 9: Tägliche Aktivitäten"
+  },
+  {
+    "id": 4,
+    "farsi": "ما می‌توانیم با کارت پرداخت کنیم.",
+    "latin": "Mā mitavānim bā kārt pardākht konim.",
+    "germanDecode": "Wir können-wir mit Karte Zahlung machen-wir.",
+    "germanTranslation": "Wir können mit Karte bezahlen.",
+    "lessonId": "a1-l9",
+    "lessonTitle": "Lektion 9: Tägliche Aktivitäten"
+  },
+  {
+    "id": 5,
+    "farsi": "من همیشه تلویزیون تماشا می‌کنم.",
+    "latin": "Man hamishe televīziyon tamāshā mikonam.",
+    "germanDecode": "Ich immer Fernsehen schauen mache-ich.",
+    "germanTranslation": "Ich schaue immer fern.",
+    "lessonId": "a1-l9",
+    "lessonTitle": "Lektion 9: Tägliche Aktivitäten"
+  },
+  {
+    "id": 1,
+    "farsi": "دیروز صبح ساعت شش از خواب بیدار شدم.",
+    "latin": "Dīrūz sobh sā'at-e shesh az khāb bīdār shodam.",
+    "germanDecode": "Gestern Morgen Uhr-von sechs aus Schlaf wach wurde-ich.",
+    "germanTranslation": "Gestern Morgen bin ich um sechs Uhr aufgewacht.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 2,
+    "farsi": "ابتدا به حمام رفتم و دوش گرفتم.",
+    "latin": "Ebtedā be hammām raftam va dūsh gereftam.",
+    "germanDecode": "Zuerst zu Badezimmer ging-ich und Dusche nahm-ich.",
+    "germanTranslation": "Zuerst ging ich ins Badezimmer und duschte.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 3,
+    "farsi": "سپس لباس‌هایم را پوشیدم و به آشپزخانه رفتم.",
+    "latin": "Sepas lebāshāyam rā pūshīdam va be āshpazkhhāne raftam.",
+    "germanDecode": "Dann Kleider-meine D.O. zog-ich-an und zu Küche ging-ich.",
+    "germanTranslation": "Dann zog ich meine Kleider an und ging in die Küche.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 4,
+    "farsi": "برای صبحانه نان و پنیر خوردم و چای نوشیدم.",
+    "latin": "Barāye sobhāne nān va panīr khordam va chāy nūshīdam.",
+    "germanDecode": "Für Frühstück Brot und Käse aß-ich und Tee trank-ich.",
+    "germanTranslation": "Zum Frühstück aß ich Brot und Käse und trank Tee.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 5,
+    "farsi": "بعد از صبحانه کیف کاری‌ام را برداشتم.",
+    "latin": "Ba'd az sobhāne kīf-e kārī-am rā bardāshtam.",
+    "germanDecode": "Nach von Frühstück Tasche-von Arbeit-meine D.O. nahm-ich.",
+    "germanTranslation": "Nach dem Frühstück nahm ich meine Arbeitstasche.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 6,
+    "farsi": "از خانه بیرون آمدم و به ایستگاه اتوبوس رفتم.",
+    "latin": "Az khāne bīrūn āmadam va be īstgāh-e otobūs raftam.",
+    "germanDecode": "Aus Haus hinaus kam-ich und zu Station-von Bus ging-ich.",
+    "germanTranslation": "Ich verließ das Haus und ging zur Bushaltestelle.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 7,
+    "farsi": "اتوبوس دیر آمد و من پانزده دقیقه منتظر ماندم.",
+    "latin": "Otobūs dīr āmad va man pānzdah daghīghe montazer māndam.",
+    "germanDecode": "Bus spät kam-er und ich fünfzehn Minute wartend blieb-ich.",
+    "germanTranslation": "Der Bus kam spät und ich wartete fünfzehn Minuten.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 8,
+    "farsi": "در اتوبوس نشستم و به دفتر کارم رسیدم.",
+    "latin": "Dar otobūs nashestam va be daftar-e kāram resīdam.",
+    "germanDecode": "In Bus setzte-ich-mich und zu Büro-von Arbeit-meine erreichte-ich.",
+    "germanTranslation": "Ich setzte mich in den Bus und erreichte mein Büro.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 9,
+    "farsi": "روز کاری طولانی و مشغولی داشتم.",
+    "latin": "Rūz-e kārī-ye tūlānī va mashghūlī dāshtam.",
+    "germanDecode": "Tag-von Arbeit-von lang und beschäftigt hatte-ich.",
+    "germanTranslation": "Ich hatte einen langen und beschäftigten Arbeitstag.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 10,
+    "farsi": "عصر ساعت پنج کار تمام شد و به خانه برگشتم.",
+    "latin": "Asr sā'at-e panj kār tamām shod va be khāne bargashtam.",
+    "germanDecode": "Abend Uhr-von fünf Arbeit beendet wurde-es und zu Haus kehrte-ich-zurück.",
+    "germanTranslation": "Am Abend um fünf Uhr war die Arbeit beendet und ich kehrte nach Hause zurück.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 11,
+    "farsi": "شب با خانواده شام خوردم و تلویزیون تماشا کردم.",
+    "latin": "Shab bā khānevāde shām khordam va televizyon tamāshā kardam.",
+    "germanDecode": "Nacht mit Familie Abendessen aß-ich und Fernseher Schauen machte-ich.",
+    "germanTranslation": "Abends aß ich mit der Familie zu Abend und schaute Fernsehen.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 12,
+    "farsi": "ساعت یازده شب خسته بودم و به رختخواب رفتم.",
+    "latin": "Sā'at-e yāzdah-e shab khaste būdam va be rakht-e-khāb raftam.",
+    "germanDecode": "Uhr-von elf-von Nacht müde war-ich und zu Bett ging-ich.",
+    "germanTranslation": "Um elf Uhr nachts war ich müde und ging ins Bett.",
+    "lessonId": "a2-l1-yesterday",
+    "lessonTitle": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit"
+  },
+  {
+    "id": 1,
+    "farsi": "تابستان گذشته با خانواده به ساحل دریای خزر رفتیم.",
+    "latin": "Tābestān-e gozashte bā khānevāde be sāhel-e daryāye Khazar raftīm.",
+    "germanDecode": "Sommer-von vergangen mit Familie zu Küste-von Meer-von Kaspi gingen-wir.",
+    "germanTranslation": "Letzten Sommer fuhren wir mit der Familie an die Küste des Kaspischen Meeres.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 2,
+    "farsi": "صبح زود با ماشین از تهران حرکت کردیم.",
+    "latin": "Sobh zūd bā māshīn az Tehrān harakat kardīm.",
+    "germanDecode": "Morgen früh mit Auto aus Tehran Bewegung machten-wir.",
+    "germanTranslation": "Früh am Morgen fuhren wir mit dem Auto von Teheran ab.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 3,
+    "farsi": "جاده پر پیچ و خم بود اما مناظر زیبایی داشت.",
+    "latin": "Jāde por-e pīch va kham būd ammā manāzer-e zībāyī dāsht.",
+    "germanDecode": "Straße voll-von Kurve und Wendung war-es aber Landschaften-von schön hatte-es.",
+    "germanTranslation": "Die Straße war voller Kurven, aber hatte schöne Landschaften.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 4,
+    "farsi": "بعد از چهار ساعت رانندگی به رامسر رسیدیم.",
+    "latin": "Ba'd az chahār sā'at rānandagī be Rāmsar resīdīm.",
+    "germanDecode": "Nach von vier Stunde Fahren nach Ramsar erreichten-wir.",
+    "germanTranslation": "Nach vier Stunden Fahrt erreichten wir Ramsar.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 5,
+    "farsi": "هتل کوچک و دنجی کنار ساحل رزرو کرده بودیم.",
+    "latin": "Hotel-e kūchak va donjī kenār-e sāhel rezerv karde būdīm.",
+    "germanDecode": "Hotel-von klein und gemütlich neben-von Küste reserviert gemacht hatten-wir.",
+    "germanTranslation": "Wir hatten ein kleines und gemütliches Hotel nahe der Küste reserviert.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 6,
+    "farsi": "بعدازظهر اول لباس شنا پوشیدیم و به آب رفتیم.",
+    "latin": "Ba'dazzahr avval lebās-e shenā pūshīdīm va be āb raftīm.",
+    "germanDecode": "Nachmittag zuerst Kleidung-von Schwimmen anzogen-wir und zu Wasser gingen-wir.",
+    "germanTranslation": "Am ersten Nachmittag zogen wir Badeanzüge an und gingen ins Wasser.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 7,
+    "farsi": "آب دریا گرم و دلپذیر بود و ما ساعت‌ها شنا کردیم.",
+    "latin": "Āb-e daryā garm va delpazīr būd va mā sā'at-hā shenā kardīm.",
+    "germanDecode": "Wasser-von Meer warm und angenehm war-es und wir Stunden-Plural schwammen-wir.",
+    "germanTranslation": "Das Meerwasser war warm und angenehm und wir schwammen stundenlang.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 8,
+    "farsi": "شب در رستوران ساحلی ماهی تازه خوردیم.",
+    "latin": "Shab dar restūrān-e sāhelī māhī-ye tāze khordīm.",
+    "germanDecode": "Nacht in Restaurant-von Küsten Fisch-von frisch aßen-wir.",
+    "germanTranslation": "Abends aßen wir in einem Strandrestaurant frischen Fisch.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 9,
+    "farsi": "روز دوم به جنگل‌های اطراف رفتیم و قارچ جمع کردیم.",
+    "latin": "Rūz-e dovom be jangal-hāye atrāf raftīm va ghārch jam' kardīm.",
+    "germanDecode": "Tag-von zweite nach Wälder-von Umgebung gingen-wir und Pilze sammeln machten-wir.",
+    "germanTranslation": "Am zweiten Tag gingen wir in die umliegenden Wälder und sammelten Pilze.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 10,
+    "farsi": "هوای جنگل خنک و پاک بود و نفس عمیق کشیدیم.",
+    "latin": "Havāye jangal khonak va pāk būd va nafas-e amīgh keshīdīm.",
+    "germanDecode": "Luft-von Wald kühl und sauber war-es und Atem-von tief zogen-wir.",
+    "germanTranslation": "Die Waldluft war kühl und sauber und wir atmeten tief.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 11,
+    "farsi": "شب‌ها کنار ساحل قدم می‌زدیم و ستاره‌ها را می‌دیدیم.",
+    "latin": "Shab-hā kenār-e sāhel ghadam mīzadīm va setāre-hā rā mīdīdīm.",
+    "germanDecode": "Nächte neben-von Küste Schritt schlugen-wir und Sterne D.O. sahen-wir.",
+    "germanTranslation": "Nachts spazierten wir am Strand entlang und sahen die Sterne.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 12,
+    "farsi": "یک هفته فوق‌العاده گذراندیم و با انرژی تازه برگشتیم.",
+    "latin": "Yek hafte fowgh-ol'āde gozarāndīm va bā enerzī-ye tāze bargashtīm.",
+    "germanDecode": "Eine Woche außergewöhnlich verbrachten-wir und mit Energie-von frisch kehrten-wir-zurück.",
+    "germanTranslation": "Wir verbrachten eine außergewöhnliche Woche und kehrten mit frischer Energie zurück.",
+    "lessonId": "a2-l10-vacation",
+    "lessonTitle": "A2 Lektion 10: Ferien am Kaspischen Meer"
+  },
+  {
+    "id": 1,
+    "farsi": "مادربزرگم می‌خواست غذای سنتی به من یاد بدهد.",
+    "latin": "Mādarbozorgam mīkhāst ghazāye sonnatī be man yād bedahad.",
+    "germanDecode": "Großmutter-meine wollte-sie Essen-von traditionell zu mir Lernen gebe-sie.",
+    "germanTranslation": "Meine Großmutter wollte mir traditionelles Kochen beibringen.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 2,
+    "farsi": "آخر هفته به خانه‌اش رفتم تا قرمه سبزی یاد بگیرم.",
+    "latin": "Ākhar-e hafte be khāne-ash raftam tā ghorme sabzī yād begiram.",
+    "germanDecode": "Ende-von Woche zu Haus-ihr ging-ich damit Kräutereintopf Lernen nehme-ich.",
+    "germanTranslation": "Am Wochenende ging ich zu ihrem Haus, um Ghormeh Sabzi zu lernen.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 3,
+    "farsi": "صبح زود بازار رفتیم تا سبزیجات تازه بخریم.",
+    "latin": "Sobh zūd bāzār raftīm tā sabzījāt-e tāze bekharīm.",
+    "germanDecode": "Morgen früh Markt gingen-wir damit Gemüse-von frisch kaufen-wir.",
+    "germanTranslation": "Früh am Morgen gingen wir zum Markt, um frisches Gemüse zu kaufen.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 4,
+    "farsi": "او هر سبزی را با دقت انتخاب می‌کرد و توضیح می‌داد.",
+    "latin": "Ū har sabzī rā bā deghghat entekhāb mikard va towzīh mīdād.",
+    "germanDecode": "Sie jedes Gemüse D.O. mit Genauigkeit Auswahl machte-sie und Erklärung gab-sie.",
+    "germanTranslation": "Sie wählte jedes Gemüse sorgfältig aus und erklärte es.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 5,
+    "farsi": "گفت که سبزی‌ها باید تازه و پر رنگ باشند.",
+    "latin": "Goft ke sabzī-hā bāyad tāze va por-e rang bāshand.",
+    "germanDecode": "Sagte-sie dass Gemüse muss frisch und voll-von Farbe seien-sie.",
+    "germanTranslation": "Sie sagte, dass das Gemüse frisch und farbenfroh sein muss.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 6,
+    "farsi": "در خانه شروع به شستن و خرد کردن سبزیجات کردیم.",
+    "latin": "Dar khāne shorū' be shostan va khord kardan-e sabzījāt kardīm.",
+    "germanDecode": "In Haus Beginn zu Waschen und klein Machen-von Gemüse machten-wir.",
+    "germanTranslation": "Zu Hause begannen wir, das Gemüse zu waschen und zu schneiden.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 7,
+    "farsi": "او نشانم داد که چطور سبزیجات را درست خرد کنم.",
+    "latin": "Ū neshānam dād ke chetor sabzījāt rā dorost khord konam.",
+    "germanDecode": "Sie Zeigen-mir gab-sie dass wie Gemüse D.O. richtig klein mache-ich.",
+    "germanTranslation": "Sie zeigte mir, wie man das Gemüse richtig schneidet.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 8,
+    "farsi": "بعد گوشت را در روغن سرخ کردیم تا طلایی شود.",
+    "latin": "Ba'd gūsht rā dar rowghan sorkh kardīm tā talāyī shavad.",
+    "germanDecode": "Dann Fleisch D.O. in Öl rot machten-wir damit golden werde-es.",
+    "germanTranslation": "Dann brieten wir das Fleisch in Öl, bis es golden wurde.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 9,
+    "farsi": "سبزیجات را اضافه کردیم و با ادویه‌جات مخلوط کردیم.",
+    "latin": "Sabzījāt rā ezāfe kardīm va bā advīe-jāt makhlūt kardīm.",
+    "germanDecode": "Gemüse D.O. zusätzlich machten-wir und mit Gewürze gemischt machten-wir.",
+    "germanTranslation": "Wir fügten das Gemüse hinzu und mischten es mit Gewürzen.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 10,
+    "farsi": "آلو و لوبیا قرمز هم اضافه کردیم و دو ساعت پختیم.",
+    "latin": "Ālū va lūbyā-ye ghermez ham ezāfe kardīm va do sā'at pakhtīm.",
+    "germanDecode": "Pflaumen und Bohnen-von rot auch zusätzlich machten-wir und zwei Stunde kochten-wir.",
+    "germanTranslation": "Wir fügten auch Pflaumen und rote Bohnen hinzu und kochten zwei Stunden.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 11,
+    "farsi": "عطر خوشمزه غذا تمام خانه را پر کرده بود.",
+    "latin": "Atr-e khoshmaze-ye ghazā tamām-e khāne rā por karde būd.",
+    "germanDecode": "Duft-von lecker-von Essen ganz-von Haus D.O. voll gemacht hatte-es.",
+    "germanTranslation": "Der köstliche Duft des Essens hatte das ganze Haus erfüllt.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 12,
+    "farsi": "حالا هر وقت دلم می‌خواهد می‌توانم قرمه سبزی درست کنم.",
+    "latin": "Hālā har vaght delam mīkhāhad mītavānam ghorme sabzī dorost konam.",
+    "germanDecode": "Jetzt jede Zeit Herz-mein will-es kann-ich Kräutereintopf richtig mache-ich.",
+    "germanTranslation": "Jetzt kann ich Ghormeh Sabzi machen, wann immer ich möchte.",
+    "lessonId": "a2-l11-cooking",
+    "lessonTitle": "A2 Lektion 11: Kochen lernen von der Großmutter"
+  },
+  {
+    "id": 1,
+    "farsi": "هفته گذشته کامپیوترم خراب شد و نمی‌توانستم کار کنم.",
+    "latin": "Hafte-ye gozashte kāmpyūtaram kharāb shod va namītavānestam kār konam.",
+    "germanDecode": "Woche-von vergangen Computer-mein kaputt wurde-er und nicht-konnte-ich Arbeit mache-ich.",
+    "germanTranslation": "Letzte Woche ging mein Computer kaputt und ich konnte nicht arbeiten.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 2,
+    "farsi": "صبح که آن را روشن کردم، صفحه سیاه ماند.",
+    "latin": "Sobh ke ān rā roshan kardam, safhe siyāh mānd.",
+    "germanDecode": "Morgen als es D.O. an machte-ich, Bildschirm schwarz blieb-er.",
+    "germanTranslation": "Als ich ihn morgens anmachte, blieb der Bildschirm schwarz.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 3,
+    "farsi": "ابتدا فکر کردم مشکل از برق است.",
+    "latin": "Ebtedā fekr kardam moshkel az bargh ast.",
+    "germanDecode": "Zuerst Gedanke machte-ich Problem von Strom ist.",
+    "germanTranslation": "Zuerst dachte ich, das Problem sei der Strom.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 4,
+    "farsi": "کابل‌ها را بررسی کردم اما همه چیز درست بود.",
+    "latin": "Kābl-hā rā barrasī kardam ammā hame chīz dorost būd.",
+    "germanDecode": "Kabel D.O. Untersuchung machte-ich aber alle Ding richtig war-es.",
+    "germanTranslation": "Ich untersuchte die Kabel, aber alles war in Ordnung.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 5,
+    "farsi": "به برادرم زنگ زدم که در کامپیوتر مهارت دارد.",
+    "latin": "Be barādaram zang zadam ke dar kāmpyūter mahārat dārad.",
+    "germanDecode": "Zu Bruder-meinem Klingel schlug-ich der in Computer Fertigkeit hat-er.",
+    "germanTranslation": "Ich rief meinen Bruder an, der sich mit Computern auskennt.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 6,
+    "farsi": "او گفت احتمالاً هارد دیسک مشکل دارد.",
+    "latin": "Ū goft ehtemālan hārd dīsk moshkel dārad.",
+    "germanDecode": "Er sagte wahrscheinlich Festplatte Problem hat-sie.",
+    "germanTranslation": "Er sagte, wahrscheinlich habe die Festplatte ein Problem.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 7,
+    "farsi": "بعدازظهر کامپیوتر را به تعمیرگاه بردم.",
+    "latin": "Ba'dazzahr kāmpyūtar rā be ta'mīrgāh bordam.",
+    "germanDecode": "Nachmittag Computer D.O. zu Reparaturwerkstatt brachte-ich.",
+    "germanTranslation": "Nachmittags brachte ich den Computer zur Reparaturwerkstatt.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 8,
+    "farsi": "تکنسین آن را باز کرد و بررسی کرد.",
+    "latin": "Teknisīn ān rā bāz kard va barrasī kard.",
+    "germanDecode": "Techniker es D.O. offen machte-er und Untersuchung machte-er.",
+    "germanTranslation": "Der Techniker öffnete ihn und untersuchte ihn.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 9,
+    "farsi": "متأسفانه گفت هارد دیسک سوخته و باید عوض شود.",
+    "latin": "Mota'assefāne goft hārd dīsk sūkhte va bāyad avaz shavad.",
+    "germanDecode": "Leider sagte-er Festplatte verbrannt und muss gewechselt werde-sie.",
+    "germanTranslation": "Leider sagte er, die Festplatte sei verbrannt und müsse ausgetauscht werden.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 10,
+    "farsi": "هارد دیسک جدید گران بود اما چاره‌ای نداشتم.",
+    "latin": "Hārd dīsk-e jadīd gerān būd ammā chāre-ī nadāshtam.",
+    "germanDecode": "Festplatte-von neu teuer war-sie aber Lösung-eine nicht-hatte-ich.",
+    "germanTranslation": "Die neue Festplatte war teuer, aber ich hatte keine andere Wahl.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 11,
+    "farsi": "خوشبختانه فایل‌هایم را قبلاً پشتیبان‌گیری کرده بودم.",
+    "latin": "Khoshbakhtāne fāyl-hāyam rā ghablan poshtībān-gīrī karde būdam.",
+    "germanDecode": "Glücklicherweise Dateien-meine D.O. vorher Sicherung gemacht hatte-ich.",
+    "germanTranslation": "Glücklicherweise hatte ich meine Dateien zuvor gesichert.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 12,
+    "farsi": "حالا یاد گرفتم که بیشتر مراقب کامپیوترم باشم.",
+    "latin": "Hālā yād gereftam ke bīshtar morāgheb-e kāmpyūtaram bāsham.",
+    "germanDecode": "Jetzt Lernen nahm-ich dass mehr aufpassend-von Computer-mein sei-ich.",
+    "germanTranslation": "Jetzt habe ich gelernt, besser auf meinen Computer aufzupassen.",
+    "lessonId": "a2-l12-tech-problem",
+    "lessonTitle": "A2 Lektion 12: Ein Computerproblem"
+  },
+  {
+    "id": 1,
+    "farsi": "برای جشن تولد خواهرم باید خرید زیادی می‌کردم.",
+    "latin": "Barāye jashn-e tavallod-e khāharam bāyad kharīd-e ziyādī mikarddam.",
+    "germanDecode": "Für Fest-von Geburtstag-von Schwester-meine muss Einkauf-von viel machte-ich.",
+    "germanTranslation": "Für die Geburtstagsfeier meiner Schwester musste ich viel einkaufen.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 2,
+    "farsi": "اول لیست چیزهایی که لازم داشتم نوشتم.",
+    "latin": "Avval līst-e chīzhāyī ke lāzem dāshtam neveshatm.",
+    "germanDecode": "Zuerst Liste-von Dinge die nötig hatte-ich schrieb-ich.",
+    "germanTranslation": "Zuerst schrieb ich eine Liste der Dinge, die ich brauchte.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 3,
+    "farsi": "صبح زود به بازار بزرگ رفتم تا تازه‌ترین چیزها را پیدا کنم.",
+    "latin": "Sobh zūd be bāzār-e bozorg raftam tā tāze-tarīn chīzhā rā peydā konam.",
+    "germanDecode": "Morgen früh zu Markt-von groß ging-ich damit frischesten Dinge D.O. finde-ich.",
+    "germanTranslation": "Früh am Morgen ging ich zum großen Markt, um die frischesten Sachen zu finden.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 4,
+    "farsi": "اول میوه‌جات خریدم: سیب قرمز، پرتقال و انگور.",
+    "latin": "Avval mīve-jāt kharīdam: sīb-e ghermez, portegāl va angūr.",
+    "germanDecode": "Zuerst Früchte kaufte-ich: Äpfel-von rot, Orange und Trauben.",
+    "germanTranslation": "Zuerst kaufte ich Früchte: rote Äpfel, Orangen und Trauben.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 5,
+    "farsi": "فروشنده میوه مرد مهربانی بود و بهترین میوه‌ها را انتخاب کرد.",
+    "latin": "Forūshande-ye mīve mard-e mehrabānī būd va behtarīn mīve-hā rā entekhāb kard.",
+    "germanDecode": "Verkäufer-von Frucht Mann-von freundlich war-er und beste Früchte D.O. Auswahl machte-er.",
+    "germanTranslation": "Der Obstverkäufer war ein freundlicher Mann und suchte die besten Früchte aus.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 6,
+    "farsi": "بعد به قنادی رفتم تا کیک تولد سفارش دهم.",
+    "latin": "Ba'd be ghannadī raftam tā keyk-e tavallod sefāresh daham.",
+    "germanDecode": "Dann zu Konditorei ging-ich damit Kuchen-von Geburtstag Bestellung gebe-ich.",
+    "germanTranslation": "Dann ging ich zur Konditorei, um einen Geburtstagskuchen zu bestellen.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 7,
+    "farsi": "کیک شکلاتی با توت فرنگی انتخاب کردم که خواهرم دوست دارد.",
+    "latin": "Keyk-e shokolātī bā tūt-farangī entekhāb kardam ke khāharam dūst dārad.",
+    "germanDecode": "Kuchen-von Schokolade mit Erdbeeren Auswahl machte-ich die Schwester-meine lieb hat-sie.",
+    "germanTranslation": "Ich wählte einen Schokoladenkuchen mit Erdbeeren, den meine Schwester mag.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 8,
+    "farsi": "در مغازه تزیینات بالن و ریسه نور خریدم.",
+    "latin": "Dar maghāze-ye tazyīnāt bālon va rīse-ye nūr kharīdam.",
+    "germanDecode": "In Geschäft-von Dekorationen Ballon und Kette-von Licht kaufte-ich.",
+    "germanTranslation": "Im Dekorationsgeschäft kaufte ich Ballons und Lichterketten.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 9,
+    "farsi": "همه چیز گران شده بود اما خواهرم ارزشش را داشت.",
+    "latin": "Hame chīz gerān shode būd ammā khāharam arzeshash rā dāsht.",
+    "germanDecode": "Alle Ding teuer geworden war-es aber Schwester-meine Wert-es D.O. hatte-sie.",
+    "germanTranslation": "Alles war teuer geworden, aber meine Schwester war es wert.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 10,
+    "farsi": "بعدازظهر با کیسه‌های پر به خانه برگشتم.",
+    "latin": "Ba'dazzahr bā kīse-hāye por be khāne bargashtam.",
+    "germanDecode": "Nachmittag mit Taschen-von voll zu Haus kehrte-ich-zurück.",
+    "germanTranslation": "Nachmittags kehrte ich mit vollen Taschen nach Hause zurück.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 11,
+    "farsi": "شب با کمک خانواده همه چیز را آماده کردیم.",
+    "latin": "Shab bā komak-e khānevāde hame chīz rā āmāde kardīm.",
+    "germanDecode": "Nacht mit Hilfe-von Familie alle Ding D.O. bereit machten-wir.",
+    "germanTranslation": "Abends bereiteten wir mit Hilfe der Familie alles vor.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 12,
+    "farsi": "جشن بسیار زیبا شد و خواهرم خیلی خوشحال بود.",
+    "latin": "Jashn besyār zībā shod va khāharam kheylī khoshhāl būd.",
+    "germanDecode": "Fest sehr schön wurde-es und Schwester-meine sehr glücklich war-sie.",
+    "germanTranslation": "Die Feier wurde sehr schön und meine Schwester war sehr glücklich.",
+    "lessonId": "a2-l13-shopping",
+    "lessonTitle": "A2 Lektion 13: Einkaufen für ein Fest"
+  },
+  {
+    "id": 1,
+    "farsi": "سال گذشته فرصت خوبی برای سفر به اروپا داشتم اما از دست دادم.",
+    "latin": "Sāl-e gozashte forsat-e khūbī barāye safar be Orūpā dāshtam ammā az dast dādam.",
+    "germanDecode": "Jahr-von vergangen Gelegenheit-von gut für Reise nach Europa hatte-ich aber von Hand gab-ich.",
+    "germanTranslation": "Letztes Jahr hatte ich eine gute Gelegenheit für eine Europareise, aber ich verpasste sie.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 2,
+    "farsi": "شرکت برای کارمندان بهترین سفر مجانی به آلمان تدارک دیده بود.",
+    "latin": "Sherkat barāye kārmandān behtarīn safar-e majjānī be Ālmān tadārok dīde būd.",
+    "germanDecode": "Firma für Angestellte beste Reise-von kostenlos nach Deutschland Vorbereitung gesehen hatte-sie.",
+    "germanTranslation": "Die Firma hatte für die besten Angestellten eine kostenlose Reise nach Deutschland vorbereitet.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 3,
+    "farsi": "برای انتخاب شدن باید پروژه مهمی را به موقع تمام می‌کردم.",
+    "latin": "Barāye entekhāb shodan bāyad prōzhe-ye mohemmī rā be mowaghha' tamām mikarddam.",
+    "germanDecode": "Für Auswahl Werden muss Projekt-von wichtig D.O. zu Zeit beendet machte-ich.",
+    "germanTranslation": "Um ausgewählt zu werden, musste ich ein wichtiges Projekt rechtzeitig beenden.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 4,
+    "farsi": "اما من مشغول کارهای دیگر بودم و زمان کافی نگذاشتم.",
+    "latin": "Ammā man mashghūl-e kārhāye dīgar būdam va zamān-e kāfī nagozāshtam.",
+    "germanDecode": "Aber ich beschäftigt-von Arbeiten-von andere war-ich und Zeit-von genug nicht-ließ-ich.",
+    "germanTranslation": "Aber ich war mit anderen Arbeiten beschäftigt und ließ nicht genug Zeit.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 5,
+    "farsi": "هر روز با خودم می‌گفتم فردا شروع می‌کنم.",
+    "latin": "Har rūz bā khodam mīgoftam fardā shorū' mikonam.",
+    "germanDecode": "Jeden Tag mit mir-selbst sagte-ich morgen Beginn mache-ich.",
+    "germanTranslation": "Jeden Tag sagte ich mir, morgen fange ich an.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 6,
+    "farsi": "هفته آخر که فهمیدم دیر شده است.",
+    "latin": "Hafte-ye ākhar ke fahmīdam dīr shode ast.",
+    "germanDecode": "Woche-von letzten als verstand-ich spät geworden ist.",
+    "germanTranslation": "In der letzten Woche verstand ich, dass es zu spät war.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 7,
+    "farsi": "سه شب بی‌خواب ماندم و تلاش کردم تمام کنم.",
+    "latin": "Seh shab bī-khāb māndam va talāsh kardam tamām konam.",
+    "germanDecode": "Drei Nacht ohne-Schlaf blieb-ich und Anstrengung machte-ich beenden mache-ich.",
+    "germanTranslation": "Drei Nächte blieb ich ohne Schlaf und bemühte mich, es zu beenden.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 8,
+    "farsi": "اما کیفیت کار خوب نبود و مدیر راضی نشد.",
+    "latin": "Ammā keyfīyat-e kār khūb nabūd va modīr rāzī nashod.",
+    "germanDecode": "Aber Qualität-von Arbeit gut nicht-war und Chef zufrieden nicht-wurde-er.",
+    "germanTranslation": "Aber die Arbeitsqualität war nicht gut und der Chef war nicht zufrieden.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 9,
+    "farsi": "همکار دیگری انتخاب شد و به آلمان رفت.",
+    "latin": "Hamkār-e dīgarī entekhāb shod va be Ālmān raft.",
+    "germanDecode": "Kollege-von andere Auswahl wurde-er und nach Deutschland ging-er.",
+    "germanTranslation": "Ein anderer Kollege wurde ausgewählt und reiste nach Deutschland.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 10,
+    "farsi": "خیلی ناراحت شدم و پشیمان بودم.",
+    "latin": "Kheylī nārāhat shodam va pashīmān būdam.",
+    "germanDecode": "Sehr traurig wurde-ich und bereute war-ich.",
+    "germanTranslation": "Ich wurde sehr traurig und bereute es.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 11,
+    "farsi": "از آن روز یاد گرفتم که تعویق انداختن خطرناک است.",
+    "latin": "Az ān rūz yād gereftam ke ta'vīgh andākhtan khatarnāk ast.",
+    "germanDecode": "Von jenem Tag Lernen nahm-ich dass Aufschub Werfen gefährlich ist.",
+    "germanTranslation": "Von jenem Tag an lernte ich, dass Aufschieben gefährlich ist.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 12,
+    "farsi": "حالا همیشه کارهایم را به موقع انجام می‌دهم.",
+    "latin": "Hālā hamīshe kārhāyam rā be mowaghha' anjām mīdaham.",
+    "germanDecode": "Jetzt immer Arbeiten-meine D.O. zu Zeit Durchführung gebe-ich.",
+    "germanTranslation": "Jetzt führe ich meine Arbeiten immer rechtzeitig durch.",
+    "lessonId": "a2-l14-missed-opportunity",
+    "lessonTitle": "A2 Lektion 14: Eine verpasste Gelegenheit"
+  },
+  {
+    "id": 1,
+    "farsi": "امسال نوروز را بعد از سال‌ها با خانواده بزرگ جشن گرفتیم.",
+    "latin": "Emsāl Nowrūz rā ba'd az sāl-hā bā khānevāde-ye bozorg jashn gereftīm.",
+    "germanDecode": "Dieses-Jahr Nowruz D.O. nach von Jahren mit Familie-von groß Fest nahmen-wir.",
+    "germanTranslation": "Dieses Jahr feierten wir Nowruz nach Jahren mit der Großfamilie.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 2,
+    "farsi": "دو هفته قبل همه شروع به تمیز کردن خانه‌هایمان کردیم.",
+    "latin": "Do hafte ghabl hame shorū' be tamīz kardan-e khāne-hāyemān kardīm.",
+    "germanDecode": "Zwei Wochen vorher alle Beginn zu sauber Machen-von Häuser-unser machten-wir.",
+    "germanTranslation": "Zwei Wochen zuvor begannen alle, unsere Häuser zu putzen.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 3,
+    "farsi": "این سنت قدیمی ایرانی است که خانه را از بالا تا پایین می‌شوییم.",
+    "latin": "Īn sonnat-e ghadīmī-ye Īrānī ast ke khāne rā az bālā tā pāyīn mīshūyīm.",
+    "germanDecode": "Dies Tradition-von alt-von Iranisch ist dass Haus D.O. von oben bis unten waschen-wir.",
+    "germanTranslation": "Das ist eine alte iranische Tradition, bei der wir das Haus von oben bis unten waschen.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 4,
+    "farsi": "مادرم هفت‌سین را بسیار زیبا چیده بود.",
+    "latin": "Mādaram haft-sīn rā besyār zībā chīde būd.",
+    "germanDecode": "Mutter-meine Sieben-S D.O. sehr schön arrangiert hatte-sie.",
+    "germanTranslation": "Meine Mutter hatte die Haft-Seen sehr schön arrangiert.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 5,
+    "farsi": "سبزه، سیب، سیر، سمنو، سنجد، سرکه و سکه روی میز بود.",
+    "latin": "Sabze, sīb, sīr, samanu, sanjed, serke va sekke rūye mīz būd.",
+    "germanDecode": "Grün, Apfel, Knoblauch, Süßpudding, Sanddorn, Essig und Münze auf-von Tisch war-es.",
+    "germanTranslation": "Grünes, Apfel, Knoblauch, Samanu, Sanddorn, Essig und Münzen waren auf dem Tisch.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 6,
+    "farsi": "لحظه تحویل سال همه دور هم جمع شدیم.",
+    "latin": "Lahze-ye tahvīl-e sāl hame dowr-e ham jam' shodīm.",
+    "germanDecode": "Moment-von Übergabe-von Jahr alle Rund-von zusammen gesammelt wurden-wir.",
+    "germanTranslation": "Zum Moment des Jahreswechsels versammelten wir uns alle zusammen.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 7,
+    "farsi": "پدربزرگ قرآن خواند و برای همه دعای خیر کرد.",
+    "latin": "Pedarbozorg Ghor'ān khānd va barāye hame do'āye khayr kard.",
+    "germanDecode": "Großvater Koran las-er und für alle Gebet-von gut machte-er.",
+    "germanTranslation": "Der Großvater las den Koran und betete für alle.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 8,
+    "farsi": "بعد از تحویل همه یکدیگر را بوسیدیم و تبریک گفتیم.",
+    "latin": "Ba'd az tahvīl hame yekdīgar rā būsīdīm va tabrīk goftīm.",
+    "germanDecode": "Nach von Übergabe alle einander D.O. küssten-wir und Glückwunsch sagten-wir.",
+    "germanTranslation": "Nach dem Jahreswechsel küssten wir uns alle und gratulierten einander.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 9,
+    "farsi": "روزهای بعد به دیدن اقوام و دوستان رفتیم.",
+    "latin": "Rūzhāye ba'd be dīdan-e aghvām va dūstān raftīm.",
+    "germanDecode": "Tage-von nach zu Sehen-von Verwandte und Freunde gingen-wir.",
+    "germanTranslation": "In den folgenden Tagen gingen wir Verwandte und Freunde besuchen.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 10,
+    "farsi": "همه جا آجیل، شیرینی و چای تعارف می‌کردند.",
+    "latin": "Hame-jā ājīl, shīrīnī va chāy ta'ārof mikardand.",
+    "germanDecode": "Überall Nüsse, Süßigkeit und Tee Anbieten machten-sie.",
+    "germanTranslation": "Überall boten sie Nüsse, Süßigkeiten und Tee an.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 11,
+    "farsi": "بچه‌ها عیدی گرفتند و خیلی خوشحال بودند.",
+    "latin": "Bachehā 'eydī gereftand va kheylī khoshhāl būdand.",
+    "germanDecode": "Kinder Festgeld nahmen-sie und sehr glücklich waren-sie.",
+    "germanTranslation": "Die Kinder bekamen Festgeld und waren sehr glücklich.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 12,
+    "farsi": "سیزده‌بدر با پیک‌نیک در پارک نوروز را تمام کردیم.",
+    "latin": "Sīzdah-bedar bā pīknīk dar pārk Nowrūz rā tamām kardīm.",
+    "germanDecode": "Dreizehn-draußen mit Picknick in Park Nowruz D.O. beendet machten-wir.",
+    "germanTranslation": "Am dreizehnten Tag beendeten wir Nowruz mit einem Picknick im Park.",
+    "lessonId": "a2-l15-nowruz",
+    "lessonTitle": "A2 Lektion 15: Das Nowruz-Fest"
+  },
+  {
+    "id": 1,
+    "farsi": "امسال سال پر از تغییرات برای من بود.",
+    "latin": "Emsāl sāl-e por az taghyīrāt barāye man būd.",
+    "germanDecode": "Dieses-Jahr Jahr-von voll von Veränderungen für mich war-es.",
+    "germanTranslation": "Dieses Jahr war ein Jahr voller Veränderungen für mich.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 2,
+    "farsi": "در بهار شغلم را عوض کردم و کار جدیدی پیدا کردم.",
+    "latin": "Dar bahār shaghlam rā avaz kardam va kār-e jadīdī peydā kardam.",
+    "germanDecode": "In Frühling Beruf-meinen D.O. wechselten machte-ich und Arbeit-von neue fand-ich.",
+    "germanTranslation": "Im Frühling wechselte ich meinen Beruf und fand neue Arbeit.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 3,
+    "farsi": "در تابستان به شمال سفر کردم و خاطرات خوبی ساختم.",
+    "latin": "Dar tābestān be shomāl safar kardam va khāterāt-e khūbī sākhtam.",
+    "germanDecode": "In Sommer nach Norden Reise machte-ich und Erinnerungen-von gut machte-ich.",
+    "germanTranslation": "Im Sommer reiste ich in den Norden und machte gute Erinnerungen.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 4,
+    "farsi": "پاییز رانندگی یاد گرفتم و ماشین کوچکی خریدم.",
+    "latin": "Pāyīz rānandagī yād gereftam va māshīn-e kūchakī kharīdam.",
+    "germanDecode": "Herbst Fahren Lernen nahm-ich und Auto-von klein kaufte-ich.",
+    "germanTranslation": "Im Herbst lernte ich Autofahren und kaufte ein kleines Auto.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 5,
+    "farsi": "زمستان که آمد، به کلاس زبان رفتم و دوست جدیدی پیدا کردم.",
+    "latin": "Zemestān ke āmad, be kelās-e zabān raftam va dūst-e jadīdī peydā kardam.",
+    "germanDecode": "Winter als kam-er, zu Klasse-von Sprache ging-ich und Freund-von neue fand-ich.",
+    "germanTranslation": "Als der Winter kam, ging ich zu einem Sprachkurs und fand eine neue Freundin.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 6,
+    "farsi": "در همین مدت برادرم ازدواج کرد و جشن بزرگی گرفتیم.",
+    "latin": "Dar hamīn moddat barādaram ezdevāj kard va jashn-e bozorgī gereftīm.",
+    "germanDecode": "In dieser Zeit Bruder-mein Heirat machte-er und Fest-von groß nahmen-wir.",
+    "germanTranslation": "In dieser Zeit heiratete mein Bruder und wir veranstalteten eine große Feier.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 7,
+    "farsi": "یک بار مریض شدم اما خوشبختانه زود خوب شدم.",
+    "latin": "Yek bār marīz shodam ammā khoshbakhtāne zūd khūb shodam.",
+    "germanDecode": "Ein Mal krank wurde-ich aber glücklicherweise schnell gut wurde-ich.",
+    "germanTranslation": "Einmal wurde ich krank, aber glücklicherweise wurde ich schnell gesund.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 8,
+    "farsi": "یک فرصت خوب را از دست دادم اما درس مهمی یاد گرفتم.",
+    "latin": "Yek forsat-e khūb rā az dast dādam ammā dars-e mohemmī yād gereftam.",
+    "germanDecode": "Eine Gelegenheit-von gut D.O. von Hand gab-ich aber Lektion-von wichtig Lernen nahm-ich.",
+    "germanTranslation": "Ich verpasste eine gute Gelegenheit, aber lernte eine wichtige Lektion.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 9,
+    "farsi": "نوروز را با خانواده بزرگ جشن گرفتیم و خیلی لذت بردیم.",
+    "latin": "Nowrūz rā bā khānevāde-ye bozorg jashn gereftīm va kheylī lazzat bordīm.",
+    "germanDecode": "Nowruz D.O. mit Familie-von groß Fest nahmen-wir und sehr Genuss nahmen-wir.",
+    "germanTranslation": "Wir feierten Nowruz mit der Großfamilie und genossen es sehr.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 10,
+    "farsi": "از مادربزرگم آشپزی یاد گرفتم و حالا می‌توانم غذای خوبی درست کنم.",
+    "latin": "Az mādarbozorgam āshpazī yād gereftam va hālā mītavānam ghazāye khūbī dorost konam.",
+    "germanDecode": "Von Großmutter-meiner Kochen Lernen nahm-ich und jetzt kann-ich Essen-von gut richtig mache-ich.",
+    "germanTranslation": "Von meiner Großmutter lernte ich kochen und jetzt kann ich gutes Essen zubereiten.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 11,
+    "farsi": "همه این تجربه‌ها مرا عاقل‌تر و قوی‌تر کرده است.",
+    "latin": "Hame īn tajrobe-hā marā āghel-tar va ghavī-tar karde ast.",
+    "germanDecode": "Alle diese Erfahrungen mich D.O. klüger und stärker gemacht hat-es.",
+    "germanTranslation": "All diese Erfahrungen haben mich klüger und stärker gemacht.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 12,
+    "farsi": "آینده را با امید و انرژی تازه‌ای انتظار می‌کشم.",
+    "latin": "Āyande rā bā omīd va enerzī-ye tāze-ī entezār mīkesham.",
+    "germanDecode": "Zukunft D.O. mit Hoffnung und Energie-von frisch-ein Erwartung ziehe-ich.",
+    "germanTranslation": "Ich erwarte die Zukunft mit Hoffnung und frischer Energie.",
+    "lessonId": "a2-l16-review",
+    "lessonTitle": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen"
+  },
+  {
+    "id": 1,
+    "farsi": "وقتی کودک بودم، در شهر کوچکی زندگی می‌کردم.",
+    "latin": "Vaghti kūdak būdam, dar shahr-e kūchakī zendegī mikarddam.",
+    "germanDecode": "Als Kind war-ich, in Stadt-von klein Leben machte-ich.",
+    "germanTranslation": "Als ich ein Kind war, lebte ich in einer kleinen Stadt.",
+    "lessonId": "a2-l2-childhood",
+    "lessonTitle": "A2 Lektion 2: Kindheitserinnerungen"
+  },
+  {
+    "id": 2,
+    "farsi": "خانه ما باغ بزرگی داشت که پر از درخت میوه بود.",
+    "latin": "Khāne-ye mā bāgh-e bozorgī dāsht ke por az darakht-e mīve būd.",
+    "germanDecode": "Haus-von uns Garten-von groß hatte-es dass voll von Baum-von Frucht war-es.",
+    "germanTranslation": "Unser Haus hatte einen großen Garten, der voller Obstbäume war.",
+    "lessonId": "a2-l2-childhood",
+    "lessonTitle": "A2 Lektion 2: Kindheitserinnerungen"
+  },
+  {
+    "id": 3,
+    "farsi": "هر تابستان با برادرم در باغ بازی می‌کردیم.",
+    "latin": "Har tābestān bā barādaram dar bāgh bāzī mikardīm.",
+    "germanDecode": "Jeden Sommer mit Bruder-meinem in Garten Spiel machten-wir.",
+    "germanTranslation": "Jeden Sommer spielten wir mit meinem Bruder im Garten.",
+    "lessonId": "a2-l2-childhood",
+    "lessonTitle": "A2 Lektion 2: Kindheitserinnerungen"
+  },
+  {
+    "id": 4,
+    "farsi": "مادرم برای ما شیرینی درست می‌کرد و ما خوشحال بودیم.",
+    "latin": "Mādaram barāye mā shīrīnī dorost mikard va mā khoshhāl būdīm.",
+    "germanDecode": "Mutter-meine für uns Süßigkeit richtig machte-sie und wir glücklich waren-wir.",
+    "germanTranslation": "Meine Mutter machte für uns Süßigkeiten und wir waren glücklich.",
+    "lessonId": "a2-l2-childhood",
+    "lessonTitle": "A2 Lektion 2: Kindheitserinnerungen"
+  },
+  {
+    "id": 5,
+    "farsi": "پدربزرگم قصه‌های جالبی برای ما تعریف می‌کرد.",
+    "latin": "Pedarbozorgam ghesse-hāye jālebī barāye mā ta'rīf mikard.",
+    "germanDecode": "Großvater-mein Geschichten-von interessant für uns Erzählung machte-er.",
+    "germanTranslation": "Mein Großvater erzählte uns interessante Geschichten.",
+    "lessonId": "a2-l2-childhood",
+    "lessonTitle": "A2 Lektion 2: Kindheitserinnerungen"
+  },
+  {
+    "id": 6,
+    "farsi": "شب‌ها کنار پنجره نشسته و ستاره‌ها را نگاه می‌کردم.",
+    "latin": "Shabhā kenār-e panjere neshaste va setārehā rā negāh mikarddam.",
+    "germanDecode": "Nächte neben-von Fenster gesetzt und Sterne D.O. Blick machte-ich.",
+    "germanTranslation": "Nachts saß ich am Fenster und schaute die Sterne an.",
+    "lessonId": "a2-l2-childhood",
+    "lessonTitle": "A2 Lektion 2: Kindheitserinnerungen"
+  },
+  {
+    "id": 7,
+    "farsi": "در مدرسه دوستان زیادی داشتم و با آنها بازی می‌کردم.",
+    "latin": "Dar madrese dūstān-e ziyādī dāshtam va bā ānhā bāzī mikarddam.",
+    "germanDecode": "In Schule Freunde-von viele hatte-ich und mit ihnen Spiel machte-ich.",
+    "germanTranslation": "In der Schule hatte ich viele Freunde und spielte mit ihnen.",
+    "lessonId": "a2-l2-childhood",
+    "lessonTitle": "A2 Lektion 2: Kindheitserinnerungen"
+  },
+  {
+    "id": 8,
+    "farsi": "معلم ما مهربان بود و ما او را دوست داشتیم.",
+    "latin": "Mo'allem-e mā mehrabān būd va mā ū rā dūst dāshtīm.",
+    "germanDecode": "Lehrer-von uns freundlich war-er und wir er D.O. lieb hatten-wir.",
+    "germanTranslation": "Unser Lehrer war freundlich und wir mochten ihn.",
+    "lessonId": "a2-l2-childhood",
+    "lessonTitle": "A2 Lektion 2: Kindheitserinnerungen"
+  },
+  {
+    "id": 9,
+    "farsi": "آخر هفته‌ها خانواده ما به پارک می‌رفت.",
+    "latin": "Ākhar-e hafte-hā khānevāde-ye mā be pārk miraft.",
+    "germanDecode": "Ende-von Wochen Familie-von uns zu Park ging-sie.",
+    "germanTranslation": "An den Wochenenden ging unsere Familie in den Park.",
+    "lessonId": "a2-l2-childhood",
+    "lessonTitle": "A2 Lektion 2: Kindheitserinnerungen"
+  },
+  {
+    "id": 10,
+    "farsi": "آن روزها ساده و شاد بودم و نگرانی نداشتم.",
+    "latin": "Ān rūzhā sāde va shād būdam va nagarānī nadāshtam.",
+    "germanDecode": "Jene Tage einfach und fröhlich war-ich und Sorge nicht-hatte-ich.",
+    "germanTranslation": "In jenen Tagen war ich einfach und fröhlich und hatte keine Sorgen.",
+    "lessonId": "a2-l2-childhood",
+    "lessonTitle": "A2 Lektion 2: Kindheitserinnerungen"
+  },
+  {
+    "id": 11,
+    "farsi": "اکنون که بزرگ شده‌ام، آن دوران را یاد می‌آورم.",
+    "latin": "Aknūn ke bozorg shodeam, ān dūrān rā yād mīyāvaram.",
+    "germanDecode": "Jetzt dass groß geworden-ich-bin, jene Zeit D.O. Erinnerung bringe-ich.",
+    "germanTranslation": "Jetzt, da ich erwachsen geworden bin, erinnere ich mich an jene Zeit.",
+    "lessonId": "a2-l2-childhood",
+    "lessonTitle": "A2 Lektion 2: Kindheitserinnerungen"
+  },
+  {
+    "id": 1,
+    "farsi": "پارسال تابستان تصمیم گرفتم به شمال ایران سفر کنم.",
+    "latin": "Pārsāl tābestān tasmīm gereftam be shomāl-e Īrān safar konam.",
+    "germanDecode": "Letztes-Jahr Sommer Entscheidung nahm-ich zu Norden-von Iran Reise mache-ich.",
+    "germanTranslation": "Letzten Sommer entschied ich mich, in den Norden des Iran zu reisen.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 2,
+    "farsi": "یک هفته قبل از سفر، بلیط قطار خریدم.",
+    "latin": "Yek hafte ghabl az safar, belīt-e ghatār kharīdam.",
+    "germanDecode": "Eine Woche vor von Reise, Ticket-von Zug kaufte-ich.",
+    "germanTranslation": "Eine Woche vor der Reise kaufte ich ein Zugticket.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 3,
+    "farsi": "روز سفر صبح زود از تهران حرکت کردم.",
+    "latin": "Rūz-e safar sobh zūd az Tehrān harakat kardam.",
+    "germanDecode": "Tag-von Reise Morgen früh aus Tehran Bewegung machte-ich.",
+    "germanTranslation": "Am Reisetag fuhr ich früh morgens von Teheran ab.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 4,
+    "farsi": "در قطار کنار پنجره نشستم و مناظر زیبا را تماشا کردم.",
+    "latin": "Dar ghatār kenār-e panjere nashestam va manāzer-e zībā rā tamāshā kardam.",
+    "germanDecode": "In Zug neben-von Fenster setzte-ich-mich und Landschaften-von schön D.O. Schauen machte-ich.",
+    "germanTranslation": "Im Zug setzte ich mich ans Fenster und schaute die schönen Landschaften an.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 5,
+    "farsi": "بعد از سه ساعت به شهر زیبای رشت رسیدم.",
+    "latin": "Ba'd az seh sā'at be shahr-e zībāye Rasht resīdam.",
+    "germanDecode": "Nach von drei Stunde zu Stadt-von schön-von Rasht erreichte-ich.",
+    "germanTranslation": "Nach drei Stunden erreichte ich die schöne Stadt Rasht.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 6,
+    "farsi": "در هتل کوچکی اتاق گرفتم که نزدیک بازار بود.",
+    "latin": "Dar hotel-e kūchakī otāgh gereftam ke nazdīk-e bāzār būd.",
+    "germanDecode": "In Hotel-von klein Zimmer nahm-ich dass nah-von Basar war-es.",
+    "germanTranslation": "Ich nahm ein Zimmer in einem kleinen Hotel, das in der Nähe des Basars war.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 7,
+    "farsi": "اولین روز در جنگل‌های شمال قدم زدم.",
+    "latin": "Avvalīn rūz dar jangal-hāye shomāl ghadam zadam.",
+    "germanDecode": "Erste Tag in Wälder-von Norden Schritt schlug-ich.",
+    "germanTranslation": "Am ersten Tag spazierte ich in den nördlichen Wäldern.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 8,
+    "farsi": "هوا خنک و دلپذیر بود و من آرامش کردم.",
+    "latin": "Havā khonak va delpazīr būd va man ārāmesh kardam.",
+    "germanDecode": "Wetter kühl und angenehm war-es und ich Ruhe machte-ich.",
+    "germanTranslation": "Das Wetter war kühl und angenehm und ich entspannte mich.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 9,
+    "farsi": "شب در رستورانی غذای محلی خوردم.",
+    "latin": "Shab dar restūrānī ghazā-ye mahallī khordam.",
+    "germanDecode": "Nacht in Restaurant-einem Essen-von örtlich aß-ich.",
+    "germanTranslation": "Abends aß ich in einem Restaurant lokales Essen.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 10,
+    "farsi": "کباب ماهی و برنج با سبزی خیلی خوشمزه بود.",
+    "latin": "Kabāb-e māhī va berenj bā sabzī kheylī khoshmaze būd.",
+    "germanDecode": "Kebab-von Fisch und Reis mit Gemüse sehr lecker war-es.",
+    "germanTranslation": "Der Fischkebab und Reis mit Gemüse war sehr lecker.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 11,
+    "farsi": "سه روز در آنجا ماندم و خاطرات خوبی ساختم.",
+    "latin": "Seh rūz dar ānjā māndam va khāterāt-e khūbī sākhtam.",
+    "germanDecode": "Drei Tage in dort blieb-ich und Erinnerungen-von gute machte-ich.",
+    "germanTranslation": "Ich blieb drei Tage dort und machte gute Erinnerungen.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 12,
+    "farsi": "هنوز هم آن سفر را به یاد دارم و دوست دارم دوباره بروم.",
+    "latin": "Hanūz ham ān safar rā be yād dāram va dūst dāram dobāre beravam.",
+    "germanDecode": "Noch auch jene Reise D.O. zu Erinnerung habe-ich und lieb habe-ich wieder gehe-ich.",
+    "germanTranslation": "Ich erinnere mich noch an jene Reise und möchte gerne wieder hinfahren.",
+    "lessonId": "a2-l3-travel-story",
+    "lessonTitle": "A2 Lektion 3: Eine Reiseerfahrung"
+  },
+  {
+    "id": 1,
+    "farsi": "سال گذشته در یک بانک کار می‌کردم اما خوشحال نبودم.",
+    "latin": "Sāl-e gozashte dar yek bānak kār mikarddam ammā khoshhāl nabūdam.",
+    "germanDecode": "Jahr-von vergangen in ein Bank Arbeit machte-ich aber glücklich nicht-war-ich.",
+    "germanTranslation": "Letztes Jahr arbeitete ich in einer Bank, aber ich war nicht glücklich.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 2,
+    "farsi": "کار همیشه یکسان بود و من احساس کسالت می‌کردم.",
+    "latin": "Kār hamīshe yeksān būd va man ehsās-e kesālat mikarddam.",
+    "germanDecode": "Arbeit immer gleich war-es und ich Gefühl-von Langeweile machte-ich.",
+    "germanTranslation": "Die Arbeit war immer dieselbe und ich langweilte mich.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 3,
+    "farsi": "مدیرم آدم سختی بود و با کارمندان بد رفتار می‌کرد.",
+    "latin": "Modīram ādam-e sakhtī būd va bā kārmandān bad raftār mikard.",
+    "germanDecode": "Chef-mein Mensch-von hart war-er und mit Angestellten schlecht Verhalten machte-er.",
+    "germanTranslation": "Mein Chef war ein harter Mensch und behandelte die Angestellten schlecht.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 4,
+    "farsi": "یک روز تصمیم گرفتم شغلم را عوض کنم.",
+    "latin": "Yek rūz tasmīm gereftam shogh-lam rā avaz konam.",
+    "germanDecode": "Ein Tag Entscheidung nahm-ich Beruf-meinen D.O. wechseln mache-ich.",
+    "germanTranslation": "Eines Tages entschied ich mich, meinen Beruf zu wechseln.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 5,
+    "farsi": "به دوستانم گفتم و آنها از تصمیمم حمایت کردند.",
+    "latin": "Be dūstānam goftam va ānhā az tasmīm-am hemāyat kardand.",
+    "germanDecode": "Zu Freunden-meinen sagte-ich und sie von Entscheidung-meiner Unterstützung machten-sie.",
+    "germanTranslation": "Ich sagte es meinen Freunden und sie unterstützten meine Entscheidung.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 6,
+    "farsi": "چند ماه رزومه فرستادم و مصاحبه رفتم.",
+    "latin": "Chand māh rezyūme ferestādam va mosāhebe raftam.",
+    "germanDecode": "Einige Monate Lebenslauf sendete-ich und Interview ging-ich.",
+    "germanTranslation": "Einige Monate sendete ich Lebensläufe und ging zu Interviews.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 7,
+    "farsi": "بالاخره در یک شرکت کامپیوتری پذیرفته شدم.",
+    "latin": "Belākhere dar yek sherkat-e kāmpyūterī pazīrafte shodam.",
+    "germanDecode": "Schließlich in ein Firma-von Computer akzeptiert wurde-ich.",
+    "germanTranslation": "Schließlich wurde ich in einer Computerfirma angenommen.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 8,
+    "farsi": "همکاران جدیدم مهربان و دوستانه بودند.",
+    "latin": "Hamkārān-e jadīdam mehrabān va dūstāne būdand.",
+    "germanDecode": "Kollegen-von neue-meine freundlich und freundschaftlich waren-sie.",
+    "germanTranslation": "Meine neuen Kollegen waren freundlich und kameradschaftlich.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 9,
+    "farsi": "محیط کار آنجا راحت بود و من می‌توانستم یاد بگیرم.",
+    "latin": "Mohīt-e kār ānjā rāhat būd va man mītavānestam yād begiram.",
+    "germanDecode": "Umgebung-von Arbeit dort bequem war-es und ich konnte-ich Lernen nehme-ich.",
+    "germanTranslation": "Die Arbeitsumgebung dort war angenehm und ich konnte lernen.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 10,
+    "farsi": "حقوقم کمتر شد اما خوشحال‌تر بودم.",
+    "latin": "Hoghūgh-am kamtar shod ammā khoshhāl-tar būdam.",
+    "germanDecode": "Gehalt-mein weniger wurde-es aber glücklicher war-ich.",
+    "germanTranslation": "Mein Gehalt wurde weniger, aber ich war glücklicher.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 11,
+    "farsi": "اکنون هر روز با انرژی به کار می‌روم.",
+    "latin": "Aknūn har rūz bā enerzī be kār mīravam.",
+    "germanDecode": "Jetzt jeden Tag mit Energie zu Arbeit gehe-ich.",
+    "germanTranslation": "Jetzt gehe ich jeden Tag mit Energie zur Arbeit.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 12,
+    "farsi": "فهمیدم که پول تنها چیز مهم در زندگی نیست.",
+    "latin": "Fahmīdam ke pūl tanhā chīz-e mohem dar zendegī nīst.",
+    "germanDecode": "Verstand-ich dass Geld allein Ding-von wichtig in Leben nicht-ist.",
+    "germanTranslation": "Ich verstand, dass Geld nicht das einzig Wichtige im Leben ist.",
+    "lessonId": "a2-l4-job-change",
+    "lessonTitle": "A2 Lektion 4: Berufswechsel"
+  },
+  {
+    "id": 1,
+    "farsi": "دو هفته پیش احساس بدی داشتم و مریض شدم.",
+    "latin": "Do hafte pīsh ehsās-e badī dāshtam va marīz shodam.",
+    "germanDecode": "Zwei Wochen vorher Gefühl-von schlecht hatte-ich und krank wurde-ich.",
+    "germanTranslation": "Vor zwei Wochen fühlte ich mich schlecht und wurde krank.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 2,
+    "farsi": "صبح که از خواب بیدار شدم، تب شدید داشتم.",
+    "latin": "Sobh ke az khāb bīdār shodam, tab-e shadīd dāshtam.",
+    "germanDecode": "Morgen als aus Schlaf wach wurde-ich, Fieber-von stark hatte-ich.",
+    "germanTranslation": "Als ich morgens aufwachte, hatte ich starkes Fieber.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 3,
+    "farsi": "سر و گلوی من خیلی درد می‌کرد.",
+    "latin": "Sar va galūye man kheylī dard mikard.",
+    "germanDecode": "Kopf und Hals-von mir sehr Schmerz machte-er.",
+    "germanTranslation": "Mein Kopf und Hals taten sehr weh.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 4,
+    "farsi": "به مادرم زنگ زدم و او نگران شد.",
+    "latin": "Be mādaram zang zadam va ū nagarān shod.",
+    "germanDecode": "Zu Mutter-meiner Klingel schlug-ich und sie besorgt wurde-sie.",
+    "germanTranslation": "Ich rief meine Mutter an und sie wurde besorgt.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 5,
+    "farsi": "او گفت باید فوراً به دکتر بروم.",
+    "latin": "Ū goft bāyad fowran be doktor beravam.",
+    "germanDecode": "Sie sagte muss sofort zu Arzt gehe-ich.",
+    "germanTranslation": "Sie sagte, ich müsse sofort zum Arzt gehen.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 6,
+    "farsi": "تاکسی گرفتم و به مطب دکتر رفتم.",
+    "latin": "Tāksī gereftam va be matab-e doktor raftam.",
+    "germanDecode": "Taxi nahm-ich und zu Praxis-von Arzt ging-ich.",
+    "germanTranslation": "Ich nahm ein Taxi und ging zur Arztpraxis.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 7,
+    "farsi": "در مطب نیم ساعت منتظر ماندم.",
+    "latin": "Dar matab nīm sā'at montazer māndam.",
+    "germanDecode": "In Praxis halb Stunde wartend blieb-ich.",
+    "germanTranslation": "In der Praxis wartete ich eine halbe Stunde.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 8,
+    "farsi": "دکتر مرا معاینه کرد و گفت سرماخوردگی سادی است.",
+    "latin": "Doktor marā mo'āyene kard va goft sarmākhordeagī-ye sādī ast.",
+    "germanDecode": "Arzt mich D.O. Untersuchung machte-er und sagte Erkältung-von einfach ist.",
+    "germanTranslation": "Der Arzt untersuchte mich und sagte, es sei eine einfache Erkältung.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 9,
+    "farsi": "برایم دارو نوشت و گفت استراحت کنم.",
+    "latin": "Barāyam dārū nevesht va goft esterāhat konam.",
+    "germanDecode": "Für-mich Medizin schrieb-er und sagte Ruhe mache-ich.",
+    "germanTranslation": "Er verschrieb mir Medizin und sagte, ich solle mich ausruhen.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 10,
+    "farsi": "به داروخانه رفتم و داروها را خریدم.",
+    "latin": "Be dārūkhāne raftam va dārūhā rā kharīdam.",
+    "germanDecode": "Zu Apotheke ging-ich und Medikamente D.O. kaufte-ich.",
+    "germanTranslation": "Ich ging zur Apotheke und kaufte die Medikamente.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 11,
+    "farsi": "سه روز در خانه ماندم و دارو خوردم.",
+    "latin": "Seh rūz dar khāne māndam va dārū khordam.",
+    "germanDecode": "Drei Tage in Haus blieb-ich und Medizin aß-ich.",
+    "germanTranslation": "Drei Tage blieb ich zu Hause und nahm Medizin.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 12,
+    "farsi": "حالا کاملاً خوب شده‌ام و به کارم برگشته‌ام.",
+    "latin": "Hālā kāmelan khūb shodeam va be kāram bargashteam.",
+    "germanDecode": "Jetzt vollständig gut geworden-ich-bin und zu Arbeit-meiner zurückgekehrt-ich-bin.",
+    "germanTranslation": "Jetzt bin ich vollständig gesund geworden und zur Arbeit zurückgekehrt.",
+    "lessonId": "a2-l5-health-incident",
+    "lessonTitle": "A2 Lektion 5: Ein Gesundheitsproblem"
+  },
+  {
+    "id": 1,
+    "farsi": "ماه گذشته به کلاس فارسی رفتم تا زبان بهتر یاد بگیرم.",
+    "latin": "Māh-e gozashte be kelās-e Fārsī raftam tā zabān behtar yād begiram.",
+    "germanDecode": "Monat-von vergangen zu Klasse-von Persisch ging-ich damit Sprache besser Lernen nehme-ich.",
+    "germanTranslation": "Letzten Monat ging ich zu einem Persischkurs, um die Sprache besser zu lernen.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 2,
+    "farsi": "در کلاس با دختری آشنا شدم که از آلمان آمده بود.",
+    "latin": "Dar kelās bā dokhtarī āshnā shodam ke az Ālmān āmade būd.",
+    "germanDecode": "In Klasse mit Mädchen-einem bekannt wurde-ich die aus Deutschland gekommen war-sie.",
+    "germanTranslation": "In der Klasse lernte ich ein Mädchen kennen, das aus Deutschland gekommen war.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 3,
+    "farsi": "اسمش آنا بود و او هم مثل من تازه‌کار بود.",
+    "latin": "Esmash Ānā būd va ū ham mesl-e man tāze-kār būd.",
+    "germanDecode": "Name-ihr Anna war-es und sie auch wie-von mir neu-Arbeit war-sie.",
+    "germanTranslation": "Ihr Name war Anna und sie war auch wie ich Anfängerin.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 4,
+    "farsi": "بعد از کلاس با هم به کافه رفتیم و قهوه خوردیم.",
+    "latin": "Ba'd az kelās bā ham be kāfe raftīm va ghahve khordīm.",
+    "germanDecode": "Nach von Klasse mit zusammen zu Cafe gingen-wir und Kaffee tranken-wir.",
+    "germanTranslation": "Nach dem Unterricht gingen wir zusammen ins Cafe und tranken Kaffee.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 5,
+    "farsi": "او از زندگی‌اش در آلمان و دلیل آمدنش به ایران گفت.",
+    "latin": "Ū az zendegī-ash dar Ālmān va dalīl-e āmadan-ash be Īrān goft.",
+    "germanDecode": "Sie von Leben-ihrem in Deutschland und Grund-von Kommen-ihrem zu Iran sagte-sie.",
+    "germanTranslation": "Sie erzählte von ihrem Leben in Deutschland und dem Grund ihres Kommens in den Iran.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 6,
+    "farsi": "من هم از شغل و خانواده‌ام برایش تعریف کردم.",
+    "latin": "Man ham az shoghl va khānevāde-am barāyash ta'rīf kardam.",
+    "germanDecode": "Ich auch von Beruf und Familie-meiner für-sie Erzählung machte-ich.",
+    "germanTranslation": "Ich erzählte ihr auch von meinem Beruf und meiner Familie.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 7,
+    "farsi": "فهمیدم که ما علایق مشترک زیادی داریم.",
+    "latin": "Fahmīdam ke mā alāyegh-e moshtarak-e ziyādī dārīm.",
+    "germanDecode": "Verstand-ich dass wir Interessen-von gemeinsam-von viele haben-wir.",
+    "germanTranslation": "Ich verstand, dass wir viele gemeinsame Interessen haben.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 8,
+    "farsi": "هر دوی ما کتاب خواندن و موسیقی گوش دادن را دوست داشتیم.",
+    "latin": "Har doye mā ketāb khāndan va mūsīqī gūsh dādan rā dūst dāshtīm.",
+    "germanDecode": "Jede zwei-von uns Buch Lesen und Musik Ohr Geben D.O. lieb hatten-wir.",
+    "germanTranslation": "Wir beide liebten es, Bücher zu lesen und Musik zu hören.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 9,
+    "farsi": "از آن روز هر هفته با هم می‌بینیم.",
+    "latin": "Az ān rūz har hafte bā ham mībīnīm.",
+    "germanDecode": "Von jenem Tag jede Woche mit zusammen sehen-wir.",
+    "germanTranslation": "Seit jenem Tag treffen wir uns jede Woche.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 10,
+    "farsi": "گاهی به موزه می‌رویم، گاهی فیلم می‌بینیم.",
+    "latin": "Gāhī be mūze mīravīm, gāhī fīlm mībīnīm.",
+    "germanDecode": "Manchmal zu Museum gehen-wir, manchmal Film sehen-wir.",
+    "germanTranslation": "Manchmal gehen wir ins Museum, manchmal schauen wir Filme.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 11,
+    "farsi": "او به من آلمانی یاد می‌دهد و من به او فارسی کمک می‌کنم.",
+    "latin": "Ū be man Ālmānī yād mīdahad va man be ū Fārsī komak mikonam.",
+    "germanDecode": "Sie zu mir Deutsch Lernen gibt-sie und ich zu ihr Persisch Hilfe mache-ich.",
+    "germanTranslation": "Sie bringt mir Deutsch bei und ich helfe ihr mit Persisch.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 12,
+    "farsi": "خوشحالم که چنین دوست خوبی پیدا کرده‌ام.",
+    "latin": "Khoshhālam ke chonīn dūst-e khūbī peydā kardeam.",
+    "germanDecode": "Glücklich-ich-bin dass solch Freund-von gut gefunden habe-ich.",
+    "germanTranslation": "Ich bin glücklich, dass ich eine so gute Freundin gefunden habe.",
+    "lessonId": "a2-l6-new-friend",
+    "lessonTitle": "A2 Lektion 6: Eine neue Freundschaft"
+  },
+  {
+    "id": 1,
+    "farsi": "شش ماه پیش تصمیم گرفتم از تهران به اصفهان نقل مکان کنم.",
+    "latin": "Shesh māh pīsh tasmīm gereftam az Tehrān be Esfahān naghl-e makān konam.",
+    "germanDecode": "Sechs Monate vorher Entscheidung nahm-ich aus Tehran nach Isfahan Umzug-von Ort mache-ich.",
+    "germanTranslation": "Vor sechs Monaten entschied ich mich, von Teheran nach Isfahan umzuziehen.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 2,
+    "farsi": "دلیلش این بود که شرکت جدیدی در اصفهان به من کار داده بود.",
+    "latin": "Dalīlash īn būd ke sherkat-e jadīdī dar Esfahān be man kār dāde būd.",
+    "germanDecode": "Grund-es dies war-es dass Firma-von neue in Isfahan zu mir Arbeit gegeben hatte-sie.",
+    "germanTranslation": "Der Grund war, dass eine neue Firma in Isfahan mir Arbeit gegeben hatte.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 3,
+    "farsi": "اول فکر می‌کردم کار آسانی است اما اشتباه می‌کردم.",
+    "latin": "Avval fekr mikarddam kār-e āsānī ast ammā eshtebāh mikarddam.",
+    "germanDecode": "Zuerst Gedanke machte-ich Arbeit-von leicht ist aber Fehler machte-ich.",
+    "germanTranslation": "Zuerst dachte ich, es sei eine leichte Sache, aber ich irrte mich.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 4,
+    "farsi": "باید همه چیز را جمع می‌کردم و بسته‌بندی می‌کردم.",
+    "latin": "Bāyad hame chīz rā jam' mikarddam va baste-bandī mikarddam.",
+    "germanDecode": "Muss alle Ding D.O. sammeln machte-ich und Verpackung machte-ich.",
+    "germanTranslation": "Ich musste alles sammeln und verpacken.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 5,
+    "farsi": "شرکت باربری گرفتم تا وسایل را انتقال دهد.",
+    "latin": "Sherkat-e bārbarī gereftam tā vasāyel rā entegāl dahad.",
+    "germanDecode": "Firma-von Transport nahm-ich damit Sachen D.O. Übertragung gebe-sie.",
+    "germanTranslation": "Ich beauftragte eine Transportfirma, um die Sachen zu transportieren.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 6,
+    "farsi": "روز اول در اصفهان خیلی تنها احساس کردم.",
+    "latin": "Rūz-e avval dar Esfahān kheylī tanhā ehsās kardam.",
+    "germanDecode": "Tag-von erste in Isfahan sehr allein Gefühl machte-ich.",
+    "germanTranslation": "Am ersten Tag in Isfahan fühlte ich mich sehr einsam.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 7,
+    "farsi": "همه چیز برایم غریبه بود و دوست نداشتم.",
+    "latin": "Hame chīz barāyam gharībe būd va dūst nadāshtam.",
+    "germanDecode": "Alle Ding für-mich fremd war-es und lieb nicht-hatte-ich.",
+    "germanTranslation": "Alles war mir fremd und ich mochte es nicht.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 8,
+    "farsi": "کم کم با همسایگان آشنا شدم و دوست شدیم.",
+    "latin": "Kam kam bā hamsāyegān āshnā shodam va dūst shodīm.",
+    "germanDecode": "Wenig wenig mit Nachbarn bekannt wurde-ich und Freund wurden-wir.",
+    "germanTranslation": "Nach und nach lernte ich die Nachbarn kennen und wir wurden Freunde.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 9,
+    "farsi": "آنها شهر را به من نشان دادند و کمکم کردند.",
+    "latin": "Ānhā shahr rā be man neshān dādand va komakam kardand.",
+    "germanDecode": "Sie Stadt D.O. zu mir Zeigen gaben-sie und Hilfe-mich machten-sie.",
+    "germanTranslation": "Sie zeigten mir die Stadt und halfen mir.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 10,
+    "farsi": "بازارها و مساجد زیبای اصفهان را دیدم.",
+    "latin": "Bāzārhā va masājed-e zībāye Esfahān rā dīdam.",
+    "germanDecode": "Basare und Moscheen-von schön-von Isfahan D.O. sah-ich.",
+    "germanTranslation": "Ich sah die Basare und schönen Moscheen von Isfahan.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 11,
+    "farsi": "حالا دیگر عاشق این شهر زیبا شده‌ام.",
+    "latin": "Hālā dīgar āshegh-e īn shahr-e zībā shodeam.",
+    "germanDecode": "Jetzt anders verliebt-von diese Stadt-von schön geworden-ich-bin.",
+    "germanTranslation": "Jetzt bin ich in diese schöne Stadt verliebt.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 12,
+    "farsi": "فهمیدم که تغییر گاهی چیز بدی نیست.",
+    "latin": "Fahmīdam ke taghyīr gāhī chīz-e badī nīst.",
+    "germanDecode": "Verstand-ich dass Veränderung manchmal Ding-von schlecht nicht-ist.",
+    "germanTranslation": "Ich verstand, dass Veränderung manchmal nichts Schlechtes ist.",
+    "lessonId": "a2-l7-moving",
+    "lessonTitle": "A2 Lektion 7: Umzug in eine neue Stadt"
+  },
+  {
+    "id": 1,
+    "farsi": "ماه پیش برادرم ازدواج کرد و جشن بزرگی گرفتیم.",
+    "latin": "Māh-e pīsh barādaram ezdevāj kard va jashn-e bozorgī gereftīm.",
+    "germanDecode": "Monat-von vorher Bruder-mein Heirat machte-er und Fest-von groß nahmen-wir.",
+    "germanTranslation": "Vor einem Monat heiratete mein Bruder und wir veranstalteten eine große Feier.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 2,
+    "farsi": "خانواده عروس و خانواده داماد همه آمده بودند.",
+    "latin": "Khānevāde-ye arūs va khānevāde-ye dāmād hame āmade būdand.",
+    "germanDecode": "Familie-von Braut und Familie-von Bräutigam alle gekommen waren-sie.",
+    "germanTranslation": "Die Familie der Braut und die Familie des Bräutigams waren alle gekommen.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 3,
+    "farsi": "مادرم سه روز قبل شروع به آشپزی کرده بود.",
+    "latin": "Mādaram seh rūz ghabl shorū' be āshpazī karde būd.",
+    "germanDecode": "Mutter-meine drei Tage vorher Beginn zu Kochen gemacht hatte-sie.",
+    "germanTranslation": "Meine Mutter hatte drei Tage zuvor angefangen zu kochen.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 4,
+    "farsi": "قرمه سبزی، کباب، و برنج با زعفران درست کرده بود.",
+    "latin": "Ghorme sabzī, kabāb, va berenj bā za'ferān dorost karde būd.",
+    "germanDecode": "Kräutereintopf, Kebab, und Reis mit Safran richtig gemacht hatte-sie.",
+    "germanTranslation": "Sie hatte Ghormeh Sabzi, Kebab und Reis mit Safran zubereitet.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 5,
+    "farsi": "عروس لباس سفید زیبایی پوشیده بود.",
+    "latin": "Arūs lebās-e sefīd-e zībāyī pūshīde būd.",
+    "germanDecode": "Braut Kleid-von weiß-von schön getragen hatte-sie.",
+    "germanTranslation": "Die Braut trug ein schönes weißes Kleid.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 6,
+    "farsi": "مراسم عقد در خانه ما برگزار شد.",
+    "latin": "Marāsem-e aghd dar khāne-ye mā bargozār shod.",
+    "germanDecode": "Zeremonie-von Ehevertrag in Haus-von uns abgehalten wurde-es.",
+    "germanTranslation": "Die Trauungszeremonie wurde in unserem Haus abgehalten.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 7,
+    "farsi": "آقای عاقد قرآن خواند و دعا کرد.",
+    "latin": "Āghāye āghed Ghor'ān khānd va do'ā kard.",
+    "germanDecode": "Herr-von Trauender Koran las-er und Gebet machte-er.",
+    "germanTranslation": "Der Trauungsbeamte las den Koran und betete.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 8,
+    "farsi": "همه مهمانان برای زوج جوان دعای خیر کردند.",
+    "latin": "Hame mehmānān barāye zowj-e javān do'āye khayr kardand.",
+    "germanDecode": "Alle Gäste für Paar-von jung Gebet-von gut machten-sie.",
+    "germanTranslation": "Alle Gäste beteten für das junge Paar.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 9,
+    "farsi": "شب موسیقی گذاشتیم و تا صبح رقصیدیم.",
+    "latin": "Shab mūsīqī gozāshtīm va tā sobh raghsīdīm.",
+    "germanDecode": "Nacht Musik legten-wir und bis Morgen tanzten-wir.",
+    "germanTranslation": "Abends legten wir Musik auf und tanzten bis zum Morgen.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 10,
+    "farsi": "بچه‌ها بازی می‌کردند و بزرگ‌ترها صحبت می‌کردند.",
+    "latin": "Bachehā bāzī mikardand va bozorg-tarhā sohbat mikardand.",
+    "germanDecode": "Kinder Spiel machten-sie und Größere-Plural Gespräch machten-sie.",
+    "germanTranslation": "Die Kinder spielten und die Erwachsenen unterhielten sich.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 11,
+    "farsi": "عکس‌های زیادی گرفتیم تا یادگار باشد.",
+    "latin": "Aks-hāye ziyādī gereftīm tā yādegār bāshad.",
+    "germanDecode": "Foto-von viele nahmen-wir damit Erinnerung sei-es.",
+    "germanTranslation": "Wir machten viele Fotos als Erinnerung.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 12,
+    "farsi": "شب خوبی بود و هنوز هم یادمان هست.",
+    "latin": "Shab-e khūbī būd va hanūz ham yādemān hast.",
+    "germanDecode": "Nacht-von gut war-es und noch auch Erinnerung-unser ist.",
+    "germanTranslation": "Es war ein schöner Abend und wir erinnern uns noch daran.",
+    "lessonId": "a2-l8-wedding",
+    "lessonTitle": "A2 Lektion 8: Eine Hochzeitsfeier"
+  },
+  {
+    "id": 1,
+    "farsi": "سال گذشته تصمیم گرفتم رانندگی یاد بگیرم.",
+    "latin": "Sāl-e gozashte tasmīm gereftam rānandagī yād begiram.",
+    "germanDecode": "Jahr-von vergangen Entscheidung nahm-ich Fahren Lernen nehme-ich.",
+    "germanTranslation": "Letztes Jahr entschied ich mich, Autofahren zu lernen.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  },
+  {
+    "id": 2,
+    "farsi": "تا آن زمان همیشه با اتوبوس یا مترو جابجا می‌شدم.",
+    "latin": "Tā ān zamān hamīshe bā otobūs yā metro jābe-jā mishoodam.",
+    "germanDecode": "Bis jene Zeit immer mit Bus oder Metro Ort-zu-Ort wurde-ich.",
+    "germanTranslation": "Bis zu der Zeit bewegte ich mich immer mit Bus oder Metro fort.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  },
+  {
+    "id": 3,
+    "farsi": "اما فهمیدم که ماشین داشتن خیلی مفید است.",
+    "latin": "Ammā fahmīdam ke māshīn dāshtan kheylī mofīd ast.",
+    "germanDecode": "Aber verstand-ich dass Auto Haben sehr nützlich ist.",
+    "germanTranslation": "Aber ich verstand, dass ein Auto zu haben sehr nützlich ist.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  },
+  {
+    "id": 4,
+    "farsi": "در آموزشگاه رانندگی ثبت‌نام کردم.",
+    "latin": "Dar āmūzeshgāh-e rānandagī sabt-nām kardam.",
+    "germanDecode": "In Schule-von Fahren Anmeldung machte-ich.",
+    "germanTranslation": "Ich meldete mich in einer Fahrschule an.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  },
+  {
+    "id": 5,
+    "farsi": "مربی من آقای احمدی بود که خیلی صبور و مهربان بود.",
+    "latin": "Morabī-ye man āghāye Ahmadī būd ke kheylī sabūr va mehrabān būd.",
+    "germanDecode": "Trainer-von mir Herr-von Ahmadi war-er der sehr geduldig und freundlich war-er.",
+    "germanTranslation": "Mein Trainer war Herr Ahmadi, der sehr geduldig und freundlich war.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  },
+  {
+    "id": 6,
+    "farsi": "اولین جلسه خیلی ترسیده بودم و دستم می‌لرزید.",
+    "latin": "Avvalīn jalase kheylī tarsīde būdam va dastam mīlarzīd.",
+    "germanDecode": "Erste Sitzung sehr gefürchtet hatte-ich und Hand-meine zitterte-sie.",
+    "germanTranslation": "In der ersten Stunde hatte ich große Angst und meine Hand zitterte.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  },
+  {
+    "id": 7,
+    "farsi": "کم کم یاد گرفتم و اعتماد به نفسم بیشتر شد.",
+    "latin": "Kam kam yād gereftam va e'temād be nafsam bīshtar shod.",
+    "germanDecode": "Wenig wenig Lernen nahm-ich und Vertrauen zu Selbst-mein mehr wurde-es.",
+    "germanTranslation": "Nach und nach lernte ich und mein Selbstvertrauen wurde größer.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  },
+  {
+    "id": 8,
+    "farsi": "بعد از دو ماه تمرین، برای امتحان آماده شدم.",
+    "latin": "Ba'd az do māh tamrīn, barāye emtehān āmāde shodam.",
+    "germanDecode": "Nach von zwei Monat Übung, für Prüfung bereit wurde-ich.",
+    "germanTranslation": "Nach zwei Monaten Übung war ich für die Prüfung bereit.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  },
+  {
+    "id": 9,
+    "farsi": "روز امتحان نگران بودم اما تمام تلاشم را کردم.",
+    "latin": "Rūz-e emtehān nagarān būdam ammā tamām-e talāsham rā kardam.",
+    "germanDecode": "Tag-von Prüfung besorgt war-ich aber ganz-von Anstrengung-meine D.O. machte-ich.",
+    "germanTranslation": "Am Prüfungstag war ich besorgt, aber ich gab mein Bestes.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  },
+  {
+    "id": 10,
+    "farsi": "خوشبختانه امتحان را با موفقیت گذراندم.",
+    "latin": "Khoshbakhtāne emtehān rā bā mowaffaghīyat gozarāndam.",
+    "germanDecode": "Glücklicherweise Prüfung D.O. mit Erfolg verbrachte-ich.",
+    "germanTranslation": "Glücklicherweise bestand ich die Prüfung erfolgreich.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  },
+  {
+    "id": 11,
+    "farsi": "حالا گواهینامه دارم و ماشین کوچکی خریدم.",
+    "latin": "Hālā gavāhīnāme dāram va māshīn-e kūchakī kharīdam.",
+    "germanDecode": "Jetzt Führerschein habe-ich und Auto-von klein kaufte-ich.",
+    "germanTranslation": "Jetzt habe ich einen Führerschein und kaufte ein kleines Auto.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  },
+  {
+    "id": 12,
+    "farsi": "فهمیدم که هیچ وقت خیلی دیر نیست تا چیز جدید یاد بگیریم.",
+    "latin": "Fahmīdam ke hīch vaght kheylī dīr nīst tā chīz-e jadīd yād begīrīm.",
+    "germanDecode": "Verstand-ich dass keine Zeit sehr spät nicht-ist damit Ding-von neu Lernen nehmen-wir.",
+    "germanTranslation": "Ich verstand, dass es nie zu spät ist, etwas Neues zu lernen.",
+    "lessonId": "a2-l9-learning",
+    "lessonTitle": "A2 Lektion 9: Eine Lernerfahrung"
+  }
+]

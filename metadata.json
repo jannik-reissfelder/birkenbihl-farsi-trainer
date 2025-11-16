@@ -1,0 +1,7 @@
+{
+  "name": "Birkenbihl Farsi Trainer",
+  "description": "A modern language learning app to learn Farsi for German speakers using the Vera Birkenbihl method. It focuses on intuitive understanding and speaking through de-coding and active listening.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

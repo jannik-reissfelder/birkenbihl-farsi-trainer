@@ -1,0 +1,12 @@
+{
+  "id": "a1-l7",
+  "title": "Lektion 7: Zeit und Kalender",
+  "description": "Grundlagen zu Zeitangaben und Wochentagen.",
+  "sentences": [
+    { "id": 1, "farsi": "یک سال دوازده ماه است.", "latin": "Yek sāl davāzdah māh ast.", "germanDecode": "Ein Jahr zwölf Monat ist.", "germanTranslation": "Ein Jahr hat zwölf Monate." },
+    { "id": 2, "farsi": "امروز سه‌شنبه است.", "latin": "Emrooz se-shanbe ast.", "germanDecode": "Heute Dienstag ist.", "germanTranslation": "Heute ist Dienstag." },
+    { "id": 3, "farsi": "یک ساعت شصت دقیقه دارد.", "latin": "Yek sā'at shast daqiqe dārad.", "germanDecode": "Eine Stunde sechzig Minute hat-es.", "germanTranslation": "Eine Stunde hat sechzig Minuten." },
+    { "id": 4, "farsi": "ساعت هفت و سی دقیقه است.", "latin": "Sā'at-e haft o si daqiqe ast.", "germanDecode": "Stunde-von sieben und dreißig Minute ist.", "germanTranslation": "Es ist sieben Uhr dreißig." },
+    { "id": 5, "farsi": "دیروز خوب بود، امروز بد است.", "latin": "Dīrooz khūb būd, emrooz bad ast.", "germanDecode": "Gestern gut war, heute schlecht ist.", "germanTranslation": "Gestern war es gut, heute ist es schlecht." }
+  ]
+}

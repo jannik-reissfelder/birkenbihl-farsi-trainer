@@ -1,0 +1,19 @@
+{
+  "id": "a2-l7-moving",
+  "title": "A2 Lektion 7: Umzug in eine neue Stadt",
+  "description": "Eine Erzählung über einen Umzug und die Anpassung an ein neues Leben.",
+  "sentences": [
+    { "id": 1, "farsi": "شش ماه پیش تصمیم گرفتم از تهران به اصفهان نقل مکان کنم.", "latin": "Shesh māh pīsh tasmīm gereftam az Tehrān be Esfahān naghl-e makān konam.", "germanDecode": "Sechs Monate vorher Entscheidung nahm-ich aus Tehran nach Isfahan Umzug-von Ort mache-ich.", "germanTranslation": "Vor sechs Monaten entschied ich mich, von Teheran nach Isfahan umzuziehen." },
+    { "id": 2, "farsi": "دلیلش این بود که شرکت جدیدی در اصفهان به من کار داده بود.", "latin": "Dalīlash īn būd ke sherkat-e jadīdī dar Esfahān be man kār dāde būd.", "germanDecode": "Grund-es dies war-es dass Firma-von neue in Isfahan zu mir Arbeit gegeben hatte-sie.", "germanTranslation": "Der Grund war, dass eine neue Firma in Isfahan mir Arbeit gegeben hatte." },
+    { "id": 3, "farsi": "اول فکر می‌کردم کار آسانی است اما اشتباه می‌کردم.", "latin": "Avval fekr mikarddam kār-e āsānī ast ammā eshtebāh mikarddam.", "germanDecode": "Zuerst Gedanke machte-ich Arbeit-von leicht ist aber Fehler machte-ich.", "germanTranslation": "Zuerst dachte ich, es sei eine leichte Sache, aber ich irrte mich." },
+    { "id": 4, "farsi": "باید همه چیز را جمع می‌کردم و بسته‌بندی می‌کردم.", "latin": "Bāyad hame chīz rā jam' mikarddam va baste-bandī mikarddam.", "germanDecode": "Muss alle Ding D.O. sammeln machte-ich und Verpackung machte-ich.", "germanTranslation": "Ich musste alles sammeln und verpacken." },
+    { "id": 5, "farsi": "شرکت باربری گرفتم تا وسایل را انتقال دهد.", "latin": "Sherkat-e bārbarī gereftam tā vasāyel rā entegāl dahad.", "germanDecode": "Firma-von Transport nahm-ich damit Sachen D.O. Übertragung gebe-sie.", "germanTranslation": "Ich beauftragte eine Transportfirma, um die Sachen zu transportieren." },
+    { "id": 6, "farsi": "روز اول در اصفهان خیلی تنها احساس کردم.", "latin": "Rūz-e avval dar Esfahān kheylī tanhā ehsās kardam.", "germanDecode": "Tag-von erste in Isfahan sehr allein Gefühl machte-ich.", "germanTranslation": "Am ersten Tag in Isfahan fühlte ich mich sehr einsam." },
+    { "id": 7, "farsi": "همه چیز برایم غریبه بود و دوست نداشتم.", "latin": "Hame chīz barāyam gharībe būd va dūst nadāshtam.", "germanDecode": "Alle Ding für-mich fremd war-es und lieb nicht-hatte-ich.", "germanTranslation": "Alles war mir fremd und ich mochte es nicht." },
+    { "id": 8, "farsi": "کم کم با همسایگان آشنا شدم و دوست شدیم.", "latin": "Kam kam bā hamsāyegān āshnā shodam va dūst shodīm.", "germanDecode": "Wenig wenig mit Nachbarn bekannt wurde-ich und Freund wurden-wir.", "germanTranslation": "Nach und nach lernte ich die Nachbarn kennen und wir wurden Freunde." },
+    { "id": 9, "farsi": "آنها شهر را به من نشان دادند و کمکم کردند.", "latin": "Ānhā shahr rā be man neshān dādand va komakam kardand.", "germanDecode": "Sie Stadt D.O. zu mir Zeigen gaben-sie und Hilfe-mich machten-sie.", "germanTranslation": "Sie zeigten mir die Stadt und halfen mir." },
+    { "id": 10, "farsi": "بازارها و مساجد زیبای اصفهان را دیدم.", "latin": "Bāzārhā va masājed-e zībāye Esfahān rā dīdam.", "germanDecode": "Basare und Moscheen-von schön-von Isfahan D.O. sah-ich.", "germanTranslation": "Ich sah die Basare und schönen Moscheen von Isfahan." },
+    { "id": 11, "farsi": "حالا دیگر عاشق این شهر زیبا شده‌ام.", "latin": "Hālā dīgar āshegh-e īn shahr-e zībā shodeam.", "germanDecode": "Jetzt anders verliebt-von diese Stadt-von schön geworden-ich-bin.", "germanTranslation": "Jetzt bin ich in diese schöne Stadt verliebt." },
+    { "id": 12, "farsi": "فهمیدم که تغییر گاهی چیز بدی نیست.", "latin": "Fahmīdam ke taghyīr gāhī chīz-e badī nīst.", "germanDecode": "Verstand-ich dass Veränderung manchmal Ding-von schlecht nicht-ist.", "germanTranslation": "Ich verstand, dass Veränderung manchmal nichts Schlechtes ist." }
+  ]
+}

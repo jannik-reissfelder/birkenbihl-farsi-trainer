@@ -1,0 +1,19 @@
+{
+  "id": "a2-l3-travel-story",
+  "title": "A2 Lektion 3: Eine Reiseerfahrung",
+  "description": "Eine zusammenhängende Reiseerzählung mit verschiedenen Vergangenheitsformen.",
+  "sentences": [
+    { "id": 1, "farsi": "پارسال تابستان تصمیم گرفتم به شمال ایران سفر کنم.", "latin": "Pārsāl tābestān tasmīm gereftam be shomāl-e Īrān safar konam.", "germanDecode": "Letztes-Jahr Sommer Entscheidung nahm-ich zu Norden-von Iran Reise mache-ich.", "germanTranslation": "Letzten Sommer entschied ich mich, in den Norden des Iran zu reisen." },
+    { "id": 2, "farsi": "یک هفته قبل از سفر، بلیط قطار خریدم.", "latin": "Yek hafte ghabl az safar, belīt-e ghatār kharīdam.", "germanDecode": "Eine Woche vor von Reise, Ticket-von Zug kaufte-ich.", "germanTranslation": "Eine Woche vor der Reise kaufte ich ein Zugticket." },
+    { "id": 3, "farsi": "روز سفر صبح زود از تهران حرکت کردم.", "latin": "Rūz-e safar sobh zūd az Tehrān harakat kardam.", "germanDecode": "Tag-von Reise Morgen früh aus Tehran Bewegung machte-ich.", "germanTranslation": "Am Reisetag fuhr ich früh morgens von Teheran ab." },
+    { "id": 4, "farsi": "در قطار کنار پنجره نشستم و مناظر زیبا را تماشا کردم.", "latin": "Dar ghatār kenār-e panjere nashestam va manāzer-e zībā rā tamāshā kardam.", "germanDecode": "In Zug neben-von Fenster setzte-ich-mich und Landschaften-von schön D.O. Schauen machte-ich.", "germanTranslation": "Im Zug setzte ich mich ans Fenster und schaute die schönen Landschaften an." },
+    { "id": 5, "farsi": "بعد از سه ساعت به شهر زیبای رشت رسیدم.", "latin": "Ba'd az seh sā'at be shahr-e zībāye Rasht resīdam.", "germanDecode": "Nach von drei Stunde zu Stadt-von schön-von Rasht erreichte-ich.", "germanTranslation": "Nach drei Stunden erreichte ich die schöne Stadt Rasht." },
+    { "id": 6, "farsi": "در هتل کوچکی اتاق گرفتم که نزدیک بازار بود.", "latin": "Dar hotel-e kūchakī otāgh gereftam ke nazdīk-e bāzār būd.", "germanDecode": "In Hotel-von klein Zimmer nahm-ich dass nah-von Basar war-es.", "germanTranslation": "Ich nahm ein Zimmer in einem kleinen Hotel, das in der Nähe des Basars war." },
+    { "id": 7, "farsi": "اولین روز در جنگل‌های شمال قدم زدم.", "latin": "Avvalīn rūz dar jangal-hāye shomāl ghadam zadam.", "germanDecode": "Erste Tag in Wälder-von Norden Schritt schlug-ich.", "germanTranslation": "Am ersten Tag spazierte ich in den nördlichen Wäldern." },
+    { "id": 8, "farsi": "هوا خنک و دلپذیر بود و من آرامش کردم.", "latin": "Havā khonak va delpazīr būd va man ārāmesh kardam.", "germanDecode": "Wetter kühl und angenehm war-es und ich Ruhe machte-ich.", "germanTranslation": "Das Wetter war kühl und angenehm und ich entspannte mich." },
+    { "id": 9, "farsi": "شب در رستورانی غذای محلی خوردم.", "latin": "Shab dar restūrānī ghazā-ye mahallī khordam.", "germanDecode": "Nacht in Restaurant-einem Essen-von örtlich aß-ich.", "germanTranslation": "Abends aß ich in einem Restaurant lokales Essen." },
+    { "id": 10, "farsi": "کباب ماهی و برنج با سبزی خیلی خوشمزه بود.", "latin": "Kabāb-e māhī va berenj bā sabzī kheylī khoshmaze būd.", "germanDecode": "Kebab-von Fisch und Reis mit Gemüse sehr lecker war-es.", "germanTranslation": "Der Fischkebab und Reis mit Gemüse war sehr lecker." },
+    { "id": 11, "farsi": "سه روز در آنجا ماندم و خاطرات خوبی ساختم.", "latin": "Seh rūz dar ānjā māndam va khāterāt-e khūbī sākhtam.", "germanDecode": "Drei Tage in dort blieb-ich und Erinnerungen-von gute machte-ich.", "germanTranslation": "Ich blieb drei Tage dort und machte gute Erinnerungen." },
+    { "id": 12, "farsi": "هنوز هم آن سفر را به یاد دارم و دوست دارم دوباره بروم.", "latin": "Hanūz ham ān safar rā be yād dāram va dūst dāram dobāre beravam.", "germanDecode": "Noch auch jene Reise D.O. zu Erinnerung habe-ich und lieb habe-ich wieder gehe-ich.", "germanTranslation": "Ich erinnere mich noch an jene Reise und möchte gerne wieder hinfahren." }
+  ]
+}

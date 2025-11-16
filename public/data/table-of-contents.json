@@ -1,0 +1,214 @@
+[
+  {
+    "id": "a1",
+    "title": "A1 - Anfänger",
+    "description": "Grundlagen der persischen Sprache, Begrüßungen und einfache Sätze.",
+    "lessons": [
+      {
+        "id": "a1-l1",
+        "title": "Lektion 1: Begrüßungen",
+        "description": "Verb \"sein\" (ist/sind), Personalpronomina in einfachen Nennsätzen."
+      },
+      {
+        "id": "a1-l2",
+        "title": "Lektion 2: Herkunft & Identität",
+        "description": "Verb \"sein\" (hastam/bin), Präpositionen (von, aus)."
+      },
+      {
+        "id": "a1-l3",
+        "title": "Lektion 3: Familie und Beruf",
+        "description": "Verb \"haben\" (darad/hat), Substantive im Plural."
+      },
+      {
+        "id": "a1-l4",
+        "title": "Lektion 4: Zahlen und Zeit",
+        "description": "Einfache Verben in der Gegenwartsform, Fragesätze."
+      },
+      {
+        "id": "a1-l5",
+        "title": "Lektion 5: Im Restaurant",
+        "description": "Wunschäußerungen (mikham/ich will), einfache Bitten, Präteritum (bood/war)."
+      },
+      {
+        "id": "a1-l6",
+        "title": "Lektion 6: Freizeit & Hobbys",
+        "description": "Erste einfache Trennung von Subjekt/Objekt/Verb zur Festigung der SOV-Regel."
+      },
+      {
+        "id": "a1-l6-verbs",
+        "title": "Essentielle Verben Teil 1",
+        "description": "Lerne die wichtigsten Verben der persischen Sprache."
+      },
+      {
+        "id": "a1-l6-verbs2",
+        "title": "Essentielle Verben Teil 2",
+        "description": "Vertiefe dein Wissen über die wichtigsten Verben der persischen Sprache."
+      },
+      {
+        "id": "a1-l6-verbs3",
+        "title": "Essentielle Verben Teil 3",
+        "description": "Fokus auf das Modalverb 'können' (tavānestan) und weitere wichtige Verben."
+      },
+      {
+        "id": "a1-l7",
+        "title": "Lektion 7: Zeit und Kalender",
+        "description": "Grundlagen zu Zeitangaben und Wochentagen."
+      },
+      {
+        "id": "a1-l8",
+        "title": "Lektion 8: Morgenroutine",
+        "description": "Verben und Vokabular rund um den Start in den Tag."
+      },
+      {
+        "id": "a1-l9",
+        "title": "Lektion 9: Tägliche Aktivitäten",
+        "description": "Beschreibe alltägliche Handlungen und Aufgaben."
+      },
+      {
+        "id": "a1-l10",
+        "title": "Lektion 10: Im Haus",
+        "description": "Vokabular für Möbel und Räume im Haus."
+      },
+      {
+        "id": "a1-l11",
+        "title": "Lektion 11: Küche und Bad",
+        "description": "Gegenstände und Handlungen in Küche und Bad."
+      },
+      {
+        "id": "a1-l12",
+        "title": "Lektion 12: Lebensmittel",
+        "description": "Grundwortschatz für Obst, Gemüse und Getränke."
+      },
+      {
+        "id": "a1-l13",
+        "title": "Lektion 13: Beschreibungen (Adjektive)",
+        "description": "Einfache Adjektive zur Beschreibung von Dingen."
+      },
+      {
+        "id": "a1-l14",
+        "title": "Lektion 14: Gefühle und Zustände",
+        "description": "Ausdrücken von Gefühlen und Beschreiben von Zuständen."
+      },
+      {
+        "id": "a1-l15",
+        "title": "Lektion 15: Orte und Präpositionen",
+        "description": "Einfache Präpositionen zur Angabe von Orten."
+      },
+      {
+        "id": "a1-l16",
+        "title": "Lektion 16: Verbindungen und Vergleiche",
+        "description": "Sätze mit Konjunktionen wie 'und', 'aber' verbinden."
+      },
+      {
+        "id": "a1-l17",
+        "title": "Lektion 17: Tagesablauf und Ereignisse",
+        "description": "Beschreiben von Ereignissen zu bestimmten Tageszeiten."
+      }
+    ]
+  },
+  {
+    "id": "a2",
+    "title": "A2 - Grundlegende Kenntnisse",
+    "description": "Erweitere deinen Wortschatz und bilde komplexere Sätze.",
+    "lessons": [
+      {
+        "id": "a2-l1-yesterday",
+        "title": "A2 Lektion 1: Gestern - Eine Tagesroutine in der Vergangenheit",
+        "description": "Eine zusammenhängende Erzählung über einen vergangenen Tag mit einfacher Vergangenheit."
+      },
+      {
+        "id": "a2-l2-childhood",
+        "title": "A2 Lektion 2: Kindheitserinnerungen",
+        "description": "Eine Erzählung über die Kindheit mit Vergangenheitsformen und Gewohnheiten."
+      },
+      {
+        "id": "a2-l3-travel-story",
+        "title": "A2 Lektion 3: Eine Reiseerfahrung",
+        "description": "Eine zusammenhängende Reiseerzählung mit verschiedenen Vergangenheitsformen."
+      },
+      {
+        "id": "a2-l4-job-change",
+        "title": "A2 Lektion 4: Berufswechsel",
+        "description": "Eine Erzählung über einen Arbeitsplatzwechsel und neue Erfahrungen."
+      },
+      {
+        "id": "a2-l5-health-incident",
+        "title": "A2 Lektion 5: Ein Gesundheitsproblem",
+        "description": "Eine Erzählung über einen Arztbesuch und Gesundheitsprobleme."
+      },
+      {
+        "id": "a2-l6-new-friend",
+        "title": "A2 Lektion 6: Eine neue Freundschaft",
+        "description": "Eine Erzählung über das Kennenlernen neuer Menschen und Freundschaft schließen."
+      },
+      {
+        "id": "a2-l7-moving",
+        "title": "A2 Lektion 7: Umzug in eine neue Stadt",
+        "description": "Eine Erzählung über einen Umzug und die Anpassung an ein neues Leben."
+      },
+      {
+        "id": "a2-l8-wedding",
+        "title": "A2 Lektion 8: Eine Hochzeitsfeier",
+        "description": "Eine Erzählung über eine Familienfeier und persische Traditionen."
+      },
+      {
+        "id": "a2-l9-learning",
+        "title": "A2 Lektion 9: Eine Lernerfahrung",
+        "description": "Eine Erzählung über das Erlernen einer neuen Fähigkeit und persönliche Entwicklung."
+      },
+      {
+        "id": "a2-l10-vacation",
+        "title": "A2 Lektion 10: Ferien am Kaspischen Meer",
+        "description": "Eine Erzählung über Urlaubserlebnisse und Naturerfahrungen."
+      },
+      {
+        "id": "a2-l11-cooking",
+        "title": "A2 Lektion 11: Kochen lernen von der Großmutter",
+        "description": "Eine Erzählung über das Erlernen traditioneller Rezepte und Familientraditionen."
+      },
+      {
+        "id": "a2-l12-tech-problem",
+        "title": "A2 Lektion 12: Ein Computerproblem",
+        "description": "Eine Erzählung über Technikprobleme und deren Lösung."
+      },
+      {
+        "id": "a2-l13-shopping",
+        "title": "A2 Lektion 13: Einkaufen für ein Fest",
+        "description": "Eine Erzählung über Einkaufen und Vorbereitungen für eine besondere Gelegenheit."
+      },
+      {
+        "id": "a2-l14-missed-opportunity",
+        "title": "A2 Lektion 14: Eine verpasste Gelegenheit",
+        "description": "Eine Erzählung über eine verpasste Chance und daraus gelernte Lektionen."
+      },
+      {
+        "id": "a2-l15-nowruz",
+        "title": "A2 Lektion 15: Das Nowruz-Fest",
+        "description": "Eine Erzählung über das persische Neujahr und kulturelle Traditionen."
+      },
+      {
+        "id": "a2-l16-review",
+        "title": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen",
+        "description": "Eine umfassende Wiederholungslektion mit verschiedenen Vergangenheitsformen und Erzählstrukturen."
+      }
+    ]
+  },
+  {
+    "id": "b1",
+    "title": "B1 - Mittelstufe",
+    "description": "Coming Soon: Drücke Meinungen aus und verstehe Hauptpunkte in Gesprächen.",
+    "lessons": []
+  },
+  {
+    "id": "b2",
+    "title": "B2 - Gute Mittelstufe",
+    "description": "Coming Soon: Führe fließende Gespräche und verstehe komplexe Texte.",
+    "lessons": []
+  },
+  {
+    "id": "c1",
+    "title": "C1 - Fortgeschrittene Kenntnisse",
+    "description": "Coming Soon: Drücke dich spontan und fließend aus.",
+    "lessons": []
+  }
+]

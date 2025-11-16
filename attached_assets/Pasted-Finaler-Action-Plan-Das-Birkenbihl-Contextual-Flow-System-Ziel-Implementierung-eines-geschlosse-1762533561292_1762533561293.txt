@@ -1,0 +1,18 @@
+Finaler Action Plan: Das "Birkenbihl Contextual Flow" System
+Ziel: Implementierung eines geschlossenen Lernkreislaufs, der passiv gelerntes Vokabular (Birkenbihl-Methode) durch gezielte, kontextbasierte Abruf-Übungen (CRE) in die aktive, spontane Sprachproduktion (KI-Dialog) überführt.
+Phase 1: Vokabel-Sammlung (Unverändert, aber präzisiert)
+Kontext-Bindung: Nutzer können Wörter und Phrasen weiterhin ausschließlich im De-kodier-Modus markieren.
+Karten-Generierung: Jedes markierte Element erstellt eine "Karte" in der neuen Contextual Retrieval Engine (CRE). Diese Karte ist untrennbar mit dem Ursprungssatz verbunden. Der Status wird initial auf New gesetzt.
+Phase 2: Die Contextual Retrieval Engine (CRE)
+Neues Kernfeature: Der "Wortschatz-Tresor" wird zur Contextual Retrieval Engine (CRE), einer intelligenten SRS-Plattform.
+Karten-Lebenszyklus: Jede Karte durchläuft klar definierte Phasen:
+New: Wird in kurzen Intervallen aggressiv wiederholt.
+Known: Die Wiederholungsintervalle werden nach erfolgreichem Abruf exponentiell vergrößert (Spaced Repetition).
+Graduated: Nach mehrmaligem, korrektem Abruf aus dem Langzeitgedächtnis gilt das Wort als "verankert". Es wird aus der aktiven SRS-Abfrage entfernt und in die neue "Aktive Queue" verschoben.
+Abfrageformat: Die Abfrage bleibt kontextbasiert (Lückentext im Ursprungssatz), um isoliertes Pauken zu verhindern.
+Phase 3: Der Aktive Produktions-Kreislauf (Das entscheidende Upgrade)
+Die "Aktive Queue": Dies ist eine neue, unsichtbare Liste, die alle Graduated-Wörter und -Phrasen enthält. Sie ist der Pool an Vokabular, das der Nutzer jetzt aktiv anwenden soll.
+Dynamische KI-Konversation: Die "Dialog-Übung" (ChatView) wird fundamental erweitert. Vor Beginn einer Konversation:
+Das System liest die Wörter aus der "Aktiven Queue" des Nutzers aus.
+Es modifiziert dynamisch den System-Prompt für die KI mit der Anweisung: "Führe ein natürliches Gespräch, aber stelle sicher, dass du die folgenden Wörter/Phrasen aktiv verwendest: [Liste der Wörter aus der Aktiven Queue]".
+Dies schließt den Kreislauf: Ein Wort wird gelernt, im Kontext geübt, verankert und sofort in einer spontanen Konversation angewendet.

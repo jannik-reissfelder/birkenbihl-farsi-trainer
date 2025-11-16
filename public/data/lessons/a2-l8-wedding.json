@@ -1,0 +1,19 @@
+{
+  "id": "a2-l8-wedding",
+  "title": "A2 Lektion 8: Eine Hochzeitsfeier",
+  "description": "Eine Erzählung über eine Familienfeier und persische Traditionen.",
+  "sentences": [
+    { "id": 1, "farsi": "ماه پیش برادرم ازدواج کرد و جشن بزرگی گرفتیم.", "latin": "Māh-e pīsh barādaram ezdevāj kard va jashn-e bozorgī gereftīm.", "germanDecode": "Monat-von vorher Bruder-mein Heirat machte-er und Fest-von groß nahmen-wir.", "germanTranslation": "Vor einem Monat heiratete mein Bruder und wir veranstalteten eine große Feier." },
+    { "id": 2, "farsi": "خانواده عروس و خانواده داماد همه آمده بودند.", "latin": "Khānevāde-ye arūs va khānevāde-ye dāmād hame āmade būdand.", "germanDecode": "Familie-von Braut und Familie-von Bräutigam alle gekommen waren-sie.", "germanTranslation": "Die Familie der Braut und die Familie des Bräutigams waren alle gekommen." },
+    { "id": 3, "farsi": "مادرم سه روز قبل شروع به آشپزی کرده بود.", "latin": "Mādaram seh rūz ghabl shorū' be āshpazī karde būd.", "germanDecode": "Mutter-meine drei Tage vorher Beginn zu Kochen gemacht hatte-sie.", "germanTranslation": "Meine Mutter hatte drei Tage zuvor angefangen zu kochen." },
+    { "id": 4, "farsi": "قرمه سبزی، کباب، و برنج با زعفران درست کرده بود.", "latin": "Ghorme sabzī, kabāb, va berenj bā za'ferān dorost karde būd.", "germanDecode": "Kräutereintopf, Kebab, und Reis mit Safran richtig gemacht hatte-sie.", "germanTranslation": "Sie hatte Ghormeh Sabzi, Kebab und Reis mit Safran zubereitet." },
+    { "id": 5, "farsi": "عروس لباس سفید زیبایی پوشیده بود.", "latin": "Arūs lebās-e sefīd-e zībāyī pūshīde būd.", "germanDecode": "Braut Kleid-von weiß-von schön getragen hatte-sie.", "germanTranslation": "Die Braut trug ein schönes weißes Kleid." },
+    { "id": 6, "farsi": "مراسم عقد در خانه ما برگزار شد.", "latin": "Marāsem-e aghd dar khāne-ye mā bargozār shod.", "germanDecode": "Zeremonie-von Ehevertrag in Haus-von uns abgehalten wurde-es.", "germanTranslation": "Die Trauungszeremonie wurde in unserem Haus abgehalten." },
+    { "id": 7, "farsi": "آقای عاقد قرآن خواند و دعا کرد.", "latin": "Āghāye āghed Ghor'ān khānd va do'ā kard.", "germanDecode": "Herr-von Trauender Koran las-er und Gebet machte-er.", "germanTranslation": "Der Trauungsbeamte las den Koran und betete." },
+    { "id": 8, "farsi": "همه مهمانان برای زوج جوان دعای خیر کردند.", "latin": "Hame mehmānān barāye zowj-e javān do'āye khayr kardand.", "germanDecode": "Alle Gäste für Paar-von jung Gebet-von gut machten-sie.", "germanTranslation": "Alle Gäste beteten für das junge Paar." },
+    { "id": 9, "farsi": "شب موسیقی گذاشتیم و تا صبح رقصیدیم.", "latin": "Shab mūsīqī gozāshtīm va tā sobh raghsīdīm.", "germanDecode": "Nacht Musik legten-wir und bis Morgen tanzten-wir.", "germanTranslation": "Abends legten wir Musik auf und tanzten bis zum Morgen." },
+    { "id": 10, "farsi": "بچه‌ها بازی می‌کردند و بزرگ‌ترها صحبت می‌کردند.", "latin": "Bachehā bāzī mikardand va bozorg-tarhā sohbat mikardand.", "germanDecode": "Kinder Spiel machten-sie und Größere-Plural Gespräch machten-sie.", "germanTranslation": "Die Kinder spielten und die Erwachsenen unterhielten sich." },
+    { "id": 11, "farsi": "عکس‌های زیادی گرفتیم تا یادگار باشد.", "latin": "Aks-hāye ziyādī gereftīm tā yādegār bāshad.", "germanDecode": "Foto-von viele nahmen-wir damit Erinnerung sei-es.", "germanTranslation": "Wir machten viele Fotos als Erinnerung." },
+    { "id": 12, "farsi": "شب خوبی بود و هنوز هم یادمان هست.", "latin": "Shab-e khūbī būd va hanūz ham yādemān hast.", "germanDecode": "Nacht-von gut war-es und noch auch Erinnerung-unser ist.", "germanTranslation": "Es war ein schöner Abend und wir erinnern uns noch daran." }
+  ]
+}

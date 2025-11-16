@@ -1,0 +1,11 @@
+
+{
+  "id": "a1-l10",
+  "title": "Lektion 10: Im Haus",
+  "description": "Vokabular für Möbel und Räume im Haus.",
+  "sentences": [
+    { "id": 1, "farsi": "خانه اتاق‌های زیادی دارد.", "latin": "Khāne otāgh-hāye ziyādi dārad.", "germanDecode": "Haus Zimmer-PL-die viele hat-es.", "germanTranslation": "Das Haus hat viele Zimmer." },
+    { "id": 2, "farsi": "مبل در اتاق نشیمن است.", "latin": "Mobl dar otāgh-e neshiman ast.", "germanDecode": "Sofa in Zimmer-von sitzen ist.", "germanTranslation": "Das Sofa ist im Wohnzimmer." },
+    { "id": 3, "farsi": "من فرش را دوست دارم.", "latin": "Man farsh rā dūst dāram.", "germanDecode": "Ich Teppich D.O. Freund habe-ich.", "germanTranslation": "Ich mag den Teppich." }
+  ]
+}

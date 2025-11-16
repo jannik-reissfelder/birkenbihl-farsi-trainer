@@ -1,0 +1,15 @@
+
+{
+  "id": "a1-l6-verbs2",
+  "title": "Essentielle Verben Teil 2",
+  "description": "Vertiefe dein Wissen über die wichtigsten Verben der persischen Sprache.",
+  "sentences": [
+    { "id": 1, "farsi": "ما به خانه می‌آییم.", "latin": "Mā be khāne miāyīm.", "germanDecode": "Wir zum Haus kommen-wir.", "germanTranslation": "Wir kommen nach Hause." },
+    { "id": 2, "farsi": "او با من صحبت می‌کند.", "latin": "Ū bā man sohbat mikonad.", "germanDecode": "er mit mir Gespräch macht-er.", "germanTranslation": "Er spricht mit mir." },
+    { "id": 3, "farsi": "من این را به او می‌دهم.", "latin": "Man in rā be ū mīdaham.", "germanDecode": "Ich dies D.O. zu er gebe-ich.", "germanTranslation": "Ich gebe ihm/ihr das." },
+    { "id": 4, "farsi": "آنها هر روز کار می‌کنند.", "latin": "Ānhā har rūz kār mikonand.", "germanDecode": "Sie jeden Tag Arbeit machen-sie.", "germanTranslation": "Sie arbeiten jeden Tag." },
+    { "id": 5, "farsi": "تو به مادرت حقیقت را می‌گویی.", "latin": "To be mādar-at haghighat rā migūyī.", "germanDecode": "Du zu Mutter-deiner Wahrheit D.O. sagst-du.", "germanTranslation": "Du sagst deiner Mutter die Wahrheit." },
+    { "id": 6, "farsi": "من باید الآن بروم.", "latin": "Man bāyad alān beravam.", "germanDecode": "Ich muss jetzt gehen-ich.", "germanTranslation": "Ich muss jetzt gehen." },
+    { "id": 7, "farsi": "من امروز هیچ چیز نمی‌بینم.", "latin": "Man emrooz hich chiz nemībīnam.", "germanDecode": "Ich heute kein Ding nicht-sehe-ich.", "germanTranslation": "Ich sehe heute nichts." }
+  ]
+}

@@ -1,0 +1,13 @@
+
+{
+  "id": "a1-l9",
+  "title": "Lektion 9: Tägliche Aktivitäten",
+  "description": "Beschreibe alltägliche Handlungen und Aufgaben.",
+  "sentences": [
+    { "id": 1, "farsi": "زن کارهای خانه را انجام می‌دهد.", "latin": "Zan kār-hāye khāne rā anjām midahad.", "germanDecode": "Frau Arbeiten-PL-von Haus D.O. Vollendung gibt-er.", "germanTranslation": "Die Frau erledigt die Hausarbeiten." },
+    { "id": 2, "farsi": "او برنامه‌ریزی برای فردا می‌کند.", "latin": "U barnāmerizi barāye fardā mikonad.", "germanDecode": "er Planung für morgen macht-er.", "germanTranslation": "Er plant für morgen." },
+    { "id": 3, "farsi": "ما از این میز استفاده می‌کنیم.", "latin": "Mā az in mīz estefāde mikonim.", "germanDecode": "Wir von diesem Tisch Gebrauch machen-wir.", "germanTranslation": "Wir benutzen diesen Tisch." },
+    { "id": 4, "farsi": "ما می‌توانیم با کارت پرداخت کنیم.", "latin": "Mā mitavānim bā kārt pardākht konim.", "germanDecode": "Wir können-wir mit Karte Zahlung machen-wir.", "germanTranslation": "Wir können mit Karte bezahlen." },
+    { "id": 5, "farsi": "من همیشه تلویزیون تماشا می‌کنم.", "latin": "Man hamishe televīziyon tamāshā mikonam.", "germanDecode": "Ich immer Fernsehen schauen mache-ich.", "germanTranslation": "Ich schaue immer fern." }
+  ]
+}

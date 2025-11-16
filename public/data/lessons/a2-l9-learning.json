@@ -1,0 +1,19 @@
+{
+  "id": "a2-l9-learning",
+  "title": "A2 Lektion 9: Eine Lernerfahrung",
+  "description": "Eine Erzählung über das Erlernen einer neuen Fähigkeit und persönliche Entwicklung.",
+  "sentences": [
+    { "id": 1, "farsi": "سال گذشته تصمیم گرفتم رانندگی یاد بگیرم.", "latin": "Sāl-e gozashte tasmīm gereftam rānandagī yād begiram.", "germanDecode": "Jahr-von vergangen Entscheidung nahm-ich Fahren Lernen nehme-ich.", "germanTranslation": "Letztes Jahr entschied ich mich, Autofahren zu lernen." },
+    { "id": 2, "farsi": "تا آن زمان همیشه با اتوبوس یا مترو جابجا می‌شدم.", "latin": "Tā ān zamān hamīshe bā otobūs yā metro jābe-jā mishoodam.", "germanDecode": "Bis jene Zeit immer mit Bus oder Metro Ort-zu-Ort wurde-ich.", "germanTranslation": "Bis zu der Zeit bewegte ich mich immer mit Bus oder Metro fort." },
+    { "id": 3, "farsi": "اما فهمیدم که ماشین داشتن خیلی مفید است.", "latin": "Ammā fahmīdam ke māshīn dāshtan kheylī mofīd ast.", "germanDecode": "Aber verstand-ich dass Auto Haben sehr nützlich ist.", "germanTranslation": "Aber ich verstand, dass ein Auto zu haben sehr nützlich ist." },
+    { "id": 4, "farsi": "در آموزشگاه رانندگی ثبت‌نام کردم.", "latin": "Dar āmūzeshgāh-e rānandagī sabt-nām kardam.", "germanDecode": "In Schule-von Fahren Anmeldung machte-ich.", "germanTranslation": "Ich meldete mich in einer Fahrschule an." },
+    { "id": 5, "farsi": "مربی من آقای احمدی بود که خیلی صبور و مهربان بود.", "latin": "Morabī-ye man āghāye Ahmadī būd ke kheylī sabūr va mehrabān būd.", "germanDecode": "Trainer-von mir Herr-von Ahmadi war-er der sehr geduldig und freundlich war-er.", "germanTranslation": "Mein Trainer war Herr Ahmadi, der sehr geduldig und freundlich war." },
+    { "id": 6, "farsi": "اولین جلسه خیلی ترسیده بودم و دستم می‌لرزید.", "latin": "Avvalīn jalase kheylī tarsīde būdam va dastam mīlarzīd.", "germanDecode": "Erste Sitzung sehr gefürchtet hatte-ich und Hand-meine zitterte-sie.", "germanTranslation": "In der ersten Stunde hatte ich große Angst und meine Hand zitterte." },
+    { "id": 7, "farsi": "کم کم یاد گرفتم و اعتماد به نفسم بیشتر شد.", "latin": "Kam kam yād gereftam va e'temād be nafsam bīshtar shod.", "germanDecode": "Wenig wenig Lernen nahm-ich und Vertrauen zu Selbst-mein mehr wurde-es.", "germanTranslation": "Nach und nach lernte ich und mein Selbstvertrauen wurde größer." },
+    { "id": 8, "farsi": "بعد از دو ماه تمرین، برای امتحان آماده شدم.", "latin": "Ba'd az do māh tamrīn, barāye emtehān āmāde shodam.", "germanDecode": "Nach von zwei Monat Übung, für Prüfung bereit wurde-ich.", "germanTranslation": "Nach zwei Monaten Übung war ich für die Prüfung bereit." },
+    { "id": 9, "farsi": "روز امتحان نگران بودم اما تمام تلاشم را کردم.", "latin": "Rūz-e emtehān nagarān būdam ammā tamām-e talāsham rā kardam.", "germanDecode": "Tag-von Prüfung besorgt war-ich aber ganz-von Anstrengung-meine D.O. machte-ich.", "germanTranslation": "Am Prüfungstag war ich besorgt, aber ich gab mein Bestes." },
+    { "id": 10, "farsi": "خوشبختانه امتحان را با موفقیت گذراندم.", "latin": "Khoshbakhtāne emtehān rā bā mowaffaghīyat gozarāndam.", "germanDecode": "Glücklicherweise Prüfung D.O. mit Erfolg verbrachte-ich.", "germanTranslation": "Glücklicherweise bestand ich die Prüfung erfolgreich." },
+    { "id": 11, "farsi": "حالا گواهینامه دارم و ماشین کوچکی خریدم.", "latin": "Hālā gavāhīnāme dāram va māshīn-e kūchakī kharīdam.", "germanDecode": "Jetzt Führerschein habe-ich und Auto-von klein kaufte-ich.", "germanTranslation": "Jetzt habe ich einen Führerschein und kaufte ein kleines Auto." },
+    { "id": 12, "farsi": "فهمیدم که هیچ وقت خیلی دیر نیست تا چیز جدید یاد بگیریم.", "latin": "Fahmīdam ke hīch vaght kheylī dīr nīst tā chīz-e jadīd yād begīrīm.", "germanDecode": "Verstand-ich dass keine Zeit sehr spät nicht-ist damit Ding-von neu Lernen nehmen-wir.", "germanTranslation": "Ich verstand, dass es nie zu spät ist, etwas Neues zu lernen." }
+  ]
+}
