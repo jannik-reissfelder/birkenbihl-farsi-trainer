@@ -255,7 +255,8 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
             let timings: WordTiming[];
             
             if ((sentence as any).timings && (sentence as any).timings.length > 0) {
-                const audioPath = `/audio/a2-l1/audio_${sentence.id}.wav`;
+                const lessonFolder = lesson.id.replace('-childhood', '').replace('-travel-story', '');
+                const audioPath = `/audio/${lessonFolder}/audio_${sentence.id}.wav`;
                 console.log(`Loading hardcoded audio: ${audioPath}`);
                 
                 try {
