@@ -251,13 +251,48 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
         const audioContext = getAudioContext();
 
         await Promise.all(lesson.sentences.map(async (sentence) => {
-            const [base64Audio, timings] = await Promise.all([
-                generateSpeech(sentence.farsi),
-                getWordTimings(sentence.farsi)
-            ]);
-            const buffer = await decodeAudioData(decode(base64Audio), audioContext, 24000, 1);
+            let buffer: AudioBuffer;
+            let timings: WordTiming[];
+            
+            if ((sentence as any).timings && (sentence as any).timings.length > 0) {
+                const audioPath = `/audio/a2-l1/audio_${sentence.id}.wav`;
+                console.log(`Loading hardcoded audio: ${audioPath}`);
+                
+                try {
+                    const response = await fetch(audioPath);
+                    if (!response.ok) {
+                        throw new Error(`Failed to load audio file: ${audioPath}`);
+                    }
+                    const arrayBuffer = await response.arrayBuffer();
+                    buffer = await audioContext.decodeAudioData(arrayBuffer);
+                    
+                    timings = (sentence as any).timings.map((t: any) => ({
+                        word: t.word,
+                        startTime: t.start,
+                        endTime: t.end
+                    }));
+                    
+                    console.log(`✓ Loaded hardcoded audio for sentence ${sentence.id}`);
+                } catch (fetchErr) {
+                    console.warn(`Could not load hardcoded audio for sentence ${sentence.id}, falling back to TTS`, fetchErr);
+                    const [base64Audio, apiTimings] = await Promise.all([
+                        generateSpeech(sentence.farsi),
+                        getWordTimings(sentence.farsi)
+                    ]);
+                    buffer = await decodeAudioData(decode(base64Audio), audioContext, 24000, 1);
+                    timings = apiTimings as WordTiming[];
+                }
+            } else {
+                const [base64Audio, apiTimings] = await Promise.all([
+                    generateSpeech(sentence.farsi),
+                    getWordTimings(sentence.farsi)
+                ]);
+                buffer = await decodeAudioData(decode(base64Audio), audioContext, 24000, 1);
+                timings = apiTimings as WordTiming[];
+            }
+            
             audioMap.set(sentence.id, buffer);
-            timingsMap.set(sentence.id, timings as WordTiming[]);
+            timingsMap.set(sentence.id, timings);
         }));
 
         setKaraokeAudio(audioMap);
