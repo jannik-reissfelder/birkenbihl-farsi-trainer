@@ -35,8 +35,29 @@ const KaraokeView: React.FC<{ sentences: Sentence[], onComplete: () => void }> =
         const audioContext = getAudioContext();
         try {
             await Promise.all(sentences.map(async (sentence) => {
-                const base64Audio = await generateSpeech(sentence.farsi);
-                const buffer = await decodeAudioData(decode(base64Audio), audioContext, 24000, 1);
+                let buffer: AudioBuffer;
+                
+                if ((sentence as any).timings && (sentence as any).timings.length > 0) {
+                    const audioPath = `/audio/a2-l1/audio_${sentence.id}.wav`;
+                    console.log(`Loading hardcoded audio: ${audioPath}`);
+                    
+                    try {
+                        const response = await fetch(audioPath);
+                        if (!response.ok) {
+                            throw new Error(`Failed to load audio file: ${audioPath}`);
+                        }
+                        const arrayBuffer = await response.arrayBuffer();
+                        buffer = await audioContext.decodeAudioData(arrayBuffer);
+                    } catch (fetchErr) {
+                        console.warn(`Could not load hardcoded audio for sentence ${sentence.id}, falling back to TTS`, fetchErr);
+                        const base64Audio = await generateSpeech(sentence.farsi);
+                        buffer = await decodeAudioData(decode(base64Audio), audioContext, 24000, 1);
+                    }
+                } else {
+                    const base64Audio = await generateSpeech(sentence.farsi);
+                    buffer = await decodeAudioData(decode(base64Audio), audioContext, 24000, 1);
+                }
+                
                 audioMap.set(sentence.id, buffer);
             }));
             setAudioBuffers(audioMap);
