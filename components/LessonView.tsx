@@ -255,7 +255,7 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
             let timings: WordTiming[];
             
             if ((sentence as any).timings && (sentence as any).timings.length > 0) {
-                const lessonFolder = lesson.id.replace('-childhood', '').replace('-travel-story', '');
+                const lessonFolder = lesson.id.match(/^(a\d+-l\d+)/)?.[1] || lesson.id;
                 const audioPath = `/audio/${lessonFolder}/audio_${sentence.id}.wav`;
                 console.log(`Loading hardcoded audio: ${audioPath}`);
                 

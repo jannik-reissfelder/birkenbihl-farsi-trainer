@@ -3,17 +3,665 @@
   "title": "A2 Lektion 8: Eine Hochzeitsfeier",
   "description": "Eine Erzählung über eine Familienfeier und persische Traditionen.",
   "sentences": [
-    { "id": 1, "farsi": "ماه پیش برادرم ازدواج کرد و جشن بزرگی گرفتیم.", "latin": "Māh-e pīsh barādaram ezdevāj kard va jashn-e bozorgī gereftīm.", "germanDecode": "Monat-von vorher Bruder-mein Heirat machte-er und Fest-von groß nahmen-wir.", "germanTranslation": "Vor einem Monat heiratete mein Bruder und wir veranstalteten eine große Feier." },
-    { "id": 2, "farsi": "خانواده عروس و خانواده داماد همه آمده بودند.", "latin": "Khānevāde-ye arūs va khānevāde-ye dāmād hame āmade būdand.", "germanDecode": "Familie-von Braut und Familie-von Bräutigam alle gekommen waren-sie.", "germanTranslation": "Die Familie der Braut und die Familie des Bräutigams waren alle gekommen." },
-    { "id": 3, "farsi": "مادرم سه روز قبل شروع به آشپزی کرده بود.", "latin": "Mādaram seh rūz ghabl shorū' be āshpazī karde būd.", "germanDecode": "Mutter-meine drei Tage vorher Beginn zu Kochen gemacht hatte-sie.", "germanTranslation": "Meine Mutter hatte drei Tage zuvor angefangen zu kochen." },
-    { "id": 4, "farsi": "قرمه سبزی، کباب، و برنج با زعفران درست کرده بود.", "latin": "Ghorme sabzī, kabāb, va berenj bā za'ferān dorost karde būd.", "germanDecode": "Kräutereintopf, Kebab, und Reis mit Safran richtig gemacht hatte-sie.", "germanTranslation": "Sie hatte Ghormeh Sabzi, Kebab und Reis mit Safran zubereitet." },
-    { "id": 5, "farsi": "عروس لباس سفید زیبایی پوشیده بود.", "latin": "Arūs lebās-e sefīd-e zībāyī pūshīde būd.", "germanDecode": "Braut Kleid-von weiß-von schön getragen hatte-sie.", "germanTranslation": "Die Braut trug ein schönes weißes Kleid." },
-    { "id": 6, "farsi": "مراسم عقد در خانه ما برگزار شد.", "latin": "Marāsem-e aghd dar khāne-ye mā bargozār shod.", "germanDecode": "Zeremonie-von Ehevertrag in Haus-von uns abgehalten wurde-es.", "germanTranslation": "Die Trauungszeremonie wurde in unserem Haus abgehalten." },
-    { "id": 7, "farsi": "آقای عاقد قرآن خواند و دعا کرد.", "latin": "Āghāye āghed Ghor'ān khānd va do'ā kard.", "germanDecode": "Herr-von Trauender Koran las-er und Gebet machte-er.", "germanTranslation": "Der Trauungsbeamte las den Koran und betete." },
-    { "id": 8, "farsi": "همه مهمانان برای زوج جوان دعای خیر کردند.", "latin": "Hame mehmānān barāye zowj-e javān do'āye khayr kardand.", "germanDecode": "Alle Gäste für Paar-von jung Gebet-von gut machten-sie.", "germanTranslation": "Alle Gäste beteten für das junge Paar." },
-    { "id": 9, "farsi": "شب موسیقی گذاشتیم و تا صبح رقصیدیم.", "latin": "Shab mūsīqī gozāshtīm va tā sobh raghsīdīm.", "germanDecode": "Nacht Musik legten-wir und bis Morgen tanzten-wir.", "germanTranslation": "Abends legten wir Musik auf und tanzten bis zum Morgen." },
-    { "id": 10, "farsi": "بچه‌ها بازی می‌کردند و بزرگ‌ترها صحبت می‌کردند.", "latin": "Bachehā bāzī mikardand va bozorg-tarhā sohbat mikardand.", "germanDecode": "Kinder Spiel machten-sie und Größere-Plural Gespräch machten-sie.", "germanTranslation": "Die Kinder spielten und die Erwachsenen unterhielten sich." },
-    { "id": 11, "farsi": "عکس‌های زیادی گرفتیم تا یادگار باشد.", "latin": "Aks-hāye ziyādī gereftīm tā yādegār bāshad.", "germanDecode": "Foto-von viele nahmen-wir damit Erinnerung sei-es.", "germanTranslation": "Wir machten viele Fotos als Erinnerung." },
-    { "id": 12, "farsi": "شب خوبی بود و هنوز هم یادمان هست.", "latin": "Shab-e khūbī būd va hanūz ham yādemān hast.", "germanDecode": "Nacht-von gut war-es und noch auch Erinnerung-unser ist.", "germanTranslation": "Es war ein schöner Abend und wir erinnern uns noch daran." }
+    {
+      "id": 1,
+      "farsi": "ماه پیش برادرم ازدواج کرد و جشن بزرگی گرفتیم.",
+      "latin": "Māh-e pīsh barādaram ezdevāj kard va jashn-e bozorgī gereftīm.",
+      "germanDecode": "Monat-von vorher Bruder-mein Heirat machte-er und Fest-von groß nahmen-wir.",
+      "germanTranslation": "Vor einem Monat heiratete mein Bruder und wir veranstalteten eine große Feier.",
+      "timings": [
+        {
+          "word": "ماه",
+          "cleanWord": "ماه",
+          "start": 0,
+          "end": 0.3868344594594595
+        },
+        {
+          "word": "پیش",
+          "cleanWord": "پیش",
+          "start": 0.3868344594594595,
+          "end": 0.773668918918919
+        },
+        {
+          "word": "برادرم",
+          "cleanWord": "برادرم",
+          "start": 0.773668918918919,
+          "end": 1.547337837837838
+        },
+        {
+          "word": "ازدواج",
+          "cleanWord": "ازدواج",
+          "start": 1.547337837837838,
+          "end": 2.321006756756757
+        },
+        {
+          "word": "کرد",
+          "cleanWord": "کرد",
+          "start": 2.321006756756757,
+          "end": 2.7078412162162167
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.7078412162162167,
+          "end": 2.8367860360360364
+        },
+        {
+          "word": "جشن",
+          "cleanWord": "جشن",
+          "start": 2.8367860360360364,
+          "end": 3.2236204954954957
+        },
+        {
+          "word": "بزرگی",
+          "cleanWord": "بزرگی",
+          "start": 3.2236204954954957,
+          "end": 3.868344594594595
+        },
+        {
+          "word": "گرفتیم.",
+          "cleanWord": "گرفتیم",
+          "start": 3.868344594594595,
+          "end": 4.770958333333334
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "خانواده عروس و خانواده داماد همه آمده بودند.",
+      "latin": "Khānevāde-ye arūs va khānevāde-ye dāmād hame āmade būdand.",
+      "germanDecode": "Familie-von Braut und Familie-von Bräutigam alle gekommen waren-sie.",
+      "germanTranslation": "Die Familie der Braut und die Familie des Bräutigams waren alle gekommen.",
+      "timings": [
+        {
+          "word": "خانواده",
+          "cleanWord": "خانواده",
+          "start": 0,
+          "end": 0.7663975225225225
+        },
+        {
+          "word": "عروس",
+          "cleanWord": "عروس",
+          "start": 0.7663975225225225,
+          "end": 1.204338963963964
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.204338963963964,
+          "end": 1.3138243243243242
+        },
+        {
+          "word": "خانواده",
+          "cleanWord": "خانواده",
+          "start": 1.3138243243243242,
+          "end": 2.0802218468468467
+        },
+        {
+          "word": "داماد",
+          "cleanWord": "داماد",
+          "start": 2.0802218468468467,
+          "end": 2.6276486486486483
+        },
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 2.6276486486486483,
+          "end": 2.9561047297297294
+        },
+        {
+          "word": "آمده",
+          "cleanWord": "آمده",
+          "start": 2.9561047297297294,
+          "end": 3.394046171171171
+        },
+        {
+          "word": "بودند.",
+          "cleanWord": "بودند",
+          "start": 3.394046171171171,
+          "end": 4.050958333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "مادرم سه روز قبل شروع به آشپزی کرده بود.",
+      "latin": "Mādaram seh rūz ghabl shorū' be āshpazī karde būd.",
+      "germanDecode": "Mutter-meine drei Tage vorher Beginn zu Kochen gemacht hatte-sie.",
+      "germanTranslation": "Meine Mutter hatte drei Tage zuvor angefangen zu kochen.",
+      "timings": [
+        {
+          "word": "مادرم",
+          "cleanWord": "مادرم",
+          "start": 0,
+          "end": 0.5954622395833333
+        },
+        {
+          "word": "سه",
+          "cleanWord": "سه",
+          "start": 0.5954622395833333,
+          "end": 0.8336471354166667
+        },
+        {
+          "word": "روز",
+          "cleanWord": "روز",
+          "start": 0.8336471354166667,
+          "end": 1.1909244791666667
+        },
+        {
+          "word": "قبل",
+          "cleanWord": "قبل",
+          "start": 1.1909244791666667,
+          "end": 1.5482018229166665
+        },
+        {
+          "word": "شروع",
+          "cleanWord": "شروع",
+          "start": 1.5482018229166665,
+          "end": 2.024571614583333
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.024571614583333,
+          "end": 2.2627565104166663
+        },
+        {
+          "word": "آشپزی",
+          "cleanWord": "آشپزی",
+          "start": 2.2627565104166663,
+          "end": 2.85821875
+        },
+        {
+          "word": "کرده",
+          "cleanWord": "کرده",
+          "start": 2.85821875,
+          "end": 3.3345885416666663
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 3.3345885416666663,
+          "end": 3.810958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "قرمه سبزی، کباب، و برنج با زعفران درست کرده بود.",
+      "latin": "Ghorme sabzī, kabāb, va berenj bā za'ferān dorost karde būd.",
+      "germanDecode": "Kräutereintopf, Kebab, und Reis mit Safran richtig gemacht hatte-sie.",
+      "germanTranslation": "Sie hatte Ghormeh Sabzi, Kebab und Reis mit Safran zubereitet.",
+      "timings": [
+        {
+          "word": "قرمه",
+          "cleanWord": "قرمه",
+          "start": 0,
+          "end": 0.49753418803418803
+        },
+        {
+          "word": "سبزی،",
+          "cleanWord": "سبزی،",
+          "start": 0.49753418803418803,
+          "end": 1.119451923076923
+        },
+        {
+          "word": "کباب،",
+          "cleanWord": "کباب،",
+          "start": 1.119451923076923,
+          "end": 1.741369658119658
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.741369658119658,
+          "end": 1.865753205128205
+        },
+        {
+          "word": "برنج",
+          "cleanWord": "برنج",
+          "start": 1.865753205128205,
+          "end": 2.363287393162393
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 2.363287393162393,
+          "end": 2.612054487179487
+        },
+        {
+          "word": "زعفران",
+          "cleanWord": "زعفران",
+          "start": 2.612054487179487,
+          "end": 3.3583557692307693
+        },
+        {
+          "word": "درست",
+          "cleanWord": "درست",
+          "start": 3.3583557692307693,
+          "end": 3.8558899572649574
+        },
+        {
+          "word": "کرده",
+          "cleanWord": "کرده",
+          "start": 3.8558899572649574,
+          "end": 4.353424145299146
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 4.353424145299146,
+          "end": 4.850958333333334
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "عروس لباس سفید زیبایی پوشیده بود.",
+      "latin": "Arūs lebās-e sefīd-e zībāyī pūshīde būd.",
+      "germanDecode": "Braut Kleid-von weiß-von schön getragen hatte-sie.",
+      "germanTranslation": "Die Braut trug ein schönes weißes Kleid.",
+      "timings": [
+        {
+          "word": "عروس",
+          "cleanWord": "عروس",
+          "start": 0,
+          "end": 0.4987083333333333
+        },
+        {
+          "word": "لباس",
+          "cleanWord": "لباس",
+          "start": 0.4987083333333333,
+          "end": 0.9974166666666666
+        },
+        {
+          "word": "سفید",
+          "cleanWord": "سفید",
+          "start": 0.9974166666666666,
+          "end": 1.496125
+        },
+        {
+          "word": "زیبایی",
+          "cleanWord": "زیبایی",
+          "start": 1.496125,
+          "end": 2.2441875
+        },
+        {
+          "word": "پوشیده",
+          "cleanWord": "پوشیده",
+          "start": 2.2441875,
+          "end": 2.99225
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 2.99225,
+          "end": 3.4909583333333334
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "مراسم عقد در خانه ما برگزار شد.",
+      "latin": "Marāsem-e aghd dar khāne-ye mā bargozār shod.",
+      "germanDecode": "Zeremonie-von Ehevertrag in Haus-von uns abgehalten wurde-es.",
+      "germanTranslation": "Die Trauungszeremonie wurde in unserem Haus abgehalten.",
+      "timings": [
+        {
+          "word": "مراسم",
+          "cleanWord": "مراسم",
+          "start": 0,
+          "end": 0.7061916666666668
+        },
+        {
+          "word": "عقد",
+          "cleanWord": "عقد",
+          "start": 0.7061916666666668,
+          "end": 1.1299066666666668
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 1.1299066666666668,
+          "end": 1.4123833333333335
+        },
+        {
+          "word": "خانه",
+          "cleanWord": "خانه",
+          "start": 1.4123833333333335,
+          "end": 1.977336666666667
+        },
+        {
+          "word": "ما",
+          "cleanWord": "ما",
+          "start": 1.977336666666667,
+          "end": 2.2598133333333337
+        },
+        {
+          "word": "برگزار",
+          "cleanWord": "برگزار",
+          "start": 2.2598133333333337,
+          "end": 3.107243333333334
+        },
+        {
+          "word": "شد.",
+          "cleanWord": "شد",
+          "start": 3.107243333333334,
+          "end": 3.530958333333334
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "آقای عاقد قرآن خواند و دعا کرد.",
+      "latin": "Āghāye āghed Ghor'ān khānd va do'ā kard.",
+      "germanDecode": "Herr-von Trauender Koran las-er und Gebet machte-er.",
+      "germanTranslation": "Der Trauungsbeamte las den Koran und betete.",
+      "timings": [
+        {
+          "word": "آقای",
+          "cleanWord": "آقای",
+          "start": 0,
+          "end": 0.5713533333333334
+        },
+        {
+          "word": "عاقد",
+          "cleanWord": "عاقد",
+          "start": 0.5713533333333334,
+          "end": 1.1427066666666668
+        },
+        {
+          "word": "قرآن",
+          "cleanWord": "قرآن",
+          "start": 1.1427066666666668,
+          "end": 1.7140600000000001
+        },
+        {
+          "word": "خواند",
+          "cleanWord": "خواند",
+          "start": 1.7140600000000001,
+          "end": 2.428251666666667
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.428251666666667,
+          "end": 2.5710900000000003
+        },
+        {
+          "word": "دعا",
+          "cleanWord": "دعا",
+          "start": 2.5710900000000003,
+          "end": 2.9996050000000003
+        },
+        {
+          "word": "کرد.",
+          "cleanWord": "کرد",
+          "start": 2.9996050000000003,
+          "end": 3.5709583333333335
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "همه مهمانان برای زوج جوان دعای خیر کردند.",
+      "latin": "Hame mehmānān barāye zowj-e javān do'āye khayr kardand.",
+      "germanDecode": "Alle Gäste für Paar-von jung Gebet-von gut machten-sie.",
+      "germanTranslation": "Alle Gäste beteten für das junge Paar.",
+      "timings": [
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 0,
+          "end": 0.3962610294117647
+        },
+        {
+          "word": "مهمانان",
+          "cleanWord": "مهمانان",
+          "start": 0.3962610294117647,
+          "end": 1.3208700980392156
+        },
+        {
+          "word": "برای",
+          "cleanWord": "برای",
+          "start": 1.3208700980392156,
+          "end": 1.849218137254902
+        },
+        {
+          "word": "زوج",
+          "cleanWord": "زوج",
+          "start": 1.849218137254902,
+          "end": 2.2454791666666667
+        },
+        {
+          "word": "جوان",
+          "cleanWord": "جوان",
+          "start": 2.2454791666666667,
+          "end": 2.7738272058823528
+        },
+        {
+          "word": "دعای",
+          "cleanWord": "دعای",
+          "start": 2.7738272058823528,
+          "end": 3.302175245098039
+        },
+        {
+          "word": "خیر",
+          "cleanWord": "خیر",
+          "start": 3.302175245098039,
+          "end": 3.6984362745098034
+        },
+        {
+          "word": "کردند.",
+          "cleanWord": "کردند",
+          "start": 3.6984362745098034,
+          "end": 4.4909583333333325
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "شب موسیقی گذاشتیم و تا صبح رقصیدیم.",
+      "latin": "Shab mūsīqī gozāshtīm va tā sobh raghsīdīm.",
+      "germanDecode": "Nacht Musik legten-wir und bis Morgen tanzten-wir.",
+      "germanTranslation": "Abends legten wir Musik auf und tanzten bis zum Morgen.",
+      "timings": [
+        {
+          "word": "شب",
+          "cleanWord": "شب",
+          "start": 0,
+          "end": 0.2297212643678161
+        },
+        {
+          "word": "موسیقی",
+          "cleanWord": "موسیقی",
+          "start": 0.2297212643678161,
+          "end": 0.9188850574712644
+        },
+        {
+          "word": "گذاشتیم",
+          "cleanWord": "گذاشتیم",
+          "start": 0.9188850574712644,
+          "end": 1.7229094827586207
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.7229094827586207,
+          "end": 1.8377701149425287
+        },
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 1.8377701149425287,
+          "end": 2.067491379310345
+        },
+        {
+          "word": "صبح",
+          "cleanWord": "صبح",
+          "start": 2.067491379310345,
+          "end": 2.412073275862069
+        },
+        {
+          "word": "رقصیدیم.",
+          "cleanWord": "رقصیدیم",
+          "start": 2.412073275862069,
+          "end": 3.3309583333333332
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "بچه‌ها بازی می‌کردند و بزرگ‌ترها صحبت می‌کردند.",
+      "latin": "Bachehā bāzī mikardand va bozorg-tarhā sohbat mikardand.",
+      "germanDecode": "Kinder Spiel machten-sie und Größere-Plural Gespräch machten-sie.",
+      "germanTranslation": "Die Kinder spielten und die Erwachsenen unterhielten sich.",
+      "timings": [
+        {
+          "word": "بچه‌ها",
+          "cleanWord": "بچه‌ها",
+          "start": 0,
+          "end": 0.6747743902439024
+        },
+        {
+          "word": "بازی",
+          "cleanWord": "بازی",
+          "start": 0.6747743902439024,
+          "end": 1.1246239837398373
+        },
+        {
+          "word": "می‌کردند",
+          "cleanWord": "می‌کردند",
+          "start": 1.1246239837398373,
+          "end": 2.0243231707317073
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.0243231707317073,
+          "end": 2.136785569105691
+        },
+        {
+          "word": "بزرگ‌ترها",
+          "cleanWord": "بزرگ‌ترها",
+          "start": 2.136785569105691,
+          "end": 3.1489471544715446
+        },
+        {
+          "word": "صحبت",
+          "cleanWord": "صحبت",
+          "start": 3.1489471544715446,
+          "end": 3.5987967479674796
+        },
+        {
+          "word": "می‌کردند.",
+          "cleanWord": "می‌کردند",
+          "start": 3.5987967479674796,
+          "end": 4.6109583333333335
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "عکس‌های زیادی گرفتیم تا یادگار باشد.",
+      "latin": "Aks-hāye ziyādī gereftīm tā yādegār bāshad.",
+      "germanDecode": "Foto-von viele nahmen-wir damit Erinnerung sei-es.",
+      "germanTranslation": "Wir machten viele Fotos als Erinnerung.",
+      "timings": [
+        {
+          "word": "عکس‌های",
+          "cleanWord": "عکس‌های",
+          "start": 0,
+          "end": 0.8063454301075269
+        },
+        {
+          "word": "زیادی",
+          "cleanWord": "زیادی",
+          "start": 0.8063454301075269,
+          "end": 1.3823064516129033
+        },
+        {
+          "word": "گرفتیم",
+          "cleanWord": "گرفتیم",
+          "start": 1.3823064516129033,
+          "end": 2.073459677419355
+        },
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 2.073459677419355,
+          "end": 2.3038440860215057
+        },
+        {
+          "word": "یادگار",
+          "cleanWord": "یادگار",
+          "start": 2.3038440860215057,
+          "end": 2.9949973118279574
+        },
+        {
+          "word": "باشد.",
+          "cleanWord": "باشد",
+          "start": 2.9949973118279574,
+          "end": 3.5709583333333335
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "شب خوبی بود و هنوز هم یادمان هست.",
+      "latin": "Shab-e khūbī būd va hanūz ham yādemān hast.",
+      "germanDecode": "Nacht-von gut war-es und noch auch Erinnerung-unser ist.",
+      "germanTranslation": "Es war ein schöner Abend und wir erinnern uns noch daran.",
+      "timings": [
+        {
+          "word": "شب",
+          "cleanWord": "شب",
+          "start": 0,
+          "end": 0.24391987179487182
+        },
+        {
+          "word": "خوبی",
+          "cleanWord": "خوبی",
+          "start": 0.24391987179487182,
+          "end": 0.7317596153846154
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 0.7317596153846154,
+          "end": 1.097639423076923
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.097639423076923,
+          "end": 1.219599358974359
+        },
+        {
+          "word": "هنوز",
+          "cleanWord": "هنوز",
+          "start": 1.219599358974359,
+          "end": 1.7074391025641027
+        },
+        {
+          "word": "هم",
+          "cleanWord": "هم",
+          "start": 1.7074391025641027,
+          "end": 1.9513589743589745
+        },
+        {
+          "word": "یادمان",
+          "cleanWord": "یادمان",
+          "start": 1.9513589743589745,
+          "end": 2.68311858974359
+        },
+        {
+          "word": "هست.",
+          "cleanWord": "هست",
+          "start": 2.68311858974359,
+          "end": 3.1709583333333335
+        }
+      ]
+    }
   ]
 }

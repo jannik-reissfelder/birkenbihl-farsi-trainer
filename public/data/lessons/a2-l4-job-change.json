@@ -3,17 +3,707 @@
   "title": "A2 Lektion 4: Berufswechsel",
   "description": "Eine Erzählung über einen Arbeitsplatzwechsel und neue Erfahrungen.",
   "sentences": [
-    { "id": 1, "farsi": "سال گذشته در یک بانک کار می‌کردم اما خوشحال نبودم.", "latin": "Sāl-e gozashte dar yek bānak kār mikarddam ammā khoshhāl nabūdam.", "germanDecode": "Jahr-von vergangen in ein Bank Arbeit machte-ich aber glücklich nicht-war-ich.", "germanTranslation": "Letztes Jahr arbeitete ich in einer Bank, aber ich war nicht glücklich." },
-    { "id": 2, "farsi": "کار همیشه یکسان بود و من احساس کسالت می‌کردم.", "latin": "Kār hamīshe yeksān būd va man ehsās-e kesālat mikarddam.", "germanDecode": "Arbeit immer gleich war-es und ich Gefühl-von Langeweile machte-ich.", "germanTranslation": "Die Arbeit war immer dieselbe und ich langweilte mich." },
-    { "id": 3, "farsi": "مدیرم آدم سختی بود و با کارمندان بد رفتار می‌کرد.", "latin": "Modīram ādam-e sakhtī būd va bā kārmandān bad raftār mikard.", "germanDecode": "Chef-mein Mensch-von hart war-er und mit Angestellten schlecht Verhalten machte-er.", "germanTranslation": "Mein Chef war ein harter Mensch und behandelte die Angestellten schlecht." },
-    { "id": 4, "farsi": "یک روز تصمیم گرفتم شغلم را عوض کنم.", "latin": "Yek rūz tasmīm gereftam shogh-lam rā avaz konam.", "germanDecode": "Ein Tag Entscheidung nahm-ich Beruf-meinen D.O. wechseln mache-ich.", "germanTranslation": "Eines Tages entschied ich mich, meinen Beruf zu wechseln." },
-    { "id": 5, "farsi": "به دوستانم گفتم و آنها از تصمیمم حمایت کردند.", "latin": "Be dūstānam goftam va ānhā az tasmīm-am hemāyat kardand.", "germanDecode": "Zu Freunden-meinen sagte-ich und sie von Entscheidung-meiner Unterstützung machten-sie.", "germanTranslation": "Ich sagte es meinen Freunden und sie unterstützten meine Entscheidung." },
-    { "id": 6, "farsi": "چند ماه رزومه فرستادم و مصاحبه رفتم.", "latin": "Chand māh rezyūme ferestādam va mosāhebe raftam.", "germanDecode": "Einige Monate Lebenslauf sendete-ich und Interview ging-ich.", "germanTranslation": "Einige Monate sendete ich Lebensläufe und ging zu Interviews." },
-    { "id": 7, "farsi": "بالاخره در یک شرکت کامپیوتری پذیرفته شدم.", "latin": "Belākhere dar yek sherkat-e kāmpyūterī pazīrafte shodam.", "germanDecode": "Schließlich in ein Firma-von Computer akzeptiert wurde-ich.", "germanTranslation": "Schließlich wurde ich in einer Computerfirma angenommen." },
-    { "id": 8, "farsi": "همکاران جدیدم مهربان و دوستانه بودند.", "latin": "Hamkārān-e jadīdam mehrabān va dūstāne būdand.", "germanDecode": "Kollegen-von neue-meine freundlich und freundschaftlich waren-sie.", "germanTranslation": "Meine neuen Kollegen waren freundlich und kameradschaftlich." },
-    { "id": 9, "farsi": "محیط کار آنجا راحت بود و من می‌توانستم یاد بگیرم.", "latin": "Mohīt-e kār ānjā rāhat būd va man mītavānestam yād begiram.", "germanDecode": "Umgebung-von Arbeit dort bequem war-es und ich konnte-ich Lernen nehme-ich.", "germanTranslation": "Die Arbeitsumgebung dort war angenehm und ich konnte lernen." },
-    { "id": 10, "farsi": "حقوقم کمتر شد اما خوشحال‌تر بودم.", "latin": "Hoghūgh-am kamtar shod ammā khoshhāl-tar būdam.", "germanDecode": "Gehalt-mein weniger wurde-es aber glücklicher war-ich.", "germanTranslation": "Mein Gehalt wurde weniger, aber ich war glücklicher." },
-    { "id": 11, "farsi": "اکنون هر روز با انرژی به کار می‌روم.", "latin": "Aknūn har rūz bā enerzī be kār mīravam.", "germanDecode": "Jetzt jeden Tag mit Energie zu Arbeit gehe-ich.", "germanTranslation": "Jetzt gehe ich jeden Tag mit Energie zur Arbeit." },
-    { "id": 12, "farsi": "فهمیدم که پول تنها چیز مهم در زندگی نیست.", "latin": "Fahmīdam ke pūl tanhā chīz-e mohem dar zendegī nīst.", "germanDecode": "Verstand-ich dass Geld allein Ding-von wichtig in Leben nicht-ist.", "germanTranslation": "Ich verstand, dass Geld nicht das einzig Wichtige im Leben ist." }
+    {
+      "id": 1,
+      "farsi": "سال گذشته در یک بانک کار می‌کردم اما خوشحال نبودم.",
+      "latin": "Sāl-e gozashte dar yek bānak kār mikarddam ammā khoshhāl nabūdam.",
+      "germanDecode": "Jahr-von vergangen in ein Bank Arbeit machte-ich aber glücklich nicht-war-ich.",
+      "germanTranslation": "Letztes Jahr arbeitete ich in einer Bank, aber ich war nicht glücklich.",
+      "timings": [
+        {
+          "word": "سال",
+          "cleanWord": "سال",
+          "start": 0,
+          "end": 0.3900701219512195
+        },
+        {
+          "word": "گذشته",
+          "cleanWord": "گذشته",
+          "start": 0.3900701219512195,
+          "end": 1.0401869918699187
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 1.0401869918699187,
+          "end": 1.3002337398373984
+        },
+        {
+          "word": "یک",
+          "cleanWord": "یک",
+          "start": 1.3002337398373984,
+          "end": 1.5602804878048782
+        },
+        {
+          "word": "بانک",
+          "cleanWord": "بانک",
+          "start": 1.5602804878048782,
+          "end": 2.0803739837398374
+        },
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 2.0803739837398374,
+          "end": 2.470444105691057
+        },
+        {
+          "word": "می‌کردم",
+          "cleanWord": "می‌کردم",
+          "start": 2.470444105691057,
+          "end": 3.380607723577236
+        },
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 3.380607723577236,
+          "end": 3.7706778455284553
+        },
+        {
+          "word": "خوشحال",
+          "cleanWord": "خوشحال",
+          "start": 3.7706778455284553,
+          "end": 4.550818089430894
+        },
+        {
+          "word": "نبودم.",
+          "cleanWord": "نبودم",
+          "start": 4.550818089430894,
+          "end": 5.330958333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "کار همیشه یکسان بود و من احساس کسالت می‌کردم.",
+      "latin": "Kār hamīshe yeksān būd va man ehsās-e kesālat mikarddam.",
+      "germanDecode": "Arbeit immer gleich war-es und ich Gefühl-von Langeweile machte-ich.",
+      "germanTranslation": "Die Arbeit war immer dieselbe und ich langweilte mich.",
+      "timings": [
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 0,
+          "end": 0.3868344594594595
+        },
+        {
+          "word": "همیشه",
+          "cleanWord": "همیشه",
+          "start": 0.3868344594594595,
+          "end": 1.0315585585585587
+        },
+        {
+          "word": "یکسان",
+          "cleanWord": "یکسان",
+          "start": 1.0315585585585587,
+          "end": 1.676282657657658
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 1.676282657657658,
+          "end": 2.0631171171171174
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.0631171171171174,
+          "end": 2.192061936936937
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 2.192061936936937,
+          "end": 2.4499515765765767
+        },
+        {
+          "word": "احساس",
+          "cleanWord": "احساس",
+          "start": 2.4499515765765767,
+          "end": 3.094675675675676
+        },
+        {
+          "word": "کسالت",
+          "cleanWord": "کسالت",
+          "start": 3.094675675675676,
+          "end": 3.739399774774775
+        },
+        {
+          "word": "می‌کردم.",
+          "cleanWord": "می‌کردم",
+          "start": 3.739399774774775,
+          "end": 4.770958333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "مدیرم آدم سختی بود و با کارمندان بد رفتار می‌کرد.",
+      "latin": "Modīram ādam-e sakhtī būd va bā kārmandān bad raftār mikard.",
+      "germanDecode": "Chef-mein Mensch-von hart war-er und mit Angestellten schlecht Verhalten machte-er.",
+      "germanTranslation": "Mein Chef war ein harter Mensch und behandelte die Angestellten schlecht.",
+      "timings": [
+        {
+          "word": "مدیرم",
+          "cleanWord": "مدیرم",
+          "start": 0,
+          "end": 0.6613697916666667
+        },
+        {
+          "word": "آدم",
+          "cleanWord": "آدم",
+          "start": 0.6613697916666667,
+          "end": 1.0581916666666666
+        },
+        {
+          "word": "سختی",
+          "cleanWord": "سختی",
+          "start": 1.0581916666666666,
+          "end": 1.5872875
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 1.5872875,
+          "end": 1.984109375
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.984109375,
+          "end": 2.1163833333333333
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 2.1163833333333333,
+          "end": 2.3809312499999997
+        },
+        {
+          "word": "کارمندان",
+          "cleanWord": "کارمندان",
+          "start": 2.3809312499999997,
+          "end": 3.4391229166666664
+        },
+        {
+          "word": "بد",
+          "cleanWord": "بد",
+          "start": 3.4391229166666664,
+          "end": 3.703670833333333
+        },
+        {
+          "word": "رفتار",
+          "cleanWord": "رفتار",
+          "start": 3.703670833333333,
+          "end": 4.365040625
+        },
+        {
+          "word": "می‌کرد.",
+          "cleanWord": "می‌کرد",
+          "start": 4.365040625,
+          "end": 5.290958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "یک روز تصمیم گرفتم شغلم را عوض کنم.",
+      "latin": "Yek rūz tasmīm gereftam shogh-lam rā avaz konam.",
+      "germanDecode": "Ein Tag Entscheidung nahm-ich Beruf-meinen D.O. wechseln mache-ich.",
+      "germanTranslation": "Eines Tages entschied ich mich, meinen Beruf zu wechseln.",
+      "timings": [
+        {
+          "word": "یک",
+          "cleanWord": "یک",
+          "start": 0,
+          "end": 0.26363988095238095
+        },
+        {
+          "word": "روز",
+          "cleanWord": "روز",
+          "start": 0.26363988095238095,
+          "end": 0.6590997023809524
+        },
+        {
+          "word": "تصمیم",
+          "cleanWord": "تصمیم",
+          "start": 0.6590997023809524,
+          "end": 1.3181994047619048
+        },
+        {
+          "word": "گرفتم",
+          "cleanWord": "گرفتم",
+          "start": 1.3181994047619048,
+          "end": 1.9772991071428572
+        },
+        {
+          "word": "شغلم",
+          "cleanWord": "شغلم",
+          "start": 1.9772991071428572,
+          "end": 2.504578869047619
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 2.504578869047619,
+          "end": 2.76821875
+        },
+        {
+          "word": "عوض",
+          "cleanWord": "عوض",
+          "start": 2.76821875,
+          "end": 3.163678571428571
+        },
+        {
+          "word": "کنم.",
+          "cleanWord": "کنم",
+          "start": 3.163678571428571,
+          "end": 3.690958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "به دوستانم گفتم و آنها از تصمیمم حمایت کردند.",
+      "latin": "Be dūstānam goftam va ānhā az tasmīm-am hemāyat kardand.",
+      "germanDecode": "Zu Freunden-meinen sagte-ich und sie von Entscheidung-meiner Unterstützung machten-sie.",
+      "germanTranslation": "Ich sagte es meinen Freunden und sie unterstützten meine Entscheidung.",
+      "timings": [
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0,
+          "end": 0.2514031531531532
+        },
+        {
+          "word": "دوستانم",
+          "cleanWord": "دوستانم",
+          "start": 0.2514031531531532,
+          "end": 1.1313141891891894
+        },
+        {
+          "word": "گفتم",
+          "cleanWord": "گفتم",
+          "start": 1.1313141891891894,
+          "end": 1.6341204954954958
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.6341204954954958,
+          "end": 1.7598220720720723
+        },
+        {
+          "word": "آنها",
+          "cleanWord": "آنها",
+          "start": 1.7598220720720723,
+          "end": 2.2626283783783787
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 2.2626283783783787,
+          "end": 2.514031531531532
+        },
+        {
+          "word": "تصمیمم",
+          "cleanWord": "تصمیمم",
+          "start": 2.514031531531532,
+          "end": 3.268240990990991
+        },
+        {
+          "word": "حمایت",
+          "cleanWord": "حمایت",
+          "start": 3.268240990990991,
+          "end": 3.8967488738738743
+        },
+        {
+          "word": "کردند.",
+          "cleanWord": "کردند",
+          "start": 3.8967488738738743,
+          "end": 4.6509583333333335
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "چند ماه رزومه فرستادم و مصاحبه رفتم.",
+      "latin": "Chand māh rezyūme ferestādam va mosāhebe raftam.",
+      "germanDecode": "Einige Monate Lebenslauf sendete-ich und Interview ging-ich.",
+      "germanTranslation": "Einige Monate sendete ich Lebensläufe und ging zu Interviews.",
+      "timings": [
+        {
+          "word": "چند",
+          "cleanWord": "چند",
+          "start": 0,
+          "end": 0.3610958333333334
+        },
+        {
+          "word": "ماه",
+          "cleanWord": "ماه",
+          "start": 0.3610958333333334,
+          "end": 0.7221916666666668
+        },
+        {
+          "word": "رزومه",
+          "cleanWord": "رزومه",
+          "start": 0.7221916666666668,
+          "end": 1.3240180555555556
+        },
+        {
+          "word": "فرستادم",
+          "cleanWord": "فرستادم",
+          "start": 1.3240180555555556,
+          "end": 2.166575
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.166575,
+          "end": 2.2869402777777776
+        },
+        {
+          "word": "مصاحبه",
+          "cleanWord": "مصاحبه",
+          "start": 2.2869402777777776,
+          "end": 3.0091319444444444
+        },
+        {
+          "word": "رفتم.",
+          "cleanWord": "رفتم",
+          "start": 3.0091319444444444,
+          "end": 3.6109583333333335
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "بالاخره در یک شرکت کامپیوتری پذیرفته شدم.",
+      "latin": "Belākhere dar yek sherkat-e kāmpyūterī pazīrafte shodam.",
+      "germanDecode": "Schließlich in ein Firma-von Computer akzeptiert wurde-ich.",
+      "germanTranslation": "Schließlich wurde ich in einer Computerfirma angenommen.",
+      "timings": [
+        {
+          "word": "بالاخره",
+          "cleanWord": "بالاخره",
+          "start": 0,
+          "end": 0.7541916666666667
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0.7541916666666667,
+          "end": 0.9696750000000001
+        },
+        {
+          "word": "یک",
+          "cleanWord": "یک",
+          "start": 0.9696750000000001,
+          "end": 1.1851583333333333
+        },
+        {
+          "word": "شرکت",
+          "cleanWord": "شرکت",
+          "start": 1.1851583333333333,
+          "end": 1.616125
+        },
+        {
+          "word": "کامپیوتری",
+          "cleanWord": "کامپیوتری",
+          "start": 1.616125,
+          "end": 2.5858
+        },
+        {
+          "word": "پذیرفته",
+          "cleanWord": "پذیرفته",
+          "start": 2.5858,
+          "end": 3.3399916666666667
+        },
+        {
+          "word": "شدم.",
+          "cleanWord": "شدم",
+          "start": 3.3399916666666667,
+          "end": 3.770958333333333
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "همکاران جدیدم مهربان و دوستانه بودند.",
+      "latin": "Hamkārān-e jadīdam mehrabān va dūstāne būdand.",
+      "germanDecode": "Kollegen-von neue-meine freundlich und freundschaftlich waren-sie.",
+      "germanTranslation": "Meine neuen Kollegen waren freundlich und kameradschaftlich.",
+      "timings": [
+        {
+          "word": "همکاران",
+          "cleanWord": "همکاران",
+          "start": 0,
+          "end": 0.8511471354166666
+        },
+        {
+          "word": "جدیدم",
+          "cleanWord": "جدیدم",
+          "start": 0.8511471354166666,
+          "end": 1.459109375
+        },
+        {
+          "word": "مهربان",
+          "cleanWord": "مهربان",
+          "start": 1.459109375,
+          "end": 2.1886640625
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.1886640625,
+          "end": 2.3102565104166666
+        },
+        {
+          "word": "دوستانه",
+          "cleanWord": "دوستانه",
+          "start": 2.3102565104166666,
+          "end": 3.1614036458333334
+        },
+        {
+          "word": "بودند.",
+          "cleanWord": "بودند",
+          "start": 3.1614036458333334,
+          "end": 3.8909583333333333
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "محیط کار آنجا راحت بود و من می‌توانستم یاد بگیرم.",
+      "latin": "Mohīt-e kār ānjā rāhat būd va man mītavānestam yād begiram.",
+      "germanDecode": "Umgebung-von Arbeit dort bequem war-es und ich konnte-ich Lernen nehme-ich.",
+      "germanTranslation": "Die Arbeitsumgebung dort war angenehm und ich konnte lernen.",
+      "timings": [
+        {
+          "word": "محیط",
+          "cleanWord": "محیط",
+          "start": 0,
+          "end": 0.5130958333333333
+        },
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 0.5130958333333333,
+          "end": 0.8979177083333333
+        },
+        {
+          "word": "آنجا",
+          "cleanWord": "آنجا",
+          "start": 0.8979177083333333,
+          "end": 1.4110135416666667
+        },
+        {
+          "word": "راحت",
+          "cleanWord": "راحت",
+          "start": 1.4110135416666667,
+          "end": 1.924109375
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 1.924109375,
+          "end": 2.30893125
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.30893125,
+          "end": 2.4372052083333333
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 2.4372052083333333,
+          "end": 2.6937531249999997
+        },
+        {
+          "word": "می‌توانستم",
+          "cleanWord": "می‌توانستم",
+          "start": 2.6937531249999997,
+          "end": 3.976492708333333
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 3.976492708333333,
+          "end": 4.361314583333333
+        },
+        {
+          "word": "بگیرم.",
+          "cleanWord": "بگیرم",
+          "start": 4.361314583333333,
+          "end": 5.130958333333333
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "حقوقم کمتر شد اما خوشحال‌تر بودم.",
+      "latin": "Hoghūgh-am kamtar shod ammā khoshhāl-tar būdam.",
+      "germanDecode": "Gehalt-mein weniger wurde-es aber glücklicher war-ich.",
+      "germanTranslation": "Mein Gehalt wurde weniger, aber ich war glücklicher.",
+      "timings": [
+        {
+          "word": "حقوقم",
+          "cleanWord": "حقوقم",
+          "start": 0,
+          "end": 0.687671130952381
+        },
+        {
+          "word": "کمتر",
+          "cleanWord": "کمتر",
+          "start": 0.687671130952381,
+          "end": 1.2378080357142855
+        },
+        {
+          "word": "شد",
+          "cleanWord": "شد",
+          "start": 1.2378080357142855,
+          "end": 1.512876488095238
+        },
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 1.512876488095238,
+          "end": 1.9254791666666664
+        },
+        {
+          "word": "خوشحال‌تر",
+          "cleanWord": "خوشحال‌تر",
+          "start": 1.9254791666666664,
+          "end": 3.1632872023809524
+        },
+        {
+          "word": "بودم.",
+          "cleanWord": "بودم",
+          "start": 3.1632872023809524,
+          "end": 3.8509583333333333
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "اکنون هر روز با انرژی به کار می‌روم.",
+      "latin": "Aknūn har rūz bā enerzī be kār mīravam.",
+      "germanDecode": "Jetzt jeden Tag mit Energie zu Arbeit gehe-ich.",
+      "germanTranslation": "Jetzt gehe ich jeden Tag mit Energie zur Arbeit.",
+      "timings": [
+        {
+          "word": "اکنون",
+          "cleanWord": "اکنون",
+          "start": 0,
+          "end": 0.6156824712643679
+        },
+        {
+          "word": "هر",
+          "cleanWord": "هر",
+          "start": 0.6156824712643679,
+          "end": 0.8619554597701151
+        },
+        {
+          "word": "روز",
+          "cleanWord": "روز",
+          "start": 0.8619554597701151,
+          "end": 1.2313649425287359
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 1.2313649425287359,
+          "end": 1.477637931034483
+        },
+        {
+          "word": "انرژی",
+          "cleanWord": "انرژی",
+          "start": 1.477637931034483,
+          "end": 2.093320402298851
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.093320402298851,
+          "end": 2.3395933908045983
+        },
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 2.3395933908045983,
+          "end": 2.709002873563219
+        },
+        {
+          "word": "می‌روم.",
+          "cleanWord": "می‌روم",
+          "start": 2.709002873563219,
+          "end": 3.570958333333334
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "فهمیدم که پول تنها چیز مهم در زندگی نیست.",
+      "latin": "Fahmīdam ke pūl tanhā chīz-e mohem dar zendegī nīst.",
+      "germanDecode": "Verstand-ich dass Geld allein Ding-von wichtig in Leben nicht-ist.",
+      "germanTranslation": "Ich verstand, dass Geld nicht das einzig Wichtige im Leben ist.",
+      "timings": [
+        {
+          "word": "فهمیدم",
+          "cleanWord": "فهمیدم",
+          "start": 0,
+          "end": 0.7510833333333333
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 0.7510833333333333,
+          "end": 1.0014444444444444
+        },
+        {
+          "word": "پول",
+          "cleanWord": "پول",
+          "start": 1.0014444444444444,
+          "end": 1.376986111111111
+        },
+        {
+          "word": "تنها",
+          "cleanWord": "تنها",
+          "start": 1.376986111111111,
+          "end": 1.877708333333333
+        },
+        {
+          "word": "چیز",
+          "cleanWord": "چیز",
+          "start": 1.877708333333333,
+          "end": 2.2532499999999995
+        },
+        {
+          "word": "مهم",
+          "cleanWord": "مهم",
+          "start": 2.2532499999999995,
+          "end": 2.6287916666666664
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 2.6287916666666664,
+          "end": 2.8791527777777777
+        },
+        {
+          "word": "زندگی",
+          "cleanWord": "زندگی",
+          "start": 2.8791527777777777,
+          "end": 3.5050555555555554
+        },
+        {
+          "word": "نیست.",
+          "cleanWord": "نیست",
+          "start": 3.5050555555555554,
+          "end": 4.130958333333333
+        }
+      ]
+    }
   ]
 }

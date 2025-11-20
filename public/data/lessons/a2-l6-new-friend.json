@@ -3,17 +3,815 @@
   "title": "A2 Lektion 6: Eine neue Freundschaft",
   "description": "Eine Erzählung über das Kennenlernen neuer Menschen und Freundschaft schließen.",
   "sentences": [
-    { "id": 1, "farsi": "ماه گذشته به کلاس فارسی رفتم تا زبان بهتر یاد بگیرم.", "latin": "Māh-e gozashte be kelās-e Fārsī raftam tā zabān behtar yād begiram.", "germanDecode": "Monat-von vergangen zu Klasse-von Persisch ging-ich damit Sprache besser Lernen nehme-ich.", "germanTranslation": "Letzten Monat ging ich zu einem Persischkurs, um die Sprache besser zu lernen." },
-    { "id": 2, "farsi": "در کلاس با دختری آشنا شدم که از آلمان آمده بود.", "latin": "Dar kelās bā dokhtarī āshnā shodam ke az Ālmān āmade būd.", "germanDecode": "In Klasse mit Mädchen-einem bekannt wurde-ich die aus Deutschland gekommen war-sie.", "germanTranslation": "In der Klasse lernte ich ein Mädchen kennen, das aus Deutschland gekommen war." },
-    { "id": 3, "farsi": "اسمش آنا بود و او هم مثل من تازه‌کار بود.", "latin": "Esmash Ānā būd va ū ham mesl-e man tāze-kār būd.", "germanDecode": "Name-ihr Anna war-es und sie auch wie-von mir neu-Arbeit war-sie.", "germanTranslation": "Ihr Name war Anna und sie war auch wie ich Anfängerin." },
-    { "id": 4, "farsi": "بعد از کلاس با هم به کافه رفتیم و قهوه خوردیم.", "latin": "Ba'd az kelās bā ham be kāfe raftīm va ghahve khordīm.", "germanDecode": "Nach von Klasse mit zusammen zu Cafe gingen-wir und Kaffee tranken-wir.", "germanTranslation": "Nach dem Unterricht gingen wir zusammen ins Cafe und tranken Kaffee." },
-    { "id": 5, "farsi": "او از زندگی‌اش در آلمان و دلیل آمدنش به ایران گفت.", "latin": "Ū az zendegī-ash dar Ālmān va dalīl-e āmadan-ash be Īrān goft.", "germanDecode": "Sie von Leben-ihrem in Deutschland und Grund-von Kommen-ihrem zu Iran sagte-sie.", "germanTranslation": "Sie erzählte von ihrem Leben in Deutschland und dem Grund ihres Kommens in den Iran." },
-    { "id": 6, "farsi": "من هم از شغل و خانواده‌ام برایش تعریف کردم.", "latin": "Man ham az shoghl va khānevāde-am barāyash ta'rīf kardam.", "germanDecode": "Ich auch von Beruf und Familie-meiner für-sie Erzählung machte-ich.", "germanTranslation": "Ich erzählte ihr auch von meinem Beruf und meiner Familie." },
-    { "id": 7, "farsi": "فهمیدم که ما علایق مشترک زیادی داریم.", "latin": "Fahmīdam ke mā alāyegh-e moshtarak-e ziyādī dārīm.", "germanDecode": "Verstand-ich dass wir Interessen-von gemeinsam-von viele haben-wir.", "germanTranslation": "Ich verstand, dass wir viele gemeinsame Interessen haben." },
-    { "id": 8, "farsi": "هر دوی ما کتاب خواندن و موسیقی گوش دادن را دوست داشتیم.", "latin": "Har doye mā ketāb khāndan va mūsīqī gūsh dādan rā dūst dāshtīm.", "germanDecode": "Jede zwei-von uns Buch Lesen und Musik Ohr Geben D.O. lieb hatten-wir.", "germanTranslation": "Wir beide liebten es, Bücher zu lesen und Musik zu hören." },
-    { "id": 9, "farsi": "از آن روز هر هفته با هم می‌بینیم.", "latin": "Az ān rūz har hafte bā ham mībīnīm.", "germanDecode": "Von jenem Tag jede Woche mit zusammen sehen-wir.", "germanTranslation": "Seit jenem Tag treffen wir uns jede Woche." },
-    { "id": 10, "farsi": "گاهی به موزه می‌رویم، گاهی فیلم می‌بینیم.", "latin": "Gāhī be mūze mīravīm, gāhī fīlm mībīnīm.", "germanDecode": "Manchmal zu Museum gehen-wir, manchmal Film sehen-wir.", "germanTranslation": "Manchmal gehen wir ins Museum, manchmal schauen wir Filme." },
-    { "id": 11, "farsi": "او به من آلمانی یاد می‌دهد و من به او فارسی کمک می‌کنم.", "latin": "Ū be man Ālmānī yād mīdahad va man be ū Fārsī komak mikonam.", "germanDecode": "Sie zu mir Deutsch Lernen gibt-sie und ich zu ihr Persisch Hilfe mache-ich.", "germanTranslation": "Sie bringt mir Deutsch bei und ich helfe ihr mit Persisch." },
-    { "id": 12, "farsi": "خوشحالم که چنین دوست خوبی پیدا کرده‌ام.", "latin": "Khoshhālam ke chonīn dūst-e khūbī peydā kardeam.", "germanDecode": "Glücklich-ich-bin dass solch Freund-von gut gefunden habe-ich.", "germanTranslation": "Ich bin glücklich, dass ich eine so gute Freundin gefunden habe." }
+    {
+      "id": 1,
+      "farsi": "ماه گذشته به کلاس فارسی رفتم تا زبان بهتر یاد بگیرم.",
+      "latin": "Māh-e gozashte be kelās-e Fārsī raftam tā zabān behtar yād begiram.",
+      "germanDecode": "Monat-von vergangen zu Klasse-von Persisch ging-ich damit Sprache besser Lernen nehme-ich.",
+      "germanTranslation": "Letzten Monat ging ich zu einem Persischkurs, um die Sprache besser zu lernen.",
+      "timings": [
+        {
+          "word": "ماه",
+          "cleanWord": "ماه",
+          "start": 0,
+          "end": 0.38935416666666667
+        },
+        {
+          "word": "گذشته",
+          "cleanWord": "گذشته",
+          "start": 0.38935416666666667,
+          "end": 1.0382777777777776
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.0382777777777776,
+          "end": 1.297847222222222
+        },
+        {
+          "word": "کلاس",
+          "cleanWord": "کلاس",
+          "start": 1.297847222222222,
+          "end": 1.8169861111111107
+        },
+        {
+          "word": "فارسی",
+          "cleanWord": "فارسی",
+          "start": 1.8169861111111107,
+          "end": 2.465909722222222
+        },
+        {
+          "word": "رفتم",
+          "cleanWord": "رفتم",
+          "start": 2.465909722222222,
+          "end": 2.985048611111111
+        },
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 2.985048611111111,
+          "end": 3.2446180555555553
+        },
+        {
+          "word": "زبان",
+          "cleanWord": "زبان",
+          "start": 3.2446180555555553,
+          "end": 3.7637569444444443
+        },
+        {
+          "word": "بهتر",
+          "cleanWord": "بهتر",
+          "start": 3.7637569444444443,
+          "end": 4.282895833333333
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 4.282895833333333,
+          "end": 4.67225
+        },
+        {
+          "word": "بگیرم.",
+          "cleanWord": "بگیرم",
+          "start": 4.67225,
+          "end": 5.450958333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "در کلاس با دختری آشنا شدم که از آلمان آمده بود.",
+      "latin": "Dar kelās bā dokhtarī āshnā shodam ke az Ālmān āmade būd.",
+      "germanDecode": "In Klasse mit Mädchen-einem bekannt wurde-ich die aus Deutschland gekommen war-sie.",
+      "germanTranslation": "In der Klasse lernte ich ein Mädchen kennen, das aus Deutschland gekommen war.",
+      "timings": [
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0,
+          "end": 0.25356531531531534
+        },
+        {
+          "word": "کلاس",
+          "cleanWord": "کلاس",
+          "start": 0.25356531531531534,
+          "end": 0.760695945945946
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.760695945945946,
+          "end": 1.0142612612612614
+        },
+        {
+          "word": "دختری",
+          "cleanWord": "دختری",
+          "start": 1.0142612612612614,
+          "end": 1.6481745495495497
+        },
+        {
+          "word": "آشنا",
+          "cleanWord": "آشنا",
+          "start": 1.6481745495495497,
+          "end": 2.1553051801801804
+        },
+        {
+          "word": "شدم",
+          "cleanWord": "شدم",
+          "start": 2.1553051801801804,
+          "end": 2.535653153153153
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 2.535653153153153,
+          "end": 2.7892184684684684
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 2.7892184684684684,
+          "end": 3.0427837837837837
+        },
+        {
+          "word": "آلمان",
+          "cleanWord": "آلمان",
+          "start": 3.0427837837837837,
+          "end": 3.6766970720720717
+        },
+        {
+          "word": "آمده",
+          "cleanWord": "آمده",
+          "start": 3.6766970720720717,
+          "end": 4.183827702702702
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 4.183827702702702,
+          "end": 4.690958333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "اسمش آنا بود و او هم مثل من تازه‌کار بود.",
+      "latin": "Esmash Ānā būd va ū ham mesl-e man tāze-kār būd.",
+      "germanDecode": "Name-ihr Anna war-es und sie auch wie-von mir neu-Arbeit war-sie.",
+      "germanTranslation": "Ihr Name war Anna und sie war auch wie ich Anfängerin.",
+      "timings": [
+        {
+          "word": "اسمش",
+          "cleanWord": "اسمش",
+          "start": 0,
+          "end": 0.49136979166666667
+        },
+        {
+          "word": "آنا",
+          "cleanWord": "آنا",
+          "start": 0.49136979166666667,
+          "end": 0.8598971354166667
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 0.8598971354166667,
+          "end": 1.2284244791666667
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.2284244791666667,
+          "end": 1.3512669270833335
+        },
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 1.3512669270833335,
+          "end": 1.5969518229166668
+        },
+        {
+          "word": "هم",
+          "cleanWord": "هم",
+          "start": 1.5969518229166668,
+          "end": 1.8426367187500001
+        },
+        {
+          "word": "مثل",
+          "cleanWord": "مثل",
+          "start": 1.8426367187500001,
+          "end": 2.2111640625
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 2.2111640625,
+          "end": 2.4568489583333335
+        },
+        {
+          "word": "تازه‌کار",
+          "cleanWord": "تازه‌کار",
+          "start": 2.4568489583333335,
+          "end": 3.4395885416666667
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 3.4395885416666667,
+          "end": 3.9309583333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "بعد از کلاس با هم به کافه رفتیم و قهوه خوردیم.",
+      "latin": "Ba'd az kelās bā ham be kāfe raftīm va ghahve khordīm.",
+      "germanDecode": "Nach von Klasse mit zusammen zu Cafe gingen-wir und Kaffee tranken-wir.",
+      "germanTranslation": "Nach dem Unterricht gingen wir zusammen ins Cafe und tranken Kaffee.",
+      "timings": [
+        {
+          "word": "بعد",
+          "cleanWord": "بعد",
+          "start": 0,
+          "end": 0.3075798611111111
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0.3075798611111111,
+          "end": 0.5126331018518517
+        },
+        {
+          "word": "کلاس",
+          "cleanWord": "کلاس",
+          "start": 0.5126331018518517,
+          "end": 0.9227395833333332
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.9227395833333332,
+          "end": 1.1277928240740738
+        },
+        {
+          "word": "هم",
+          "cleanWord": "هم",
+          "start": 1.1277928240740738,
+          "end": 1.3328460648148144
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.3328460648148144,
+          "end": 1.537899305555555
+        },
+        {
+          "word": "کافه",
+          "cleanWord": "کافه",
+          "start": 1.537899305555555,
+          "end": 1.9480057870370364
+        },
+        {
+          "word": "رفتیم",
+          "cleanWord": "رفتیم",
+          "start": 1.9480057870370364,
+          "end": 2.460638888888888
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.460638888888888,
+          "end": 2.5631655092592585
+        },
+        {
+          "word": "قهوه",
+          "cleanWord": "قهوه",
+          "start": 2.5631655092592585,
+          "end": 2.9732719907407397
+        },
+        {
+          "word": "خوردیم.",
+          "cleanWord": "خوردیم",
+          "start": 2.9732719907407397,
+          "end": 3.6909583333333322
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "او از زندگی‌اش در آلمان و دلیل آمدنش به ایران گفت.",
+      "latin": "Ū az zendegī-ash dar Ālmān va dalīl-e āmadan-ash be Īrān goft.",
+      "germanDecode": "Sie von Leben-ihrem in Deutschland und Grund-von Kommen-ihrem zu Iran sagte-sie.",
+      "germanTranslation": "Sie erzählte von ihrem Leben in Deutschland und dem Grund ihres Kommens in den Iran.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.2405479166666667
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0.2405479166666667,
+          "end": 0.4810958333333334
+        },
+        {
+          "word": "زندگی‌اش",
+          "cleanWord": "زندگی‌اش",
+          "start": 0.4810958333333334,
+          "end": 1.4432875000000003
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 1.4432875000000003,
+          "end": 1.683835416666667
+        },
+        {
+          "word": "آلمان",
+          "cleanWord": "آلمان",
+          "start": 1.683835416666667,
+          "end": 2.2852052083333336
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.2852052083333336,
+          "end": 2.405479166666667
+        },
+        {
+          "word": "دلیل",
+          "cleanWord": "دلیل",
+          "start": 2.405479166666667,
+          "end": 2.886575
+        },
+        {
+          "word": "آمدنش",
+          "cleanWord": "آمدنش",
+          "start": 2.886575,
+          "end": 3.487944791666667
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 3.487944791666667,
+          "end": 3.728492708333334
+        },
+        {
+          "word": "ایران",
+          "cleanWord": "ایران",
+          "start": 3.728492708333334,
+          "end": 4.329862500000001
+        },
+        {
+          "word": "گفت.",
+          "cleanWord": "گفت",
+          "start": 4.329862500000001,
+          "end": 4.810958333333335
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "من هم از شغل و خانواده‌ام برایش تعریف کردم.",
+      "latin": "Man ham az shoghl va khānevāde-am barāyash ta'rīf kardam.",
+      "germanDecode": "Ich auch von Beruf und Familie-meiner für-sie Erzählung machte-ich.",
+      "germanTranslation": "Ich erzählte ihr auch von meinem Beruf und meiner Familie.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.25891190476190473
+        },
+        {
+          "word": "هم",
+          "cleanWord": "هم",
+          "start": 0.25891190476190473,
+          "end": 0.5178238095238095
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0.5178238095238095,
+          "end": 0.7767357142857142
+        },
+        {
+          "word": "شغل",
+          "cleanWord": "شغل",
+          "start": 0.7767357142857142,
+          "end": 1.1651035714285713
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.1651035714285713,
+          "end": 1.2945595238095238
+        },
+        {
+          "word": "خانواده‌ام",
+          "cleanWord": "خانواده‌ام",
+          "start": 1.2945595238095238,
+          "end": 2.5891190476190475
+        },
+        {
+          "word": "برایش",
+          "cleanWord": "برایش",
+          "start": 2.5891190476190475,
+          "end": 3.236398809523809
+        },
+        {
+          "word": "تعریف",
+          "cleanWord": "تعریف",
+          "start": 3.236398809523809,
+          "end": 3.883678571428571
+        },
+        {
+          "word": "کردم.",
+          "cleanWord": "کردم",
+          "start": 3.883678571428571,
+          "end": 4.5309583333333325
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "فهمیدم که ما علایق مشترک زیادی داریم.",
+      "latin": "Fahmīdam ke mā alāyegh-e moshtarak-e ziyādī dārīm.",
+      "germanDecode": "Verstand-ich dass wir Interessen-von gemeinsam-von viele haben-wir.",
+      "germanTranslation": "Ich verstand, dass wir viele gemeinsame Interessen haben.",
+      "timings": [
+        {
+          "word": "فهمیدم",
+          "cleanWord": "فهمیدم",
+          "start": 0,
+          "end": 0.7143790322580644
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 0.7143790322580644,
+          "end": 0.9525053763440859
+        },
+        {
+          "word": "ما",
+          "cleanWord": "ما",
+          "start": 0.9525053763440859,
+          "end": 1.1906317204301073
+        },
+        {
+          "word": "علایق",
+          "cleanWord": "علایق",
+          "start": 1.1906317204301073,
+          "end": 1.785947580645161
+        },
+        {
+          "word": "مشترک",
+          "cleanWord": "مشترک",
+          "start": 1.785947580645161,
+          "end": 2.3812634408602147
+        },
+        {
+          "word": "زیادی",
+          "cleanWord": "زیادی",
+          "start": 2.3812634408602147,
+          "end": 2.9765793010752684
+        },
+        {
+          "word": "داریم.",
+          "cleanWord": "داریم",
+          "start": 2.9765793010752684,
+          "end": 3.6909583333333327
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "هر دوی ما کتاب خواندن و موسیقی گوش دادن را دوست داشتیم.",
+      "latin": "Har doye mā ketāb khāndan va mūsīqī gūsh dādan rā dūst dāshtīm.",
+      "germanDecode": "Jede zwei-von uns Buch Lesen und Musik Ohr Geben D.O. lieb hatten-wir.",
+      "germanTranslation": "Wir beide liebten es, Bücher zu lesen und Musik zu hören.",
+      "timings": [
+        {
+          "word": "هر",
+          "cleanWord": "هر",
+          "start": 0,
+          "end": 0.27372348484848485
+        },
+        {
+          "word": "دوی",
+          "cleanWord": "دوی",
+          "start": 0.27372348484848485,
+          "end": 0.6843087121212121
+        },
+        {
+          "word": "ما",
+          "cleanWord": "ما",
+          "start": 0.6843087121212121,
+          "end": 0.958032196969697
+        },
+        {
+          "word": "کتاب",
+          "cleanWord": "کتاب",
+          "start": 0.958032196969697,
+          "end": 1.5054791666666667
+        },
+        {
+          "word": "خواندن",
+          "cleanWord": "خواندن",
+          "start": 1.5054791666666667,
+          "end": 2.326649621212121
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.326649621212121,
+          "end": 2.4635113636363632
+        },
+        {
+          "word": "موسیقی",
+          "cleanWord": "موسیقی",
+          "start": 2.4635113636363632,
+          "end": 3.284681818181818
+        },
+        {
+          "word": "گوش",
+          "cleanWord": "گوش",
+          "start": 3.284681818181818,
+          "end": 3.695267045454545
+        },
+        {
+          "word": "دادن",
+          "cleanWord": "دادن",
+          "start": 3.695267045454545,
+          "end": 4.242714015151515
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 4.242714015151515,
+          "end": 4.5164375
+        },
+        {
+          "word": "دوست",
+          "cleanWord": "دوست",
+          "start": 4.5164375,
+          "end": 5.06388446969697
+        },
+        {
+          "word": "داشتیم.",
+          "cleanWord": "داشتیم",
+          "start": 5.06388446969697,
+          "end": 6.021916666666667
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "از آن روز هر هفته با هم می‌بینیم.",
+      "latin": "Az ān rūz har hafte bā ham mībīnīm.",
+      "germanDecode": "Von jenem Tag jede Woche mit zusammen sehen-wir.",
+      "germanTranslation": "Seit jenem Tag treffen wir uns jede Woche.",
+      "timings": [
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0,
+          "end": 0.23468910256410258
+        },
+        {
+          "word": "آن",
+          "cleanWord": "آن",
+          "start": 0.23468910256410258,
+          "end": 0.46937820512820516
+        },
+        {
+          "word": "روز",
+          "cleanWord": "روز",
+          "start": 0.46937820512820516,
+          "end": 0.8214118589743591
+        },
+        {
+          "word": "هر",
+          "cleanWord": "هر",
+          "start": 0.8214118589743591,
+          "end": 1.0561009615384616
+        },
+        {
+          "word": "هفته",
+          "cleanWord": "هفته",
+          "start": 1.0561009615384616,
+          "end": 1.5254791666666667
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 1.5254791666666667,
+          "end": 1.7601682692307694
+        },
+        {
+          "word": "هم",
+          "cleanWord": "هم",
+          "start": 1.7601682692307694,
+          "end": 1.9948573717948719
+        },
+        {
+          "word": "می‌بینیم.",
+          "cleanWord": "می‌بینیم",
+          "start": 1.9948573717948719,
+          "end": 3.0509583333333334
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "گاهی به موزه می‌رویم، گاهی فیلم می‌بینیم.",
+      "latin": "Gāhī be mūze mīravīm, gāhī fīlm mībīnīm.",
+      "germanDecode": "Manchmal zu Museum gehen-wir, manchmal Film sehen-wir.",
+      "germanTranslation": "Manchmal gehen wir ins Museum, manchmal schauen wir Filme.",
+      "timings": [
+        {
+          "word": "گاهی",
+          "cleanWord": "گاهی",
+          "start": 0,
+          "end": 0.4081095238095238
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0.4081095238095238,
+          "end": 0.6121642857142857
+        },
+        {
+          "word": "موزه",
+          "cleanWord": "موزه",
+          "start": 0.6121642857142857,
+          "end": 1.0202738095238095
+        },
+        {
+          "word": "می‌رویم،",
+          "cleanWord": "می‌رویم،",
+          "start": 1.0202738095238095,
+          "end": 1.8364928571428571
+        },
+        {
+          "word": "گاهی",
+          "cleanWord": "گاهی",
+          "start": 1.8364928571428571,
+          "end": 2.244602380952381
+        },
+        {
+          "word": "فیلم",
+          "cleanWord": "فیلم",
+          "start": 2.244602380952381,
+          "end": 2.652711904761905
+        },
+        {
+          "word": "می‌بینیم.",
+          "cleanWord": "می‌بینیم",
+          "start": 2.652711904761905,
+          "end": 3.5709583333333335
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "او به من آلمانی یاد می‌دهد و من به او فارسی کمک می‌کنم.",
+      "latin": "Ū be man Ālmānī yād mīdahad va man be ū Fārsī komak mikonam.",
+      "germanDecode": "Sie zu mir Deutsch Lernen gibt-sie und ich zu ihr Persisch Hilfe mache-ich.",
+      "germanTranslation": "Sie bringt mir Deutsch bei und ich helfe ihr mit Persisch.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.20143992248062015
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0.20143992248062015,
+          "end": 0.4028798449612403
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.4028798449612403,
+          "end": 0.6043197674418604
+        },
+        {
+          "word": "آلمانی",
+          "cleanWord": "آلمانی",
+          "start": 0.6043197674418604,
+          "end": 1.208639534883721
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 1.208639534883721,
+          "end": 1.5107994186046512
+        },
+        {
+          "word": "می‌دهد",
+          "cleanWord": "می‌دهد",
+          "start": 1.5107994186046512,
+          "end": 2.1151191860465115
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.1151191860465115,
+          "end": 2.2158391472868217
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 2.2158391472868217,
+          "end": 2.417279069767442
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.417279069767442,
+          "end": 2.618718992248062
+        },
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 2.618718992248062,
+          "end": 2.820158914728682
+        },
+        {
+          "word": "فارسی",
+          "cleanWord": "فارسی",
+          "start": 2.820158914728682,
+          "end": 3.323758720930232
+        },
+        {
+          "word": "کمک",
+          "cleanWord": "کمک",
+          "start": 3.323758720930232,
+          "end": 3.6259186046511624
+        },
+        {
+          "word": "می‌کنم.",
+          "cleanWord": "می‌کنم",
+          "start": 3.6259186046511624,
+          "end": 4.330958333333333
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "خوشحالم که چنین دوست خوبی پیدا کرده‌ام.",
+      "latin": "Khoshhālam ke chonīn dūst-e khūbī peydā kardeam.",
+      "germanDecode": "Glücklich-ich-bin dass solch Freund-von gut gefunden habe-ich.",
+      "germanTranslation": "Ich bin glücklich, dass ich eine so gute Freundin gefunden habe.",
+      "timings": [
+        {
+          "word": "خوشحالم",
+          "cleanWord": "خوشحالم",
+          "start": 0,
+          "end": 0.6811123737373738
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 0.6811123737373738,
+          "end": 0.8757159090909091
+        },
+        {
+          "word": "چنین",
+          "cleanWord": "چنین",
+          "start": 0.8757159090909091,
+          "end": 1.2649229797979797
+        },
+        {
+          "word": "دوست",
+          "cleanWord": "دوست",
+          "start": 1.2649229797979797,
+          "end": 1.6541300505050505
+        },
+        {
+          "word": "خوبی",
+          "cleanWord": "خوبی",
+          "start": 1.6541300505050505,
+          "end": 2.043337121212121
+        },
+        {
+          "word": "پیدا",
+          "cleanWord": "پیدا",
+          "start": 2.043337121212121,
+          "end": 2.4325441919191917
+        },
+        {
+          "word": "کرده‌ام.",
+          "cleanWord": "کرده‌ام",
+          "start": 2.4325441919191917,
+          "end": 3.210958333333333
+        }
+      ]
+    }
   ]
 }

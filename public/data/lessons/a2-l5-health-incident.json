@@ -3,17 +3,665 @@
   "title": "A2 Lektion 5: Ein Gesundheitsproblem",
   "description": "Eine Erzählung über einen Arztbesuch und Gesundheitsprobleme.",
   "sentences": [
-    { "id": 1, "farsi": "دو هفته پیش احساس بدی داشتم و مریض شدم.", "latin": "Do hafte pīsh ehsās-e badī dāshtam va marīz shodam.", "germanDecode": "Zwei Wochen vorher Gefühl-von schlecht hatte-ich und krank wurde-ich.", "germanTranslation": "Vor zwei Wochen fühlte ich mich schlecht und wurde krank." },
-    { "id": 2, "farsi": "صبح که از خواب بیدار شدم، تب شدید داشتم.", "latin": "Sobh ke az khāb bīdār shodam, tab-e shadīd dāshtam.", "germanDecode": "Morgen als aus Schlaf wach wurde-ich, Fieber-von stark hatte-ich.", "germanTranslation": "Als ich morgens aufwachte, hatte ich starkes Fieber." },
-    { "id": 3, "farsi": "سر و گلوی من خیلی درد می‌کرد.", "latin": "Sar va galūye man kheylī dard mikard.", "germanDecode": "Kopf und Hals-von mir sehr Schmerz machte-er.", "germanTranslation": "Mein Kopf und Hals taten sehr weh." },
-    { "id": 4, "farsi": "به مادرم زنگ زدم و او نگران شد.", "latin": "Be mādaram zang zadam va ū nagarān shod.", "germanDecode": "Zu Mutter-meiner Klingel schlug-ich und sie besorgt wurde-sie.", "germanTranslation": "Ich rief meine Mutter an und sie wurde besorgt." },
-    { "id": 5, "farsi": "او گفت باید فوراً به دکتر بروم.", "latin": "Ū goft bāyad fowran be doktor beravam.", "germanDecode": "Sie sagte muss sofort zu Arzt gehe-ich.", "germanTranslation": "Sie sagte, ich müsse sofort zum Arzt gehen." },
-    { "id": 6, "farsi": "تاکسی گرفتم و به مطب دکتر رفتم.", "latin": "Tāksī gereftam va be matab-e doktor raftam.", "germanDecode": "Taxi nahm-ich und zu Praxis-von Arzt ging-ich.", "germanTranslation": "Ich nahm ein Taxi und ging zur Arztpraxis." },
-    { "id": 7, "farsi": "در مطب نیم ساعت منتظر ماندم.", "latin": "Dar matab nīm sā'at montazer māndam.", "germanDecode": "In Praxis halb Stunde wartend blieb-ich.", "germanTranslation": "In der Praxis wartete ich eine halbe Stunde." },
-    { "id": 8, "farsi": "دکتر مرا معاینه کرد و گفت سرماخوردگی سادی است.", "latin": "Doktor marā mo'āyene kard va goft sarmākhordeagī-ye sādī ast.", "germanDecode": "Arzt mich D.O. Untersuchung machte-er und sagte Erkältung-von einfach ist.", "germanTranslation": "Der Arzt untersuchte mich und sagte, es sei eine einfache Erkältung." },
-    { "id": 9, "farsi": "برایم دارو نوشت و گفت استراحت کنم.", "latin": "Barāyam dārū nevesht va goft esterāhat konam.", "germanDecode": "Für-mich Medizin schrieb-er und sagte Ruhe mache-ich.", "germanTranslation": "Er verschrieb mir Medizin und sagte, ich solle mich ausruhen." },
-    { "id": 10, "farsi": "به داروخانه رفتم و داروها را خریدم.", "latin": "Be dārūkhāne raftam va dārūhā rā kharīdam.", "germanDecode": "Zu Apotheke ging-ich und Medikamente D.O. kaufte-ich.", "germanTranslation": "Ich ging zur Apotheke und kaufte die Medikamente." },
-    { "id": 11, "farsi": "سه روز در خانه ماندم و دارو خوردم.", "latin": "Seh rūz dar khāne māndam va dārū khordam.", "germanDecode": "Drei Tage in Haus blieb-ich und Medizin aß-ich.", "germanTranslation": "Drei Tage blieb ich zu Hause und nahm Medizin." },
-    { "id": 12, "farsi": "حالا کاملاً خوب شده‌ام و به کارم برگشته‌ام.", "latin": "Hālā kāmelan khūb shodeam va be kāram bargashteam.", "germanDecode": "Jetzt vollständig gut geworden-ich-bin und zu Arbeit-meiner zurückgekehrt-ich-bin.", "germanTranslation": "Jetzt bin ich vollständig gesund geworden und zur Arbeit zurückgekehrt." }
+    {
+      "id": 1,
+      "farsi": "دو هفته پیش احساس بدی داشتم و مریض شدم.",
+      "latin": "Do hafte pīsh ehsās-e badī dāshtam va marīz shodam.",
+      "germanDecode": "Zwei Wochen vorher Gefühl-von schlecht hatte-ich und krank wurde-ich.",
+      "germanTranslation": "Vor zwei Wochen fühlte ich mich schlecht und wurde krank.",
+      "timings": [
+        {
+          "word": "دو",
+          "cleanWord": "دو",
+          "start": 0,
+          "end": 0.2484489247311828
+        },
+        {
+          "word": "هفته",
+          "cleanWord": "هفته",
+          "start": 0.2484489247311828,
+          "end": 0.7453467741935484
+        },
+        {
+          "word": "پیش",
+          "cleanWord": "پیش",
+          "start": 0.7453467741935484,
+          "end": 1.1180201612903227
+        },
+        {
+          "word": "احساس",
+          "cleanWord": "احساس",
+          "start": 1.1180201612903227,
+          "end": 1.7391424731182796
+        },
+        {
+          "word": "بدی",
+          "cleanWord": "بدی",
+          "start": 1.7391424731182796,
+          "end": 2.111815860215054
+        },
+        {
+          "word": "داشتم",
+          "cleanWord": "داشتم",
+          "start": 2.111815860215054,
+          "end": 2.732938172043011
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.732938172043011,
+          "end": 2.8571626344086023
+        },
+        {
+          "word": "مریض",
+          "cleanWord": "مریض",
+          "start": 2.8571626344086023,
+          "end": 3.354060483870968
+        },
+        {
+          "word": "شدم.",
+          "cleanWord": "شدم",
+          "start": 3.354060483870968,
+          "end": 3.8509583333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "صبح که از خواب بیدار شدم، تب شدید داشتم.",
+      "latin": "Sobh ke az khāb bīdār shodam, tab-e shadīd dāshtam.",
+      "germanDecode": "Morgen als aus Schlaf wach wurde-ich, Fieber-von stark hatte-ich.",
+      "germanTranslation": "Als ich morgens aufwachte, hatte ich starkes Fieber.",
+      "timings": [
+        {
+          "word": "صبح",
+          "cleanWord": "صبح",
+          "start": 0,
+          "end": 0.37602734374999996
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 0.37602734374999996,
+          "end": 0.6267122395833333
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0.6267122395833333,
+          "end": 0.8773971354166666
+        },
+        {
+          "word": "خواب",
+          "cleanWord": "خواب",
+          "start": 0.8773971354166666,
+          "end": 1.3787669270833334
+        },
+        {
+          "word": "بیدار",
+          "cleanWord": "بیدار",
+          "start": 1.3787669270833334,
+          "end": 2.0054791666666665
+        },
+        {
+          "word": "شدم،",
+          "cleanWord": "شدم،",
+          "start": 2.0054791666666665,
+          "end": 2.5068489583333333
+        },
+        {
+          "word": "تب",
+          "cleanWord": "تب",
+          "start": 2.5068489583333333,
+          "end": 2.7575338541666667
+        },
+        {
+          "word": "شدید",
+          "cleanWord": "شدید",
+          "start": 2.7575338541666667,
+          "end": 3.2589036458333336
+        },
+        {
+          "word": "داشتم.",
+          "cleanWord": "داشتم",
+          "start": 3.2589036458333336,
+          "end": 4.010958333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "سر و گلوی من خیلی درد می‌کرد.",
+      "latin": "Sar va galūye man kheylī dard mikard.",
+      "germanDecode": "Kopf und Hals-von mir sehr Schmerz machte-er.",
+      "germanTranslation": "Mein Kopf und Hals taten sehr weh.",
+      "timings": [
+        {
+          "word": "سر",
+          "cleanWord": "سر",
+          "start": 0,
+          "end": 0.2548659420289855
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 0.2548659420289855,
+          "end": 0.38229891304347824
+        },
+        {
+          "word": "گلوی",
+          "cleanWord": "گلوی",
+          "start": 0.38229891304347824,
+          "end": 0.8920307971014492
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.8920307971014492,
+          "end": 1.1468967391304346
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 1.1468967391304346,
+          "end": 1.6566286231884055
+        },
+        {
+          "word": "درد",
+          "cleanWord": "درد",
+          "start": 1.6566286231884055,
+          "end": 2.038927536231884
+        },
+        {
+          "word": "می‌کرد.",
+          "cleanWord": "می‌کرد",
+          "start": 2.038927536231884,
+          "end": 2.9309583333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "به مادرم زنگ زدم و او نگران شد.",
+      "latin": "Be mādaram zang zadam va ū nagarān shod.",
+      "germanDecode": "Zu Mutter-meiner Klingel schlug-ich und sie besorgt wurde-sie.",
+      "germanTranslation": "Ich rief meine Mutter an und sie wurde besorgt.",
+      "timings": [
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0,
+          "end": 0.2642465277777778
+        },
+        {
+          "word": "مادرم",
+          "cleanWord": "مادرم",
+          "start": 0.2642465277777778,
+          "end": 0.9248628472222223
+        },
+        {
+          "word": "زنگ",
+          "cleanWord": "زنگ",
+          "start": 0.9248628472222223,
+          "end": 1.321232638888889
+        },
+        {
+          "word": "زدم",
+          "cleanWord": "زدم",
+          "start": 1.321232638888889,
+          "end": 1.7176024305555557
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.7176024305555557,
+          "end": 1.8497256944444447
+        },
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 1.8497256944444447,
+          "end": 2.1139722222222224
+        },
+        {
+          "word": "نگران",
+          "cleanWord": "نگران",
+          "start": 2.1139722222222224,
+          "end": 2.7745885416666667
+        },
+        {
+          "word": "شد.",
+          "cleanWord": "شد",
+          "start": 2.7745885416666667,
+          "end": 3.1709583333333335
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "او گفت باید فوراً به دکتر بروم.",
+      "latin": "Ū goft bāyad fowran be doktor beravam.",
+      "germanDecode": "Sie sagte muss sofort zu Arzt gehe-ich.",
+      "germanTranslation": "Sie sagte, ich müsse sofort zum Arzt gehen.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.2760766666666667
+        },
+        {
+          "word": "گفت",
+          "cleanWord": "گفت",
+          "start": 0.2760766666666667,
+          "end": 0.6901916666666668
+        },
+        {
+          "word": "باید",
+          "cleanWord": "باید",
+          "start": 0.6901916666666668,
+          "end": 1.2423450000000003
+        },
+        {
+          "word": "فوراً",
+          "cleanWord": "فوراً",
+          "start": 1.2423450000000003,
+          "end": 1.932536666666667
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.932536666666667,
+          "end": 2.2086133333333335
+        },
+        {
+          "word": "دکتر",
+          "cleanWord": "دکتر",
+          "start": 2.2086133333333335,
+          "end": 2.760766666666667
+        },
+        {
+          "word": "بروم.",
+          "cleanWord": "بروم",
+          "start": 2.760766666666667,
+          "end": 3.450958333333334
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "تاکسی گرفتم و به مطب دکتر رفتم.",
+      "latin": "Tāksī gereftam va be matab-e doktor raftam.",
+      "germanDecode": "Taxi nahm-ich und zu Praxis-von Arzt ging-ich.",
+      "germanTranslation": "Ich nahm ein Taxi und ging zur Arztpraxis.",
+      "timings": [
+        {
+          "word": "تاکسی",
+          "cleanWord": "تاکسی",
+          "start": 0,
+          "end": 0.6821916666666668
+        },
+        {
+          "word": "گرفتم",
+          "cleanWord": "گرفتم",
+          "start": 0.6821916666666668,
+          "end": 1.3643833333333335
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.3643833333333335,
+          "end": 1.500821666666667
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.500821666666667,
+          "end": 1.7736983333333336
+        },
+        {
+          "word": "مطب",
+          "cleanWord": "مطب",
+          "start": 1.7736983333333336,
+          "end": 2.1830133333333337
+        },
+        {
+          "word": "دکتر",
+          "cleanWord": "دکتر",
+          "start": 2.1830133333333337,
+          "end": 2.728766666666667
+        },
+        {
+          "word": "رفتم.",
+          "cleanWord": "رفتم",
+          "start": 2.728766666666667,
+          "end": 3.4109583333333338
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "در مطب نیم ساعت منتظر ماندم.",
+      "latin": "Dar matab nīm sā'at montazer māndam.",
+      "germanDecode": "In Praxis halb Stunde wartend blieb-ich.",
+      "germanTranslation": "In der Praxis wartete ich eine halbe Stunde.",
+      "timings": [
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0,
+          "end": 0.2826920289855072
+        },
+        {
+          "word": "مطب",
+          "cleanWord": "مطب",
+          "start": 0.2826920289855072,
+          "end": 0.7067300724637681
+        },
+        {
+          "word": "نیم",
+          "cleanWord": "نیم",
+          "start": 0.7067300724637681,
+          "end": 1.1307681159420289
+        },
+        {
+          "word": "ساعت",
+          "cleanWord": "ساعت",
+          "start": 1.1307681159420289,
+          "end": 1.6961521739130432
+        },
+        {
+          "word": "منتظر",
+          "cleanWord": "منتظر",
+          "start": 1.6961521739130432,
+          "end": 2.4028822463768114
+        },
+        {
+          "word": "ماندم.",
+          "cleanWord": "ماندم",
+          "start": 2.4028822463768114,
+          "end": 3.250958333333333
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "دکتر مرا معاینه کرد و گفت سرماخوردگی سادی است.",
+      "latin": "Doktor marā mo'āyene kard va goft sarmākhordeagī-ye sādī ast.",
+      "germanDecode": "Arzt mich D.O. Untersuchung machte-er und sagte Erkältung-von einfach ist.",
+      "germanTranslation": "Der Arzt untersuchte mich und sagte, es sei eine einfache Erkältung.",
+      "timings": [
+        {
+          "word": "دکتر",
+          "cleanWord": "دکتر",
+          "start": 0,
+          "end": 0.527469298245614
+        },
+        {
+          "word": "مرا",
+          "cleanWord": "مرا",
+          "start": 0.527469298245614,
+          "end": 0.9230712719298244
+        },
+        {
+          "word": "معاینه",
+          "cleanWord": "معاینه",
+          "start": 0.9230712719298244,
+          "end": 1.7142752192982453
+        },
+        {
+          "word": "کرد",
+          "cleanWord": "کرد",
+          "start": 1.7142752192982453,
+          "end": 2.109877192982456
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.109877192982456,
+          "end": 2.241744517543859
+        },
+        {
+          "word": "گفت",
+          "cleanWord": "گفت",
+          "start": 2.241744517543859,
+          "end": 2.6373464912280697
+        },
+        {
+          "word": "سرماخوردگی",
+          "cleanWord": "سرماخوردگی",
+          "start": 2.6373464912280697,
+          "end": 3.9560197368421046
+        },
+        {
+          "word": "سادی",
+          "cleanWord": "سادی",
+          "start": 3.9560197368421046,
+          "end": 4.483489035087718
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 4.483489035087718,
+          "end": 5.010958333333332
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "برایم دارو نوشت و گفت استراحت کنم.",
+      "latin": "Barāyam dārū nevesht va goft esterāhat konam.",
+      "germanDecode": "Für-mich Medizin schrieb-er und sagte Ruhe mache-ich.",
+      "germanTranslation": "Er verschrieb mir Medizin und sagte, ich solle mich ausruhen.",
+      "timings": [
+        {
+          "word": "برایم",
+          "cleanWord": "برایم",
+          "start": 0,
+          "end": 0.6305282738095238
+        },
+        {
+          "word": "دارو",
+          "cleanWord": "دارو",
+          "start": 0.6305282738095238,
+          "end": 1.1349508928571428
+        },
+        {
+          "word": "نوشت",
+          "cleanWord": "نوشت",
+          "start": 1.1349508928571428,
+          "end": 1.6393735119047617
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.6393735119047617,
+          "end": 1.7654791666666665
+        },
+        {
+          "word": "گفت",
+          "cleanWord": "گفت",
+          "start": 1.7654791666666665,
+          "end": 2.1437961309523805
+        },
+        {
+          "word": "استراحت",
+          "cleanWord": "استراحت",
+          "start": 2.1437961309523805,
+          "end": 3.026535714285714
+        },
+        {
+          "word": "کنم.",
+          "cleanWord": "کنم",
+          "start": 3.026535714285714,
+          "end": 3.530958333333333
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "به داروخانه رفتم و داروها را خریدم.",
+      "latin": "Be dārūkhāne raftam va dārūhā rā kharīdam.",
+      "germanDecode": "Zu Apotheke ging-ich und Medikamente D.O. kaufte-ich.",
+      "germanTranslation": "Ich ging zur Apotheke und kaufte die Medikamente.",
+      "timings": [
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0,
+          "end": 0.26558333333333334
+        },
+        {
+          "word": "داروخانه",
+          "cleanWord": "داروخانه",
+          "start": 0.26558333333333334,
+          "end": 1.3279166666666666
+        },
+        {
+          "word": "رفتم",
+          "cleanWord": "رفتم",
+          "start": 1.3279166666666666,
+          "end": 1.8590833333333334
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.8590833333333334,
+          "end": 1.991875
+        },
+        {
+          "word": "داروها",
+          "cleanWord": "داروها",
+          "start": 1.991875,
+          "end": 2.788625
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 2.788625,
+          "end": 3.0542083333333334
+        },
+        {
+          "word": "خریدم.",
+          "cleanWord": "خریدم",
+          "start": 3.0542083333333334,
+          "end": 3.8509583333333333
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "سه روز در خانه ماندم و دارو خوردم.",
+      "latin": "Seh rūz dar khāne māndam va dārū khordam.",
+      "germanDecode": "Drei Tage in Haus blieb-ich und Medizin aß-ich.",
+      "germanTranslation": "Drei Tage blieb ich zu Hause und nahm Medizin.",
+      "timings": [
+        {
+          "word": "سه",
+          "cleanWord": "سه",
+          "start": 0,
+          "end": 0.2497006172839506
+        },
+        {
+          "word": "روز",
+          "cleanWord": "روز",
+          "start": 0.2497006172839506,
+          "end": 0.6242515432098765
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0.6242515432098765,
+          "end": 0.8739521604938272
+        },
+        {
+          "word": "خانه",
+          "cleanWord": "خانه",
+          "start": 0.8739521604938272,
+          "end": 1.3733533950617285
+        },
+        {
+          "word": "ماندم",
+          "cleanWord": "ماندم",
+          "start": 1.3733533950617285,
+          "end": 1.997604938271605
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.997604938271605,
+          "end": 2.1224552469135802
+        },
+        {
+          "word": "دارو",
+          "cleanWord": "دارو",
+          "start": 2.1224552469135802,
+          "end": 2.6218564814814815
+        },
+        {
+          "word": "خوردم.",
+          "cleanWord": "خوردم",
+          "start": 2.6218564814814815,
+          "end": 3.3709583333333333
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "حالا کاملاً خوب شده‌ام و به کارم برگشته‌ام.",
+      "latin": "Hālā kāmelan khūb shodeam va be kāram bargashteam.",
+      "germanDecode": "Jetzt vollständig gut geworden-ich-bin und zu Arbeit-meiner zurückgekehrt-ich-bin.",
+      "germanTranslation": "Jetzt bin ich vollständig gesund geworden und zur Arbeit zurückgekehrt.",
+      "timings": [
+        {
+          "word": "حالا",
+          "cleanWord": "حالا",
+          "start": 0,
+          "end": 0.4589953703703703
+        },
+        {
+          "word": "کاملاً",
+          "cleanWord": "کاملاً",
+          "start": 0.4589953703703703,
+          "end": 1.1474884259259257
+        },
+        {
+          "word": "خوب",
+          "cleanWord": "خوب",
+          "start": 1.1474884259259257,
+          "end": 1.4917349537037035
+        },
+        {
+          "word": "شده‌ام",
+          "cleanWord": "شده‌ام",
+          "start": 1.4917349537037035,
+          "end": 2.1802280092592587
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.1802280092592587,
+          "end": 2.2949768518518514
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.2949768518518514,
+          "end": 2.5244745370370367
+        },
+        {
+          "word": "کارم",
+          "cleanWord": "کارم",
+          "start": 2.5244745370370367,
+          "end": 2.983469907407407
+        },
+        {
+          "word": "برگشته‌ام.",
+          "cleanWord": "برگشته‌ام",
+          "start": 2.983469907407407,
+          "end": 4.130958333333333
+        }
+      ]
+    }
   ]
 }

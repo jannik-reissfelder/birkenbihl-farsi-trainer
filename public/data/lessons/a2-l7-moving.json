@@ -3,17 +3,755 @@
   "title": "A2 Lektion 7: Umzug in eine neue Stadt",
   "description": "Eine Erzählung über einen Umzug und die Anpassung an ein neues Leben.",
   "sentences": [
-    { "id": 1, "farsi": "شش ماه پیش تصمیم گرفتم از تهران به اصفهان نقل مکان کنم.", "latin": "Shesh māh pīsh tasmīm gereftam az Tehrān be Esfahān naghl-e makān konam.", "germanDecode": "Sechs Monate vorher Entscheidung nahm-ich aus Tehran nach Isfahan Umzug-von Ort mache-ich.", "germanTranslation": "Vor sechs Monaten entschied ich mich, von Teheran nach Isfahan umzuziehen." },
-    { "id": 2, "farsi": "دلیلش این بود که شرکت جدیدی در اصفهان به من کار داده بود.", "latin": "Dalīlash īn būd ke sherkat-e jadīdī dar Esfahān be man kār dāde būd.", "germanDecode": "Grund-es dies war-es dass Firma-von neue in Isfahan zu mir Arbeit gegeben hatte-sie.", "germanTranslation": "Der Grund war, dass eine neue Firma in Isfahan mir Arbeit gegeben hatte." },
-    { "id": 3, "farsi": "اول فکر می‌کردم کار آسانی است اما اشتباه می‌کردم.", "latin": "Avval fekr mikarddam kār-e āsānī ast ammā eshtebāh mikarddam.", "germanDecode": "Zuerst Gedanke machte-ich Arbeit-von leicht ist aber Fehler machte-ich.", "germanTranslation": "Zuerst dachte ich, es sei eine leichte Sache, aber ich irrte mich." },
-    { "id": 4, "farsi": "باید همه چیز را جمع می‌کردم و بسته‌بندی می‌کردم.", "latin": "Bāyad hame chīz rā jam' mikarddam va baste-bandī mikarddam.", "germanDecode": "Muss alle Ding D.O. sammeln machte-ich und Verpackung machte-ich.", "germanTranslation": "Ich musste alles sammeln und verpacken." },
-    { "id": 5, "farsi": "شرکت باربری گرفتم تا وسایل را انتقال دهد.", "latin": "Sherkat-e bārbarī gereftam tā vasāyel rā entegāl dahad.", "germanDecode": "Firma-von Transport nahm-ich damit Sachen D.O. Übertragung gebe-sie.", "germanTranslation": "Ich beauftragte eine Transportfirma, um die Sachen zu transportieren." },
-    { "id": 6, "farsi": "روز اول در اصفهان خیلی تنها احساس کردم.", "latin": "Rūz-e avval dar Esfahān kheylī tanhā ehsās kardam.", "germanDecode": "Tag-von erste in Isfahan sehr allein Gefühl machte-ich.", "germanTranslation": "Am ersten Tag in Isfahan fühlte ich mich sehr einsam." },
-    { "id": 7, "farsi": "همه چیز برایم غریبه بود و دوست نداشتم.", "latin": "Hame chīz barāyam gharībe būd va dūst nadāshtam.", "germanDecode": "Alle Ding für-mich fremd war-es und lieb nicht-hatte-ich.", "germanTranslation": "Alles war mir fremd und ich mochte es nicht." },
-    { "id": 8, "farsi": "کم کم با همسایگان آشنا شدم و دوست شدیم.", "latin": "Kam kam bā hamsāyegān āshnā shodam va dūst shodīm.", "germanDecode": "Wenig wenig mit Nachbarn bekannt wurde-ich und Freund wurden-wir.", "germanTranslation": "Nach und nach lernte ich die Nachbarn kennen und wir wurden Freunde." },
-    { "id": 9, "farsi": "آنها شهر را به من نشان دادند و کمکم کردند.", "latin": "Ānhā shahr rā be man neshān dādand va komakam kardand.", "germanDecode": "Sie Stadt D.O. zu mir Zeigen gaben-sie und Hilfe-mich machten-sie.", "germanTranslation": "Sie zeigten mir die Stadt und halfen mir." },
-    { "id": 10, "farsi": "بازارها و مساجد زیبای اصفهان را دیدم.", "latin": "Bāzārhā va masājed-e zībāye Esfahān rā dīdam.", "germanDecode": "Basare und Moscheen-von schön-von Isfahan D.O. sah-ich.", "germanTranslation": "Ich sah die Basare und schönen Moscheen von Isfahan." },
-    { "id": 11, "farsi": "حالا دیگر عاشق این شهر زیبا شده‌ام.", "latin": "Hālā dīgar āshegh-e īn shahr-e zībā shodeam.", "germanDecode": "Jetzt anders verliebt-von diese Stadt-von schön geworden-ich-bin.", "germanTranslation": "Jetzt bin ich in diese schöne Stadt verliebt." },
-    { "id": 12, "farsi": "فهمیدم که تغییر گاهی چیز بدی نیست.", "latin": "Fahmīdam ke taghyīr gāhī chīz-e badī nīst.", "germanDecode": "Verstand-ich dass Veränderung manchmal Ding-von schlecht nicht-ist.", "germanTranslation": "Ich verstand, dass Veränderung manchmal nichts Schlechtes ist." }
+    {
+      "id": 1,
+      "farsi": "شش ماه پیش تصمیم گرفتم از تهران به اصفهان نقل مکان کنم.",
+      "latin": "Shesh māh pīsh tasmīm gereftam az Tehrān be Esfahān naghl-e makān konam.",
+      "germanDecode": "Sechs Monate vorher Entscheidung nahm-ich aus Tehran nach Isfahan Umzug-von Ort mache-ich.",
+      "germanTranslation": "Vor sechs Monaten entschied ich mich, von Teheran nach Isfahan umzuziehen.",
+      "timings": [
+        {
+          "word": "شش",
+          "cleanWord": "شش",
+          "start": 0,
+          "end": 0.22413446969696973
+        },
+        {
+          "word": "ماه",
+          "cleanWord": "ماه",
+          "start": 0.22413446969696973,
+          "end": 0.5603361742424243
+        },
+        {
+          "word": "پیش",
+          "cleanWord": "پیش",
+          "start": 0.5603361742424243,
+          "end": 0.8965378787878788
+        },
+        {
+          "word": "تصمیم",
+          "cleanWord": "تصمیم",
+          "start": 0.8965378787878788,
+          "end": 1.4568740530303033
+        },
+        {
+          "word": "گرفتم",
+          "cleanWord": "گرفتم",
+          "start": 1.4568740530303033,
+          "end": 2.0172102272727277
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 2.0172102272727277,
+          "end": 2.2413446969696973
+        },
+        {
+          "word": "تهران",
+          "cleanWord": "تهران",
+          "start": 2.2413446969696973,
+          "end": 2.8016808712121217
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.8016808712121217,
+          "end": 3.0258153409090913
+        },
+        {
+          "word": "اصفهان",
+          "cleanWord": "اصفهان",
+          "start": 3.0258153409090913,
+          "end": 3.6982187500000006
+        },
+        {
+          "word": "نقل",
+          "cleanWord": "نقل",
+          "start": 3.6982187500000006,
+          "end": 4.034420454545455
+        },
+        {
+          "word": "مکان",
+          "cleanWord": "مکان",
+          "start": 4.034420454545455,
+          "end": 4.482689393939395
+        },
+        {
+          "word": "کنم.",
+          "cleanWord": "کنم",
+          "start": 4.482689393939395,
+          "end": 4.930958333333334
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "دلیلش این بود که شرکت جدیدی در اصفهان به من کار داده بود.",
+      "latin": "Dalīlash īn būd ke sherkat-e jadīdī dar Esfahān be man kār dāde būd.",
+      "germanDecode": "Grund-es dies war-es dass Firma-von neue in Isfahan zu mir Arbeit gegeben hatte-sie.",
+      "germanTranslation": "Der Grund war, dass eine neue Firma in Isfahan mir Arbeit gegeben hatte.",
+      "timings": [
+        {
+          "word": "دلیلش",
+          "cleanWord": "دلیلش",
+          "start": 0,
+          "end": 0.5301064814814815
+        },
+        {
+          "word": "این",
+          "cleanWord": "این",
+          "start": 0.5301064814814815,
+          "end": 0.8481703703703705
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 0.8481703703703705,
+          "end": 1.1662342592592594
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 1.1662342592592594,
+          "end": 1.378276851851852
+        },
+        {
+          "word": "شرکت",
+          "cleanWord": "شرکت",
+          "start": 1.378276851851852,
+          "end": 1.8023620370370372
+        },
+        {
+          "word": "جدیدی",
+          "cleanWord": "جدیدی",
+          "start": 1.8023620370370372,
+          "end": 2.3324685185185188
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 2.3324685185185188,
+          "end": 2.5445111111111114
+        },
+        {
+          "word": "اصفهان",
+          "cleanWord": "اصفهان",
+          "start": 2.5445111111111114,
+          "end": 3.1806388888888892
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 3.1806388888888892,
+          "end": 3.392681481481482
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 3.392681481481482,
+          "end": 3.6047240740740745
+        },
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 3.6047240740740745,
+          "end": 3.922787962962963
+        },
+        {
+          "word": "داده",
+          "cleanWord": "داده",
+          "start": 3.922787962962963,
+          "end": 4.346873148148148
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 4.346873148148148,
+          "end": 4.770958333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "اول فکر می‌کردم کار آسانی است اما اشتباه می‌کردم.",
+      "latin": "Avval fekr mikarddam kār-e āsānī ast ammā eshtebāh mikarddam.",
+      "germanDecode": "Zuerst Gedanke machte-ich Arbeit-von leicht ist aber Fehler machte-ich.",
+      "germanTranslation": "Zuerst dachte ich, es sei eine leichte Sache, aber ich irrte mich.",
+      "timings": [
+        {
+          "word": "اول",
+          "cleanWord": "اول",
+          "start": 0,
+          "end": 0.34324085365853657
+        },
+        {
+          "word": "فکر",
+          "cleanWord": "فکر",
+          "start": 0.34324085365853657,
+          "end": 0.6864817073170731
+        },
+        {
+          "word": "می‌کردم",
+          "cleanWord": "می‌کردم",
+          "start": 0.6864817073170731,
+          "end": 1.4873770325203253
+        },
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 1.4873770325203253,
+          "end": 1.8306178861788618
+        },
+        {
+          "word": "آسانی",
+          "cleanWord": "آسانی",
+          "start": 1.8306178861788618,
+          "end": 2.402685975609756
+        },
+        {
+          "word": "است",
+          "cleanWord": "است",
+          "start": 2.402685975609756,
+          "end": 2.7459268292682926
+        },
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 2.7459268292682926,
+          "end": 3.089167682926829
+        },
+        {
+          "word": "اشتباه",
+          "cleanWord": "اشتباه",
+          "start": 3.089167682926829,
+          "end": 3.775649390243902
+        },
+        {
+          "word": "می‌کردم.",
+          "cleanWord": "می‌کردم",
+          "start": 3.775649390243902,
+          "end": 4.690958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "باید همه چیز را جمع می‌کردم و بسته‌بندی می‌کردم.",
+      "latin": "Bāyad hame chīz rā jam' mikarddam va baste-bandī mikarddam.",
+      "germanDecode": "Muss alle Ding D.O. sammeln machte-ich und Verpackung machte-ich.",
+      "germanTranslation": "Ich musste alles sammeln und verpacken.",
+      "timings": [
+        {
+          "word": "باید",
+          "cleanWord": "باید",
+          "start": 0,
+          "end": 0.44909583333333336
+        },
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 0.44909583333333336,
+          "end": 0.7859177083333333
+        },
+        {
+          "word": "چیز",
+          "cleanWord": "چیز",
+          "start": 0.7859177083333333,
+          "end": 1.1227395833333333
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 1.1227395833333333,
+          "end": 1.3472875
+        },
+        {
+          "word": "جمع",
+          "cleanWord": "جمع",
+          "start": 1.3472875,
+          "end": 1.684109375
+        },
+        {
+          "word": "می‌کردم",
+          "cleanWord": "می‌کردم",
+          "start": 1.684109375,
+          "end": 2.470027083333333
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.470027083333333,
+          "end": 2.5823010416666663
+        },
+        {
+          "word": "بسته‌بندی",
+          "cleanWord": "بسته‌بندی",
+          "start": 2.5823010416666663,
+          "end": 3.5927666666666664
+        },
+        {
+          "word": "می‌کردم.",
+          "cleanWord": "می‌کردم",
+          "start": 3.5927666666666664,
+          "end": 4.490958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "شرکت باربری گرفتم تا وسایل را انتقال دهد.",
+      "latin": "Sherkat-e bārbarī gereftam tā vasāyel rā entegāl dahad.",
+      "germanDecode": "Firma-von Transport nahm-ich damit Sachen D.O. Übertragung gebe-sie.",
+      "germanTranslation": "Ich beauftragte eine Transportfirma, um die Sachen zu transportieren.",
+      "timings": [
+        {
+          "word": "شرکت",
+          "cleanWord": "شرکت",
+          "start": 0,
+          "end": 0.4624656862745098
+        },
+        {
+          "word": "باربری",
+          "cleanWord": "باربری",
+          "start": 0.4624656862745098,
+          "end": 1.1561642156862746
+        },
+        {
+          "word": "گرفتم",
+          "cleanWord": "گرفتم",
+          "start": 1.1561642156862746,
+          "end": 1.7342463235294119
+        },
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 1.7342463235294119,
+          "end": 1.9654791666666669
+        },
+        {
+          "word": "وسایل",
+          "cleanWord": "وسایل",
+          "start": 1.9654791666666669,
+          "end": 2.543561274509804
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 2.543561274509804,
+          "end": 2.774794117647059
+        },
+        {
+          "word": "انتقال",
+          "cleanWord": "انتقال",
+          "start": 2.774794117647059,
+          "end": 3.4684926470588238
+        },
+        {
+          "word": "دهد.",
+          "cleanWord": "دهد",
+          "start": 3.4684926470588238,
+          "end": 3.9309583333333338
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "روز اول در اصفهان خیلی تنها احساس کردم.",
+      "latin": "Rūz-e avval dar Esfahān kheylī tanhā ehsās kardam.",
+      "germanDecode": "Tag-von erste in Isfahan sehr allein Gefühl machte-ich.",
+      "germanTranslation": "Am ersten Tag in Isfahan fühlte ich mich sehr einsam.",
+      "timings": [
+        {
+          "word": "روز",
+          "cleanWord": "روز",
+          "start": 0,
+          "end": 0.37977734374999994
+        },
+        {
+          "word": "اول",
+          "cleanWord": "اول",
+          "start": 0.37977734374999994,
+          "end": 0.7595546874999999
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0.7595546874999999,
+          "end": 1.0127395833333332
+        },
+        {
+          "word": "اصفهان",
+          "cleanWord": "اصفهان",
+          "start": 1.0127395833333332,
+          "end": 1.7722942708333331
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 1.7722942708333331,
+          "end": 2.2786640625
+        },
+        {
+          "word": "تنها",
+          "cleanWord": "تنها",
+          "start": 2.2786640625,
+          "end": 2.7850338541666666
+        },
+        {
+          "word": "احساس",
+          "cleanWord": "احساس",
+          "start": 2.7850338541666666,
+          "end": 3.41799609375
+        },
+        {
+          "word": "کردم.",
+          "cleanWord": "کردم",
+          "start": 3.41799609375,
+          "end": 4.050958333333333
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "همه چیز برایم غریبه بود و دوست نداشتم.",
+      "latin": "Hame chīz barāyam gharībe būd va dūst nadāshtam.",
+      "germanDecode": "Alle Ding für-mich fremd war-es und lieb nicht-hatte-ich.",
+      "germanTranslation": "Alles war mir fremd und ich mochte es nicht.",
+      "timings": [
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 0,
+          "end": 0.36106048387096773
+        },
+        {
+          "word": "چیز",
+          "cleanWord": "چیز",
+          "start": 0.36106048387096773,
+          "end": 0.7221209677419355
+        },
+        {
+          "word": "برایم",
+          "cleanWord": "برایم",
+          "start": 0.7221209677419355,
+          "end": 1.323888440860215
+        },
+        {
+          "word": "غریبه",
+          "cleanWord": "غریبه",
+          "start": 1.323888440860215,
+          "end": 1.9256559139784946
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 1.9256559139784946,
+          "end": 2.2867163978494625
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.2867163978494625,
+          "end": 2.4070698924731184
+        },
+        {
+          "word": "دوست",
+          "cleanWord": "دوست",
+          "start": 2.4070698924731184,
+          "end": 2.8884838709677423
+        },
+        {
+          "word": "نداشتم.",
+          "cleanWord": "نداشتم",
+          "start": 2.8884838709677423,
+          "end": 3.7309583333333336
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "کم کم با همسایگان آشنا شدم و دوست شدیم.",
+      "latin": "Kam kam bā hamsāyegān āshnā shodam va dūst shodīm.",
+      "germanDecode": "Wenig wenig mit Nachbarn bekannt wurde-ich und Freund wurden-wir.",
+      "germanTranslation": "Nach und nach lernte ich die Nachbarn kennen und wir wurden Freunde.",
+      "timings": [
+        {
+          "word": "کم",
+          "cleanWord": "کم",
+          "start": 0,
+          "end": 0.2536102150537634
+        },
+        {
+          "word": "کم",
+          "cleanWord": "کم",
+          "start": 0.2536102150537634,
+          "end": 0.5072204301075268
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.5072204301075268,
+          "end": 0.7608306451612903
+        },
+        {
+          "word": "همسایگان",
+          "cleanWord": "همسایگان",
+          "start": 0.7608306451612903,
+          "end": 1.775271505376344
+        },
+        {
+          "word": "آشنا",
+          "cleanWord": "آشنا",
+          "start": 1.775271505376344,
+          "end": 2.2824919354838706
+        },
+        {
+          "word": "شدم",
+          "cleanWord": "شدم",
+          "start": 2.2824919354838706,
+          "end": 2.6629072580645157
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.6629072580645157,
+          "end": 2.7897123655913973
+        },
+        {
+          "word": "دوست",
+          "cleanWord": "دوست",
+          "start": 2.7897123655913973,
+          "end": 3.296932795698924
+        },
+        {
+          "word": "شدیم.",
+          "cleanWord": "شدیم",
+          "start": 3.296932795698924,
+          "end": 3.930958333333333
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "آنها شهر را به من نشان دادند و کمکم کردند.",
+      "latin": "Ānhā shahr rā be man neshān dādand va komakam kardand.",
+      "germanDecode": "Sie Stadt D.O. zu mir Zeigen gaben-sie und Hilfe-mich machten-sie.",
+      "germanTranslation": "Sie zeigten mir die Stadt und halfen mir.",
+      "timings": [
+        {
+          "word": "آنها",
+          "cleanWord": "آنها",
+          "start": 0,
+          "end": 0.49587373737373736
+        },
+        {
+          "word": "شهر",
+          "cleanWord": "شهر",
+          "start": 0.49587373737373736,
+          "end": 0.8677790404040404
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 0.8677790404040404,
+          "end": 1.115715909090909
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.115715909090909,
+          "end": 1.3636527777777776
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 1.3636527777777776,
+          "end": 1.6115896464646462
+        },
+        {
+          "word": "نشان",
+          "cleanWord": "نشان",
+          "start": 1.6115896464646462,
+          "end": 2.1074633838383834
+        },
+        {
+          "word": "دادند",
+          "cleanWord": "دادند",
+          "start": 2.1074633838383834,
+          "end": 2.727305555555555
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.727305555555555,
+          "end": 2.8512739898989894
+        },
+        {
+          "word": "کمکم",
+          "cleanWord": "کمکم",
+          "start": 2.8512739898989894,
+          "end": 3.3471477272727266
+        },
+        {
+          "word": "کردند.",
+          "cleanWord": "کردند",
+          "start": 3.3471477272727266,
+          "end": 4.090958333333333
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "بازارها و مساجد زیبای اصفهان را دیدم.",
+      "latin": "Bāzārhā va masājed-e zībāye Esfahān rā dīdam.",
+      "germanDecode": "Basare und Moscheen-von schön-von Isfahan D.O. sah-ich.",
+      "germanTranslation": "Ich sah die Basare und schönen Moscheen von Isfahan.",
+      "timings": [
+        {
+          "word": "بازارها",
+          "cleanWord": "بازارها",
+          "start": 0,
+          "end": 0.9418293010752687
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 0.9418293010752687,
+          "end": 1.0763763440860215
+        },
+        {
+          "word": "مساجد",
+          "cleanWord": "مساجد",
+          "start": 1.0763763440860215,
+          "end": 1.7491115591397848
+        },
+        {
+          "word": "زیبای",
+          "cleanWord": "زیبای",
+          "start": 1.7491115591397848,
+          "end": 2.4218467741935483
+        },
+        {
+          "word": "اصفهان",
+          "cleanWord": "اصفهان",
+          "start": 2.4218467741935483,
+          "end": 3.229129032258064
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 3.229129032258064,
+          "end": 3.4982231182795696
+        },
+        {
+          "word": "دیدم.",
+          "cleanWord": "دیدم",
+          "start": 3.4982231182795696,
+          "end": 4.170958333333333
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "حالا دیگر عاشق این شهر زیبا شده‌ام.",
+      "latin": "Hālā dīgar āshegh-e īn shahr-e zībā shodeam.",
+      "germanDecode": "Jetzt anders verliebt-von diese Stadt-von schön geworden-ich-bin.",
+      "germanTranslation": "Jetzt bin ich in diese schöne Stadt verliebt.",
+      "timings": [
+        {
+          "word": "حالا",
+          "cleanWord": "حالا",
+          "start": 0,
+          "end": 0.5642701149425287
+        },
+        {
+          "word": "دیگر",
+          "cleanWord": "دیگر",
+          "start": 0.5642701149425287,
+          "end": 1.1285402298850573
+        },
+        {
+          "word": "عاشق",
+          "cleanWord": "عاشق",
+          "start": 1.1285402298850573,
+          "end": 1.692810344827586
+        },
+        {
+          "word": "این",
+          "cleanWord": "این",
+          "start": 1.692810344827586,
+          "end": 2.1160129310344824
+        },
+        {
+          "word": "شهر",
+          "cleanWord": "شهر",
+          "start": 2.1160129310344824,
+          "end": 2.539215517241379
+        },
+        {
+          "word": "زیبا",
+          "cleanWord": "زیبا",
+          "start": 2.539215517241379,
+          "end": 3.103485632183908
+        },
+        {
+          "word": "شده‌ام.",
+          "cleanWord": "شده‌ام",
+          "start": 3.103485632183908,
+          "end": 4.090958333333333
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "فهمیدم که تغییر گاهی چیز بدی نیست.",
+      "latin": "Fahmīdam ke taghyīr gāhī chīz-e badī nīst.",
+      "germanDecode": "Verstand-ich dass Veränderung manchmal Ding-von schlecht nicht-ist.",
+      "germanTranslation": "Ich verstand, dass Veränderung manchmal nichts Schlechtes ist.",
+      "timings": [
+        {
+          "word": "فهمیدم",
+          "cleanWord": "فهمیدم",
+          "start": 0,
+          "end": 0.7909196428571428
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 0.7909196428571428,
+          "end": 1.0545595238095238
+        },
+        {
+          "word": "تغییر",
+          "cleanWord": "تغییر",
+          "start": 1.0545595238095238,
+          "end": 1.7136592261904762
+        },
+        {
+          "word": "گاهی",
+          "cleanWord": "گاهی",
+          "start": 1.7136592261904762,
+          "end": 2.240938988095238
+        },
+        {
+          "word": "چیز",
+          "cleanWord": "چیز",
+          "start": 2.240938988095238,
+          "end": 2.6363988095238096
+        },
+        {
+          "word": "بدی",
+          "cleanWord": "بدی",
+          "start": 2.6363988095238096,
+          "end": 3.0318586309523807
+        },
+        {
+          "word": "نیست.",
+          "cleanWord": "نیست",
+          "start": 3.0318586309523807,
+          "end": 3.690958333333333
+        }
+      ]
+    }
   ]
 }
