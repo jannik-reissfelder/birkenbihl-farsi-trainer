@@ -249,12 +249,12 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
 
   const resetAttempt = useCallback(() => {
     setShowTranslation(false); setUserTranscript(null);
-    setUserDecode(Array(wordParts.length).fill('')); setIsDecodeChecked(false); setIsDecodeCorrect(false); setDecodeResults([]);
+    setIsDecodeChecked(false); setIsDecodeCorrect(false); setDecodeResults([]);
     setCompletedSteps(new Set());
     setKaraokeState({ isPlaying: false, currentSentenceIndex: 0, currentWordIndex: -1, loopCount: 1 });
     stopAudio();
     setIsMastered(false);
-  }, [stopAudio, wordParts.length]);
+  }, [stopAudio]);
   
   useEffect(() => {
     resetAttempt();
