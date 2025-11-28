@@ -16,6 +16,7 @@ The application is built with a modern web stack: React 19, TypeScript, and Vite
 Key features include:
 - **Core Learning Methodology**: Implements the 8 Birkenbihl decoding rules (Transliteration, Token Alignment, 'râ' Placeholder, Ezafe Decoding, Gender-Neutral Pronouns, Split Complex Verbs, Zero-Subject Completion, Affixal Suffix Marking) and a learning flow of Decode, Karaoke, Shadowing, and Live Chat.
 - **Multi-User Platform**: Secure user authentication, per-user data isolation, and automatic synchronization of progress across devices.
+- **Granular Lesson Step Progress**: The `lesson_step_progress` table tracks per-lesson progress with decode sentence index, decode answers (JSONB), and step completion status (decode/karaoke/lesson completed). Auto-saves decode answers on 500ms debounce and restores on resume.
 - **Progress Tracking & Gamification**: Database-backed tracking of lesson completion, XP levels, and learning streaks with visual indicators.
 - **Analytics Dashboard**: Provides insights into vocabulary distribution, struggling words, weekly progress, and contextual learning tips.
 - **Multiple Practice Modes**: Structured lessons, free shadowing, background playlists, and live AI conversation.
