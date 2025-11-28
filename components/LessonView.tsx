@@ -68,6 +68,11 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
   const [step, setStep] = useState<BirkenbihlStep>(mode === 'karaoke-only' ? 'karaoke' : 'decode');
   const [hasResumedFromProgress, setHasResumedFromProgress] = useState(false);
   
+  // Save/Exit dialog state
+  const [showExitDialog, setShowExitDialog] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
+  const [saveSuccess, setSaveSuccess] = useState(false);
+  
   // Audio for single-sentence steps
   const [audioData, setAudioData] = useState<AudioBuffer | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -438,6 +443,45 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
 
     addCard(germanWord, farsiWord, latinWord || '', currentSentence);
   }, [farsiParts, decodeParts, latinParts, isWordMarked, addCard, currentSentence]);
+  
+  // Save progress immediately
+  const handleSaveProgress = useCallback(async () => {
+    if (isFreePractice) return;
+    
+    setIsSaving(true);
+    setSaveSuccess(false);
+    try {
+      await saveDecodeProgress(currentIndex, allDecodeAnswers);
+      setSaveSuccess(true);
+      setTimeout(() => setSaveSuccess(false), 2000);
+    } catch (err) {
+      console.error('Failed to save progress:', err);
+    } finally {
+      setIsSaving(false);
+    }
+  }, [currentIndex, allDecodeAnswers, saveDecodeProgress, isFreePractice]);
+  
+  // Handle exit with save option
+  const handleExitWithSave = useCallback(async () => {
+    if (!isFreePractice) {
+      setIsSaving(true);
+      try {
+        await saveDecodeProgress(currentIndex, allDecodeAnswers);
+      } catch (err) {
+        console.error('Failed to save on exit:', err);
+      } finally {
+        setIsSaving(false);
+      }
+    }
+    setShowExitDialog(false);
+    onLessonComplete?.();
+  }, [currentIndex, allDecodeAnswers, saveDecodeProgress, isFreePractice, onLessonComplete]);
+  
+  // Handle exit without save
+  const handleExitWithoutSave = useCallback(() => {
+    setShowExitDialog(false);
+    onLessonComplete?.();
+  }, [onLessonComplete]);
   
   const toggleHelp = () => {
     if (isHelpOpen) {
@@ -1035,14 +1079,83 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
 
         {mode !== 'karaoke-only' && !isMastered && step !== 'karaoke' && (
             <div className="flex justify-between items-center mt-6 pt-4 border-t border-gray-700">
-                <button onClick={goToPrev} disabled={currentIndex === 0} className="flex items-center gap-2 px-4 py-2 rounded-md bg-gray-700 hover:bg-gray-600 disabled:opacity-50">
-                    <ChevronLeftIcon /> Zurück
-                </button>
-                <span className="text-gray-400 font-mono">{currentIndex + 1} / {lesson.sentences.length}</span>
+                <div className="flex items-center gap-2">
+                  {!isFreePractice && onLessonComplete && (
+                    <button 
+                      onClick={() => setShowExitDialog(true)} 
+                      className="flex items-center gap-1 px-3 py-2 rounded-md bg-red-900/50 hover:bg-red-800/50 text-red-200 text-sm"
+                      title="Lektion beenden"
+                    >
+                      <CloseIcon />
+                      <span className="hidden sm:inline">Menü</span>
+                    </button>
+                  )}
+                  <button onClick={goToPrev} disabled={currentIndex === 0} className="flex items-center gap-2 px-4 py-2 rounded-md bg-gray-700 hover:bg-gray-600 disabled:opacity-50">
+                      <ChevronLeftIcon /> Zurück
+                  </button>
+                </div>
+                <div className="flex items-center gap-3">
+                  {!isFreePractice && (
+                    <button 
+                      onClick={handleSaveProgress} 
+                      disabled={isSaving}
+                      className={`flex items-center gap-1 px-3 py-2 rounded-md text-sm transition-colors ${
+                        saveSuccess 
+                          ? 'bg-green-600 text-white' 
+                          : 'bg-gray-700 hover:bg-gray-600 text-gray-300'
+                      }`}
+                      title="Fortschritt speichern"
+                    >
+                      {isSaving ? (
+                        <SpinnerIcon />
+                      ) : saveSuccess ? (
+                        <CheckIcon />
+                      ) : (
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
+                        </svg>
+                      )}
+                      <span className="hidden sm:inline">{saveSuccess ? 'Gespeichert!' : 'Speichern'}</span>
+                    </button>
+                  )}
+                  <span className="text-gray-400 font-mono">{currentIndex + 1} / {lesson.sentences.length}</span>
+                </div>
                 <button onClick={goToNext} disabled={currentIndex === lesson.sentences.length - 1 || !completedSteps.has('decode')} className="flex items-center gap-2 px-4 py-2 rounded-md bg-gray-700 hover:bg-gray-600 disabled:opacity-50">
                     Weiter <ChevronRightIcon />
                 </button>
             </div>
+        )}
+        
+        {/* Exit Confirmation Dialog */}
+        {showExitDialog && (
+          <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4">
+            <div className="bg-gray-800 rounded-xl border border-gray-700 p-6 max-w-sm w-full shadow-2xl">
+              <h3 className="text-xl font-bold text-white mb-3">Lektion verlassen?</h3>
+              <p className="text-gray-300 mb-6">Möchtest du deinen Fortschritt speichern, bevor du gehst?</p>
+              <div className="flex flex-col gap-3">
+                <button 
+                  onClick={handleExitWithSave}
+                  disabled={isSaving}
+                  className="w-full py-3 px-4 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-semibold flex items-center justify-center gap-2 disabled:opacity-50"
+                >
+                  {isSaving ? <SpinnerIcon /> : <CheckIcon />}
+                  Speichern & Beenden
+                </button>
+                <button 
+                  onClick={handleExitWithoutSave}
+                  className="w-full py-3 px-4 bg-gray-700 hover:bg-gray-600 text-gray-200 rounded-lg font-semibold"
+                >
+                  Ohne Speichern beenden
+                </button>
+                <button 
+                  onClick={() => setShowExitDialog(false)}
+                  className="w-full py-2 px-4 text-gray-400 hover:text-gray-200"
+                >
+                  Abbrechen
+                </button>
+              </div>
+            </div>
+          </div>
         )}
       </div>
     </div>

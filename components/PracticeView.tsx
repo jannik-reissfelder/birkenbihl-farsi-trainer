@@ -33,7 +33,7 @@ const PracticeView: React.FC<PracticeViewProps> = ({ lesson, onComplete }) => {
             onLessonComplete={onComplete}
             mode="full"
             initialSentenceIndex={initialSentenceIndex}
-            isFreePractice={true}
+            isFreePractice={false}
         />
     );
 };
