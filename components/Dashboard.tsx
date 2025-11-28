@@ -9,11 +9,12 @@ import { SpinnerIcon } from './icons/SpinnerIcon';
 import { LightbulbIcon } from './icons/LightbulbIcon';
 import { StarIcon } from './icons/StarIcon';
 import { FireIcon } from './icons/FireIcon';
-import { Library, TrendingUp } from 'lucide-react';
+import { Library, TrendingUp, CheckCircle2 } from 'lucide-react';
 import { GamificationContext } from '../contexts/GamificationContext';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './ui/card';
 import { Progress } from './ui/progress';
+import { useAllLessonProgress } from '../hooks/useLessonStepProgress';
 
 interface DashboardProps {
   onResumeProgress: () => void;
@@ -39,8 +40,9 @@ const Dashboard: React.FC<DashboardProps> = ({
     const { getCurrentLessonInfo, isProgressLoading, progress } = useProgress();
     const { stats } = useVocabulary();
     const { xp, streak } = useContext(GamificationContext);
+    const { completedCount, isLoading: isLessonProgressLoading } = useAllLessonProgress();
 
-    if (isProgressLoading) {
+    if (isProgressLoading || isLessonProgressLoading) {
         return (
             <div className="flex justify-center items-center h-64">
                 <SpinnerIcon />
@@ -122,6 +124,24 @@ const Dashboard: React.FC<DashboardProps> = ({
           </CardContent>
         </Card>
       </div>
+
+      {/* Completed Lessons Summary */}
+      {completedCount > 0 && (
+        <Card className="mb-8 bg-gradient-to-br from-green-900/40 to-green-800/20 border-green-700/50">
+          <CardHeader className="pb-3">
+            <div className="flex items-center justify-between">
+              <CardTitle className="text-sm font-medium text-green-200">Abgeschlossene Lektionen</CardTitle>
+              <CheckCircle2 className="h-5 w-5 text-green-400" />
+            </div>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-1">
+              <div className="text-2xl font-bold text-green-50">{completedCount}</div>
+              <p className="text-xs text-green-300">Lektionen vollständig abgeschlossen</p>
+            </div>
+          </CardContent>
+        </Card>
+      )}
 
       {/* Current Lesson Progress */}
       {lessonInfo && lessonInfo.lessonLength > 0 && (

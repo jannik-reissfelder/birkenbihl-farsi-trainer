@@ -22,6 +22,7 @@ import { useDecodeAudio } from '../hooks/useDecodeAudio';
 import { RepeatIcon } from './icons/RepeatIcon';
 import { WandIcon } from './icons/WandIcon';
 import { BotIcon } from './icons/BotIcon';
+import { useLessonStepProgress } from '../hooks/useLessonStepProgress';
 
 interface SpeechRecognition {
   lang: string;
@@ -54,8 +55,18 @@ interface LessonViewProps {
 }
 
 const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode = 'full', initialSentenceIndex = 0, isFreePractice = false }) => {
+  const { 
+    progress: stepProgress, 
+    isLoading: isStepProgressLoading,
+    saveDecodeProgress,
+    markDecodeComplete,
+    markKaraokeComplete,
+    markLessonComplete 
+  } = useLessonStepProgress(lesson.id);
+  
   const [currentIndex, setCurrentIndex] = useState(initialSentenceIndex);
   const [step, setStep] = useState<BirkenbihlStep>(mode === 'karaoke-only' ? 'karaoke' : 'decode');
+  const [hasResumedFromProgress, setHasResumedFromProgress] = useState(false);
   
   // Audio for single-sentence steps
   const [audioData, setAudioData] = useState<AudioBuffer | null>(null);
@@ -77,12 +88,30 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
   const { addCard, isWordMarked } = useVocabulary();
   const { progress, setProgress, getGlobalSentenceIndex } = useProgress();
   
+  // Resume from saved progress (sentence index + decode answers)
+  useEffect(() => {
+    if (!isStepProgressLoading && !hasResumedFromProgress && mode !== 'karaoke-only') {
+      // Restore saved decode answers
+      if (Object.keys(stepProgress.decodeAnswers).length > 0) {
+        setAllDecodeAnswers(stepProgress.decodeAnswers);
+      }
+      // Restore sentence index
+      if (stepProgress.decodeSentenceIndex > 0) {
+        setCurrentIndex(stepProgress.decodeSentenceIndex);
+      }
+      setHasResumedFromProgress(true);
+    }
+  }, [isStepProgressLoading, stepProgress.decodeSentenceIndex, stepProgress.decodeAnswers, hasResumedFromProgress, mode]);
+  
   // Decode step state
-  const [userDecode, setUserDecode] = useState<string[]>([]);
+  const [allDecodeAnswers, setAllDecodeAnswers] = useState<Record<number, string[]>>({});
   const [isDecodeChecked, setIsDecodeChecked] = useState(false);
   const [isDecodeCorrect, setIsDecodeCorrect] = useState(false);
   const [decodeResults, setDecodeResults] = useState<boolean[]>([]);
   const [showTranslation, setShowTranslation] = useState(false);
+  
+  // Get current sentence's decode answers
+  const userDecode = useMemo(() => allDecodeAnswers[currentIndex] || [], [allDecodeAnswers, currentIndex]);
 
   // Quick Help state
   const [isHelpOpen, setIsHelpOpen] = useState(false);
@@ -328,13 +357,40 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
     }
   }
 
-  const goToNext = () => { stopAudio(); if (currentIndex < lesson.sentences.length - 1) setCurrentIndex(currentIndex + 1); };
+  const goToNext = () => { 
+    stopAudio(); 
+    if (currentIndex < lesson.sentences.length - 1) {
+      const nextIndex = currentIndex + 1;
+      setCurrentIndex(nextIndex);
+      if (!isFreePractice) {
+        saveDecodeProgress(nextIndex, allDecodeAnswers);
+      }
+    }
+  };
   const goToPrev = () => { stopAudio(); if (currentIndex > 0) setCurrentIndex(currentIndex - 1); };
+  
+  // Debounce ref for auto-saving decode answers
+  const saveAnswersTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   
   const handleDecodeInputChange = (index: number, value: string) => {
     const newUserDecode = [...userDecode];
     newUserDecode[index] = value;
-    setUserDecode(newUserDecode);
+    
+    const updatedAnswers = {
+      ...allDecodeAnswers,
+      [currentIndex]: newUserDecode
+    };
+    setAllDecodeAnswers(updatedAnswers);
+    
+    // Auto-save with debouncing (500ms after last keystroke)
+    if (!isFreePractice) {
+      if (saveAnswersTimeoutRef.current) {
+        clearTimeout(saveAnswersTimeoutRef.current);
+      }
+      saveAnswersTimeoutRef.current = setTimeout(() => {
+        saveDecodeProgress(currentIndex, updatedAnswers);
+      }, 500);
+    }
   };
 
   const handleCheckDecode = () => {
@@ -356,6 +412,12 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
                 if (nextGlobalIndex > progress.currentSentenceIndex) {
                     setProgress({ currentSentenceIndex: nextGlobalIndex });
                 }
+            }
+            
+            const isLastSentence = currentIndex === lesson.sentences.length - 1;
+            if (isLastSentence && !stepProgress.decodeCompleted) {
+              markDecodeComplete();
+              addXp(50);
             }
         }
     }
@@ -836,14 +898,23 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
                                 >
                                     <RepeatIcon /> Erneut abspielen
                                 </button>
-                                {onLessonComplete && (
-                                    <button
-                                        onClick={onLessonComplete}
-                                        className="px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-semibold rounded-lg transition-colors flex items-center gap-2"
-                                    >
-                                        Lektion abschließen <ChevronRightIcon />
-                                    </button>
-                                )}
+                                <button
+                                    onClick={async () => {
+                                        if (!isFreePractice) {
+                                          if (!stepProgress.karaokeCompleted) {
+                                            await markKaraokeComplete();
+                                          }
+                                          if (!stepProgress.lessonCompleted) {
+                                            await markLessonComplete();
+                                            addXp(100);
+                                          }
+                                        }
+                                        onLessonComplete?.();
+                                    }}
+                                    className="px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-semibold rounded-lg transition-colors flex items-center gap-2"
+                                >
+                                    <CheckIcon /> Lektion abschließen
+                                </button>
                             </div>
                         </div>
                     ) : (
@@ -872,14 +943,61 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
   
   const progressPercentage = ((currentIndex + 1) / lesson.sentences.length) * 100;
   
+  const StepIndicator = () => (
+    <div className="flex items-center justify-center gap-2 mb-4">
+      <div className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+        stepProgress.decodeCompleted 
+          ? 'bg-green-600/30 text-green-300 border border-green-500/50' 
+          : step === 'decode'
+            ? 'bg-blue-600/30 text-blue-300 border border-blue-500/50'
+            : 'bg-gray-700/50 text-gray-400 border border-gray-600/50'
+      }`}>
+        {stepProgress.decodeCompleted ? <CheckIcon /> : <TranslateIcon />}
+        <span>Dekodieren</span>
+        {!stepProgress.decodeCompleted && currentIndex > 0 && (
+          <span className="ml-1 text-xs opacity-75">({currentIndex}/{lesson.sentences.length})</span>
+        )}
+      </div>
+      
+      <div className="w-8 h-0.5 bg-gray-600"></div>
+      
+      <div className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+        stepProgress.karaokeCompleted 
+          ? 'bg-green-600/30 text-green-300 border border-green-500/50' 
+          : step === 'karaoke'
+            ? 'bg-blue-600/30 text-blue-300 border border-blue-500/50'
+            : 'bg-gray-700/50 text-gray-400 border border-gray-600/50'
+      }`}>
+        {stepProgress.karaokeCompleted ? <CheckIcon /> : <MusicNoteIcon />}
+        <span>Karaoke</span>
+      </div>
+      
+      {stepProgress.lessonCompleted && (
+        <>
+          <div className="w-8 h-0.5 bg-green-500"></div>
+          <div className="flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium bg-green-600/30 text-green-300 border border-green-500/50">
+            <CheckIcon />
+            <span>Fertig!</span>
+          </div>
+        </>
+      )}
+    </div>
+  );
+  
   const progressComponent = (
     <div className="p-4 bg-gray-900/50 border-b border-gray-700">
-      <div className="flex justify-between items-center mb-1">
+      <div className="flex justify-between items-center mb-2">
         <h2 className="text-lg font-semibold">{lesson.title}</h2>
+        {stepProgress.decodeSentenceIndex > 0 && !stepProgress.decodeCompleted && (
+          <span className="text-xs text-teal-400 bg-teal-900/30 px-2 py-1 rounded">
+            Fortgesetzt bei Satz {stepProgress.decodeSentenceIndex + 1}
+          </span>
+        )}
       </div>
-      <div className="w-full bg-gray-700 rounded-full h-2.5">
+      <div className="w-full bg-gray-700 rounded-full h-2.5 mb-3">
         <div className="bg-gradient-to-r from-blue-500 to-teal-400 h-2.5 rounded-full" style={{ width: `${progressPercentage}%`, transition: 'width 0.3s ease-in-out' }}></div>
       </div>
+      {mode === 'full' && <StepIndicator />}
     </div>
   );
 

@@ -5,6 +5,7 @@ type LessonProgress = Database['public']['Tables']['lesson_progress']['Row'];
 type VocabularyCard = Database['public']['Tables']['vocabulary_cards']['Row'];
 type SrsReview = Database['public']['Tables']['srs_reviews']['Row'];
 type GamificationStats = Database['public']['Tables']['gamification_stats']['Row'];
+type LessonStepProgress = Database['public']['Tables']['lesson_step_progress']['Row'];
 
 export const lessonProgressQueries = {
   async getAll(userId: string) {
@@ -231,5 +232,96 @@ export const gamificationQueries = {
       streak: newStreak,
       last_login: now.toISOString(),
     });
+  },
+};
+
+export const lessonStepProgressQueries = {
+  async getByLessonId(userId: string, lessonId: string) {
+    const { data, error } = await supabase
+      .from('lesson_step_progress')
+      .select('*')
+      .eq('user_id', userId)
+      .eq('lesson_id', lessonId)
+      .single();
+    
+    if (error && error.code !== 'PGRST116') throw error;
+    return data as LessonStepProgress | null;
+  },
+
+  async getAll(userId: string) {
+    const { data, error } = await supabase
+      .from('lesson_step_progress')
+      .select('*')
+      .eq('user_id', userId);
+    
+    if (error) throw error;
+    return data as LessonStepProgress[];
+  },
+
+  async getCompleted(userId: string) {
+    const { data, error } = await supabase
+      .from('lesson_step_progress')
+      .select('*')
+      .eq('user_id', userId)
+      .eq('lesson_completed', true);
+    
+    if (error) throw error;
+    return data as LessonStepProgress[];
+  },
+
+  async upsert(userId: string, lessonId: string, updates: Partial<Omit<LessonStepProgress, 'id' | 'user_id' | 'lesson_id' | 'created_at'>>) {
+    const { data, error } = await supabase
+      .from('lesson_step_progress')
+      .upsert({
+        user_id: userId,
+        lesson_id: lessonId,
+        updated_at: new Date().toISOString(),
+        ...updates,
+      } as any, {
+        onConflict: 'user_id,lesson_id',
+      })
+      .select()
+      .single();
+    
+    if (error) throw error;
+    return data as LessonStepProgress;
+  },
+
+  async updateDecodeProgress(userId: string, lessonId: string, sentenceIndex: number, decodeAnswers?: Record<number, string[]>) {
+    return this.upsert(userId, lessonId, {
+      decode_sentence_index: sentenceIndex,
+      decode_answers: decodeAnswers ?? {},
+    });
+  },
+
+  async markDecodeComplete(userId: string, lessonId: string) {
+    return this.upsert(userId, lessonId, {
+      decode_completed: true,
+      decode_completed_at: new Date().toISOString(),
+    });
+  },
+
+  async markKaraokeComplete(userId: string, lessonId: string) {
+    return this.upsert(userId, lessonId, {
+      karaoke_completed: true,
+      karaoke_completed_at: new Date().toISOString(),
+    });
+  },
+
+  async markLessonComplete(userId: string, lessonId: string) {
+    return this.upsert(userId, lessonId, {
+      lesson_completed: true,
+      lesson_completed_at: new Date().toISOString(),
+    });
+  },
+
+  async delete(userId: string, lessonId: string) {
+    const { error } = await supabase
+      .from('lesson_step_progress')
+      .delete()
+      .eq('user_id', userId)
+      .eq('lesson_id', lessonId);
+    
+    if (error) throw error;
   },
 };

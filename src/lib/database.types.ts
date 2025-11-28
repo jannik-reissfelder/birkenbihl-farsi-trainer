@@ -184,6 +184,53 @@ export interface Database {
           created_at?: string
         }
       }
+      lesson_step_progress: {
+        Row: {
+          id: string
+          user_id: string
+          lesson_id: string
+          decode_sentence_index: number
+          decode_answers: Json
+          decode_completed: boolean
+          decode_completed_at: string | null
+          karaoke_completed: boolean
+          karaoke_completed_at: string | null
+          lesson_completed: boolean
+          lesson_completed_at: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          user_id: string
+          lesson_id: string
+          decode_sentence_index?: number
+          decode_answers?: Json
+          decode_completed?: boolean
+          decode_completed_at?: string | null
+          karaoke_completed?: boolean
+          karaoke_completed_at?: string | null
+          lesson_completed?: boolean
+          lesson_completed_at?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          user_id?: string
+          lesson_id?: string
+          decode_sentence_index?: number
+          decode_answers?: Json
+          decode_completed?: boolean
+          decode_completed_at?: string | null
+          karaoke_completed?: boolean
+          karaoke_completed_at?: string | null
+          lesson_completed?: boolean
+          lesson_completed_at?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
     }
   }
 }
