@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Birkenbihl Farsi Trainer
 
-# Run and deploy your AI Studio app
+A language learning app for German speakers to learn Farsi using the Birkenbihl decoding method.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1vVvRtgsfX22mCHQB-S-8OVNoVBX-bKaI
+- **8-Rule Decoding**: Word-for-word translation with transliteration, Ezafe markers, split verbs, and more
+- **Learning Flow**: Decode → Karaoke → Shadowing → Live Chat
+- **Progress Tracking**: Auto-save with resume, per-sentence decode answers stored in database
+- **SRS Vocabulary**: Spaced repetition with cloze-test format
+- **AI Integration**: Text-to-speech and conversation powered by Google Gemini
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- React 19 + TypeScript + Vite
+- Tailwind CSS + shadcn/ui
+- Supabase (Auth + PostgreSQL)
+- Google Gemini API
 
+## Setup
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Install dependencies: `npm install`
+2. Set environment variables:
+   - `GEMINI_API_KEY` - Google Gemini API key
+   - Supabase credentials (configured via Replit secrets)
+3. Run: `npm run dev`
+
+## Database
+
+Run migrations in `supabase/migrations/` to set up tables for user profiles, lesson progress, vocabulary cards, and SRS reviews.
