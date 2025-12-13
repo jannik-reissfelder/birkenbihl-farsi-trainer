@@ -25,6 +25,14 @@ Key features include:
 - **UI/UX**: Modern, accessible interface leveraging shadcn/ui for consistent design, mobile responsiveness, and gradient card designs.
 - **Technical Implementations**: Type-safe database queries via Supabase, a data migration utility for existing local storage data, and Vercel-optimized deployment.
 
+## Recent Changes (December 2025)
+- **Black Screen Bug Fix**: Added `validateSentenceIndex()` utility to prevent out-of-bounds errors when resuming lesson progress
+- **De-marking Feature**: Users can now click marked words to remove them from SRS practice (toggle behavior)
+- **removeCardByWords()**: New VocabularyContext function to remove cards by German/Farsi word pair
+- **New Component Structure**: Created `components/lesson/` folder with modular DecodeStep, LessonContainer, WordMarkingToggle, and DecodeSentenceGrid components
+- **useSentenceTokens Hook**: Token normalization with unique IDs fixes index alignment issues in SRS word selection
+- **Multi-word Selection**: WordMarkingToggle supports selecting multiple words for complex verb marking
+
 ## External Dependencies
 - **Database**: Supabase PostgreSQL (for user profiles, lesson progress, vocabulary cards, SRS reviews, gamification stats)
 - **Authentication**: Supabase Auth
