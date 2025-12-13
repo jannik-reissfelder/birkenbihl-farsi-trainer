@@ -256,6 +256,7 @@ export const DecodeStep: React.FC<DecodeStepProps> = ({
           isChecked={isChecked}
           onAnswerChange={handleAnswerChange}
           onMarkWord={handleMarkWord}
+          onUnmarkWord={onUnmarkWord}
           isWordMarked={isWordMarked}
         />
 

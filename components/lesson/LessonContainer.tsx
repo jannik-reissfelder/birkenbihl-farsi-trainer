@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useMemo, useRef, useContext } from 'react';
 import type { Lesson, Sentence } from '@/types';
 import type { Token } from '@/hooks/useSentenceTokens';
-import { validateSentenceIndex } from '@/hooks/useSentenceTokens';
+import { validateSentenceIndex, sanitizeDecodeAnswers } from '@/hooks/useSentenceTokens';
 import { DecodeStep, DecodeAnswers } from './DecodeStep';
 import { useVocabulary } from '@/contexts/VocabularyContext';
 import { useLessonStepProgress } from '@/hooks/useLessonStepProgress';
@@ -69,8 +69,17 @@ export const LessonContainer: React.FC<LessonContainerProps> = ({
 
   useEffect(() => {
     if (!isStepProgressLoading && !hasResumedFromProgress && mode !== 'karaoke-only') {
+      // Validate that we have sentences to work with
+      if (lesson.sentences.length === 0) {
+        console.warn('Lesson has no sentences, cannot resume progress');
+        setHasResumedFromProgress(true);
+        return;
+      }
+      
+      // Restore saved decode answers with sanitization
       if (Object.keys(stepProgress.decodeAnswers).length > 0) {
-        setAllDecodeAnswers(stepProgress.decodeAnswers);
+        const sanitizedAnswers = sanitizeDecodeAnswers(stepProgress.decodeAnswers, lesson.sentences.length);
+        setAllDecodeAnswers(sanitizedAnswers);
       }
       if (stepProgress.decodeSentenceIndex > 0) {
         const safeIndex = validateSentenceIndex(stepProgress.decodeSentenceIndex, lesson.sentences.length);
@@ -169,6 +178,15 @@ export const LessonContainer: React.FC<LessonContainerProps> = ({
     return (
       <div className="flex items-center justify-center min-h-[400px]">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-teal-500"></div>
+      </div>
+    );
+  }
+
+  // Guard against undefined currentSentence (empty lesson or invalid index)
+  if (!currentSentence) {
+    return (
+      <div className="flex items-center justify-center min-h-[400px] text-gray-400">
+        <p>Diese Lektion enthält keine Sätze oder der Fortschritt konnte nicht geladen werden.</p>
       </div>
     );
   }

@@ -23,7 +23,7 @@ import { RepeatIcon } from './icons/RepeatIcon';
 import { WandIcon } from './icons/WandIcon';
 import { BotIcon } from './icons/BotIcon';
 import { useLessonStepProgress } from '../hooks/useLessonStepProgress';
-import { validateSentenceIndex } from '../hooks/useSentenceTokens';
+import { validateSentenceIndex, sanitizeDecodeAnswers } from '../hooks/useSentenceTokens';
 
 interface SpeechRecognition {
   lang: string;
@@ -97,9 +97,17 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
   // Resume from saved progress (sentence index + decode answers)
   useEffect(() => {
     if (!isStepProgressLoading && !hasResumedFromProgress && mode !== 'karaoke-only') {
-      // Restore saved decode answers
+      // Validate that we have sentences to work with
+      if (lesson.sentences.length === 0) {
+        console.warn('Lesson has no sentences, cannot resume progress');
+        setHasResumedFromProgress(true);
+        return;
+      }
+      
+      // Restore saved decode answers with sanitization
       if (Object.keys(stepProgress.decodeAnswers).length > 0) {
-        setAllDecodeAnswers(stepProgress.decodeAnswers);
+        const sanitizedAnswers = sanitizeDecodeAnswers(stepProgress.decodeAnswers, lesson.sentences.length);
+        setAllDecodeAnswers(sanitizedAnswers);
       }
       // Restore sentence index with bounds validation to prevent black screen bug
       if (stepProgress.decodeSentenceIndex > 0) {
