@@ -686,8 +686,8 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
             <div className="flex flex-wrap items-center justify-end gap-2">
               {farsiParts.map((part, index) => {
                 const isPunctuation = /^[.,!?]$/.test(part);
-                const germanWord = decodeParts[index];
-                const marked = !isPunctuation && isWordMarked(germanWord, part);
+                const germanWord = decodeParts[index] || '';
+                const marked = !isPunctuation && germanWord && isWordMarked(germanWord, part);
                 
                 if (isPunctuation) {
                   return <span key={index} className="text-3xl font-bold text-blue-300 font-mono">{part}</span>;

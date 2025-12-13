@@ -165,9 +165,10 @@ export const VocabularyProvider: React.FC<{ children: ReactNode }> = ({ children
   }, [cards]);
 
   const isWordMarked = useCallback((word: string, farsiWord: string) => {
+    if (!word && !farsiWord) return false;
     return cards.some(card => 
-      (card.word && card.word.toLowerCase() === word.toLowerCase()) || 
-      (card.farsiWord && card.farsiWord === farsiWord)
+      (word && card.word && card.word.toLowerCase() === word.toLowerCase()) || 
+      (farsiWord && card.farsiWord && card.farsiWord === farsiWord)
     );
   }, [cards]);
 
