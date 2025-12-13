@@ -1,4 +1,7 @@
 import React, { useState, useCallback, useRef } from 'react';
+import { Button } from '@/components/ui/button';
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
+import { cn } from '@/lib/utils';
 import type { Token } from '@/hooks/useSentenceTokens';
 import type { Sentence } from '@/types';
 
@@ -99,26 +102,35 @@ export const WordMarkingToggle: React.FC<WordMarkingToggleProps> = ({
   return (
     <div className="space-y-3">
       <div className="flex items-center justify-center gap-2">
-        <button
-          onClick={() => setSelectionMode('single')}
-          className={`px-3 py-1 text-sm rounded-full transition-colors ${
-            selectionMode === 'single'
-              ? 'bg-blue-600 text-white'
-              : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
-          }`}
+        <ToggleGroup 
+          type="single" 
+          value={selectionMode}
+          onValueChange={(value) => {
+            if (value) setSelectionMode(value as 'single' | 'multi');
+          }}
+          className="bg-gray-800 rounded-lg p-1"
         >
-          Einzelwort
-        </button>
-        <button
-          onClick={() => setSelectionMode('multi')}
-          className={`px-3 py-1 text-sm rounded-full transition-colors ${
-            selectionMode === 'multi'
-              ? 'bg-purple-600 text-white'
-              : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
-          }`}
-        >
-          Mehrere Wörter
-        </button>
+          <ToggleGroupItem 
+            value="single"
+            className={cn(
+              'px-3 py-1 text-sm rounded-md transition-colors',
+              'data-[state=on]:bg-blue-600 data-[state=on]:text-white',
+              'data-[state=off]:text-gray-300 data-[state=off]:hover:bg-gray-700'
+            )}
+          >
+            Einzelwort
+          </ToggleGroupItem>
+          <ToggleGroupItem 
+            value="multi"
+            className={cn(
+              'px-3 py-1 text-sm rounded-md transition-colors',
+              'data-[state=on]:bg-purple-600 data-[state=on]:text-white',
+              'data-[state=off]:text-gray-300 data-[state=off]:hover:bg-gray-700'
+            )}
+          >
+            Mehrere Wörter
+          </ToggleGroupItem>
+        </ToggleGroup>
         <span className="text-gray-500 text-xs hidden md:inline ml-2">
           (Shift+Klick für Bereich)
         </span>
@@ -129,19 +141,22 @@ export const WordMarkingToggle: React.FC<WordMarkingToggleProps> = ({
           <span className="text-purple-200 text-sm">
             {selectedTokens.size} Wörter ausgewählt
           </span>
-          <button
+          <Button
             onClick={confirmMultiWordSelection}
             disabled={selectedTokens.size < 2}
-            className="px-3 py-1 text-sm bg-purple-600 hover:bg-purple-500 text-white rounded-full disabled:opacity-50"
+            size="sm"
+            className="bg-purple-600 hover:bg-purple-500 text-white"
           >
             Als Gruppe markieren
-          </button>
-          <button
+          </Button>
+          <Button
             onClick={cancelMultiWordSelection}
-            className="px-3 py-1 text-sm bg-gray-600 hover:bg-gray-500 text-white rounded-full"
+            variant="secondary"
+            size="sm"
+            className="bg-gray-600 hover:bg-gray-500 text-white"
           >
             Abbrechen
-          </button>
+          </Button>
         </div>
       )}
 
@@ -151,16 +166,16 @@ export const WordMarkingToggle: React.FC<WordMarkingToggleProps> = ({
           const isSelected = selectedTokens.has(token.id);
 
           return (
-            <button
+            <Button
               key={token.id}
+              variant="ghost"
               onClick={(e) => handleTokenClick(token, e)}
-              className={`relative text-2xl md:text-3xl font-bold font-mono tracking-wide transition-all px-3 py-2 rounded ${
-                isSelected
-                  ? 'text-purple-200 bg-purple-500/40 ring-2 ring-purple-400'
-                  : marked
-                  ? 'text-yellow-300 bg-yellow-500/20'
-                  : 'text-blue-300 hover:bg-blue-500/20'
-              }`}
+              className={cn(
+                'relative text-2xl md:text-3xl font-bold font-mono tracking-wide transition-all px-3 py-2 h-auto',
+                isSelected && 'text-purple-200 bg-purple-500/40 ring-2 ring-purple-400',
+                !isSelected && marked && 'text-yellow-300 bg-yellow-500/20 hover:bg-yellow-500/30',
+                !isSelected && !marked && 'text-blue-300 hover:bg-blue-500/20'
+              )}
               title={
                 selectionMode === 'multi'
                   ? isSelected
@@ -178,7 +193,7 @@ export const WordMarkingToggle: React.FC<WordMarkingToggleProps> = ({
               {isSelected && (
                 <span className="absolute -top-1 -right-1 text-purple-300 text-sm">✓</span>
               )}
-            </button>
+            </Button>
           );
         })}
       </div>
