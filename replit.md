@@ -26,12 +26,13 @@ Key features include:
 - **Technical Implementations**: Type-safe database queries via Supabase, a data migration utility for existing local storage data, and Vercel-optimized deployment.
 
 ## Recent Changes (December 2025)
-- **Black Screen Bug Fix**: Added `validateSentenceIndex()` utility to prevent out-of-bounds errors when resuming lesson progress
-- **De-marking Feature**: Users can now click marked words to remove them from SRS practice (toggle behavior)
-- **removeCardByWords()**: New VocabularyContext function to remove cards by German/Farsi word pair
+- **Resume Bug Fix**: Added `sanitizeDecodeAnswers()` in useSentenceTokens hook and `validateSentenceIndex()` utility to prevent out-of-bounds errors when resuming lesson progress; handles edge case of 0 sentences
+- **RTL Layout Redesign**: DecodeSentenceGrid uses CSS Grid with `dir="rtl"` for proper right-to-left flow; 4-row grid per token (Farsi → Latin → German input → Correction)
+- **Multi-word Selection with Shift-click**: WordMarkingToggle supports Shift-click range selection for contiguous words; tracks last clicked index for range anchor; includes mode toggle (Einzelwort/Mehrere Wörter)
+- **De-marking Feature**: Users can click marked words to remove them from SRS practice (toggle behavior)
+- **removeCardByWords()**: VocabularyContext function to remove cards by German/Farsi word pair
 - **New Component Structure**: Created `components/lesson/` folder with modular DecodeStep, LessonContainer, WordMarkingToggle, and DecodeSentenceGrid components
 - **useSentenceTokens Hook**: Token normalization with unique IDs fixes index alignment issues in SRS word selection
-- **Multi-word Selection**: WordMarkingToggle supports selecting multiple words for complex verb marking
 
 ## External Dependencies
 - **Database**: Supabase PostgreSQL (for user profiles, lesson progress, vocabulary cards, SRS reviews, gamification stats)
