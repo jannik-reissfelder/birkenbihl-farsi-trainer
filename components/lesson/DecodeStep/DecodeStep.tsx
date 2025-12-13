@@ -5,6 +5,7 @@ import { Separator } from '@/components/ui/separator';
 import { StepHeader } from './StepHeader';
 import { ControlBar } from './ControlBar';
 import { TokenStackGrid } from './TokenStackGrid';
+import { WordMarkingToggle } from './WordMarkingToggle';
 import { cn } from '@/lib/utils';
 import type { Token } from '@/hooks/useSentenceTokens';
 import type { Sentence } from '@/types';
@@ -32,6 +33,7 @@ interface DecodeStepProps {
   onMarkWord: (token: Token) => void;
   onUnmarkWord: (german: string, farsi: string) => void;
   isWordMarked: (german: string, farsi: string) => boolean;
+  onAddCard: (german: string, farsi: string, latin: string, sentence: Sentence) => void;
   showTranslation: boolean;
   onToggleTranslation: () => void;
   isLastSentence: boolean;
@@ -104,6 +106,7 @@ export const DecodeStep: React.FC<DecodeStepProps> = ({
   onMarkWord,
   onUnmarkWord,
   isWordMarked,
+  onAddCard,
   showTranslation,
   onToggleTranslation,
   isLastSentence,
@@ -203,6 +206,23 @@ export const DecodeStep: React.FC<DecodeStepProps> = ({
         onUnmarkWord={onUnmarkWord}
         isWordMarked={isWordMarked}
       />
+
+      <Separator className="my-4 bg-gray-700" />
+
+      <Card className="mb-4 bg-gray-800/50 border-gray-700">
+        <CardContent className="p-4">
+          <h4 className="text-sm font-medium text-gray-400 mb-3 text-center">
+            Wörter zum Üben markieren
+          </h4>
+          <WordMarkingToggle
+            tokens={tokens}
+            sentence={currentSentence}
+            onAddCard={onAddCard}
+            onRemoveCard={onUnmarkWord}
+            isWordMarked={isWordMarked}
+          />
+        </CardContent>
+      </Card>
 
       <ControlBar
         onPrevious={onPrevious}

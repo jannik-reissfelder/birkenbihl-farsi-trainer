@@ -694,6 +694,7 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
             onMarkWord={handleMarkToken}
             onUnmarkWord={removeCardByWords}
             isWordMarked={isWordMarked}
+            onAddCard={addCard}
             showTranslation={showTranslation}
             onToggleTranslation={() => setShowTranslation(!showTranslation)}
             isLastSentence={currentIndex === lesson.sentences.length - 1}
