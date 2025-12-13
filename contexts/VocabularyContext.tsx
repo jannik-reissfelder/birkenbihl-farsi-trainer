@@ -10,6 +10,7 @@ interface VocabularyContextType {
   activeVocabulary: ActiveVocabulary;
   addCard: (word: string, farsiWord: string, latinWord: string, sentence: Sentence) => void;
   removeCard: (cardId: string) => void;
+  removeCardByWords: (german: string, farsi: string) => void;
   getCardById: (cardId: string) => VocabularyCard | undefined;
   getCardsByState: (state: SRSState) => VocabularyCard[];
   getDueCards: () => VocabularyCard[];
@@ -130,6 +131,22 @@ export const VocabularyProvider: React.FC<{ children: ReactNode }> = ({ children
       console.error('Failed to delete vocabulary card:', error);
     });
   }, [user]);
+
+  const removeCardByWords = useCallback((german: string, farsi: string) => {
+    if (!user) return;
+
+    const card = cards.find(c => 
+      c.word.toLowerCase() === german.toLowerCase() || c.farsiWord === farsi
+    );
+    
+    if (card) {
+      setCards(prev => prev.filter(c => c.id !== card.id));
+      
+      vocabularyQueries.delete(card.id).catch(error => {
+        console.error('Failed to delete vocabulary card:', error);
+      });
+    }
+  }, [user, cards]);
 
   const getCardById = useCallback((cardId: string) => {
     return cards.find(card => card.id === cardId);
@@ -284,6 +301,7 @@ export const VocabularyProvider: React.FC<{ children: ReactNode }> = ({ children
     activeVocabulary,
     addCard,
     removeCard,
+    removeCardByWords,
     getCardById,
     getCardsByState,
     getDueCards,

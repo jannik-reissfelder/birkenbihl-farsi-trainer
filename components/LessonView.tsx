@@ -23,6 +23,7 @@ import { RepeatIcon } from './icons/RepeatIcon';
 import { WandIcon } from './icons/WandIcon';
 import { BotIcon } from './icons/BotIcon';
 import { useLessonStepProgress } from '../hooks/useLessonStepProgress';
+import { validateSentenceIndex } from '../hooks/useSentenceTokens';
 
 interface SpeechRecognition {
   lang: string;
@@ -90,7 +91,7 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
   const [isMastered, setIsMastered] = useState(false);
   const [completedSteps, setCompletedSteps] = useState(new Set<BirkenbihlStep>());
   const { addXp } = useContext(GamificationContext);
-  const { addCard, isWordMarked } = useVocabulary();
+  const { addCard, removeCardByWords, isWordMarked } = useVocabulary();
   const { progress, setProgress, getGlobalSentenceIndex } = useProgress();
   
   // Resume from saved progress (sentence index + decode answers)
@@ -100,13 +101,14 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
       if (Object.keys(stepProgress.decodeAnswers).length > 0) {
         setAllDecodeAnswers(stepProgress.decodeAnswers);
       }
-      // Restore sentence index
+      // Restore sentence index with bounds validation to prevent black screen bug
       if (stepProgress.decodeSentenceIndex > 0) {
-        setCurrentIndex(stepProgress.decodeSentenceIndex);
+        const safeIndex = validateSentenceIndex(stepProgress.decodeSentenceIndex, lesson.sentences.length);
+        setCurrentIndex(safeIndex);
       }
       setHasResumedFromProgress(true);
     }
-  }, [isStepProgressLoading, stepProgress.decodeSentenceIndex, stepProgress.decodeAnswers, hasResumedFromProgress, mode]);
+  }, [isStepProgressLoading, stepProgress.decodeSentenceIndex, stepProgress.decodeAnswers, hasResumedFromProgress, mode, lesson.sentences.length]);
   
   // Decode step state
   const [allDecodeAnswers, setAllDecodeAnswers] = useState<Record<number, string[]>>({});
@@ -438,11 +440,11 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
     }
 
     if (isWordMarked(germanWord, farsiWord)) {
-      return;
+      removeCardByWords(germanWord, farsiWord);
+    } else {
+      addCard(germanWord, farsiWord, latinWord || '', currentSentence);
     }
-
-    addCard(germanWord, farsiWord, latinWord || '', currentSentence);
-  }, [farsiParts, decodeParts, latinParts, isWordMarked, addCard, currentSentence]);
+  }, [farsiParts, decodeParts, latinParts, isWordMarked, addCard, removeCardByWords, currentSentence]);
   
   // Save progress immediately
   const handleSaveProgress = useCallback(async () => {
@@ -689,11 +691,10 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
                     onClick={() => handleMarkWord(index)}
                     className={`relative text-3xl font-bold font-mono tracking-wide transition-all px-2 py-1 rounded ${
                       marked 
-                        ? 'text-yellow-300 bg-yellow-500/20 cursor-default' 
+                        ? 'text-yellow-300 bg-yellow-500/20 hover:bg-yellow-500/30 cursor-pointer' 
                         : 'text-blue-300 hover:bg-blue-500/20 cursor-pointer'
                     }`}
-                    disabled={marked}
-                    title={marked ? 'Already marked for practice' : 'Click to mark for SRS practice'}
+                    title={marked ? 'Klicken zum Entfernen aus der Übungsliste' : 'Klicken zum Markieren für SRS-Übung'}
                   >
                     {part}
                     {marked && (
