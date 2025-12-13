@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useRef } from 'react';
 import type { Token } from '@/hooks/useSentenceTokens';
 import type { Sentence } from '@/types';
 
@@ -19,35 +19,64 @@ export const WordMarkingToggle: React.FC<WordMarkingToggleProps> = ({
 }) => {
   const [selectionMode, setSelectionMode] = useState<'single' | 'multi'>('single');
   const [selectedTokens, setSelectedTokens] = useState<Set<string>>(new Set());
+  const lastClickedIndexRef = useRef<number | null>(null);
+  
+  const nonPunctuationTokens = tokens.filter(t => !t.isPunctuation);
 
-  const handleTokenClick = useCallback((token: Token) => {
+  const handleTokenClick = useCallback((token: Token, event: React.MouseEvent) => {
     if (token.isPunctuation) return;
 
     const marked = isWordMarked(token.german, token.farsi);
+    const tokenIndex = nonPunctuationTokens.findIndex(t => t.id === token.id);
 
     if (selectionMode === 'single') {
-      if (marked) {
-        onRemoveCard(token.german, token.farsi);
+      if (event.shiftKey && lastClickedIndexRef.current !== null) {
+        setSelectionMode('multi');
+        const start = Math.min(lastClickedIndexRef.current, tokenIndex);
+        const end = Math.max(lastClickedIndexRef.current, tokenIndex);
+        const rangeIds = nonPunctuationTokens
+          .slice(start, end + 1)
+          .map(t => t.id);
+        setSelectedTokens(new Set(rangeIds));
       } else {
-        onAddCard(token.german, token.farsi, token.latin, sentence);
+        if (marked) {
+          onRemoveCard(token.german, token.farsi);
+        } else {
+          onAddCard(token.german, token.farsi, token.latin, sentence);
+        }
+        lastClickedIndexRef.current = tokenIndex;
       }
     } else {
-      setSelectedTokens(prev => {
-        const next = new Set(prev);
-        if (next.has(token.id)) {
-          next.delete(token.id);
-        } else {
-          next.add(token.id);
-        }
-        return next;
-      });
+      if (event.shiftKey && lastClickedIndexRef.current !== null) {
+        const start = Math.min(lastClickedIndexRef.current, tokenIndex);
+        const end = Math.max(lastClickedIndexRef.current, tokenIndex);
+        const rangeIds = nonPunctuationTokens
+          .slice(start, end + 1)
+          .map(t => t.id);
+        setSelectedTokens(prev => {
+          const next = new Set(prev);
+          rangeIds.forEach(id => next.add(id));
+          return next;
+        });
+      } else {
+        setSelectedTokens(prev => {
+          const next = new Set(prev);
+          if (next.has(token.id)) {
+            next.delete(token.id);
+          } else {
+            next.add(token.id);
+          }
+          return next;
+        });
+        lastClickedIndexRef.current = tokenIndex;
+      }
     }
-  }, [selectionMode, isWordMarked, onAddCard, onRemoveCard, sentence]);
+  }, [selectionMode, isWordMarked, onAddCard, onRemoveCard, sentence, nonPunctuationTokens]);
 
   const confirmMultiWordSelection = useCallback(() => {
     if (selectedTokens.size < 2) return;
 
-    const selected = tokens
+    const selected = nonPunctuationTokens
       .filter(t => selectedTokens.has(t.id))
       .sort((a, b) => a.index - b.index);
 
@@ -58,11 +87,13 @@ export const WordMarkingToggle: React.FC<WordMarkingToggleProps> = ({
     onAddCard(combinedGerman, combinedFarsi, combinedLatin, sentence);
     setSelectedTokens(new Set());
     setSelectionMode('single');
-  }, [selectedTokens, tokens, onAddCard, sentence]);
+    lastClickedIndexRef.current = null;
+  }, [selectedTokens, nonPunctuationTokens, onAddCard, sentence]);
 
   const cancelMultiWordSelection = useCallback(() => {
     setSelectedTokens(new Set());
     setSelectionMode('single');
+    lastClickedIndexRef.current = null;
   }, []);
 
   return (
@@ -88,6 +119,9 @@ export const WordMarkingToggle: React.FC<WordMarkingToggleProps> = ({
         >
           Mehrere Wörter
         </button>
+        <span className="text-gray-500 text-xs hidden md:inline ml-2">
+          (Shift+Klick für Bereich)
+        </span>
       </div>
 
       {selectionMode === 'multi' && selectedTokens.size > 0 && (
@@ -112,14 +146,14 @@ export const WordMarkingToggle: React.FC<WordMarkingToggleProps> = ({
       )}
 
       <div className="flex flex-row-reverse flex-wrap justify-center items-center gap-2" dir="rtl">
-        {tokens.filter(t => !t.isPunctuation).map((token) => {
+        {nonPunctuationTokens.map((token) => {
           const marked = isWordMarked(token.german, token.farsi);
           const isSelected = selectedTokens.has(token.id);
 
           return (
             <button
               key={token.id}
-              onClick={() => handleTokenClick(token)}
+              onClick={(e) => handleTokenClick(token, e)}
               className={`relative text-2xl md:text-3xl font-bold font-mono tracking-wide transition-all px-3 py-2 rounded ${
                 isSelected
                   ? 'text-purple-200 bg-purple-500/40 ring-2 ring-purple-400'
