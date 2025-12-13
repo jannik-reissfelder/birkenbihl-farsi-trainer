@@ -5,7 +5,6 @@ import { Separator } from '@/components/ui/separator';
 import { StepHeader } from './StepHeader';
 import { ControlBar } from './ControlBar';
 import { TokenStackGrid } from './TokenStackGrid';
-import { WordMarkingToggle } from './WordMarkingToggle';
 import { cn } from '@/lib/utils';
 import type { Token } from '@/hooks/useSentenceTokens';
 import type { Sentence } from '@/types';
@@ -209,6 +208,9 @@ export const DecodeStep: React.FC<DecodeStepProps> = ({
         onMarkWord={onMarkWord}
         onUnmarkWord={onUnmarkWord}
         isWordMarked={isWordMarked}
+        markingMode={isVocabMarkingMode}
+        onAddCard={onAddCard}
+        currentSentence={currentSentence}
       />
 
       <div className="flex justify-center mt-4">
@@ -236,20 +238,6 @@ export const DecodeStep: React.FC<DecodeStepProps> = ({
           )}
         </Button>
       </div>
-
-      {isVocabMarkingMode && (
-        <Card className="mt-4 bg-gray-800/50 border-purple-700/50 animate-fade-in">
-          <CardContent className="p-4">
-            <WordMarkingToggle
-              tokens={tokens}
-              sentence={currentSentence}
-              onAddCard={onAddCard}
-              onRemoveCard={onUnmarkWord}
-              isWordMarked={isWordMarked}
-            />
-          </CardContent>
-        </Card>
-      )}
 
       <ControlBar
         onPrevious={onPrevious}

@@ -10,11 +10,13 @@ export interface TokenColumnProps {
   wordIndex: number;
   isPunctuation: boolean;
   isMarked: boolean;
+  isSelected?: boolean;
   isCorrect: boolean | null;
   isChecked: boolean;
   userAnswer: string;
   onAnswerChange: (value: string) => void;
-  onToggleMark: () => void;
+  onToggleMark: (event?: React.MouseEvent) => void;
+  markingMode?: boolean;
 }
 
 export const TokenColumn: React.FC<TokenColumnProps> = ({
@@ -23,11 +25,13 @@ export const TokenColumn: React.FC<TokenColumnProps> = ({
   german,
   isPunctuation,
   isMarked,
+  isSelected = false,
   isCorrect,
   isChecked,
   userAnswer,
   onAnswerChange,
   onToggleMark,
+  markingMode = false,
 }) => {
   if (isPunctuation) {
     return (
@@ -49,19 +53,31 @@ export const TokenColumn: React.FC<TokenColumnProps> = ({
     <div className="flex flex-col items-center gap-1 min-w-[4rem]">
       <Button
         variant="ghost"
-        onClick={onToggleMark}
+        onClick={(e) => onToggleMark(e)}
         className={cn(
-          'h-10 px-2 text-2xl md:text-3xl font-bold font-mono tracking-wide relative',
-          isMarked
-            ? 'text-yellow-300 bg-yellow-500/20 hover:bg-yellow-500/30'
-            : 'text-blue-300 hover:bg-blue-500/20'
+          'h-10 px-2 text-2xl md:text-3xl font-bold font-mono tracking-wide relative transition-all',
+          isSelected && 'text-purple-200 bg-purple-500/40 ring-2 ring-purple-400',
+          !isSelected && isMarked && 'text-yellow-300 bg-yellow-500/20 hover:bg-yellow-500/30',
+          !isSelected && !isMarked && markingMode && 'text-purple-300 hover:bg-purple-500/20',
+          !isSelected && !isMarked && !markingMode && 'text-blue-300 hover:bg-blue-500/20'
         )}
-        title={isMarked ? `★ ${german} - Klicken zum Entfernen` : 'Für SRS markieren'}
+        title={
+          markingMode
+            ? isSelected
+              ? 'Klicken zum Abwählen'
+              : 'Klicken zum Auswählen'
+            : isMarked
+            ? `★ ${german} - Klicken zum Entfernen`
+            : 'Für SRS markieren'
+        }
         dir="rtl"
       >
         {farsi}
-        {isMarked && (
+        {isMarked && !isSelected && (
           <span className="absolute -top-1 -right-1 text-yellow-400 text-xs">★</span>
+        )}
+        {isSelected && (
+          <span className="absolute -top-1 -right-1 text-purple-300 text-xs">✓</span>
         )}
       </Button>
 
