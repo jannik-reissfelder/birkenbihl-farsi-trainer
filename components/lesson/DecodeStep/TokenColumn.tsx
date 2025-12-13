@@ -15,7 +15,6 @@ export interface TokenColumnProps {
   userAnswer: string;
   onAnswerChange: (value: string) => void;
   onToggleMark: () => void;
-  gridColumn: number;
 }
 
 export const TokenColumn: React.FC<TokenColumnProps> = ({
@@ -29,14 +28,10 @@ export const TokenColumn: React.FC<TokenColumnProps> = ({
   userAnswer,
   onAnswerChange,
   onToggleMark,
-  gridColumn,
 }) => {
   if (isPunctuation) {
     return (
-      <div
-        className="flex flex-col items-center gap-1"
-        style={{ gridColumn }}
-      >
+      <div className="flex flex-col items-center gap-1 min-w-[2rem]">
         <span className="text-2xl md:text-3xl font-bold text-gray-300 h-10 flex items-end justify-center">
           {farsi}
         </span>
@@ -51,10 +46,7 @@ export const TokenColumn: React.FC<TokenColumnProps> = ({
   const isRight = isChecked && isCorrect === true;
 
   return (
-    <div
-      className="flex flex-col items-center gap-1"
-      style={{ gridColumn }}
-    >
+    <div className="flex flex-col items-center gap-1 min-w-[4rem]">
       <Button
         variant="ghost"
         onClick={onToggleMark}
@@ -86,7 +78,7 @@ export const TokenColumn: React.FC<TokenColumnProps> = ({
         onChange={(e) => onAnswerChange(e.target.value)}
         disabled={isRight}
         className={cn(
-          'w-full min-w-[4rem] h-10 bg-gray-700 border rounded-md text-center text-white px-2 text-sm',
+          'w-full min-w-[4rem] max-w-[6rem] h-10 bg-gray-700 border rounded-md text-center text-white px-2 text-sm',
           'focus:ring-2 focus:ring-blue-500 focus:outline-none transition-colors',
           isRight && 'border-green-500 bg-green-900/20',
           isWrong && 'border-red-500 bg-red-900/20',

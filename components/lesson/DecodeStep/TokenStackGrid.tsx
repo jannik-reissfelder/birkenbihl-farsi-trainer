@@ -36,13 +36,10 @@ export const TokenStackGrid: React.FC<TokenStackGridProps> = ({
     <Card className="bg-gray-900/50 border-gray-700">
       <CardContent className="p-4 md:p-6">
         <div 
-          className="grid gap-x-3 gap-y-0 justify-center items-start"
+          className="flex flex-wrap justify-center items-start gap-x-3 gap-y-4"
           dir="rtl"
-          style={{
-            gridTemplateColumns: `repeat(${tokens.length}, minmax(4rem, auto))`,
-          }}
         >
-          {tokens.map((token, tokenIndex) => {
+          {tokens.map((token) => {
             const currentWordIndex = getWordIndex(token);
             const marked = !token.isPunctuation && isWordMarked(token.german, token.farsi);
             const isCorrect = !token.isPunctuation && isChecked 
@@ -72,7 +69,6 @@ export const TokenStackGrid: React.FC<TokenStackGridProps> = ({
                 userAnswer={userAnswers[currentWordIndex] || ''}
                 onAnswerChange={(value) => onAnswerChange(currentWordIndex, value)}
                 onToggleMark={handleToggleMark}
-                gridColumn={tokenIndex + 1}
               />
             );
           })}

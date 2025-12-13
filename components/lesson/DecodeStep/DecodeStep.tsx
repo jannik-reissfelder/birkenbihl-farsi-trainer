@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
@@ -72,15 +72,17 @@ const SpinnerIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
-const ChevronRightIcon = ({ className }: { className?: string }) => (
+const PlusIcon = ({ className }: { className?: string }) => (
   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <polyline points="9 18 15 12 9 6"/>
+    <line x1="12" y1="5" x2="12" y2="19"/>
+    <line x1="5" y1="12" x2="19" y2="12"/>
   </svg>
 );
 
-const CheckIcon = ({ className }: { className?: string }) => (
+const CloseIcon = ({ className }: { className?: string }) => (
   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <polyline points="20 6 9 17 4 12"/>
+    <line x1="18" y1="6" x2="6" y2="18"/>
+    <line x1="6" y1="6" x2="18" y2="18"/>
   </svg>
 );
 
@@ -120,6 +122,8 @@ export const DecodeStep: React.FC<DecodeStepProps> = ({
   onQuestionChange,
   onClearHelpAnswer,
 }) => {
+  const [isVocabMarkingMode, setIsVocabMarkingMode] = useState(false);
+
   return (
     <div className="p-2 md:p-4 animate-fade-in">
       <StepHeader
@@ -207,22 +211,45 @@ export const DecodeStep: React.FC<DecodeStepProps> = ({
         isWordMarked={isWordMarked}
       />
 
-      <Separator className="my-4 bg-gray-700" />
+      <div className="flex justify-center mt-4">
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={() => setIsVocabMarkingMode(!isVocabMarkingMode)}
+          className={cn(
+            'transition-colors',
+            isVocabMarkingMode 
+              ? 'text-purple-200 border-purple-500 bg-purple-900/40 hover:bg-purple-900/60'
+              : 'text-purple-300 border-purple-600 hover:bg-purple-900/30 hover:text-purple-200'
+          )}
+        >
+          {isVocabMarkingMode ? (
+            <>
+              <CloseIcon className="h-4 w-4 mr-2" />
+              Markieren beenden
+            </>
+          ) : (
+            <>
+              <PlusIcon className="h-4 w-4 mr-2" />
+              Vokabeln markieren
+            </>
+          )}
+        </Button>
+      </div>
 
-      <Card className="mb-4 bg-gray-800/50 border-gray-700">
-        <CardContent className="p-4">
-          <h4 className="text-sm font-medium text-gray-400 mb-3 text-center">
-            Wörter zum Üben markieren
-          </h4>
-          <WordMarkingToggle
-            tokens={tokens}
-            sentence={currentSentence}
-            onAddCard={onAddCard}
-            onRemoveCard={onUnmarkWord}
-            isWordMarked={isWordMarked}
-          />
-        </CardContent>
-      </Card>
+      {isVocabMarkingMode && (
+        <Card className="mt-4 bg-gray-800/50 border-purple-700/50 animate-fade-in">
+          <CardContent className="p-4">
+            <WordMarkingToggle
+              tokens={tokens}
+              sentence={currentSentence}
+              onAddCard={onAddCard}
+              onRemoveCard={onUnmarkWord}
+              isWordMarked={isWordMarked}
+            />
+          </CardContent>
+        </Card>
+      )}
 
       <ControlBar
         onPrevious={onPrevious}
