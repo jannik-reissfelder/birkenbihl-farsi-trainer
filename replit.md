@@ -26,13 +26,14 @@ Key features include:
 - **Technical Implementations**: Type-safe database queries via Supabase, a data migration utility for existing local storage data, and Vercel-optimized deployment.
 
 ## Recent Changes (December 2025)
-- **Shadcn Component Refactor**: Created modular DecodeStep components using shadcn/ui:
+- **Shadcn Component Refactor (COMPLETE)**: Created modular DecodeStep components using shadcn/ui:
   - `TokenColumn.tsx`: Stacked Farsi/Latin/German input with shadcn Button for word marking
   - `TokenStackGrid.tsx`: CSS Grid with RTL column flow using shadcn Card
   - `StepHeader.tsx`: Sentence progress, audio controls with shadcn Button
   - `ControlBar.tsx`: Navigation with shadcn Button variants
-  - `WordMarkingToggle.tsx`: Updated to use shadcn ToggleGroup and Button
-  - `DecodeStep.tsx`: Composite component integrating all decode UI
+  - `WordMarkingToggle.tsx`: Updated to use shadcn ToggleGroup and Button; now integrated into DecodeStep
+  - `DecodeStep.tsx`: Composite component integrating all decode UI including WordMarkingToggle
+  - `index.ts`: Barrel export for all DecodeStep components
 - **useDecodeController Hook**: New hook (`hooks/useDecodeController.ts`) consolidating decode step state management including answer validation, word marking, auto-save with debounce cleanup, and resume functionality
 - **Resume Bug Fix**: Added `sanitizeDecodeAnswers()` in useSentenceTokens hook and `validateSentenceIndex()` utility to prevent out-of-bounds errors when resuming lesson progress; handles edge case of 0 sentences
 - **RTL Layout Redesign**: TokenStackGrid uses CSS Grid with `dir="rtl"` for proper right-to-left flow; 4-row grid per token (Farsi → Latin → German input → Correction)
@@ -40,6 +41,7 @@ Key features include:
 - **De-marking Feature**: Users can click marked words to remove them from SRS practice (toggle behavior)
 - **removeCardByWords()**: VocabularyContext function to remove cards by German/Farsi word pair
 - **useSentenceTokens Hook**: Token normalization with unique IDs fixes index alignment issues in SRS word selection
+- **LessonView Integration**: DecodeStep component fully integrated with all props including onAddCard for multi-word vocabulary marking
 
 ## External Dependencies
 - **Database**: Supabase PostgreSQL (for user profiles, lesson progress, vocabulary cards, SRS reviews, gamification stats)
