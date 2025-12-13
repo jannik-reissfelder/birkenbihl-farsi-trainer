@@ -26,12 +26,19 @@ Key features include:
 - **Technical Implementations**: Type-safe database queries via Supabase, a data migration utility for existing local storage data, and Vercel-optimized deployment.
 
 ## Recent Changes (December 2025)
+- **Shadcn Component Refactor**: Created modular DecodeStep components using shadcn/ui:
+  - `TokenColumn.tsx`: Stacked Farsi/Latin/German input with shadcn Button for word marking
+  - `TokenStackGrid.tsx`: CSS Grid with RTL column flow using shadcn Card
+  - `StepHeader.tsx`: Sentence progress, audio controls with shadcn Button
+  - `ControlBar.tsx`: Navigation with shadcn Button variants
+  - `WordMarkingToggle.tsx`: Updated to use shadcn ToggleGroup and Button
+  - `DecodeStep.tsx`: Composite component integrating all decode UI
+- **useDecodeController Hook**: New hook (`hooks/useDecodeController.ts`) consolidating decode step state management including answer validation, word marking, auto-save with debounce cleanup, and resume functionality
 - **Resume Bug Fix**: Added `sanitizeDecodeAnswers()` in useSentenceTokens hook and `validateSentenceIndex()` utility to prevent out-of-bounds errors when resuming lesson progress; handles edge case of 0 sentences
-- **RTL Layout Redesign**: DecodeSentenceGrid uses CSS Grid with `dir="rtl"` for proper right-to-left flow; 4-row grid per token (Farsi → Latin → German input → Correction)
+- **RTL Layout Redesign**: TokenStackGrid uses CSS Grid with `dir="rtl"` for proper right-to-left flow; 4-row grid per token (Farsi → Latin → German input → Correction)
 - **Multi-word Selection with Shift-click**: WordMarkingToggle supports Shift-click range selection for contiguous words; tracks last clicked index for range anchor; includes mode toggle (Einzelwort/Mehrere Wörter)
 - **De-marking Feature**: Users can click marked words to remove them from SRS practice (toggle behavior)
 - **removeCardByWords()**: VocabularyContext function to remove cards by German/Farsi word pair
-- **New Component Structure**: Created `components/lesson/` folder with modular DecodeStep, LessonContainer, WordMarkingToggle, and DecodeSentenceGrid components
 - **useSentenceTokens Hook**: Token normalization with unique IDs fixes index alignment issues in SRS word selection
 
 ## External Dependencies

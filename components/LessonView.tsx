@@ -3,8 +3,6 @@ import { Lesson, Sentence, PronunciationFeedback, WordTiming } from '../types';
 import { generateSpeech, getWordTimings, getHelpForSentence } from '../services/geminiService';
 import { decode, decodeAudioData } from '../utils/audioUtils';
 import { TranslateIcon } from './icons/TranslateIcon';
-import { EarIcon } from './icons/EarIcon';
-import { MicrophoneIcon } from './icons/MicrophoneIcon';
 import { MusicNoteIcon } from './icons/MusicNoteIcon';
 import { ChevronLeftIcon } from './icons/ChevronLeftIcon';
 import { ChevronRightIcon } from './icons/ChevronRightIcon';
@@ -15,15 +13,12 @@ import { CheckIcon } from './icons/CheckIcon';
 import { CloseIcon } from './icons/CloseIcon';
 import { GamificationContext } from '../contexts/GamificationContext';
 import { useVocabulary } from '../contexts/VocabularyContext';
-import { SpeakerIcon } from './icons/SpeakerIcon';
-import { StarIcon } from './icons/StarIcon';
 import { useProgress } from '../hooks/useProgress';
 import { useDecodeAudio } from '../hooks/useDecodeAudio';
 import { RepeatIcon } from './icons/RepeatIcon';
-import { WandIcon } from './icons/WandIcon';
-import { BotIcon } from './icons/BotIcon';
 import { useLessonStepProgress } from '../hooks/useLessonStepProgress';
-import { validateSentenceIndex, sanitizeDecodeAnswers } from '../hooks/useSentenceTokens';
+import { validateSentenceIndex, sanitizeDecodeAnswers, useSentenceTokens } from '../hooks/useSentenceTokens';
+import { DecodeStep } from './lesson/DecodeStep';
 
 interface SpeechRecognition {
   lang: string;
@@ -162,6 +157,11 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
   const currentStepRef = useRef<BirkenbihlStep>(step);
 
   const currentSentence = useMemo(() => lesson.sentences[currentIndex], [lesson.sentences, currentIndex]);
+  
+  // Token data from useSentenceTokens hook for DecodeStep component
+  const sentenceTokens = useSentenceTokens(currentSentence);
+  const tokens = sentenceTokens?.tokens || [];
+  const wordTokens = sentenceTokens?.wordTokens || [];
   
   // A unicode-aware regex to correctly tokenize words with diacritics and punctuation.
   const tokenRegex = useMemo(() => /D\.O\.|[\p{L}\p{N}'-]+|[.,!?]/gu, []);
@@ -438,21 +438,16 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
     }
   };
 
-  const handleMarkWord = useCallback((wordIndex: number) => {
-    const farsiWord = farsiParts[wordIndex];
-    const germanWord = decodeParts[wordIndex];
-    const latinWord = latinParts[wordIndex];
-
-    if (!farsiWord || !germanWord || /^[.,!?]$/.test(farsiWord)) {
-      return;
-    }
-
-    if (isWordMarked(germanWord, farsiWord)) {
-      removeCardByWords(germanWord, farsiWord);
+  // Handler for Token-based word marking (used by DecodeStep component)
+  const handleMarkToken = useCallback((token: { german: string; farsi: string; latin: string; isPunctuation: boolean }) => {
+    if (token.isPunctuation || !token.german || !token.farsi) return;
+    
+    if (isWordMarked(token.german, token.farsi)) {
+      removeCardByWords(token.german, token.farsi);
     } else {
-      addCard(germanWord, farsiWord, latinWord || '', currentSentence);
+      addCard(token.german, token.farsi, token.latin || '', currentSentence);
     }
-  }, [farsiParts, decodeParts, latinParts, isWordMarked, addCard, removeCardByWords, currentSentence]);
+  }, [isWordMarked, addCard, removeCardByWords, currentSentence]);
   
   // Save progress immediately
   const handleSaveProgress = useCallback(async () => {
@@ -626,224 +621,6 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
   };
   // --- END KARAOKE LOGIC ---
   
-  const renderOptionalTranslation = () => (
-    <div className="mt-4 text-center">
-      <button onClick={() => setShowTranslation(!showTranslation)} className="text-sm text-gray-500 hover:text-gray-400 underline">
-        {showTranslation ? 'Übersetzung ausblenden' : 'Korrekte Übersetzung anzeigen'}
-      </button>
-      {showTranslation && (
-        <div className="mt-2 p-3 bg-gray-700/50 rounded-lg text-gray-300 animate-fade-in">
-          <p><span className="font-semibold text-teal-300">Übersetzung:</span> "{currentSentence.germanTranslation}"</p>
-        </div>
-      )}
-    </div>
-  );
-
-  const renderDecodeExercise = () => {
-    let wordInputIndex = -1;
-    const isLastSentence = currentIndex === lesson.sentences.length - 1;
-    
-    return (
-      <div className="p-2 md:p-4 animate-fade-in text-center">
-        <h3 className="text-2xl font-bold text-center mb-2 text-teal-300">Wort-für-Wort De-kodieren</h3>
-        <p className="text-center text-gray-400 mb-6">Ordne die deutschen Wörter so an, wie sie im Farsi-Satz stehen.</p>
-
-        <div className="bg-gray-900/50 p-6 rounded-lg min-h-[250px] flex flex-col justify-center">
-          <div className="mb-4 text-right flex items-center justify-end gap-3" dir="rtl">
-            <button onClick={toggleHelp} className="p-2 rounded-full text-gray-400 hover:bg-gray-700 hover:text-blue-300 transition-colors" title="Hilfe zum Satz">
-                <WandIcon className="h-6 w-6" />
-            </button>
-            <button 
-              onClick={decodeAudio.playAudio} 
-              disabled={decodeAudio.audioState !== 'ready'}
-              className={`p-2 rounded-full transition-colors ${
-                decodeAudio.audioState === 'error' 
-                  ? 'text-red-400 hover:bg-red-900/20 cursor-pointer' 
-                  : decodeAudio.audioState === 'loading'
-                  ? 'text-gray-500 cursor-wait'
-                  : decodeAudio.audioState === 'ready' && !decodeAudio.isPlaying
-                  ? 'text-teal-400 hover:bg-teal-900/20 cursor-pointer'
-                  : decodeAudio.isPlaying
-                  ? 'text-teal-300 bg-teal-900/30'
-                  : 'text-gray-500 cursor-not-allowed'
-              }`}
-              title={
-                decodeAudio.audioState === 'error' 
-                  ? `Fehler: ${decodeAudio.error || 'Audio konnte nicht geladen werden'}`
-                  : decodeAudio.audioState === 'loading'
-                  ? 'Audio wird geladen...'
-                  : decodeAudio.isPlaying
-                  ? 'Audio wird abgespielt...'
-                  : 'Satz anhören'
-              }
-            >
-              {decodeAudio.audioState === 'loading' ? (
-                <SpinnerIcon className="h-6 w-6" />
-              ) : (
-                <SpeakerIcon className="h-6 w-6" />
-              )}
-            </button>
-            <div className="flex flex-wrap items-center justify-end gap-2">
-              {farsiParts.map((part, index) => {
-                const isPunctuation = /^[.,!?]$/.test(part);
-                const germanWord = decodeParts[index] || '';
-                const marked = !isPunctuation && germanWord && isWordMarked(germanWord, part);
-                
-                if (isPunctuation) {
-                  return <span key={index} className="text-3xl font-bold text-blue-300 font-mono">{part}</span>;
-                }
-                
-                return (
-                  <button
-                    key={index}
-                    onClick={() => handleMarkWord(index)}
-                    className={`relative text-3xl font-bold font-mono tracking-wide transition-all px-2 py-1 rounded ${
-                      marked 
-                        ? 'text-yellow-300 bg-yellow-500/20 hover:bg-yellow-500/30 cursor-pointer' 
-                        : 'text-blue-300 hover:bg-blue-500/20 cursor-pointer'
-                    }`}
-                    title={marked ? 'Klicken zum Entfernen aus der Übungsliste' : 'Klicken zum Markieren für SRS-Übung'}
-                  >
-                    {part}
-                    {marked && (
-                      <StarIcon className="absolute -top-1 -right-1 h-4 w-4 text-yellow-400 fill-yellow-400" />
-                    )}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-
-          {isHelpOpen && (
-            <div className="mb-6 p-4 bg-gray-800 rounded-lg border border-gray-700 animate-fade-in text-left">
-                {isAskingHelp ? (
-                    <div className="flex justify-center items-center p-4">
-                        <SpinnerIcon />
-                    </div>
-                ) : helpAnswer ? (
-                    <div>
-                        <div className="flex items-start gap-3 text-gray-300">
-                            <BotIcon className="flex-shrink-0 h-6 w-6 text-teal-400 mt-1" />
-                            <p className="whitespace-pre-wrap">{helpAnswer}</p>
-                        </div>
-                        <div className="flex justify-end gap-3 mt-4">
-                            <button onClick={resetHelp} className="text-sm px-3 py-1 bg-gray-600 hover:bg-gray-500 rounded-full">Schließen</button>
-                            <button onClick={() => { setHelpAnswer(null); setHelpQuestion(''); }} className="text-sm px-3 py-1 bg-blue-600 hover:bg-blue-500 rounded-full">Weitere Frage</button>
-                        </div>
-                    </div>
-                ) : (
-                    <div>
-                        <label htmlFor="help-question" className="block text-sm font-medium text-gray-300 mb-2">Frage zur Vokabel oder Grammatik...</label>
-                        <textarea
-                            id="help-question"
-                            value={helpQuestion}
-                            onChange={(e) => setHelpQuestion(e.target.value)}
-                            className="w-full h-20 p-2 bg-gray-900 border border-gray-600 rounded-md text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                            placeholder="z.B. Was ist der Infinitiv von...?"
-                        />
-                        {helpError && <p className="text-red-400 text-sm mt-2">{helpError}</p>}
-                        <div className="flex justify-end mt-2">
-                            <button 
-                                onClick={handleAskForHelp} 
-                                disabled={!helpQuestion.trim()}
-                                className="px-4 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-500 transition-colors disabled:bg-gray-500 disabled:cursor-not-allowed"
-                            >
-                                Fragen
-                            </button>
-                        </div>
-                    </div>
-                )}
-            </div>
-          )}
-
-          <div className="flex flex-row-reverse flex-wrap justify-center items-end gap-x-2 gap-y-4 mb-6">
-            {decodeParts.map((part, index) => {
-              const latinPart = latinParts[index] || '';
-              const isPunctuation = /^[.,!?]$/.test(part);
-              if (!isPunctuation) {
-                wordInputIndex++;
-              }
-              const currentWordIndex = wordInputIndex;
-              
-              if (isPunctuation) {
-                return <span key={index} className="text-2xl font-bold text-gray-300 pb-2">{part}</span>
-              }
-
-              const isChecked = isDecodeChecked && decodeResults.length > currentWordIndex;
-              const isCorrect = isChecked && decodeResults[currentWordIndex];
-              const isWrong = isChecked && !decodeResults[currentWordIndex];
-
-              const inputClassName = `w-28 bg-gray-700 border rounded-md text-center text-white p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none transition-colors ${
-                  isCorrect ? 'border-green-500' : 
-                  isWrong ? 'border-red-500' : 
-                  'border-gray-600'
-              }`;
-
-              return (
-                <div key={index} className="flex flex-col items-center gap-1">
-                  <span className="text-gray-400 text-sm h-6 flex items-center justify-center w-28">{latinPart}</span>
-                  <input
-                    type="text"
-                    value={userDecode[currentWordIndex] || ''}
-                    onChange={(e) => handleDecodeInputChange(currentWordIndex, e.target.value)}
-                    className={inputClassName}
-                    disabled={isCorrect}
-                    aria-invalid={isWrong ? 'true' : 'false'}
-                  />
-                  <div className="h-6 flex items-center justify-center">
-                    {isWrong && (
-                        <span className="text-green-400 text-sm font-semibold animate-fade-in">{wordParts[currentWordIndex]}</span>
-                    )}
-                  </div>
-                </div>
-              )
-            })}
-          </div>
-
-          {/* Feedback and Action Area */}
-          {isDecodeChecked && (
-            <div className={`p-3 rounded-lg text-center mx-auto mb-4 ${isDecodeCorrect ? 'bg-green-500/20 text-green-300' : 'bg-red-500/20 text-red-300'}`}>
-              <p className="font-bold">{isDecodeCorrect ? motivationalMessages[Math.floor(Math.random() * motivationalMessages.length)] : 'Nicht ganz richtig, versuch es nochmal!'}</p>
-            </div>
-          )}
-
-          {!isDecodeCorrect && (
-            <button
-              onClick={handleCheckDecode}
-              className="px-6 py-2 bg-blue-600 text-white font-semibold rounded-md mx-auto hover:bg-blue-500 transition-colors"
-            >
-              Prüfen
-            </button>
-          )}
-        </div>
-
-        {renderOptionalTranslation()}
-        
-        {isDecodeCorrect && isLastSentence && (
-            <div className="mt-8 text-center animate-fade-in">
-                {mode === 'decode-only' && onLessonComplete ? (
-                    <button
-                        onClick={onLessonComplete}
-                        className="px-8 py-3 bg-green-600 hover:bg-green-500 text-white font-bold rounded-lg transition-colors flex items-center justify-center gap-2 mx-auto"
-                    >
-                        <CheckIcon /> De-kodieren abschließen
-                    </button>
-                ) : mode === 'full' ? (
-                    <button
-                        onClick={() => handleSetStep('karaoke')}
-                        className="px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg transition-colors flex items-center justify-center gap-2 mx-auto"
-                    >
-                        Weiter zu Karaoke <ChevronRightIcon />
-                    </button>
-                ) : null}
-            </div>
-        )}
-
-      </div>
-    );
-  };
-
-
   const renderContent = () => {
     if (isMastered && step !== 'karaoke') {
         const isLastSentence = currentIndex >= lesson.sentences.length - 1;
@@ -893,7 +670,50 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
     );
 
     if (step === 'decode') {
-        return renderDecodeExercise();
+        return (
+          <DecodeStep
+            tokens={tokens}
+            wordTokens={wordTokens}
+            currentSentence={currentSentence}
+            currentIndex={currentIndex}
+            totalSentences={lesson.sentences.length}
+            userAnswers={userDecode}
+            decodeResults={decodeResults}
+            isChecked={isDecodeChecked}
+            isCorrect={isDecodeCorrect}
+            audioState={decodeAudio.audioState}
+            isPlaying={decodeAudio.isPlaying}
+            audioError={decodeAudio.error}
+            onPlayAudio={decodeAudio.playAudio}
+            onAnswerChange={handleDecodeInputChange}
+            onCheck={handleCheckDecode}
+            onPrevious={goToPrev}
+            onNext={goToNext}
+            canGoPrevious={currentIndex > 0}
+            canGoNext={currentIndex < lesson.sentences.length - 1}
+            onMarkWord={handleMarkToken}
+            onUnmarkWord={removeCardByWords}
+            isWordMarked={isWordMarked}
+            showTranslation={showTranslation}
+            onToggleTranslation={() => setShowTranslation(!showTranslation)}
+            isLastSentence={currentIndex === lesson.sentences.length - 1}
+            mode={mode}
+            onNextStep={() => handleSetStep('karaoke')}
+            onComplete={onLessonComplete}
+            helpState={{
+              isOpen: isHelpOpen,
+              question: helpQuestion,
+              answer: helpAnswer,
+              isAsking: isAskingHelp,
+              error: helpError,
+            }}
+            onToggleHelp={toggleHelp}
+            onAskHelp={handleAskForHelp}
+            onResetHelp={resetHelp}
+            onQuestionChange={setHelpQuestion}
+            onClearHelpAnswer={() => setHelpAnswer(null)}
+          />
+        );
     }
 
     if (step === 'karaoke') {
