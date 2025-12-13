@@ -136,7 +136,8 @@ export const VocabularyProvider: React.FC<{ children: ReactNode }> = ({ children
     if (!user) return;
 
     const card = cards.find(c => 
-      c.word.toLowerCase() === german.toLowerCase() || c.farsiWord === farsi
+      (c.word && c.word.toLowerCase() === german.toLowerCase()) || 
+      (c.farsiWord && c.farsiWord === farsi)
     );
     
     if (card) {
@@ -165,8 +166,8 @@ export const VocabularyProvider: React.FC<{ children: ReactNode }> = ({ children
 
   const isWordMarked = useCallback((word: string, farsiWord: string) => {
     return cards.some(card => 
-      card.word.toLowerCase() === word.toLowerCase() || 
-      card.farsiWord === farsiWord
+      (card.word && card.word.toLowerCase() === word.toLowerCase()) || 
+      (card.farsiWord && card.farsiWord === farsiWord)
     );
   }, [cards]);
 
