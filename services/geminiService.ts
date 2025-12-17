@@ -252,7 +252,7 @@ ${systemInstruction}
 Your response must be a valid JSON array, where each object has a "farsi" key (the scenario description in Farsi) and a "german" key (the German translation of the description). For example: [{"farsi": "سفارش غذا در یک رستوران", "german": "Essen in einem Restaurant bestellen"}, {"farsi": "...", "german": "..."}]
 `;
         const response = await genAI.models.generateContent({
-            model: "gemini-2.5-flash",
+            model: "gemini-2.5-flash-lite",
             contents: prompt,
             config: {
                 responseMimeType: "application/json",

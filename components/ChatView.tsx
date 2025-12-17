@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import type { LiveServerMessage, LiveSession, Blob } from '@google/genai';
+import type { LiveServerMessage, Session, Blob } from '@google/genai';
 import { Lesson, ChatMessage, Scenario } from '../types';
 import { connectToLiveChat, generateRoleplayScenarios, generateFarsiTTSFromGerman } from '../services/geminiService';
 import { useVocabulary } from '../contexts/VocabularyContext';
@@ -24,6 +24,53 @@ function createBlob(data: Float32Array): Blob {
   };
 }
 
+function getMicErrorMessage(err: unknown): string {
+  const e = err as any;
+  const name = e?.name as string | undefined;
+
+  if (name === 'NotAllowedError' || name === 'PermissionDeniedError') {
+    return 'Mikrofonzugriff wurde verweigert. Bitte erlaube Mikrofonzugriff in den Browser-Einstellungen und lade die Seite neu.';
+  }
+  if (name === 'NotFoundError' || name === 'DevicesNotFoundError') {
+    return 'Kein Mikrofon gefunden. Bitte schließe ein Mikrofon an und versuche es erneut.';
+  }
+  if (name === 'NotReadableError' || name === 'TrackStartError') {
+    return 'Mikrofon ist gerade von einer anderen App belegt oder nicht verfügbar. Bitte schließe andere Apps (z.B. Teams/Zoom) und versuche es erneut.';
+  }
+  if (name === 'SecurityError') {
+    return 'Mikrofonzugriff ist nur in einem sicheren Kontext möglich (HTTPS oder localhost).';
+  }
+
+  const msg = typeof e?.message === 'string' ? e.message : '';
+  if (msg.toLowerCase().includes('secure context')) {
+    return 'Mikrofonzugriff ist nur in einem sicheren Kontext möglich (HTTPS oder localhost).';
+  }
+
+  return 'Mikrofonzugriff nicht verfügbar. Bitte prüfe Browser-Berechtigungen und ob ein Mikrofon angeschlossen ist.';
+}
+
+function getLiveChatConnectErrorMessage(err: unknown): string {
+  if (err instanceof Error) {
+    const msg = err.message || '';
+
+    if (msg.includes('API_KEY')) {
+      return 'Live-Chat konnte nicht gestartet werden: API-Schlüssel fehlt. Bitte in den Einstellungen/Env konfigurieren.';
+    }
+    if (msg.includes('PERMISSION_DENIED') || msg.includes('401') || msg.includes('403')) {
+      return 'Live-Chat konnte nicht gestartet werden: API-Schlüssel ungültig oder keine Berechtigung für das Live-Modell.';
+    }
+    if (msg.includes('RESOURCE_EXHAUSTED') || msg.includes('429')) {
+      return 'Live-Chat konnte nicht gestartet werden: API-Limit erreicht. Bitte später erneut versuchen.';
+    }
+    if (msg.toLowerCase().includes('network') || msg.toLowerCase().includes('fetch')) {
+      return 'Live-Chat konnte nicht gestartet werden: Netzwerkfehler. Bitte Internetverbindung prüfen.';
+    }
+    return `Live-Chat konnte nicht gestartet werden: ${msg}`;
+  }
+
+  return 'Live-Chat konnte nicht gestartet werden. Bitte versuche es erneut.';
+}
+
 const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
   const { activeVocabulary } = useVocabulary();
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -34,8 +81,9 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
   const [isInterventionModalOpen, setIsInterventionModalOpen] = useState(false);
   const [interventionText, setInterventionText] = useState('');
   const [isInjecting, setIsInjecting] = useState(false);
+  const [showScenarioPrompt, setShowScenarioPrompt] = useState(false);
 
-  const sessionPromiseRef = useRef<Promise<LiveSession> | null>(null);
+  const sessionPromiseRef = useRef<Promise<Session> | null>(null);
   const isClosingIntentionalRef = useRef(false);
   const inputAudioContextRef = useRef<AudioContext | null>(null);
   const outputAudioContextRef = useRef<AudioContext | null>(null);
@@ -45,7 +93,7 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
 
   const audioSourcesRef = useRef<Set<AudioBufferSourceNode>>(new Set());
   const nextStartTimeRef = useRef(0);
-  
+
   const currentInputTranscriptionRef = useRef('');
   const currentOutputTranscriptionRef = useRef('');
 
@@ -58,44 +106,44 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
 
   const stopCurrentPlayback = useCallback(() => {
     for (const source of audioSourcesRef.current.values()) {
-        try { source.stop(); } catch(e) {}
+      try { source.stop(); } catch (e) { }
     }
     audioSourcesRef.current.clear();
     nextStartTimeRef.current = 0;
     setStatus(prevStatus => {
-        if (prevStatus === 'speaking') {
-            return 'listening';
-        }
-        return prevStatus;
+      if (prevStatus === 'speaking') {
+        return 'listening';
+      }
+      return prevStatus;
     });
   }, []);
-  
+
   const cleanupLiveResources = useCallback(async () => {
-     if (pingerIntervalRef.current) {
-        clearInterval(pingerIntervalRef.current);
-        pingerIntervalRef.current = null;
+    if (pingerIntervalRef.current) {
+      clearInterval(pingerIntervalRef.current);
+      pingerIntervalRef.current = null;
     }
 
-     if (sessionPromiseRef.current) {
-        try {
-            const session = await sessionPromiseRef.current;
-            session.close();
-        } catch (e) {
-            console.error("Error closing session:", e);
-        }
+    if (sessionPromiseRef.current) {
+      try {
+        const session = await sessionPromiseRef.current;
+        session.close();
+      } catch (e) {
+        console.error("Error closing session:", e);
+      }
     }
-    
+
     mediaStreamRef.current?.getTracks().forEach(track => track.stop());
     scriptProcessorRef.current?.disconnect();
     mediaStreamSourceRef.current?.disconnect();
-    
+
     if (inputAudioContextRef.current?.state !== 'closed') {
       await inputAudioContextRef.current?.close().catch(console.error);
     }
     if (outputAudioContextRef.current?.state !== 'closed') {
       await outputAudioContextRef.current?.close().catch(console.error);
     }
-    
+
     stopCurrentPlayback();
 
     sessionPromiseRef.current = null;
@@ -121,7 +169,7 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
 
   const getBaseSystemInstruction = useCallback(() => {
     const learnedSentences = lesson.sentences.map(s => `- "${s.farsi}" (German: "${s.germanTranslation}")`).join('\n');
-    
+
     // Build graduated vocabulary section with null safety
     const graduatedCards = activeVocabulary?.cards ?? [];
     let graduatedVocabSection = '';
@@ -129,14 +177,14 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
       const vocabList = graduatedCards
         .map(card => `- ${card.farsiWord} (${card.word})`)
         .join('\n');
-      
+
       graduatedVocabSection = `\n\n**Student's Mastered Vocabulary (PRIORITY):**
 The student has already mastered these words through spaced repetition practice. You MUST actively use these words in your conversation to help reinforce them through real usage:
 ${vocabList}
 
 **Important:** These are words the student knows well, so naturally incorporate them into your conversation. This helps bridge their passive knowledge into active speaking ability.`;
     }
-    
+
     return `You are a Farsi language tutor playing a roleplay scenario with a German-speaking student to help them practice. Your persona is a friendly local in Tehran. You must only speak Farsi.
 
 **Your Goal:**
@@ -166,153 +214,168 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
     setError(null);
     setMessages([]);
     try {
-        const baseInstruction = getBaseSystemInstruction();
-        const generatedScenarios = await generateRoleplayScenarios(baseInstruction);
-        setScenarios(generatedScenarios);
-        setStatus('scenarioChoice');
+      const baseInstruction = getBaseSystemInstruction();
+      const generatedScenarios = await generateRoleplayScenarios(baseInstruction);
+      setScenarios(generatedScenarios);
+      setStatus('scenarioChoice');
     } catch (err) {
-        console.error("Failed to generate scenarios:", err);
-        setError("Szenarien konnten nicht geladen werden.");
-        setStatus('error');
+      console.error("Failed to generate scenarios:", err);
+      setError("Szenarien konnten nicht geladen werden. Starte das Gespräch ohne Szenario...");
+      setStatus('idle');
+      // Fall back to starting without scenarios
+      startLiveChat();
     }
   };
 
   const startLiveChat = async (selectedScenario?: Scenario) => {
     setStatus('connecting');
     setError(null);
-    
+
     let systemInstruction = getBaseSystemInstruction();
     if (selectedScenario) {
-        systemInstruction += `\n\n**Role-play Scenario:** You must start a conversation based on the following situation: "${selectedScenario.german}". Greet the user in Farsi and begin the role-play.`;
+      systemInstruction += `\n\n**Role-play Scenario:** You must start a conversation based on the following situation: "${selectedScenario.german}". Greet the user in Farsi and begin the role-play.`;
     } else {
-        systemInstruction += `\n\n**Role-play Scenario:** Start a general conversation related to the lesson's theme. Greet the user in Farsi and begin the role-play.`;
+      systemInstruction += `\n\n**Role-play Scenario:** Start a general conversation related to the lesson's theme. Greet the user in Farsi and begin the role-play.`;
     }
 
+    // 1) Preflight checks (avoid confusing errors)
+    if (!window.isSecureContext && window.location.hostname !== 'localhost') {
+      setError('Mikrofonzugriff ist nur in einem sicheren Kontext möglich (HTTPS oder localhost).');
+      setStatus('error');
+      return;
+    }
 
+    if (!navigator.mediaDevices?.getUserMedia) {
+      setError('Dein Browser unterstützt keinen Mikrofonzugriff (getUserMedia). Bitte nutze einen aktuellen Chrome/Edge/Firefox.');
+      setStatus('error');
+      return;
+    }
+
+    // 2) Acquire microphone first (so we can report mic errors precisely)
+    let stream: MediaStream;
     try {
-        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-        mediaStreamRef.current = stream;
-
-        inputAudioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 16000 });
-        outputAudioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 24000 });
-        
-        sessionPromiseRef.current = connectToLiveChat(systemInstruction, {
-            onopen: () => {
-                setStatus('listening');
-                const source = inputAudioContextRef.current!.createMediaStreamSource(stream);
-                mediaStreamSourceRef.current = source;
-
-                const scriptProcessor = inputAudioContextRef.current!.createScriptProcessor(4096, 1, 1);
-                scriptProcessorRef.current = scriptProcessor;
-
-                scriptProcessor.onaudioprocess = (audioProcessingEvent) => {
-                    const inputData = audioProcessingEvent.inputBuffer.getChannelData(0);
-                    const pcmBlob = createBlob(inputData);
-                    sessionPromiseRef.current?.then((session) => {
-                        session.sendRealtimeInput({ media: pcmBlob });
-                    });
-                };
-                source.connect(scriptProcessor);
-                scriptProcessor.connect(inputAudioContextRef.current!.destination);
-            },
-            onmessage: async (message: LiveServerMessage) => {
-                if (message.serverContent?.inputTranscription) {
-                    currentInputTranscriptionRef.current += message.serverContent.inputTranscription.text;
-                }
-                if (message.serverContent?.outputTranscription) {
-                    setStatus('speaking');
-                    currentOutputTranscriptionRef.current += message.serverContent.outputTranscription.text;
-                }
-                
-                if (message.serverContent?.turnComplete) {
-                    const finalInput = currentInputTranscriptionRef.current.trim();
-                    const finalOutput = currentOutputTranscriptionRef.current.trim();
-
-                    if(finalInput) setMessages(prev => [...prev, { role: 'user', text: finalInput }]);
-                    if(finalOutput) setMessages(prev => [...prev, { role: 'model', text: finalOutput }]);
-                    
-                    currentInputTranscriptionRef.current = '';
-                    currentOutputTranscriptionRef.current = '';
-                    setStatus('listening');
-                }
-
-                const base64Audio = message.serverContent?.modelTurn?.parts[0]?.inlineData?.data;
-                if (base64Audio) {
-                    const outputCtx = outputAudioContextRef.current!;
-                    nextStartTimeRef.current = Math.max(nextStartTimeRef.current, outputCtx.currentTime);
-                    
-                    const audioBuffer = await decodeAudioData(decode(base64Audio), outputCtx, 24000, 1);
-                    const source = outputCtx.createBufferSource();
-                    source.buffer = audioBuffer;
-                    source.connect(outputCtx.destination);
-                    
-                    source.addEventListener('ended', () => {
-                        audioSourcesRef.current.delete(source);
-                    });
-
-                    source.start(nextStartTimeRef.current);
-                    nextStartTimeRef.current += audioBuffer.duration;
-                    audioSourcesRef.current.add(source);
-                }
-                
-                if (message.serverContent?.interrupted) {
-                    for (const source of audioSourcesRef.current.values()) {
-                        source.stop();
-                    }
-                    audioSourcesRef.current.clear();
-                    nextStartTimeRef.current = 0;
-                }
-            },
-            onerror: (e: ErrorEvent) => {
-                setError("Verbindungsfehler. Bitte versuche es erneut.");
-                setStatus('error');
-                cleanupLiveResources();
-            },
-            onclose: (e: CloseEvent) => {
-                cleanupLiveResources();
-                if (isClosingIntentionalRef.current) {
-                    isClosingIntentionalRef.current = false; // Reset for next session
-                    return; // Status is already set to 'idle' by stopConversation.
-                }
-
-                // If it wasn't intentional, it's either a timeout or an error.
-                if (!e.wasClean) {
-                    setError("Verbindung unerwartet getrennt. Prüfe dein Netzwerk.");
-                    setStatus('error');
-                } else {
-                    // A clean close from the server is most likely an inactivity timeout.
-                    setStatus('timedOut');
-                }
-            },
-        });
-        
-        // Start keep-alive pinger
-        sessionPromiseRef.current.then(session => {
-            if (pingerIntervalRef.current) clearInterval(pingerIntervalRef.current);
-
-            pingerIntervalRef.current = window.setInterval(() => {
-                const silentData = new Float32Array(2048).fill(0); // A small chunk of silence
-                const silentBlob = createBlob(silentData);
-                session.sendRealtimeInput({ media: silentBlob });
-            }, 20000); // Send a keep-alive packet every 20 seconds
-        });
-
-        await sessionPromiseRef.current;
-        
+      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      mediaStreamRef.current = stream;
     } catch (err) {
-        console.error("Failed to start conversation:", err);
-        setError("Mikrofonzugriff verweigert oder nicht verfügbar.");
-        setStatus('error');
+      console.error('Failed to acquire microphone:', err);
+      setError(getMicErrorMessage(err));
+      setStatus('error');
+      await cleanupLiveResources();
+      return;
+    }
+
+    // 3) Connect to live chat (separate error reporting from mic errors)
+    try {
+      inputAudioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 16000 });
+      outputAudioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 24000 });
+
+      sessionPromiseRef.current = connectToLiveChat(systemInstruction, {
+        onopen: () => {
+          setStatus('listening');
+          const source = inputAudioContextRef.current!.createMediaStreamSource(stream);
+          mediaStreamSourceRef.current = source;
+
+          const scriptProcessor = inputAudioContextRef.current!.createScriptProcessor(4096, 1, 1);
+          scriptProcessorRef.current = scriptProcessor;
+
+          scriptProcessor.onaudioprocess = (audioProcessingEvent) => {
+            const inputData = audioProcessingEvent.inputBuffer.getChannelData(0);
+            const pcmBlob = createBlob(inputData);
+            sessionPromiseRef.current?.then((session) => {
+              session.sendRealtimeInput({ media: pcmBlob });
+            });
+          };
+          source.connect(scriptProcessor);
+          scriptProcessor.connect(inputAudioContextRef.current!.destination);
+        },
+        onmessage: async (message: LiveServerMessage) => {
+          if (message.serverContent?.inputTranscription) {
+            currentInputTranscriptionRef.current += message.serverContent.inputTranscription.text;
+          }
+          if (message.serverContent?.outputTranscription) {
+            setStatus('speaking');
+            currentOutputTranscriptionRef.current += message.serverContent.outputTranscription.text;
+          }
+
+          if (message.serverContent?.turnComplete) {
+            const finalInput = currentInputTranscriptionRef.current.trim();
+            const finalOutput = currentOutputTranscriptionRef.current.trim();
+
+            if (finalInput) setMessages(prev => [...prev, { role: 'user', text: finalInput }]);
+            if (finalOutput) setMessages(prev => [...prev, { role: 'model', text: finalOutput }]);
+
+            currentInputTranscriptionRef.current = '';
+            currentOutputTranscriptionRef.current = '';
+            setStatus('listening');
+          }
+
+          const base64Audio = message.serverContent?.modelTurn?.parts[0]?.inlineData?.data;
+          if (base64Audio) {
+            const outputCtx = outputAudioContextRef.current!;
+            nextStartTimeRef.current = Math.max(nextStartTimeRef.current, outputCtx.currentTime);
+
+            const audioBuffer = await decodeAudioData(decode(base64Audio), outputCtx, 24000, 1);
+            const source = outputCtx.createBufferSource();
+            source.buffer = audioBuffer;
+            source.connect(outputCtx.destination);
+
+            source.addEventListener('ended', () => {
+              audioSourcesRef.current.delete(source);
+            });
+
+            source.start(nextStartTimeRef.current);
+            nextStartTimeRef.current += audioBuffer.duration;
+            audioSourcesRef.current.add(source);
+          }
+
+          if (message.serverContent?.interrupted) {
+            for (const source of audioSourcesRef.current.values()) {
+              source.stop();
+            }
+            audioSourcesRef.current.clear();
+            nextStartTimeRef.current = 0;
+          }
+        },
+        onerror: (e: ErrorEvent) => {
+          setError("Verbindungsfehler. Bitte versuche es erneut.");
+          setStatus('error');
+          cleanupLiveResources();
+        },
+        onclose: (e: CloseEvent) => {
+          cleanupLiveResources();
+          if (isClosingIntentionalRef.current) {
+            isClosingIntentionalRef.current = false; // Reset for next session
+            return; // Status is already set to 'idle' by stopConversation.
+          }
+
+          // If it wasn't intentional, it's either a timeout or an error.
+          if (!e.wasClean) {
+            setError("Verbindung unerwartet getrennt. Prüfe dein Netzwerk.");
+            setStatus('error');
+          } else {
+            // A clean close from the server is most likely an inactivity timeout.
+            setStatus('timedOut');
+          }
+        },
+      });
+
+      await sessionPromiseRef.current;
+
+    } catch (err) {
+      console.error('Failed to start live chat session:', err);
+      setError(getLiveChatConnectErrorMessage(err));
+      setStatus('error');
+      await cleanupLiveResources();
     }
   };
 
-  const handleToggleConversation = () => {
+  const handleToggleConversation = useCallback(async () => {
     if (status === 'idle' || status === 'error' || status === 'timedOut') {
-      generateAndShowScenarios();
+      setShowScenarioPrompt(true);
     } else {
       stopConversation();
     }
-  };
+  }, [status]);
 
   const handleOpenInterventionModal = () => {
     stopCurrentPlayback();
@@ -464,6 +527,46 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
             </div>
         </div>
        )}
+
+      {showScenarioPrompt && !hasStarted && (
+        <div className="absolute inset-0 bg-black/70 backdrop-blur-sm z-30 flex items-center justify-center p-4 animate-fade-in">
+          <div className="bg-gray-800 rounded-xl shadow-2xl border border-gray-700 max-w-md w-full p-6">
+            <h4 className="text-xl font-bold text-white mb-4">Möchtest du ein Gesprächsszenario?</h4>
+            <p className="text-gray-400 mb-6">
+              Ein Szenario gibt dem Gespräch eine bestimmte Richtung (z.B. "Im Restaurant" oder "Beim Einkaufen").
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button
+                onClick={async () => {
+                  setShowScenarioPrompt(false);
+                  await generateAndShowScenarios();
+                }}
+                className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-colors flex-1"
+                disabled={status === 'generatingScenarios'}
+              >
+                {status === 'generatingScenarios' ? (
+                  <span className="flex items-center justify-center gap-2">
+                    <SpinnerIcon className="h-5 w-5" />
+                    Lädt...
+                  </span>
+                ) : (
+                  'Ja, Szenario vorschlagen'
+                )}
+              </button>
+              <button
+                onClick={() => {
+                  setShowScenarioPrompt(false);
+                  startLiveChat();
+                }}
+                className="px-6 py-3 bg-gray-600 hover:bg-gray-500 text-white font-semibold rounded-lg transition-colors flex-1"
+                disabled={status === 'connecting'}
+              >
+                Nein, direkt starten
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="p-4 border-t border-gray-700 flex flex-col items-center justify-center gap-2 min-h-[116px]">
         {status === 'timedOut' ? (
