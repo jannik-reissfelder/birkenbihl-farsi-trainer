@@ -9,6 +9,12 @@ import { cn } from '@/lib/utils';
 import type { Token } from '@/hooks/useSentenceTokens';
 import type { Sentence } from '@/types';
 
+type VocabularyMarkInfo = {
+  tokenIds: string[];
+  sentenceId?: number;
+  kind: 'single' | 'group';
+};
+
 interface DecodeStepProps {
   tokens: Token[];
   wordTokens: Token[];
@@ -32,7 +38,9 @@ interface DecodeStepProps {
   onMarkWord: (token: Token) => void;
   onUnmarkWord: (german: string, farsi: string) => void;
   isWordMarked: (german: string, farsi: string) => boolean;
-  onAddCard: (german: string, farsi: string, latin: string, sentence: Sentence) => void;
+  onAddCard: (german: string, farsi: string, latin: string, sentence: Sentence, mark?: VocabularyMarkInfo) => void;
+  groupMarkedTokenIdToCardId: Map<string, string>;
+  onRemoveCardById: (cardId: string) => void;
   showTranslation: boolean;
   onToggleTranslation: () => void;
   isLastSentence: boolean;
@@ -108,6 +116,8 @@ export const DecodeStep: React.FC<DecodeStepProps> = ({
   onUnmarkWord,
   isWordMarked,
   onAddCard,
+  groupMarkedTokenIdToCardId,
+  onRemoveCardById,
   showTranslation,
   onToggleTranslation,
   isLastSentence,
@@ -211,6 +221,8 @@ export const DecodeStep: React.FC<DecodeStepProps> = ({
         markingMode={isVocabMarkingMode}
         onAddCard={onAddCard}
         currentSentence={currentSentence}
+        groupMarkedTokenIdToCardId={groupMarkedTokenIdToCardId}
+        onRemoveCardById={onRemoveCardById}
       />
 
       <div className="flex justify-center mt-4">

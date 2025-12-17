@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import type { Token } from '@/hooks/useSentenceTokens';
 import { Card } from '@/components/ui/card';
+
+type DisplayToken = {
+  token: Token;
+  displayFarsi: string;
+  displayLatin: string;
+  displayGerman: string;
+};
 
 interface DecodeSentenceGridProps {
   tokens: Token[];
@@ -23,6 +30,32 @@ export const DecodeSentenceGrid: React.FC<DecodeSentenceGridProps> = ({
   onUnmarkWord,
   isWordMarked,
 }) => {
+  const displayTokens = useMemo((): DisplayToken[] => {
+    const merged: DisplayToken[] = [];
+
+    for (const token of tokens) {
+      if (token.isPunctuation && merged.length > 0 && !merged[merged.length - 1].token.isPunctuation) {
+        const prev = merged[merged.length - 1];
+        merged[merged.length - 1] = {
+          ...prev,
+          displayFarsi: `${prev.displayFarsi}${token.farsi}`,
+          displayLatin: `${prev.displayLatin}${token.latin || token.farsi}`,
+          displayGerman: `${prev.displayGerman}${token.german || token.farsi}`,
+        };
+        continue;
+      }
+
+      merged.push({
+        token,
+        displayFarsi: token.farsi,
+        displayLatin: token.latin,
+        displayGerman: token.german,
+      });
+    }
+
+    return merged;
+  }, [tokens]);
+
   let wordIndex = -1;
 
   return (
@@ -31,11 +64,11 @@ export const DecodeSentenceGrid: React.FC<DecodeSentenceGridProps> = ({
         className="grid gap-x-2 gap-y-1 justify-center"
         dir="rtl"
         style={{
-          gridTemplateColumns: `repeat(${tokens.length}, minmax(4rem, auto))`,
+          gridTemplateColumns: `repeat(${displayTokens.length}, minmax(4rem, auto))`,
           gridTemplateRows: 'auto auto auto auto',
         }}
       >
-        {tokens.map((token, tokenIndex) => {
+        {displayTokens.map(({ token, displayFarsi, displayLatin }, tokenIndex) => {
           if (token.isPunctuation) {
             return (
               <React.Fragment key={token.id}>
@@ -43,7 +76,7 @@ export const DecodeSentenceGrid: React.FC<DecodeSentenceGridProps> = ({
                   className="text-2xl md:text-3xl font-bold text-gray-300 text-center self-end pb-1"
                   style={{ gridRow: 1, gridColumn: tokenIndex + 1 }}
                 >
-                  {token.farsi}
+                  {displayFarsi}
                 </span>
                 <span 
                   className="text-gray-500 text-sm text-center"
@@ -92,7 +125,7 @@ export const DecodeSentenceGrid: React.FC<DecodeSentenceGridProps> = ({
                 title={marked ? `★ ${token.german} - Klicken zum Entfernen` : 'Für SRS markieren'}
                 dir="rtl"
               >
-                {token.farsi}
+                {displayFarsi}
                 {marked && (
                   <span className="absolute -top-1 -right-1 text-yellow-400 text-xs">★</span>
                 )}
@@ -103,7 +136,7 @@ export const DecodeSentenceGrid: React.FC<DecodeSentenceGridProps> = ({
                 style={{ gridRow: 2, gridColumn: tokenIndex + 1 }}
                 dir="ltr"
               >
-                {token.latin}
+                {displayLatin}
               </span>
 
               <input

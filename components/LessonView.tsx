@@ -86,7 +86,7 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
   const [isMastered, setIsMastered] = useState(false);
   const [completedSteps, setCompletedSteps] = useState(new Set<BirkenbihlStep>());
   const { addXp } = useContext(GamificationContext);
-  const { addCard, removeCardByWords, isWordMarked } = useVocabulary();
+  const { cards: vocabularyCards, addCard, removeCard, removeCardByWords, isWordMarked } = useVocabulary();
   const { progress, setProgress, getGlobalSentenceIndex } = useProgress();
   
   // Resume from saved progress (sentence index + decode answers)
@@ -162,7 +162,57 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
   const sentenceTokens = useSentenceTokens(currentSentence);
   const tokens = sentenceTokens?.tokens || [];
   const wordTokens = sentenceTokens?.wordTokens || [];
-  
+
+  const groupMarkedTokenIdToCardId = useMemo(() => {
+    const map = new Map<string, string>();
+
+    const tokenRegex = /[\p{L}\p{N}'-]+|[.,!?؟«»]/gu;
+    const sentenceWordTokens = wordTokens;
+    const sentenceWords = sentenceWordTokens.map(t => t.farsi);
+
+    for (const card of vocabularyCards) {
+      const context = card.contextSentence as any;
+      const mark = context?.mark;
+
+      // Preferred: explicit tokenIds stored when marking
+      if (mark?.kind === 'group' && mark?.sentenceId === currentSentence?.id && Array.isArray(mark.tokenIds)) {
+        for (const tokenId of mark.tokenIds) {
+          map.set(tokenId, card.id);
+        }
+        continue;
+      }
+
+      // Fallback for older grouped cards: detect multi-token farsi_word and match it as a contiguous span
+      if (context?.farsi !== currentSentence?.farsi) continue;
+      const targetTokens = (card.farsiWord?.match(tokenRegex) || []).filter(Boolean);
+      if (targetTokens.length < 2) continue;
+
+      let matchStart = -1;
+      for (let i = 0; i <= sentenceWords.length - targetTokens.length; i++) {
+        let ok = true;
+        for (let j = 0; j < targetTokens.length; j++) {
+          if (sentenceWords[i + j] !== targetTokens[j]) {
+            ok = false;
+            break;
+          }
+        }
+        if (ok) {
+          matchStart = i;
+          break;
+        }
+      }
+
+      if (matchStart !== -1) {
+        for (let k = 0; k < targetTokens.length; k++) {
+          const tokenId = sentenceWordTokens[matchStart + k]?.id;
+          if (tokenId) map.set(tokenId, card.id);
+        }
+      }
+    }
+
+    return map;
+  }, [vocabularyCards, currentSentence?.id, currentSentence?.farsi, wordTokens]);
+
   // A unicode-aware regex to correctly tokenize words with diacritics and punctuation.
   const tokenRegex = useMemo(() => /D\.O\.|[\p{L}\p{N}'-]+|[.,!?]/gu, []);
   
@@ -695,6 +745,8 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
             onUnmarkWord={removeCardByWords}
             isWordMarked={isWordMarked}
             onAddCard={addCard}
+            groupMarkedTokenIdToCardId={groupMarkedTokenIdToCardId}
+            onRemoveCardById={removeCard}
             showTranslation={showTranslation}
             onToggleTranslation={() => setShowTranslation(!showTranslation)}
             isLastSentence={currentIndex === lesson.sentences.length - 1}

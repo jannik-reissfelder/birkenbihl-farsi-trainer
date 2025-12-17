@@ -1,5 +1,7 @@
 export type SRSState = 'new' | 'learning' | 'graduated';
 
+export type VocabularyMarkKind = 'single' | 'group';
+
 export interface VocabularyCard {
   id: string;
   word: string;
@@ -10,6 +12,11 @@ export interface VocabularyCard {
     latin: string;
     germanDecode: string;
     germanTranslation: string;
+    mark?: {
+      tokenIds: string[];
+      sentenceId?: number;
+      kind: VocabularyMarkKind;
+    };
   };
   lessonId: string;
   levelId: string;

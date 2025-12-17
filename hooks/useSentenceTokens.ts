@@ -19,7 +19,8 @@ export interface SentenceTokens {
   germanTranslation: string;
 }
 
-const TOKEN_REGEX = /D\.O\.|[\p{L}\p{N}'-]+|[.,!?]/gu;
+const TOKEN_REGEX = /D\.O\.|[\p{L}\p{N}'-]+|[.,!?؟،؛:«»]/gu;
+const PUNCTUATION_REGEX = /^[.,!?؟،؛:«»]$/u;
 
 export const useSentenceTokens = (sentence: Sentence | undefined): SentenceTokens | null => {
   return useMemo(() => {
@@ -30,7 +31,7 @@ export const useSentenceTokens = (sentence: Sentence | undefined): SentenceToken
     const germanParts = sentence.germanDecode.match(TOKEN_REGEX) || [];
 
     const tokens: Token[] = farsiParts.map((farsi, index) => {
-      const isPunctuation = /^[.,!?]$/.test(farsi);
+      const isPunctuation = PUNCTUATION_REGEX.test(farsi);
       return {
         id: `${sentence.id}-${index}`,
         index,

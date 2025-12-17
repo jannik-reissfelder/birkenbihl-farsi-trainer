@@ -59,16 +59,14 @@ export const TokenColumn: React.FC<TokenColumnProps> = ({
           isSelected && 'text-purple-200 bg-purple-500/40 ring-2 ring-purple-400',
           !isSelected && isMarked && 'text-yellow-300 bg-yellow-500/20 hover:bg-yellow-500/30',
           !isSelected && !isMarked && markingMode && 'text-purple-300 hover:bg-purple-500/20',
-          !isSelected && !isMarked && !markingMode && 'text-blue-300 hover:bg-blue-500/20'
+          !isSelected && !isMarked && !markingMode && 'text-blue-300 cursor-default'
         )}
         title={
           markingMode
             ? isSelected
               ? 'Klicken zum Abwählen'
               : 'Klicken zum Auswählen'
-            : isMarked
-            ? `★ ${german} - Klicken zum Entfernen`
-            : 'Für SRS markieren'
+            : undefined
         }
         dir="rtl"
       >

@@ -36,47 +36,72 @@ const SRSPractice: React.FC<SRSPracticeProps> = ({ onComplete }) => {
 
     // Token regex that matches Unicode letters, numbers, apostrophes, hyphens, and punctuation
     const tokenRegex = /[\p{L}\p{N}'-]+|[.,!?؟«»]/gu;
-    const tokens = text.match(tokenRegex) || [];
+    const textMatches = Array.from(text.matchAll(tokenRegex));
+    const targetTokens = (targetWord.match(tokenRegex) || []).filter(Boolean);
+
+    if (textMatches.length === 0 || targetTokens.length === 0) {
+      return text;
+    }
+
+    const normalize = (s: string) => (caseSensitive ? s : s.toLowerCase());
+    const normalizedTarget = targetTokens.map(normalize);
+    const normalizedText = textMatches.map((m) => normalize(m[0]));
+
+    // Find the first contiguous token-span match (supports multi-token grouped cards)
+    let matchStart = -1;
+    for (let i = 0; i <= normalizedText.length - normalizedTarget.length; i++) {
+      let ok = true;
+      for (let j = 0; j < normalizedTarget.length; j++) {
+        if (normalizedText[i + j] !== normalizedTarget[j]) {
+          ok = false;
+          break;
+        }
+      }
+      if (ok) {
+        matchStart = i;
+        break;
+      }
+    }
+
+    if (matchStart === -1) {
+      return text;
+    }
+
+    const matchEnd = matchStart + normalizedTarget.length - 1;
+    const startIndex = textMatches[matchStart].index ?? 0;
+    const endMatch = textMatches[matchEnd];
+    const endIndex = (endMatch.index ?? 0) + endMatch[0].length;
+
     const parts: React.ReactNode[] = [];
     let lastIndex = 0;
     let key = 0;
 
-    tokens.forEach((token) => {
-      const tokenIndex = text.indexOf(token, lastIndex);
-      
-      // Add any text before this token (spaces, etc.)
-      if (tokenIndex > lastIndex) {
-        parts.push(text.substring(lastIndex, tokenIndex));
-      }
+    // Pre-span
+    if (startIndex > 0) {
+      parts.push(text.substring(0, startIndex));
+      lastIndex = startIndex;
+    }
 
-      // Check if this token matches the target word
-      const isMatch = caseSensitive 
-        ? token === targetWord
-        : token.toLowerCase() === targetWord.toLowerCase();
+    // Cloze span
+    const matchedText = text.substring(startIndex, endIndex);
+    parts.push(
+      <span key={key++} className="inline-block min-w-[140px] mx-1 px-4 py-1 bg-blue-500/30 border-b-2 border-blue-400 rounded">
+        {showAnswer ? (
+          <span className="text-blue-300 font-bold animate-fade-in">{matchedText}</span>
+        ) : (
+          <span className="text-transparent select-none">______</span>
+        )}
+      </span>
+    );
 
-      if (isMatch) {
-        parts.push(
-          <span key={key++} className="inline-block min-w-[100px] mx-1 px-4 py-1 bg-blue-500/30 border-b-2 border-blue-400 rounded">
-            {showAnswer ? (
-              <span className="text-blue-300 font-bold animate-fade-in">{token}</span>
-            ) : (
-              <span className="text-transparent select-none">______</span>
-            )}
-          </span>
-        );
-      } else {
-        parts.push(token);
-      }
+    lastIndex = endIndex;
 
-      lastIndex = tokenIndex + token.length;
-    });
-
-    // Add any remaining text after the last token
+    // Post-span
     if (lastIndex < text.length) {
       parts.push(text.substring(lastIndex));
     }
 
-    return parts.length > 0 ? parts : text;
+    return parts;
   };
 
   const handleDifficultySelect = (difficulty: 'easy' | 'medium' | 'hard' | 'failed') => {

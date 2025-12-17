@@ -1,14 +1,20 @@
 import React, { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
-import { VocabularyCard, SRSState, ReviewResult, VocabularyStats, ActiveVocabulary } from '../types/vocabulary';
+import { VocabularyCard, SRSState, ReviewResult, VocabularyStats, ActiveVocabulary, VocabularyMarkKind } from '../types/vocabulary';
 import { Sentence } from '../types';
 import { useAuth } from '../src/contexts/AuthContext';
 import { vocabularyQueries } from '../src/lib/supabaseQueries';
+
+type VocabularyMarkInfo = {
+  tokenIds: string[];
+  sentenceId?: number;
+  kind: VocabularyMarkKind;
+};
 
 interface VocabularyContextType {
   cards: VocabularyCard[];
   stats: VocabularyStats;
   activeVocabulary: ActiveVocabulary;
-  addCard: (word: string, farsiWord: string, latinWord: string, sentence: Sentence) => void;
+  addCard: (word: string, farsiWord: string, latinWord: string, sentence: Sentence, mark?: VocabularyMarkInfo) => void;
   removeCard: (cardId: string) => void;
   removeCardByWords: (german: string, farsi: string) => void;
   getCardById: (cardId: string) => VocabularyCard | undefined;
@@ -67,7 +73,7 @@ export const VocabularyProvider: React.FC<{ children: ReactNode }> = ({ children
       });
   }, [user]);
 
-  const addCard = useCallback(async (word: string, farsiWord: string, latinWord: string, sentence: Sentence) => {
+  const addCard = useCallback(async (word: string, farsiWord: string, latinWord: string, sentence: Sentence, mark?: VocabularyMarkInfo) => {
     if (!user) return;
 
     try {
@@ -80,6 +86,7 @@ export const VocabularyProvider: React.FC<{ children: ReactNode }> = ({ children
           latin: sentence.latin,
           germanDecode: sentence.germanDecode,
           germanTranslation: sentence.germanTranslation,
+          ...(mark ? { mark } : {}),
         },
         lesson_id: sentence.lessonId || '',
         level_id: sentence.levelId || '',
@@ -160,7 +167,7 @@ export const VocabularyProvider: React.FC<{ children: ReactNode }> = ({ children
   const getDueCards = useCallback(() => {
     const now = new Date();
     return cards.filter(card => 
-      card.state !== 'graduated' && card.nextReviewDate <= now
+      card.nextReviewDate <= now
     );
   }, [cards]);
 
@@ -179,6 +186,8 @@ export const VocabularyProvider: React.FC<{ children: ReactNode }> = ({ children
   ): { interval: number; easeFactor: number; state: SRSState; repetitions: number; consecutiveSuccesses: number } => {
     let { interval, easeFactor, repetitions, consecutiveSuccesses } = card;
     let newState: SRSState = card.state;
+
+    const MAX_INTERVAL_DAYS = 90;
 
     const qualityMap = { failed: 0, hard: 3, medium: 4, easy: 5 };
     const quality = qualityMap[difficulty];
@@ -200,16 +209,24 @@ export const VocabularyProvider: React.FC<{ children: ReactNode }> = ({ children
         interval = 1;
         newState = 'learning';
       } else if (repetitions === 2) {
-        interval = 6;
+        interval = 3;
+        newState = 'learning';
+      } else if (repetitions === 3) {
+        interval = 7;
+        newState = 'learning';
+      } else if (repetitions === 4) {
+        interval = 14;
         newState = 'learning';
       } else {
         interval = Math.round(interval * easeFactor);
         newState = 'learning';
-        
-        // Graduate only after at least 3 consecutive successes AND interval >= 21 days
-        if (consecutiveSuccesses >= 3 && interval >= 21) {
-          newState = 'graduated';
-        }
+      }
+
+      interval = Math.max(1, Math.min(MAX_INTERVAL_DAYS, interval));
+
+      // Graduate after 3 consecutive successes
+      if (consecutiveSuccesses >= 3) {
+        newState = 'graduated';
       }
     }
 
@@ -284,7 +301,7 @@ export const VocabularyProvider: React.FC<{ children: ReactNode }> = ({ children
       newCards: cards.filter(c => c.state === 'new').length,
       learningCards: cards.filter(c => c.state === 'learning').length,
       graduatedCards: cards.filter(c => c.state === 'graduated').length,
-      dueForReview: cards.filter(c => c.state !== 'graduated' && c.nextReviewDate <= now).length,
+      dueForReview: cards.filter(c => c.nextReviewDate <= now).length,
       reviewedToday: cards.filter(c => c.lastReviewed && c.lastReviewed >= today).length,
     };
   }, [cards]);

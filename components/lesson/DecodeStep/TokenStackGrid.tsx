@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useRef, useEffect } from 'react';
+import React, { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
@@ -6,6 +6,19 @@ import { TokenColumn } from './TokenColumn';
 import { cn } from '@/lib/utils';
 import type { Token } from '@/hooks/useSentenceTokens';
 import type { Sentence } from '@/types';
+
+type VocabularyMarkInfo = {
+  tokenIds: string[];
+  sentenceId?: number;
+  kind: 'single' | 'group';
+};
+
+type DisplayToken = {
+  token: Token;
+  displayFarsi: string;
+  displayLatin: string;
+  displayGerman: string;
+};
 
 interface TokenStackGridProps {
   tokens: Token[];
@@ -17,8 +30,10 @@ interface TokenStackGridProps {
   onUnmarkWord: (german: string, farsi: string) => void;
   isWordMarked: (german: string, farsi: string) => boolean;
   markingMode: boolean;
-  onAddCard: (german: string, farsi: string, latin: string, sentence: Sentence) => void;
+  onAddCard: (german: string, farsi: string, latin: string, sentence: Sentence, mark?: VocabularyMarkInfo) => void;
   currentSentence: Sentence;
+  groupMarkedTokenIdToCardId: Map<string, string>;
+  onRemoveCardById: (cardId: string) => void;
 }
 
 export const TokenStackGrid: React.FC<TokenStackGridProps> = ({
@@ -33,7 +48,35 @@ export const TokenStackGrid: React.FC<TokenStackGridProps> = ({
   markingMode,
   onAddCard,
   currentSentence,
+  groupMarkedTokenIdToCardId,
+  onRemoveCardById,
 }) => {
+  const displayTokens = useMemo((): DisplayToken[] => {
+    const merged: DisplayToken[] = [];
+
+    for (const token of tokens) {
+      if (token.isPunctuation && merged.length > 0 && !merged[merged.length - 1].token.isPunctuation) {
+        const prev = merged[merged.length - 1];
+        merged[merged.length - 1] = {
+          ...prev,
+          displayFarsi: `${prev.displayFarsi}${token.farsi}`,
+          displayLatin: `${prev.displayLatin}${token.latin || token.farsi}`,
+          displayGerman: `${prev.displayGerman}${token.german || token.farsi}`,
+        };
+        continue;
+      }
+
+      merged.push({
+        token,
+        displayFarsi: token.farsi,
+        displayLatin: token.latin,
+        displayGerman: token.german,
+      });
+    }
+
+    return merged;
+  }, [tokens]);
+
   const [selectionMode, setSelectionMode] = useState<'single' | 'multi'>('single');
   const [selectedTokenIds, setSelectedTokenIds] = useState<Set<string>>(new Set());
   const lastClickedIndexRef = useRef<number | null>(null);
@@ -46,9 +89,9 @@ export const TokenStackGrid: React.FC<TokenStackGridProps> = ({
 
   useEffect(() => {
     lastClickedIndexRef.current = null;
-  }, [tokens.length]);
+  }, [displayTokens.length]);
   
-  const nonPunctuationTokens = tokens.filter(t => !t.isPunctuation);
+  const nonPunctuationTokens = displayTokens.filter(t => !t.token.isPunctuation).map(t => t.token);
   
   let wordIndex = -1;
 
@@ -60,9 +103,13 @@ export const TokenStackGrid: React.FC<TokenStackGridProps> = ({
 
   const handleTokenClick = useCallback((token: Token, event?: React.MouseEvent) => {
     if (token.isPunctuation) return;
+
+    // Marking actions must only happen in explicit marking mode
+    if (!markingMode) return;
     
     const tokenIndex = nonPunctuationTokens.findIndex(t => t.id === token.id);
-    const marked = isWordMarked(token.german, token.farsi);
+    const groupCardId = groupMarkedTokenIdToCardId.get(token.id);
+    const marked = !!groupCardId || isWordMarked(token.german, token.farsi);
     const shiftKey = event?.shiftKey ?? false;
 
     if (selectionMode === 'single') {
@@ -74,9 +121,17 @@ export const TokenStackGrid: React.FC<TokenStackGridProps> = ({
         setSelectedTokenIds(new Set(rangeIds));
       } else {
         if (marked) {
-          onUnmarkWord(token.german, token.farsi);
+          if (groupCardId) {
+            onRemoveCardById(groupCardId);
+          } else {
+            onUnmarkWord(token.german, token.farsi);
+          }
         } else {
-          onAddCard(token.german, token.farsi, token.latin, currentSentence);
+          onAddCard(token.german, token.farsi, token.latin, currentSentence, {
+            tokenIds: [token.id],
+            sentenceId: currentSentence.id,
+            kind: 'single',
+          });
         }
         lastClickedIndexRef.current = tokenIndex;
       }
@@ -103,7 +158,7 @@ export const TokenStackGrid: React.FC<TokenStackGridProps> = ({
         lastClickedIndexRef.current = tokenIndex;
       }
     }
-  }, [selectionMode, isWordMarked, onUnmarkWord, onAddCard, currentSentence, nonPunctuationTokens]);
+  }, [markingMode, selectionMode, isWordMarked, onUnmarkWord, onAddCard, currentSentence, nonPunctuationTokens, groupMarkedTokenIdToCardId, onRemoveCardById]);
 
   const confirmMultiWordSelection = useCallback(() => {
     if (selectedTokenIds.size < 2) return;
@@ -116,7 +171,11 @@ export const TokenStackGrid: React.FC<TokenStackGridProps> = ({
     const combinedLatin = selected.map(t => t.latin).join(' ');
     const combinedGerman = selected.map(t => t.german).join(' ');
 
-    onAddCard(combinedGerman, combinedFarsi, combinedLatin, currentSentence);
+    onAddCard(combinedGerman, combinedFarsi, combinedLatin, currentSentence, {
+      tokenIds: selected.map(t => t.id),
+      sentenceId: currentSentence.id,
+      kind: 'group',
+    });
     setSelectedTokenIds(new Set());
     setSelectionMode('single');
     lastClickedIndexRef.current = null;
@@ -204,33 +263,29 @@ export const TokenStackGrid: React.FC<TokenStackGridProps> = ({
           className="flex flex-wrap justify-center items-start gap-x-3 gap-y-4"
           dir="rtl"
         >
-          {tokens.map((token) => {
+          {displayTokens.map(({ token, displayFarsi, displayLatin, displayGerman }) => {
             const currentWordIndex = getWordIndex(token);
-            const marked = !token.isPunctuation && isWordMarked(token.german, token.farsi);
+            const marked =
+              markingMode &&
+              !token.isPunctuation &&
+              (groupMarkedTokenIdToCardId.has(token.id) || isWordMarked(token.german, token.farsi));
             const isCorrect = !token.isPunctuation && isChecked 
               ? decodeResults[currentWordIndex] ?? null 
               : null;
             const isSelected = markingMode && selectedTokenIds.has(token.id);
 
             const handleToggleMark = (event?: React.MouseEvent) => {
-              if (markingMode) {
-                handleTokenClick(token, event);
-              } else {
-                if (marked) {
-                  onUnmarkWord(token.german, token.farsi);
-                } else {
-                  onMarkWord(token);
-                }
-              }
+              if (!markingMode) return;
+              handleTokenClick(token, event);
             };
 
             return (
               <TokenColumn
                 key={token.id}
                 tokenId={token.id}
-                farsi={token.farsi}
-                latin={token.latin}
-                german={token.german}
+                farsi={displayFarsi}
+                latin={displayLatin}
+                german={displayGerman}
                 wordIndex={currentWordIndex}
                 isPunctuation={token.isPunctuation}
                 isMarked={marked}
