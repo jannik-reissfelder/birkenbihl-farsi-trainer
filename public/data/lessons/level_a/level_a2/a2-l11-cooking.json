@@ -1,0 +1,805 @@
+{
+  "id": "a2-l11-cooking",
+  "title": "A2 Lektion 11: Kochen lernen von der Großmutter",
+  "description": "Eine Erzählung über das Erlernen traditioneller Rezepte und Familientraditionen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "مادربزرگم می‌خواست غذای سنتی به من یاد بدهد.",
+      "latin": "Mādarbozorgam mīkhāst ghazāye sonnatī be man yād bedahad.",
+      "germanDecode": "Großmutter-meine wollte-sie Essen-von traditionell zu mir Lernen gebe-sie.",
+      "germanTranslation": "Meine Großmutter wollte mir traditionelles Kochen beibringen.",
+      "timings": [
+        {
+          "word": "مادربزرگم",
+          "cleanWord": "مادربزرگم",
+          "start": 0,
+          "end": 0.9756385135135135
+        },
+        {
+          "word": "می‌خواست",
+          "cleanWord": "می‌خواست",
+          "start": 0.9756385135135135,
+          "end": 1.8428727477477476
+        },
+        {
+          "word": "غذای",
+          "cleanWord": "غذای",
+          "start": 1.8428727477477476,
+          "end": 2.276489864864865
+        },
+        {
+          "word": "سنتی",
+          "cleanWord": "سنتی",
+          "start": 2.276489864864865,
+          "end": 2.710106981981982
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.710106981981982,
+          "end": 2.9269155405405405
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 2.9269155405405405,
+          "end": 3.143724099099099
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 3.143724099099099,
+          "end": 3.4689369369369367
+        },
+        {
+          "word": "بدهد.",
+          "cleanWord": "بدهد",
+          "start": 3.4689369369369367,
+          "end": 4.010958333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "آخر هفته به خانه‌اش رفتم تا قرمه سبزی یاد بگیرم.",
+      "latin": "Ākhar-e hafte be khāne-ash raftam tā ghorme sabzī yād begiram.",
+      "germanDecode": "Ende-von Woche zu Haus-ihr ging-ich damit Kräutereintopf Lernen nehme-ich.",
+      "germanTranslation": "Am Wochenende ging ich zu ihrem Haus, um Ghormeh Sabzi zu lernen.",
+      "timings": [
+        {
+          "word": "آخر",
+          "cleanWord": "آخر",
+          "start": 0,
+          "end": 0.27161217948717953
+        },
+        {
+          "word": "هفته",
+          "cleanWord": "هفته",
+          "start": 0.27161217948717953,
+          "end": 0.6337617521367522
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0.6337617521367522,
+          "end": 0.8148365384615386
+        },
+        {
+          "word": "خانه‌اش",
+          "cleanWord": "خانه‌اش",
+          "start": 0.8148365384615386,
+          "end": 1.4485982905982908
+        },
+        {
+          "word": "رفتم",
+          "cleanWord": "رفتم",
+          "start": 1.4485982905982908,
+          "end": 1.8107478632478635
+        },
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 1.8107478632478635,
+          "end": 1.9918226495726499
+        },
+        {
+          "word": "قرمه",
+          "cleanWord": "قرمه",
+          "start": 1.9918226495726499,
+          "end": 2.3539722222222226
+        },
+        {
+          "word": "سبزی",
+          "cleanWord": "سبزی",
+          "start": 2.3539722222222226,
+          "end": 2.7161217948717953
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 2.7161217948717953,
+          "end": 2.987733974358975
+        },
+        {
+          "word": "بگیرم.",
+          "cleanWord": "بگیرم",
+          "start": 2.987733974358975,
+          "end": 3.530958333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "صبح زود بازار رفتیم تا سبزیجات تازه بخریم.",
+      "latin": "Sobh zūd bāzār raftīm tā sabzījāt-e tāze bekharīm.",
+      "germanDecode": "Morgen früh Markt gingen-wir damit Gemüse-von frisch kaufen-wir.",
+      "germanTranslation": "Früh am Morgen gingen wir zum Markt, um frisches Gemüse zu kaufen.",
+      "timings": [
+        {
+          "word": "صبح",
+          "cleanWord": "صبح",
+          "start": 0,
+          "end": 0.3506535714285714
+        },
+        {
+          "word": "زود",
+          "cleanWord": "زود",
+          "start": 0.3506535714285714,
+          "end": 0.7013071428571428
+        },
+        {
+          "word": "بازار",
+          "cleanWord": "بازار",
+          "start": 0.7013071428571428,
+          "end": 1.2857297619047618
+        },
+        {
+          "word": "رفتیم",
+          "cleanWord": "رفتیم",
+          "start": 1.2857297619047618,
+          "end": 1.8701523809523808
+        },
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 1.8701523809523808,
+          "end": 2.1039214285714283
+        },
+        {
+          "word": "سبزیجات",
+          "cleanWord": "سبزیجات",
+          "start": 2.1039214285714283,
+          "end": 2.922113095238095
+        },
+        {
+          "word": "تازه",
+          "cleanWord": "تازه",
+          "start": 2.922113095238095,
+          "end": 3.38965119047619
+        },
+        {
+          "word": "بخریم.",
+          "cleanWord": "بخریم",
+          "start": 3.38965119047619,
+          "end": 4.090958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "او هر سبزی را با دقت انتخاب می‌کرد و توضیح می‌داد.",
+      "latin": "Ū har sabzī rā bā deghghat entekhāb mikard va towzīh mīdād.",
+      "germanDecode": "Sie jedes Gemüse D.O. mit Genauigkeit Auswahl machte-sie und Erklärung gab-sie.",
+      "germanTranslation": "Sie wählte jedes Gemüse sorgfältig aus und erklärte es.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.2465479166666667
+        },
+        {
+          "word": "هر",
+          "cleanWord": "هر",
+          "start": 0.2465479166666667,
+          "end": 0.4930958333333334
+        },
+        {
+          "word": "سبزی",
+          "cleanWord": "سبزی",
+          "start": 0.4930958333333334,
+          "end": 0.9861916666666668
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 0.9861916666666668,
+          "end": 1.2327395833333334
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 1.2327395833333334,
+          "end": 1.4792875
+        },
+        {
+          "word": "دقت",
+          "cleanWord": "دقت",
+          "start": 1.4792875,
+          "end": 1.849109375
+        },
+        {
+          "word": "انتخاب",
+          "cleanWord": "انتخاب",
+          "start": 1.849109375,
+          "end": 2.588753125
+        },
+        {
+          "word": "می‌کرد",
+          "cleanWord": "می‌کرد",
+          "start": 2.588753125,
+          "end": 3.328396875
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 3.328396875,
+          "end": 3.4516708333333335
+        },
+        {
+          "word": "توضیح",
+          "cleanWord": "توضیح",
+          "start": 3.4516708333333335,
+          "end": 4.068040625
+        },
+        {
+          "word": "می‌داد.",
+          "cleanWord": "می‌داد",
+          "start": 4.068040625,
+          "end": 4.930958333333334
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "گفت که سبزی‌ها باید تازه و پر رنگ باشند.",
+      "latin": "Goft ke sabzī-hā bāyad tāze va por-e rang bāshand.",
+      "germanDecode": "Sagte-sie dass Gemüse muss frisch und voll-von Farbe seien-sie.",
+      "germanTranslation": "Sie sagte, dass das Gemüse frisch und farbenfroh sein muss.",
+      "timings": [
+        {
+          "word": "گفت",
+          "cleanWord": "گفت",
+          "start": 0,
+          "end": 0.36102734375
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 0.36102734375,
+          "end": 0.6017122395833333
+        },
+        {
+          "word": "سبزی‌ها",
+          "cleanWord": "سبزی‌ها",
+          "start": 0.6017122395833333,
+          "end": 1.444109375
+        },
+        {
+          "word": "باید",
+          "cleanWord": "باید",
+          "start": 1.444109375,
+          "end": 1.9254791666666666
+        },
+        {
+          "word": "تازه",
+          "cleanWord": "تازه",
+          "start": 1.9254791666666666,
+          "end": 2.4068489583333332
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.4068489583333332,
+          "end": 2.52719140625
+        },
+        {
+          "word": "پر",
+          "cleanWord": "پر",
+          "start": 2.52719140625,
+          "end": 2.7678763020833332
+        },
+        {
+          "word": "رنگ",
+          "cleanWord": "رنگ",
+          "start": 2.7678763020833332,
+          "end": 3.1289036458333332
+        },
+        {
+          "word": "باشند.",
+          "cleanWord": "باشند",
+          "start": 3.1289036458333332,
+          "end": 3.8509583333333333
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "در خانه شروع به شستن و خرد کردن سبزیجات کردیم.",
+      "latin": "Dar khāne shorū' be shostan va khord kardan-e sabzījāt kardīm.",
+      "germanDecode": "In Haus Beginn zu Waschen und klein Machen-von Gemüse machten-wir.",
+      "germanTranslation": "Zu Hause begannen wir, das Gemüse zu waschen und zu schneiden.",
+      "timings": [
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0,
+          "end": 0.22113288288288288
+        },
+        {
+          "word": "خانه",
+          "cleanWord": "خانه",
+          "start": 0.22113288288288288,
+          "end": 0.6633986486486486
+        },
+        {
+          "word": "شروع",
+          "cleanWord": "شروع",
+          "start": 0.6633986486486486,
+          "end": 1.1056644144144143
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.1056644144144143,
+          "end": 1.3267972972972972
+        },
+        {
+          "word": "شستن",
+          "cleanWord": "شستن",
+          "start": 1.3267972972972972,
+          "end": 1.769063063063063
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.769063063063063,
+          "end": 1.8796295045045044
+        },
+        {
+          "word": "خرد",
+          "cleanWord": "خرد",
+          "start": 1.8796295045045044,
+          "end": 2.2113288288288286
+        },
+        {
+          "word": "کردن",
+          "cleanWord": "کردن",
+          "start": 2.2113288288288286,
+          "end": 2.6535945945945945
+        },
+        {
+          "word": "سبزیجات",
+          "cleanWord": "سبزیجات",
+          "start": 2.6535945945945945,
+          "end": 3.4275596846846845
+        },
+        {
+          "word": "کردیم.",
+          "cleanWord": "کردیم",
+          "start": 3.4275596846846845,
+          "end": 4.090958333333333
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "او نشانم داد که چطور سبزیجات را درست خرد کنم.",
+      "latin": "Ū neshānam dād ke chetor sabzījāt rā dorost khord konam.",
+      "germanDecode": "Sie Zeigen-mir gab-sie dass wie Gemüse D.O. richtig klein mache-ich.",
+      "germanTranslation": "Sie zeigte mir, wie man das Gemüse richtig schneidet.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.24949768518518517
+        },
+        {
+          "word": "نشانم",
+          "cleanWord": "نشانم",
+          "start": 0.24949768518518517,
+          "end": 0.8732418981481482
+        },
+        {
+          "word": "داد",
+          "cleanWord": "داد",
+          "start": 0.8732418981481482,
+          "end": 1.247488425925926
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 1.247488425925926,
+          "end": 1.4969861111111111
+        },
+        {
+          "word": "چطور",
+          "cleanWord": "چطور",
+          "start": 1.4969861111111111,
+          "end": 1.9959814814814814
+        },
+        {
+          "word": "سبزیجات",
+          "cleanWord": "سبزیجات",
+          "start": 1.9959814814814814,
+          "end": 2.8692233796296294
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 2.8692233796296294,
+          "end": 3.1187210648148147
+        },
+        {
+          "word": "درست",
+          "cleanWord": "درست",
+          "start": 3.1187210648148147,
+          "end": 3.617716435185185
+        },
+        {
+          "word": "خرد",
+          "cleanWord": "خرد",
+          "start": 3.617716435185185,
+          "end": 3.9919629629629627
+        },
+        {
+          "word": "کنم.",
+          "cleanWord": "کنم",
+          "start": 3.9919629629629627,
+          "end": 4.490958333333333
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "بعد گوشت را در روغن سرخ کردیم تا طلایی شود.",
+      "latin": "Ba'd gūsht rā dar rowghan sorkh kardīm tā talāyī shavad.",
+      "germanDecode": "Dann Fleisch D.O. in Öl rot machten-wir damit golden werde-es.",
+      "germanTranslation": "Dann brieten wir das Fleisch in Öl, bis es golden wurde.",
+      "timings": [
+        {
+          "word": "بعد",
+          "cleanWord": "بعد",
+          "start": 0,
+          "end": 0.36802573529411764
+        },
+        {
+          "word": "گوشت",
+          "cleanWord": "گوشت",
+          "start": 0.36802573529411764,
+          "end": 0.8587267156862745
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 0.8587267156862745,
+          "end": 1.104077205882353
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 1.104077205882353,
+          "end": 1.3494276960784313
+        },
+        {
+          "word": "روغن",
+          "cleanWord": "روغن",
+          "start": 1.3494276960784313,
+          "end": 1.840128676470588
+        },
+        {
+          "word": "سرخ",
+          "cleanWord": "سرخ",
+          "start": 1.840128676470588,
+          "end": 2.2081544117647054
+        },
+        {
+          "word": "کردیم",
+          "cleanWord": "کردیم",
+          "start": 2.2081544117647054,
+          "end": 2.8215306372549014
+        },
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 2.8215306372549014,
+          "end": 3.06688112745098
+        },
+        {
+          "word": "طلایی",
+          "cleanWord": "طلایی",
+          "start": 3.06688112745098,
+          "end": 3.680257352941176
+        },
+        {
+          "word": "شود.",
+          "cleanWord": "شود",
+          "start": 3.680257352941176,
+          "end": 4.170958333333333
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "سبزیجات را اضافه کردیم و با ادویه‌جات مخلوط کردیم.",
+      "latin": "Sabzījāt rā ezāfe kardīm va bā advīe-jāt makhlūt kardīm.",
+      "germanDecode": "Gemüse D.O. zusätzlich machten-wir und mit Gewürze gemischt machten-wir.",
+      "germanTranslation": "Wir fügten das Gemüse hinzu und mischten es mit Gewürzen.",
+      "timings": [
+        {
+          "word": "سبزیجات",
+          "cleanWord": "سبزیجات",
+          "start": 0,
+          "end": 0.7084930555555555
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 0.7084930555555555,
+          "end": 0.9109196428571428
+        },
+        {
+          "word": "اضافه",
+          "cleanWord": "اضافه",
+          "start": 0.9109196428571428,
+          "end": 1.416986111111111
+        },
+        {
+          "word": "کردیم",
+          "cleanWord": "کردیم",
+          "start": 1.416986111111111,
+          "end": 1.9230525793650792
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.9230525793650792,
+          "end": 2.0242658730158727
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 2.0242658730158727,
+          "end": 2.22669246031746
+        },
+        {
+          "word": "ادویه‌جات",
+          "cleanWord": "ادویه‌جات",
+          "start": 2.22669246031746,
+          "end": 3.137612103174603
+        },
+        {
+          "word": "مخلوط",
+          "cleanWord": "مخلوط",
+          "start": 3.137612103174603,
+          "end": 3.643678571428571
+        },
+        {
+          "word": "کردیم.",
+          "cleanWord": "کردیم",
+          "start": 3.643678571428571,
+          "end": 4.250958333333333
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "آلو و لوبیا قرمز هم اضافه کردیم و دو ساعت پختیم.",
+      "latin": "Ālū va lūbyā-ye ghermez ham ezāfe kardīm va do sā'at pakhtīm.",
+      "germanDecode": "Pflaumen und Bohnen-von rot auch zusätzlich machten-wir und zwei Stunde kochten-wir.",
+      "germanTranslation": "Wir fügten auch Pflaumen und rote Bohnen hinzu und kochten zwei Stunden.",
+      "timings": [
+        {
+          "word": "آلو",
+          "cleanWord": "آلو",
+          "start": 0,
+          "end": 0.4082335526315789
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 0.4082335526315789,
+          "end": 0.5443114035087718
+        },
+        {
+          "word": "لوبیا",
+          "cleanWord": "لوبیا",
+          "start": 0.5443114035087718,
+          "end": 1.2247006578947368
+        },
+        {
+          "word": "قرمز",
+          "cleanWord": "قرمز",
+          "start": 1.2247006578947368,
+          "end": 1.7690120614035085
+        },
+        {
+          "word": "هم",
+          "cleanWord": "هم",
+          "start": 1.7690120614035085,
+          "end": 2.0411677631578944
+        },
+        {
+          "word": "اضافه",
+          "cleanWord": "اضافه",
+          "start": 2.0411677631578944,
+          "end": 2.7215570175438595
+        },
+        {
+          "word": "کردیم",
+          "cleanWord": "کردیم",
+          "start": 2.7215570175438595,
+          "end": 3.401946271929824
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 3.401946271929824,
+          "end": 3.538024122807017
+        },
+        {
+          "word": "دو",
+          "cleanWord": "دو",
+          "start": 3.538024122807017,
+          "end": 3.810179824561403
+        },
+        {
+          "word": "ساعت",
+          "cleanWord": "ساعت",
+          "start": 3.810179824561403,
+          "end": 4.354491228070175
+        },
+        {
+          "word": "پختیم.",
+          "cleanWord": "پختیم",
+          "start": 4.354491228070175,
+          "end": 5.170958333333332
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "عطر خوشمزه غذا تمام خانه را پر کرده بود.",
+      "latin": "Atr-e khoshmaze-ye ghazā tamām-e khāne rā por karde būd.",
+      "germanDecode": "Duft-von lecker-von Essen ganz-von Haus D.O. voll gemacht hatte-es.",
+      "germanTranslation": "Der köstliche Duft des Essens hatte das ganze Haus erfüllt.",
+      "timings": [
+        {
+          "word": "عطر",
+          "cleanWord": "عطر",
+          "start": 0,
+          "end": 0.42852734375
+        },
+        {
+          "word": "خوشمزه",
+          "cleanWord": "خوشمزه",
+          "start": 0.42852734375,
+          "end": 1.2855820312500001
+        },
+        {
+          "word": "غذا",
+          "cleanWord": "غذا",
+          "start": 1.2855820312500001,
+          "end": 1.714109375
+        },
+        {
+          "word": "تمام",
+          "cleanWord": "تمام",
+          "start": 1.714109375,
+          "end": 2.2854791666666667
+        },
+        {
+          "word": "خانه",
+          "cleanWord": "خانه",
+          "start": 2.2854791666666667,
+          "end": 2.8568489583333334
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 2.8568489583333334,
+          "end": 3.1425338541666665
+        },
+        {
+          "word": "پر",
+          "cleanWord": "پر",
+          "start": 3.1425338541666665,
+          "end": 3.42821875
+        },
+        {
+          "word": "کرده",
+          "cleanWord": "کرده",
+          "start": 3.42821875,
+          "end": 3.9995885416666668
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 3.9995885416666668,
+          "end": 4.5709583333333335
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "حالا هر وقت دلم می‌خواهد می‌توانم قرمه سبزی درست کنم.",
+      "latin": "Hālā har vaght delam mīkhāhad mītavānam ghorme sabzī dorost konam.",
+      "germanDecode": "Jetzt jede Zeit Herz-mein will-es kann-ich Kräutereintopf richtig mache-ich.",
+      "germanTranslation": "Jetzt kann ich Ghormeh Sabzi machen, wann immer ich möchte.",
+      "timings": [
+        {
+          "word": "حالا",
+          "cleanWord": "حالا",
+          "start": 0,
+          "end": 0.3864507575757576
+        },
+        {
+          "word": "هر",
+          "cleanWord": "هر",
+          "start": 0.3864507575757576,
+          "end": 0.5796761363636364
+        },
+        {
+          "word": "وقت",
+          "cleanWord": "وقت",
+          "start": 0.5796761363636364,
+          "end": 0.8695142045454545
+        },
+        {
+          "word": "دلم",
+          "cleanWord": "دلم",
+          "start": 0.8695142045454545,
+          "end": 1.1593522727272727
+        },
+        {
+          "word": "می‌خواهد",
+          "cleanWord": "می‌خواهد",
+          "start": 1.1593522727272727,
+          "end": 1.9322537878787878
+        },
+        {
+          "word": "می‌توانم",
+          "cleanWord": "می‌توانم",
+          "start": 1.9322537878787878,
+          "end": 2.705155303030303
+        },
+        {
+          "word": "قرمه",
+          "cleanWord": "قرمه",
+          "start": 2.705155303030303,
+          "end": 3.0916060606060607
+        },
+        {
+          "word": "سبزی",
+          "cleanWord": "سبزی",
+          "start": 3.0916060606060607,
+          "end": 3.4780568181818183
+        },
+        {
+          "word": "درست",
+          "cleanWord": "درست",
+          "start": 3.4780568181818183,
+          "end": 3.864507575757576
+        },
+        {
+          "word": "کنم.",
+          "cleanWord": "کنم",
+          "start": 3.864507575757576,
+          "end": 4.250958333333333
+        }
+      ]
+    }
+  ]
+}

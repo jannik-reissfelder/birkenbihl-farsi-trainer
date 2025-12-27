@@ -9,7 +9,7 @@ import { CheckIcon } from './icons/CheckIcon';
 
 const TOTAL_LOOPS = 10;
 
-const KaraokeView: React.FC<{ sentences: Sentence[], onComplete: () => void }> = ({ sentences, onComplete }) => {
+const KaraokeView: React.FC<{ sentences: Sentence[], onComplete: () => void, lessonId: string }> = ({ sentences, onComplete, lessonId }) => {
     const [audioBuffers, setAudioBuffers] = useState<Map<number, AudioBuffer>>(new Map());
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
@@ -38,8 +38,10 @@ const KaraokeView: React.FC<{ sentences: Sentence[], onComplete: () => void }> =
                 let buffer: AudioBuffer;
                 
                 if ((sentence as any).timings && (sentence as any).timings.length > 0) {
-                    const audioPath = `/audio/a2-l1/audio_${sentence.id}.wav`;
-                    console.log(`Loading hardcoded audio: ${audioPath}`);
+                    // Determine the level and lesson path
+                    const level = lessonId.startsWith('a1') ? 'level_a1' : 'level_a2';
+                    const audioPath = `/audio/level_a/${level}/${lessonId}/audio_${sentence.id}.wav`;
+                    console.log(`Loading audio: ${audioPath}`);
                     
                     try {
                         const response = await fetch(audioPath);

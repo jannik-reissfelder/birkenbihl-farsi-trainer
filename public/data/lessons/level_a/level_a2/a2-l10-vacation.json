@@ -1,0 +1,769 @@
+{
+  "id": "a2-l10-vacation",
+  "title": "A2 Lektion 10: Ferien am Kaspischen Meer",
+  "description": "Eine Erzählung über Urlaubserlebnisse und Naturerfahrungen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "تابستان گذشته با خانواده به ساحل دریای خزر رفتیم.",
+      "latin": "Tābestān-e gozashte bā khānevāde be sāhel-e daryāye Khazar raftīm.",
+      "germanDecode": "Sommer-von vergangen mit Familie zu Küste-von Meer-von Kaspi gingen-wir.",
+      "germanTranslation": "Letzten Sommer fuhren wir mit der Familie an die Küste des Kaspischen Meeres.",
+      "timings": [
+        {
+          "word": "تابستان",
+          "cleanWord": "تابستان",
+          "start": 0,
+          "end": 0.7872367886178863
+        },
+        {
+          "word": "گذشته",
+          "cleanWord": "گذشته",
+          "start": 0.7872367886178863,
+          "end": 1.349548780487805
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 1.349548780487805,
+          "end": 1.5744735772357725
+        },
+        {
+          "word": "خانواده",
+          "cleanWord": "خانواده",
+          "start": 1.5744735772357725,
+          "end": 2.361710365853659
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.361710365853659,
+          "end": 2.5866351626016266
+        },
+        {
+          "word": "ساحل",
+          "cleanWord": "ساحل",
+          "start": 2.5866351626016266,
+          "end": 3.0364847560975616
+        },
+        {
+          "word": "دریای",
+          "cleanWord": "دریای",
+          "start": 3.0364847560975616,
+          "end": 3.5987967479674805
+        },
+        {
+          "word": "خزر",
+          "cleanWord": "خزر",
+          "start": 3.5987967479674805,
+          "end": 3.9361839430894316
+        },
+        {
+          "word": "رفتیم.",
+          "cleanWord": "رفتیم",
+          "start": 3.9361839430894316,
+          "end": 4.610958333333334
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "صبح زود با ماشین از تهران حرکت کردیم.",
+      "latin": "Sobh zūd bā māshīn az Tehrān harakat kardīm.",
+      "germanDecode": "Morgen früh mit Auto aus Tehran Bewegung machten-wir.",
+      "germanTranslation": "Früh am Morgen fuhren wir mit dem Auto von Teheran ab.",
+      "timings": [
+        {
+          "word": "صبح",
+          "cleanWord": "صبح",
+          "start": 0,
+          "end": 0.30509583333333334
+        },
+        {
+          "word": "زود",
+          "cleanWord": "زود",
+          "start": 0.30509583333333334,
+          "end": 0.6101916666666667
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.6101916666666667,
+          "end": 0.8135888888888889
+        },
+        {
+          "word": "ماشین",
+          "cleanWord": "ماشین",
+          "start": 0.8135888888888889,
+          "end": 1.3220819444444445
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 1.3220819444444445,
+          "end": 1.5254791666666667
+        },
+        {
+          "word": "تهران",
+          "cleanWord": "تهران",
+          "start": 1.5254791666666667,
+          "end": 2.0339722222222223
+        },
+        {
+          "word": "حرکت",
+          "cleanWord": "حرکت",
+          "start": 2.0339722222222223,
+          "end": 2.4407666666666668
+        },
+        {
+          "word": "کردیم.",
+          "cleanWord": "کردیم",
+          "start": 2.4407666666666668,
+          "end": 3.0509583333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "جاده پر پیچ و خم بود اما مناظر زیبایی داشت.",
+      "latin": "Jāde por-e pīch va kham būd ammā manāzer-e zībāyī dāsht.",
+      "germanDecode": "Straße voll-von Kurve und Wendung war-es aber Landschaften-von schön hatte-es.",
+      "germanTranslation": "Die Straße war voller Kurven, aber hatte schöne Landschaften.",
+      "timings": [
+        {
+          "word": "جاده",
+          "cleanWord": "جاده",
+          "start": 0,
+          "end": 0.4907009803921568
+        },
+        {
+          "word": "پر",
+          "cleanWord": "پر",
+          "start": 0.4907009803921568,
+          "end": 0.7360514705882353
+        },
+        {
+          "word": "پیچ",
+          "cleanWord": "پیچ",
+          "start": 0.7360514705882353,
+          "end": 1.104077205882353
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.104077205882353,
+          "end": 1.2267524509803922
+        },
+        {
+          "word": "خم",
+          "cleanWord": "خم",
+          "start": 1.2267524509803922,
+          "end": 1.4721029411764706
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 1.4721029411764706,
+          "end": 1.8401286764705882
+        },
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 1.8401286764705882,
+          "end": 2.208154411764706
+        },
+        {
+          "word": "مناظر",
+          "cleanWord": "مناظر",
+          "start": 2.208154411764706,
+          "end": 2.821530637254902
+        },
+        {
+          "word": "زیبایی",
+          "cleanWord": "زیبایی",
+          "start": 2.821530637254902,
+          "end": 3.557582107843137
+        },
+        {
+          "word": "داشت.",
+          "cleanWord": "داشت",
+          "start": 3.557582107843137,
+          "end": 4.170958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "بعد از چهار ساعت رانندگی به رامسر رسیدیم.",
+      "latin": "Ba'd az chahār sā'at rānandagī be Rāmsar resīdīm.",
+      "germanDecode": "Nach von vier Stunde Fahren nach Ramsar erreichten-wir.",
+      "germanTranslation": "Nach vier Stunden Fahrt erreichten wir Ramsar.",
+      "timings": [
+        {
+          "word": "بعد",
+          "cleanWord": "بعد",
+          "start": 0,
+          "end": 0.3186139705882353
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0.3186139705882353,
+          "end": 0.5310232843137255
+        },
+        {
+          "word": "چهار",
+          "cleanWord": "چهار",
+          "start": 0.5310232843137255,
+          "end": 0.9558419117647059
+        },
+        {
+          "word": "ساعت",
+          "cleanWord": "ساعت",
+          "start": 0.9558419117647059,
+          "end": 1.3806605392156863
+        },
+        {
+          "word": "رانندگی",
+          "cleanWord": "رانندگی",
+          "start": 1.3806605392156863,
+          "end": 2.124093137254902
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.124093137254902,
+          "end": 2.336502450980392
+        },
+        {
+          "word": "رامسر",
+          "cleanWord": "رامسر",
+          "start": 2.336502450980392,
+          "end": 2.8675257352941177
+        },
+        {
+          "word": "رسیدیم.",
+          "cleanWord": "رسیدیم",
+          "start": 2.8675257352941177,
+          "end": 3.6109583333333335
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "هتل کوچک و دنجی کنار ساحل رزرو کرده بودیم.",
+      "latin": "Hotel-e kūchak va donjī kenār-e sāhel rezerv karde būdīm.",
+      "germanDecode": "Hotel-von klein und gemütlich neben-von Küste reserviert gemacht hatten-wir.",
+      "germanTranslation": "Wir hatten ein kleines und gemütliches Hotel nahe der Küste reserviert.",
+      "timings": [
+        {
+          "word": "هتل",
+          "cleanWord": "هتل",
+          "start": 0,
+          "end": 0.3433198529411765
+        },
+        {
+          "word": "کوچک",
+          "cleanWord": "کوچک",
+          "start": 0.3433198529411765,
+          "end": 0.8010796568627452
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 0.8010796568627452,
+          "end": 0.9155196078431374
+        },
+        {
+          "word": "دنجی",
+          "cleanWord": "دنجی",
+          "start": 0.9155196078431374,
+          "end": 1.373279411764706
+        },
+        {
+          "word": "کنار",
+          "cleanWord": "کنار",
+          "start": 1.373279411764706,
+          "end": 1.8310392156862747
+        },
+        {
+          "word": "ساحل",
+          "cleanWord": "ساحل",
+          "start": 1.8310392156862747,
+          "end": 2.2887990196078434
+        },
+        {
+          "word": "رزرو",
+          "cleanWord": "رزرو",
+          "start": 2.2887990196078434,
+          "end": 2.746558823529412
+        },
+        {
+          "word": "کرده",
+          "cleanWord": "کرده",
+          "start": 2.746558823529412,
+          "end": 3.2043186274509807
+        },
+        {
+          "word": "بودیم.",
+          "cleanWord": "بودیم",
+          "start": 3.2043186274509807,
+          "end": 3.8909583333333337
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "بعدازظهر اول لباس شنا پوشیدیم و به آب رفتیم.",
+      "latin": "Ba'dazzahr avval lebās-e shenā pūshīdīm va be āb raftīm.",
+      "germanDecode": "Nachmittag zuerst Kleidung-von Schwimmen anzogen-wir und zu Wasser gingen-wir.",
+      "germanTranslation": "Am ersten Nachmittag zogen wir Badeanzüge an und gingen ins Wasser.",
+      "timings": [
+        {
+          "word": "بعدازظهر",
+          "cleanWord": "بعدازظهر",
+          "start": 0,
+          "end": 0.7224351851851851
+        },
+        {
+          "word": "اول",
+          "cleanWord": "اول",
+          "start": 0.7224351851851851,
+          "end": 0.9933483796296295
+        },
+        {
+          "word": "لباس",
+          "cleanWord": "لباس",
+          "start": 0.9933483796296295,
+          "end": 1.354565972222222
+        },
+        {
+          "word": "شنا",
+          "cleanWord": "شنا",
+          "start": 1.354565972222222,
+          "end": 1.6254791666666666
+        },
+        {
+          "word": "پوشیدیم",
+          "cleanWord": "پوشیدیم",
+          "start": 1.6254791666666666,
+          "end": 2.2576099537037035
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.2576099537037035,
+          "end": 2.3479143518518515
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.3479143518518515,
+          "end": 2.528523148148148
+        },
+        {
+          "word": "آب",
+          "cleanWord": "آب",
+          "start": 2.528523148148148,
+          "end": 2.709131944444444
+        },
+        {
+          "word": "رفتیم.",
+          "cleanWord": "رفتیم",
+          "start": 2.709131944444444,
+          "end": 3.250958333333333
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "آب دریا گرم و دلپذیر بود و ما ساعت‌ها شنا کردیم.",
+      "latin": "Āb-e daryā garm va delpazīr būd va mā sā'at-hā shenā kardīm.",
+      "germanDecode": "Wasser-von Meer warm und angenehm war-es und wir Stunden-Plural schwammen-wir.",
+      "germanTranslation": "Das Meerwasser war warm und angenehm und wir schwammen stundenlang.",
+      "timings": [
+        {
+          "word": "آب",
+          "cleanWord": "آب",
+          "start": 0,
+          "end": 0.24478728070175437
+        },
+        {
+          "word": "دریا",
+          "cleanWord": "دریا",
+          "start": 0.24478728070175437,
+          "end": 0.7343618421052631
+        },
+        {
+          "word": "گرم",
+          "cleanWord": "گرم",
+          "start": 0.7343618421052631,
+          "end": 1.1015427631578947
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.1015427631578947,
+          "end": 1.2239364035087719
+        },
+        {
+          "word": "دلپذیر",
+          "cleanWord": "دلپذیر",
+          "start": 1.2239364035087719,
+          "end": 1.958298245614035
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 1.958298245614035,
+          "end": 2.3254791666666668
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.3254791666666668,
+          "end": 2.4478728070175437
+        },
+        {
+          "word": "ما",
+          "cleanWord": "ما",
+          "start": 2.4478728070175437,
+          "end": 2.692660087719298
+        },
+        {
+          "word": "ساعت‌ها",
+          "cleanWord": "ساعت‌ها",
+          "start": 2.692660087719298,
+          "end": 3.549415570175438
+        },
+        {
+          "word": "شنا",
+          "cleanWord": "شنا",
+          "start": 3.549415570175438,
+          "end": 3.91659649122807
+        },
+        {
+          "word": "کردیم.",
+          "cleanWord": "کردیم",
+          "start": 3.91659649122807,
+          "end": 4.6509583333333335
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "شب در رستوران ساحلی ماهی تازه خوردیم.",
+      "latin": "Shab dar restūrān-e sāhelī māhī-ye tāze khordīm.",
+      "germanDecode": "Nacht in Restaurant-von Küsten Fisch-von frisch aßen-wir.",
+      "germanTranslation": "Abends aßen wir in einem Strandrestaurant frischen Fisch.",
+      "timings": [
+        {
+          "word": "شب",
+          "cleanWord": "شب",
+          "start": 0,
+          "end": 0.24586827956989246
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0.24586827956989246,
+          "end": 0.4917365591397849
+        },
+        {
+          "word": "رستوران",
+          "cleanWord": "رستوران",
+          "start": 0.4917365591397849,
+          "end": 1.3522755376344084
+        },
+        {
+          "word": "ساحلی",
+          "cleanWord": "ساحلی",
+          "start": 1.3522755376344084,
+          "end": 1.9669462365591395
+        },
+        {
+          "word": "ماهی",
+          "cleanWord": "ماهی",
+          "start": 1.9669462365591395,
+          "end": 2.4586827956989246
+        },
+        {
+          "word": "تازه",
+          "cleanWord": "تازه",
+          "start": 2.4586827956989246,
+          "end": 2.9504193548387097
+        },
+        {
+          "word": "خوردیم.",
+          "cleanWord": "خوردیم",
+          "start": 2.9504193548387097,
+          "end": 3.8109583333333332
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "روز دوم به جنگل‌های اطراف رفتیم و قارچ جمع کردیم.",
+      "latin": "Rūz-e dovom be jangal-hāye atrāf raftīm va ghārch jam' kardīm.",
+      "germanDecode": "Tag-von zweite nach Wälder-von Umgebung gingen-wir und Pilze sammeln machten-wir.",
+      "germanTranslation": "Am zweiten Tag gingen wir in die umliegenden Wälder und sammelten Pilze.",
+      "timings": [
+        {
+          "word": "روز",
+          "cleanWord": "روز",
+          "start": 0,
+          "end": 0.315821875
+        },
+        {
+          "word": "دوم",
+          "cleanWord": "دوم",
+          "start": 0.315821875,
+          "end": 0.63164375
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0.63164375,
+          "end": 0.8421916666666667
+        },
+        {
+          "word": "جنگل‌های",
+          "cleanWord": "جنگل‌های",
+          "start": 0.8421916666666667,
+          "end": 1.6843833333333333
+        },
+        {
+          "word": "اطراف",
+          "cleanWord": "اطراف",
+          "start": 1.6843833333333333,
+          "end": 2.210753125
+        },
+        {
+          "word": "رفتیم",
+          "cleanWord": "رفتیم",
+          "start": 2.210753125,
+          "end": 2.737122916666667
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.737122916666667,
+          "end": 2.8423968750000004
+        },
+        {
+          "word": "قارچ",
+          "cleanWord": "قارچ",
+          "start": 2.8423968750000004,
+          "end": 3.2634927083333336
+        },
+        {
+          "word": "جمع",
+          "cleanWord": "جمع",
+          "start": 3.2634927083333336,
+          "end": 3.5793145833333337
+        },
+        {
+          "word": "کردیم.",
+          "cleanWord": "کردیم",
+          "start": 3.5793145833333337,
+          "end": 4.210958333333334
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "هوای جنگل خنک و پاک بود و نفس عمیق کشیدیم.",
+      "latin": "Havāye jangal khonak va pāk būd va nafas-e amīgh keshīdīm.",
+      "germanDecode": "Luft-von Wald kühl und sauber war-es und Atem-von tief zogen-wir.",
+      "germanTranslation": "Die Waldluft war kühl und sauber und wir atmeten tief.",
+      "timings": [
+        {
+          "word": "هوای",
+          "cleanWord": "هوای",
+          "start": 0,
+          "end": 0.602540404040404
+        },
+        {
+          "word": "جنگل",
+          "cleanWord": "جنگل",
+          "start": 0.602540404040404,
+          "end": 1.205080808080808
+        },
+        {
+          "word": "خنک",
+          "cleanWord": "خنک",
+          "start": 1.205080808080808,
+          "end": 1.656986111111111
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.656986111111111,
+          "end": 1.807621212121212
+        },
+        {
+          "word": "پاک",
+          "cleanWord": "پاک",
+          "start": 1.807621212121212,
+          "end": 2.259526515151515
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 2.259526515151515,
+          "end": 2.711431818181818
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.711431818181818,
+          "end": 2.862066919191919
+        },
+        {
+          "word": "نفس",
+          "cleanWord": "نفس",
+          "start": 2.862066919191919,
+          "end": 3.313972222222222
+        },
+        {
+          "word": "عمیق",
+          "cleanWord": "عمیق",
+          "start": 3.313972222222222,
+          "end": 3.916512626262626
+        },
+        {
+          "word": "کشیدیم.",
+          "cleanWord": "کشیدیم",
+          "start": 3.916512626262626,
+          "end": 4.970958333333333
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "شب‌ها کنار ساحل قدم می‌زدیم و ستاره‌ها را می‌دیدیم.",
+      "latin": "Shab-hā kenār-e sāhel ghadam mīzadīm va setāre-hā rā mīdīdīm.",
+      "germanDecode": "Nächte neben-von Küste Schritt schlugen-wir und Sterne D.O. sahen-wir.",
+      "germanTranslation": "Nachts spazierten wir am Strand entlang und sahen die Sterne.",
+      "timings": [
+        {
+          "word": "شب‌ها",
+          "cleanWord": "شب‌ها",
+          "start": 0,
+          "end": 0.5035998062015503
+        },
+        {
+          "word": "کنار",
+          "cleanWord": "کنار",
+          "start": 0.5035998062015503,
+          "end": 0.9064796511627906
+        },
+        {
+          "word": "ساحل",
+          "cleanWord": "ساحل",
+          "start": 0.9064796511627906,
+          "end": 1.309359496124031
+        },
+        {
+          "word": "قدم",
+          "cleanWord": "قدم",
+          "start": 1.309359496124031,
+          "end": 1.6115193798449612
+        },
+        {
+          "word": "می‌زدیم",
+          "cleanWord": "می‌زدیم",
+          "start": 1.6115193798449612,
+          "end": 2.316559108527132
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.316559108527132,
+          "end": 2.4172790697674422
+        },
+        {
+          "word": "ستاره‌ها",
+          "cleanWord": "ستاره‌ها",
+          "start": 2.4172790697674422,
+          "end": 3.223038759689923
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 3.223038759689923,
+          "end": 3.424478682170543
+        },
+        {
+          "word": "می‌دیدیم.",
+          "cleanWord": "می‌دیدیم",
+          "start": 3.424478682170543,
+          "end": 4.330958333333333
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "یک هفته فوق‌العاده گذراندیم و با انرژی تازه برگشتیم.",
+      "latin": "Yek hafte fowgh-ol'āde gozarāndīm va bā enerzī-ye tāze bargashtīm.",
+      "germanDecode": "Eine Woche außergewöhnlich verbrachten-wir und mit Energie-von frisch kehrten-wir-zurück.",
+      "germanTranslation": "Wir verbrachten eine außergewöhnliche Woche und kehrten mit frischer Energie zurück.",
+      "timings": [
+        {
+          "word": "یک",
+          "cleanWord": "یک",
+          "start": 0,
+          "end": 0.1950435606060606
+        },
+        {
+          "word": "هفته",
+          "cleanWord": "هفته",
+          "start": 0.1950435606060606,
+          "end": 0.5851306818181818
+        },
+        {
+          "word": "فوق‌العاده",
+          "cleanWord": "فوق‌العاده",
+          "start": 0.5851306818181818,
+          "end": 1.5603484848484848
+        },
+        {
+          "word": "گذراندیم",
+          "cleanWord": "گذراندیم",
+          "start": 1.5603484848484848,
+          "end": 2.3405227272727274
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.3405227272727274,
+          "end": 2.4380445075757575
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 2.4380445075757575,
+          "end": 2.6330880681818183
+        },
+        {
+          "word": "انرژی",
+          "cleanWord": "انرژی",
+          "start": 2.6330880681818183,
+          "end": 3.1206969696969695
+        },
+        {
+          "word": "تازه",
+          "cleanWord": "تازه",
+          "start": 3.1206969696969695,
+          "end": 3.5107840909090906
+        },
+        {
+          "word": "برگشتیم.",
+          "cleanWord": "برگشتیم",
+          "start": 3.5107840909090906,
+          "end": 4.290958333333333
+        }
+      ]
+    }
+  ]
+}

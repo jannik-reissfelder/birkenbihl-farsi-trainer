@@ -1,0 +1,691 @@
+{
+  "id": "a2-l12-tech-problem",
+  "title": "A2 Lektion 12: Ein Computerproblem",
+  "description": "Eine Erzählung über Technikprobleme und deren Lösung.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "هفته گذشته کامپیوترم خراب شد و نمی‌توانستم کار کنم.",
+      "latin": "Hafte-ye gozashte kāmpyūtaram kharāb shod va namītavānestam kār konam.",
+      "germanDecode": "Woche-von vergangen Computer-mein kaputt wurde-er und nicht-konnte-ich Arbeit mache-ich.",
+      "germanTranslation": "Letzte Woche ging mein Computer kaputt und ich konnte nicht arbeiten.",
+      "timings": [
+        {
+          "word": "هفته",
+          "cleanWord": "هفته",
+          "start": 0,
+          "end": 0.4103217054263566
+        },
+        {
+          "word": "گذشته",
+          "cleanWord": "گذشته",
+          "start": 0.4103217054263566,
+          "end": 0.9232238372093023
+        },
+        {
+          "word": "کامپیوترم",
+          "cleanWord": "کامپیوترم",
+          "start": 0.9232238372093023,
+          "end": 1.8464476744186047
+        },
+        {
+          "word": "خراب",
+          "cleanWord": "خراب",
+          "start": 1.8464476744186047,
+          "end": 2.256769379844961
+        },
+        {
+          "word": "شد",
+          "cleanWord": "شد",
+          "start": 2.256769379844961,
+          "end": 2.4619302325581396
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.4619302325581396,
+          "end": 2.564510658914729
+        },
+        {
+          "word": "نمی‌توانستم",
+          "cleanWord": "نمی‌توانستم",
+          "start": 2.564510658914729,
+          "end": 3.69289534883721
+        },
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 3.69289534883721,
+          "end": 4.000636627906977
+        },
+        {
+          "word": "کنم.",
+          "cleanWord": "کنم",
+          "start": 4.000636627906977,
+          "end": 4.410958333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "صبح که آن را روشن کردم، صفحه سیاه ماند.",
+      "latin": "Sobh ke ān rā roshan kardam, safhe siyāh mānd.",
+      "germanDecode": "Morgen als es D.O. an machte-ich, Bildschirm schwarz blieb-er.",
+      "germanTranslation": "Als ich ihn morgens anmachte, blieb der Bildschirm schwarz.",
+      "timings": [
+        {
+          "word": "صبح",
+          "cleanWord": "صبح",
+          "start": 0,
+          "end": 0.3533185483870968
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 0.3533185483870968,
+          "end": 0.588864247311828
+        },
+        {
+          "word": "آن",
+          "cleanWord": "آن",
+          "start": 0.588864247311828,
+          "end": 0.8244099462365592
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 0.8244099462365592,
+          "end": 1.0599556451612904
+        },
+        {
+          "word": "روشن",
+          "cleanWord": "روشن",
+          "start": 1.0599556451612904,
+          "end": 1.5310470430107528
+        },
+        {
+          "word": "کردم،",
+          "cleanWord": "کردم،",
+          "start": 1.5310470430107528,
+          "end": 2.1199112903225807
+        },
+        {
+          "word": "صفحه",
+          "cleanWord": "صفحه",
+          "start": 2.1199112903225807,
+          "end": 2.591002688172043
+        },
+        {
+          "word": "سیاه",
+          "cleanWord": "سیاه",
+          "start": 2.591002688172043,
+          "end": 3.062094086021505
+        },
+        {
+          "word": "ماند.",
+          "cleanWord": "ماند",
+          "start": 3.062094086021505,
+          "end": 3.650958333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "ابتدا فکر کردم مشکل از برق است.",
+      "latin": "Ebtedā fekr kardam moshkel az bargh ast.",
+      "germanDecode": "Zuerst Gedanke machte-ich Problem von Strom ist.",
+      "germanTranslation": "Zuerst dachte ich, das Problem sei der Strom.",
+      "timings": [
+        {
+          "word": "ابتدا",
+          "cleanWord": "ابتدا",
+          "start": 0,
+          "end": 0.6181916666666667
+        },
+        {
+          "word": "فکر",
+          "cleanWord": "فکر",
+          "start": 0.6181916666666667,
+          "end": 0.9891066666666667
+        },
+        {
+          "word": "کردم",
+          "cleanWord": "کردم",
+          "start": 0.9891066666666667,
+          "end": 1.48366
+        },
+        {
+          "word": "مشکل",
+          "cleanWord": "مشکل",
+          "start": 1.48366,
+          "end": 1.9782133333333334
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 1.9782133333333334,
+          "end": 2.22549
+        },
+        {
+          "word": "برق",
+          "cleanWord": "برق",
+          "start": 2.22549,
+          "end": 2.5964050000000003
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.5964050000000003,
+          "end": 3.0909583333333335
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "کابل‌ها را بررسی کردم اما همه چیز درست بود.",
+      "latin": "Kābl-hā rā barrasī kardam ammā hame chīz dorost būd.",
+      "germanDecode": "Kabel D.O. Untersuchung machte-ich aber alle Ding richtig war-es.",
+      "germanTranslation": "Ich untersuchte die Kabel, aber alles war in Ordnung.",
+      "timings": [
+        {
+          "word": "کابل‌ها",
+          "cleanWord": "کابل‌ها",
+          "start": 0,
+          "end": 0.7621916666666667
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 0.7621916666666667,
+          "end": 0.9799607142857143
+        },
+        {
+          "word": "بررسی",
+          "cleanWord": "بررسی",
+          "start": 0.9799607142857143,
+          "end": 1.5243833333333332
+        },
+        {
+          "word": "کردم",
+          "cleanWord": "کردم",
+          "start": 1.5243833333333332,
+          "end": 1.9599214285714284
+        },
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 1.9599214285714284,
+          "end": 2.286575
+        },
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 2.286575,
+          "end": 2.6132285714285715
+        },
+        {
+          "word": "چیز",
+          "cleanWord": "چیز",
+          "start": 2.6132285714285715,
+          "end": 2.939882142857143
+        },
+        {
+          "word": "درست",
+          "cleanWord": "درست",
+          "start": 2.939882142857143,
+          "end": 3.3754202380952383
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 3.3754202380952383,
+          "end": 3.8109583333333337
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "به برادرم زنگ زدم که در کامپیوتر مهارت دارد.",
+      "latin": "Be barādaram zang zadam ke dar kāmpyūter mahārat dārad.",
+      "germanDecode": "Zu Bruder-meinem Klingel schlug-ich der in Computer Fertigkeit hat-er.",
+      "germanTranslation": "Ich rief meinen Bruder an, der sich mit Computern auskennt.",
+      "timings": [
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0,
+          "end": 0.19394212962962962
+        },
+        {
+          "word": "برادرم",
+          "cleanWord": "برادرم",
+          "start": 0.19394212962962962,
+          "end": 0.7757685185185185
+        },
+        {
+          "word": "زنگ",
+          "cleanWord": "زنگ",
+          "start": 0.7757685185185185,
+          "end": 1.0666817129629629
+        },
+        {
+          "word": "زدم",
+          "cleanWord": "زدم",
+          "start": 1.0666817129629629,
+          "end": 1.3575949074074072
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 1.3575949074074072,
+          "end": 1.5515370370370367
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 1.5515370370370367,
+          "end": 1.7454791666666662
+        },
+        {
+          "word": "کامپیوتر",
+          "cleanWord": "کامپیوتر",
+          "start": 1.7454791666666662,
+          "end": 2.521247685185185
+        },
+        {
+          "word": "مهارت",
+          "cleanWord": "مهارت",
+          "start": 2.521247685185185,
+          "end": 3.006103009259259
+        },
+        {
+          "word": "دارد.",
+          "cleanWord": "دارد",
+          "start": 3.006103009259259,
+          "end": 3.4909583333333334
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "او گفت احتمالاً هارد دیسک مشکل دارد.",
+      "latin": "Ū goft ehtemālan hārd dīsk moshkel dārad.",
+      "germanDecode": "Er sagte wahrscheinlich Festplatte Problem hat-sie.",
+      "germanTranslation": "Er sagte, wahrscheinlich habe die Festplatte ein Problem.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.22739722222222222
+        },
+        {
+          "word": "گفت",
+          "cleanWord": "گفت",
+          "start": 0.22739722222222222,
+          "end": 0.5684930555555556
+        },
+        {
+          "word": "احتمالاً",
+          "cleanWord": "احتمالاً",
+          "start": 0.5684930555555556,
+          "end": 1.4780819444444444
+        },
+        {
+          "word": "هارد",
+          "cleanWord": "هارد",
+          "start": 1.4780819444444444,
+          "end": 1.932876388888889
+        },
+        {
+          "word": "دیسک",
+          "cleanWord": "دیسک",
+          "start": 1.932876388888889,
+          "end": 2.3876708333333334
+        },
+        {
+          "word": "مشکل",
+          "cleanWord": "مشکل",
+          "start": 2.3876708333333334,
+          "end": 2.842465277777778
+        },
+        {
+          "word": "دارد.",
+          "cleanWord": "دارد",
+          "start": 2.842465277777778,
+          "end": 3.4109583333333333
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "بعدازظهر کامپیوتر را به تعمیرگاه بردم.",
+      "latin": "Ba'dazzahr kāmpyūtar rā be ta'mīrgāh bordam.",
+      "germanDecode": "Nachmittag Computer D.O. zu Reparaturwerkstatt brachte-ich.",
+      "germanTranslation": "Nachmittags brachte ich den Computer zur Reparaturwerkstatt.",
+      "timings": [
+        {
+          "word": "بعدازظهر",
+          "cleanWord": "بعدازظهر",
+          "start": 0,
+          "end": 0.759020202020202
+        },
+        {
+          "word": "کامپیوتر",
+          "cleanWord": "کامپیوتر",
+          "start": 0.759020202020202,
+          "end": 1.518040404040404
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 1.518040404040404,
+          "end": 1.7077954545454546
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.7077954545454546,
+          "end": 1.897550505050505
+        },
+        {
+          "word": "تعمیرگاه",
+          "cleanWord": "تعمیرگاه",
+          "start": 1.897550505050505,
+          "end": 2.656570707070707
+        },
+        {
+          "word": "بردم.",
+          "cleanWord": "بردم",
+          "start": 2.656570707070707,
+          "end": 3.1309583333333335
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "تکنسین آن را باز کرد و بررسی کرد.",
+      "latin": "Teknisīn ān rā bāz kard va barrasī kard.",
+      "germanDecode": "Techniker es D.O. offen machte-er und Untersuchung machte-er.",
+      "germanTranslation": "Der Techniker öffnete ihn und untersuchte ihn.",
+      "timings": [
+        {
+          "word": "تکنسین",
+          "cleanWord": "تکنسین",
+          "start": 0,
+          "end": 0.7779134615384615
+        },
+        {
+          "word": "آن",
+          "cleanWord": "آن",
+          "start": 0.7779134615384615,
+          "end": 1.0372179487179487
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 1.0372179487179487,
+          "end": 1.2965224358974359
+        },
+        {
+          "word": "باز",
+          "cleanWord": "باز",
+          "start": 1.2965224358974359,
+          "end": 1.6854791666666666
+        },
+        {
+          "word": "کرد",
+          "cleanWord": "کرد",
+          "start": 1.6854791666666666,
+          "end": 2.0744358974358974
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.0744358974358974,
+          "end": 2.204088141025641
+        },
+        {
+          "word": "بررسی",
+          "cleanWord": "بررسی",
+          "start": 2.204088141025641,
+          "end": 2.852349358974359
+        },
+        {
+          "word": "کرد.",
+          "cleanWord": "کرد",
+          "start": 2.852349358974359,
+          "end": 3.3709583333333333
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "متأسفانه گفت هارد دیسک سوخته و باید عوض شود.",
+      "latin": "Mota'assefāne goft hārd dīsk sūkhte va bāyad avaz shavad.",
+      "germanDecode": "Leider sagte-er Festplatte verbrannt und muss gewechselt werde-sie.",
+      "germanTranslation": "Leider sagte er, die Festplatte sei verbrannt und müsse ausgetauscht werden.",
+      "timings": [
+        {
+          "word": "متأسفانه",
+          "cleanWord": "متأسفانه",
+          "start": 0,
+          "end": 0.8202129629629629
+        },
+        {
+          "word": "گفت",
+          "cleanWord": "گفت",
+          "start": 0.8202129629629629,
+          "end": 1.127792824074074
+        },
+        {
+          "word": "هارد",
+          "cleanWord": "هارد",
+          "start": 1.127792824074074,
+          "end": 1.5378993055555554
+        },
+        {
+          "word": "دیسک",
+          "cleanWord": "دیسک",
+          "start": 1.5378993055555554,
+          "end": 1.9480057870370369
+        },
+        {
+          "word": "سوخته",
+          "cleanWord": "سوخته",
+          "start": 1.9480057870370369,
+          "end": 2.4606388888888886
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.4606388888888886,
+          "end": 2.563165509259259
+        },
+        {
+          "word": "باید",
+          "cleanWord": "باید",
+          "start": 2.563165509259259,
+          "end": 2.9732719907407406
+        },
+        {
+          "word": "عوض",
+          "cleanWord": "عوض",
+          "start": 2.9732719907407406,
+          "end": 3.2808518518518515
+        },
+        {
+          "word": "شود.",
+          "cleanWord": "شود",
+          "start": 3.2808518518518515,
+          "end": 3.6909583333333327
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "هارد دیسک جدید گران بود اما چاره‌ای نداشتم.",
+      "latin": "Hārd dīsk-e jadīd gerān būd ammā chāre-ī nadāshtam.",
+      "germanDecode": "Festplatte-von neu teuer war-sie aber Lösung-eine nicht-hatte-ich.",
+      "germanTranslation": "Die neue Festplatte war teuer, aber ich hatte keine andere Wahl.",
+      "timings": [
+        {
+          "word": "هارد",
+          "cleanWord": "هارد",
+          "start": 0,
+          "end": 0.3967731481481481
+        },
+        {
+          "word": "دیسک",
+          "cleanWord": "دیسک",
+          "start": 0.3967731481481481,
+          "end": 0.7935462962962962
+        },
+        {
+          "word": "جدید",
+          "cleanWord": "جدید",
+          "start": 0.7935462962962962,
+          "end": 1.1903194444444445
+        },
+        {
+          "word": "گران",
+          "cleanWord": "گران",
+          "start": 1.1903194444444445,
+          "end": 1.5870925925925925
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 1.5870925925925925,
+          "end": 1.8846724537037036
+        },
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 1.8846724537037036,
+          "end": 2.1822523148148147
+        },
+        {
+          "word": "چاره‌ای",
+          "cleanWord": "چاره‌ای",
+          "start": 2.1822523148148147,
+          "end": 2.876605324074074
+        },
+        {
+          "word": "نداشتم.",
+          "cleanWord": "نداشتم",
+          "start": 2.876605324074074,
+          "end": 3.570958333333333
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "خوشبختانه فایل‌هایم را قبلاً پشتیبان‌گیری کرده بودم.",
+      "latin": "Khoshbakhtāne fāyl-hāyam rā ghablan poshtībān-gīrī karde būdam.",
+      "germanDecode": "Glücklicherweise Dateien-meine D.O. vorher Sicherung gemacht hatte-ich.",
+      "germanTranslation": "Glücklicherweise hatte ich meine Dateien zuvor gesichert.",
+      "timings": [
+        {
+          "word": "خوشبختانه",
+          "cleanWord": "خوشبختانه",
+          "start": 0,
+          "end": 0.769100543478261
+        },
+        {
+          "word": "فایل‌هایم",
+          "cleanWord": "فایل‌هایم",
+          "start": 0.769100543478261,
+          "end": 1.538201086956522
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 1.538201086956522,
+          "end": 1.70911231884058
+        },
+        {
+          "word": "قبلاً",
+          "cleanWord": "قبلاً",
+          "start": 1.70911231884058,
+          "end": 2.136390398550725
+        },
+        {
+          "word": "پشتیبان‌گیری",
+          "cleanWord": "پشتیبان‌گیری",
+          "start": 2.136390398550725,
+          "end": 3.1618577898550724
+        },
+        {
+          "word": "کرده",
+          "cleanWord": "کرده",
+          "start": 3.1618577898550724,
+          "end": 3.5036802536231884
+        },
+        {
+          "word": "بودم.",
+          "cleanWord": "بودم",
+          "start": 3.5036802536231884,
+          "end": 3.9309583333333333
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "حالا یاد گرفتم که بیشتر مراقب کامپیوترم باشم.",
+      "latin": "Hālā yād gereftam ke bīshtar morāgheb-e kāmpyūtaram bāsham.",
+      "germanDecode": "Jetzt Lernen nahm-ich dass mehr aufpassend-von Computer-mein sei-ich.",
+      "germanTranslation": "Jetzt habe ich gelernt, besser auf meinen Computer aufzupassen.",
+      "timings": [
+        {
+          "word": "حالا",
+          "cleanWord": "حالا",
+          "start": 0,
+          "end": 0.38852192982456135
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 0.38852192982456135,
+          "end": 0.6799133771929824
+        },
+        {
+          "word": "گرفتم",
+          "cleanWord": "گرفتم",
+          "start": 0.6799133771929824,
+          "end": 1.1655657894736842
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 1.1655657894736842,
+          "end": 1.3598267543859648
+        },
+        {
+          "word": "بیشتر",
+          "cleanWord": "بیشتر",
+          "start": 1.3598267543859648,
+          "end": 1.8454791666666666
+        },
+        {
+          "word": "مراقب",
+          "cleanWord": "مراقب",
+          "start": 1.8454791666666666,
+          "end": 2.3311315789473683
+        },
+        {
+          "word": "کامپیوترم",
+          "cleanWord": "کامپیوترم",
+          "start": 2.3311315789473683,
+          "end": 3.2053059210526316
+        },
+        {
+          "word": "باشم.",
+          "cleanWord": "باشم",
+          "start": 3.2053059210526316,
+          "end": 3.690958333333333
+        }
+      ]
+    }
+  ]
+}

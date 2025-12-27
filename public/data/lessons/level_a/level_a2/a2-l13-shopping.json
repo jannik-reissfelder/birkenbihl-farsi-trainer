@@ -1,0 +1,696 @@
+{
+  "id": "a2-l13-shopping",
+  "title": "A2 Lektion 13: Einkaufen für ein Fest",
+  "description": "Eine Erzählung über Einkaufen und Vorbereitungen für eine besondere Gelegenheit.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "برای جشن تولد خواهرم باید خرید زیادی می‌کردم.",
+      "latin": "Barāye jashn-e tavallod-e khāharam bāyad kharīd-e ziyādī mikarddam.",
+      "germanDecode": "Für Fest-von Geburtstag-von Schwester-meine muss Einkauf-von viel machte-ich.",
+      "germanTranslation": "Für die Geburtstagsfeier meiner Schwester musste ich viel einkaufen.",
+      "timings": [
+        {
+          "word": "برای",
+          "cleanWord": "برای",
+          "start": 0,
+          "end": 0.3506271929824561
+        },
+        {
+          "word": "جشن",
+          "cleanWord": "جشن",
+          "start": 0.3506271929824561,
+          "end": 0.6135975877192982
+        },
+        {
+          "word": "تولد",
+          "cleanWord": "تولد",
+          "start": 0.6135975877192982,
+          "end": 0.9642247807017543
+        },
+        {
+          "word": "خواهرم",
+          "cleanWord": "خواهرم",
+          "start": 0.9642247807017543,
+          "end": 1.4901655701754386
+        },
+        {
+          "word": "باید",
+          "cleanWord": "باید",
+          "start": 1.4901655701754386,
+          "end": 1.8407927631578946
+        },
+        {
+          "word": "خرید",
+          "cleanWord": "خرید",
+          "start": 1.8407927631578946,
+          "end": 2.1914199561403507
+        },
+        {
+          "word": "زیادی",
+          "cleanWord": "زیادی",
+          "start": 2.1914199561403507,
+          "end": 2.6297039473684207
+        },
+        {
+          "word": "می‌کردم.",
+          "cleanWord": "می‌کردم",
+          "start": 2.6297039473684207,
+          "end": 3.330958333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "اول لیست چیزهایی که لازم داشتم نوشتم.",
+      "latin": "Avval līst-e chīzhāyī ke lāzem dāshtam neveshatm.",
+      "germanDecode": "Zuerst Liste-von Dinge die nötig hatte-ich schrieb-ich.",
+      "germanTranslation": "Zuerst schrieb ich eine Liste der Dinge, die ich brauchte.",
+      "timings": [
+        {
+          "word": "اول",
+          "cleanWord": "اول",
+          "start": 0,
+          "end": 0.27977016129032256
+        },
+        {
+          "word": "لیست",
+          "cleanWord": "لیست",
+          "start": 0.27977016129032256,
+          "end": 0.6527970430107526
+        },
+        {
+          "word": "چیزهایی",
+          "cleanWord": "چیزهایی",
+          "start": 0.6527970430107526,
+          "end": 1.3055940860215052
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 1.3055940860215052,
+          "end": 1.4921075268817203
+        },
+        {
+          "word": "لازم",
+          "cleanWord": "لازم",
+          "start": 1.4921075268817203,
+          "end": 1.8651344086021504
+        },
+        {
+          "word": "داشتم",
+          "cleanWord": "داشتم",
+          "start": 1.8651344086021504,
+          "end": 2.331418010752688
+        },
+        {
+          "word": "نوشتم.",
+          "cleanWord": "نوشتم",
+          "start": 2.331418010752688,
+          "end": 2.890958333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "صبح زود به بازار بزرگ رفتم تا تازه‌ترین چیزها را پیدا کنم.",
+      "latin": "Sobh zūd be bāzār-e bozorg raftam tā tāze-tarīn chīzhā rā peydā konam.",
+      "germanDecode": "Morgen früh zu Markt-von groß ging-ich damit frischesten Dinge D.O. finde-ich.",
+      "germanTranslation": "Früh am Morgen ging ich zum großen Markt, um die frischesten Sachen zu finden.",
+      "timings": []
+    },
+    {
+      "id": 4,
+      "farsi": "اول میوه‌جات خریدم: سیب قرمز، پرتقال و انگور.",
+      "latin": "Avval mīve-jāt kharīdam: sīb-e ghermez, portegāl va angūr.",
+      "germanDecode": "Zuerst Früchte kaufte-ich: Äpfel-von rot, Orange und Trauben.",
+      "germanTranslation": "Zuerst kaufte ich Früchte: rote Äpfel, Orangen und Trauben.",
+      "timings": [
+        {
+          "word": "اول",
+          "cleanWord": "اول",
+          "start": 0,
+          "end": 0.4334967105263158
+        },
+        {
+          "word": "میوه‌جات",
+          "cleanWord": "میوه‌جات",
+          "start": 0.4334967105263158,
+          "end": 1.5894879385964913
+        },
+        {
+          "word": "خریدم:",
+          "cleanWord": "خریدم",
+          "start": 1.5894879385964913,
+          "end": 2.456481359649123
+        },
+        {
+          "word": "سیب",
+          "cleanWord": "سیب",
+          "start": 2.456481359649123,
+          "end": 2.889978070175439
+        },
+        {
+          "word": "قرمز،",
+          "cleanWord": "قرمز،",
+          "start": 2.889978070175439,
+          "end": 3.6124725877192985
+        },
+        {
+          "word": "پرتقال",
+          "cleanWord": "پرتقال",
+          "start": 3.6124725877192985,
+          "end": 4.47946600877193
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 4.47946600877193,
+          "end": 4.6239649122807025
+        },
+        {
+          "word": "انگور.",
+          "cleanWord": "انگور",
+          "start": 4.6239649122807025,
+          "end": 5.490958333333334
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "فروشنده میوه مرد مهربانی بود و بهترین میوه‌ها را انتخاب کرد.",
+      "latin": "Forūshande-ye mīve mard-e mehrabānī būd va behtarīn mīve-hā rā entekhāb kard.",
+      "germanDecode": "Verkäufer-von Frucht Mann-von freundlich war-er und beste Früchte D.O. Auswahl machte-er.",
+      "germanTranslation": "Der Obstverkäufer war ein freundlicher Mann und suchte die besten Früchte aus.",
+      "timings": [
+        {
+          "word": "فروشنده",
+          "cleanWord": "فروشنده",
+          "start": 0,
+          "end": 0.7855341666666668
+        },
+        {
+          "word": "میوه",
+          "cleanWord": "میوه",
+          "start": 0.7855341666666668,
+          "end": 1.2344108333333335
+        },
+        {
+          "word": "مرد",
+          "cleanWord": "مرد",
+          "start": 1.2344108333333335,
+          "end": 1.5710683333333335
+        },
+        {
+          "word": "مهربانی",
+          "cleanWord": "مهربانی",
+          "start": 1.5710683333333335,
+          "end": 2.3566025
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 2.3566025,
+          "end": 2.69326
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.69326,
+          "end": 2.8054791666666667
+        },
+        {
+          "word": "بهترین",
+          "cleanWord": "بهترین",
+          "start": 2.8054791666666667,
+          "end": 3.478794166666667
+        },
+        {
+          "word": "میوه‌ها",
+          "cleanWord": "میوه‌ها",
+          "start": 3.478794166666667,
+          "end": 4.264328333333333
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 4.264328333333333,
+          "end": 4.488766666666667
+        },
+        {
+          "word": "انتخاب",
+          "cleanWord": "انتخاب",
+          "start": 4.488766666666667,
+          "end": 5.1620816666666665
+        },
+        {
+          "word": "کرد.",
+          "cleanWord": "کرد",
+          "start": 5.1620816666666665,
+          "end": 5.6109583333333335
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "بعد به قنادی رفتم تا کیک تولد سفارش دهم.",
+      "latin": "Ba'd be ghannadī raftam tā keyk-e tavallod sefāresh daham.",
+      "germanDecode": "Dann zu Konditorei ging-ich damit Kuchen-von Geburtstag Bestellung gebe-ich.",
+      "germanTranslation": "Dann ging ich zur Konditorei, um einen Geburtstagskuchen zu bestellen.",
+      "timings": [
+        {
+          "word": "بعد",
+          "cleanWord": "بعد",
+          "start": 0,
+          "end": 0.34977734374999997
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0.34977734374999997,
+          "end": 0.5829622395833333
+        },
+        {
+          "word": "قنادی",
+          "cleanWord": "قنادی",
+          "start": 0.5829622395833333,
+          "end": 1.1659244791666665
+        },
+        {
+          "word": "رفتم",
+          "cleanWord": "رفتم",
+          "start": 1.1659244791666665,
+          "end": 1.6322942708333332
+        },
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 1.6322942708333332,
+          "end": 1.8654791666666666
+        },
+        {
+          "word": "کیک",
+          "cleanWord": "کیک",
+          "start": 1.8654791666666666,
+          "end": 2.2152565104166664
+        },
+        {
+          "word": "تولد",
+          "cleanWord": "تولد",
+          "start": 2.2152565104166664,
+          "end": 2.681626302083333
+        },
+        {
+          "word": "سفارش",
+          "cleanWord": "سفارش",
+          "start": 2.681626302083333,
+          "end": 3.2645885416666665
+        },
+        {
+          "word": "دهم.",
+          "cleanWord": "دهم",
+          "start": 3.2645885416666665,
+          "end": 3.730958333333333
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "کیک شکلاتی با توت فرنگی انتخاب کردم که خواهرم دوست دارد.",
+      "latin": "Keyk-e shokolātī bā tūt-farangī entekhāb kardam ke khāharam dūst dārad.",
+      "germanDecode": "Kuchen-von Schokolade mit Erdbeeren Auswahl machte-ich die Schwester-meine lieb hat-sie.",
+      "germanTranslation": "Ich wählte einen Schokoladenkuchen mit Erdbeeren, den meine Schwester mag.",
+      "timings": [
+        {
+          "word": "کیک",
+          "cleanWord": "کیک",
+          "start": 0,
+          "end": 0.2954972826086957
+        },
+        {
+          "word": "شکلاتی",
+          "cleanWord": "شکلاتی",
+          "start": 0.2954972826086957,
+          "end": 0.886491847826087
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.886491847826087,
+          "end": 1.0834900362318842
+        },
+        {
+          "word": "توت",
+          "cleanWord": "توت",
+          "start": 1.0834900362318842,
+          "end": 1.37898731884058
+        },
+        {
+          "word": "فرنگی",
+          "cleanWord": "فرنگی",
+          "start": 1.37898731884058,
+          "end": 1.8714827898550728
+        },
+        {
+          "word": "انتخاب",
+          "cleanWord": "انتخاب",
+          "start": 1.8714827898550728,
+          "end": 2.462477355072464
+        },
+        {
+          "word": "کردم",
+          "cleanWord": "کردم",
+          "start": 2.462477355072464,
+          "end": 2.8564737318840585
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 2.8564737318840585,
+          "end": 3.0534719202898555
+        },
+        {
+          "word": "خواهرم",
+          "cleanWord": "خواهرم",
+          "start": 3.0534719202898555,
+          "end": 3.644466485507247
+        },
+        {
+          "word": "دوست",
+          "cleanWord": "دوست",
+          "start": 3.644466485507247,
+          "end": 4.038462862318841
+        },
+        {
+          "word": "دارد.",
+          "cleanWord": "دارد",
+          "start": 4.038462862318841,
+          "end": 4.530958333333334
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "در مغازه تزیینات بالن و ریسه نور خریدم.",
+      "latin": "Dar maghāze-ye tazyīnāt bālon va rīse-ye nūr kharīdam.",
+      "germanDecode": "In Geschäft-von Dekorationen Ballon und Kette-von Licht kaufte-ich.",
+      "germanTranslation": "Im Dekorationsgeschäft kaufte ich Ballons und Lichterketten.",
+      "timings": [
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0,
+          "end": 0.28818489583333334
+        },
+        {
+          "word": "مغازه",
+          "cleanWord": "مغازه",
+          "start": 0.28818489583333334,
+          "end": 1.0086471354166666
+        },
+        {
+          "word": "تزیینات",
+          "cleanWord": "تزیینات",
+          "start": 1.0086471354166666,
+          "end": 2.0172942708333332
+        },
+        {
+          "word": "بالن",
+          "cleanWord": "بالن",
+          "start": 2.0172942708333332,
+          "end": 2.5936640625
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.5936640625,
+          "end": 2.7377565104166663
+        },
+        {
+          "word": "ریسه",
+          "cleanWord": "ریسه",
+          "start": 2.7377565104166663,
+          "end": 3.314126302083333
+        },
+        {
+          "word": "نور",
+          "cleanWord": "نور",
+          "start": 3.314126302083333,
+          "end": 3.746403645833333
+        },
+        {
+          "word": "خریدم.",
+          "cleanWord": "خریدم",
+          "start": 3.746403645833333,
+          "end": 4.610958333333333
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "همه چیز گران شده بود اما خواهرم ارزشش را داشت.",
+      "latin": "Hame chīz gerān shode būd ammā khāharam arzeshash rā dāsht.",
+      "germanDecode": "Alle Ding teuer geworden war-es aber Schwester-meine Wert-es D.O. hatte-sie.",
+      "germanTranslation": "Alles war teuer geworden, aber meine Schwester war es wert.",
+      "timings": [
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 0,
+          "end": 0.3316993243243243
+        },
+        {
+          "word": "چیز",
+          "cleanWord": "چیز",
+          "start": 0.3316993243243243,
+          "end": 0.6633986486486486
+        },
+        {
+          "word": "گران",
+          "cleanWord": "گران",
+          "start": 0.6633986486486486,
+          "end": 1.1056644144144143
+        },
+        {
+          "word": "شده",
+          "cleanWord": "شده",
+          "start": 1.1056644144144143,
+          "end": 1.4373637387387386
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 1.4373637387387386,
+          "end": 1.7690630630630628
+        },
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 1.7690630630630628,
+          "end": 2.100762387387387
+        },
+        {
+          "word": "خواهرم",
+          "cleanWord": "خواهرم",
+          "start": 2.100762387387387,
+          "end": 2.7641610360360356
+        },
+        {
+          "word": "ارزشش",
+          "cleanWord": "ارزشش",
+          "start": 2.7641610360360356,
+          "end": 3.3169932432432425
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 3.3169932432432425,
+          "end": 3.538126126126125
+        },
+        {
+          "word": "داشت.",
+          "cleanWord": "داشت",
+          "start": 3.538126126126125,
+          "end": 4.090958333333332
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "بعدازظهر با کیسه‌های پر به خانه برگشتم.",
+      "latin": "Ba'dazzahr bā kīse-hāye por be khāne bargashtam.",
+      "germanDecode": "Nachmittag mit Taschen-von voll zu Haus kehrte-ich-zurück.",
+      "germanTranslation": "Nachmittags kehrte ich mit vollen Taschen nach Hause zurück.",
+      "timings": [
+        {
+          "word": "بعدازظهر",
+          "cleanWord": "بعدازظهر",
+          "start": 0,
+          "end": 0.8462929292929293
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.8462929292929293,
+          "end": 1.0578661616161615
+        },
+        {
+          "word": "کیسه‌های",
+          "cleanWord": "کیسه‌های",
+          "start": 1.0578661616161615,
+          "end": 1.9041590909090909
+        },
+        {
+          "word": "پر",
+          "cleanWord": "پر",
+          "start": 1.9041590909090909,
+          "end": 2.115732323232323
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.115732323232323,
+          "end": 2.3273055555555553
+        },
+        {
+          "word": "خانه",
+          "cleanWord": "خانه",
+          "start": 2.3273055555555553,
+          "end": 2.7504520202020197
+        },
+        {
+          "word": "برگشتم.",
+          "cleanWord": "برگشتم",
+          "start": 2.7504520202020197,
+          "end": 3.490958333333333
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "شب با کمک خانواده همه چیز را آماده کردیم.",
+      "latin": "Shab bā komak-e khānevāde hame chīz rā āmāde kardīm.",
+      "germanDecode": "Nacht mit Hilfe-von Familie alle Ding D.O. bereit machten-wir.",
+      "germanTranslation": "Abends bereiteten wir mit Hilfe der Familie alles vor.",
+      "timings": [
+        {
+          "word": "شب",
+          "cleanWord": "شب",
+          "start": 0,
+          "end": 0.20914898989898992
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.20914898989898992,
+          "end": 0.41829797979797984
+        },
+        {
+          "word": "کمک",
+          "cleanWord": "کمک",
+          "start": 0.41829797979797984,
+          "end": 0.7320214646464647
+        },
+        {
+          "word": "خانواده",
+          "cleanWord": "خانواده",
+          "start": 0.7320214646464647,
+          "end": 1.4640429292929293
+        },
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 1.4640429292929293,
+          "end": 1.7777664141414142
+        },
+        {
+          "word": "چیز",
+          "cleanWord": "چیز",
+          "start": 1.7777664141414142,
+          "end": 2.091489898989899
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 2.091489898989899,
+          "end": 2.300638888888889
+        },
+        {
+          "word": "آماده",
+          "cleanWord": "آماده",
+          "start": 2.300638888888889,
+          "end": 2.8235113636363636
+        },
+        {
+          "word": "کردیم.",
+          "cleanWord": "کردیم",
+          "start": 2.8235113636363636,
+          "end": 3.4509583333333333
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "جشن بسیار زیبا شد و خواهرم خیلی خوشحال بود.",
+      "latin": "Jashn besyār zībā shod va khāharam kheylī khoshhāl būd.",
+      "germanDecode": "Fest sehr schön wurde-es und Schwester-meine sehr glücklich war-sie.",
+      "germanTranslation": "Die Feier wurde sehr schön und meine Schwester war sehr glücklich.",
+      "timings": [
+        {
+          "word": "جشن",
+          "cleanWord": "جشن",
+          "start": 0,
+          "end": 0.34722499999999995
+        },
+        {
+          "word": "بسیار",
+          "cleanWord": "بسیار",
+          "start": 0.34722499999999995,
+          "end": 0.9259333333333333
+        },
+        {
+          "word": "زیبا",
+          "cleanWord": "زیبا",
+          "start": 0.9259333333333333,
+          "end": 1.3889
+        },
+        {
+          "word": "شد",
+          "cleanWord": "شد",
+          "start": 1.3889,
+          "end": 1.6203833333333333
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.6203833333333333,
+          "end": 1.736125
+        },
+        {
+          "word": "خواهرم",
+          "cleanWord": "خواهرم",
+          "start": 1.736125,
+          "end": 2.4305749999999997
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 2.4305749999999997,
+          "end": 2.8935416666666662
+        },
+        {
+          "word": "خوشحال",
+          "cleanWord": "خوشحال",
+          "start": 2.8935416666666662,
+          "end": 3.587991666666666
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 3.587991666666666,
+          "end": 4.050958333333333
+        }
+      ]
+    }
+  ]
+}

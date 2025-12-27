@@ -1,0 +1,841 @@
+{
+  "id": "a2-l16-review",
+  "title": "A2 Lektion 16: Zusammenfassung - Mein Jahr der Veränderungen",
+  "description": "Eine umfassende Wiederholungslektion mit verschiedenen Vergangenheitsformen und Erzählstrukturen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "امسال سال پر از تغییرات برای من بود.",
+      "latin": "Emsāl sāl-e por az taghyīrāt barāye man būd.",
+      "germanDecode": "Dieses-Jahr Jahr-von voll von Veränderungen für mich war-es.",
+      "germanTranslation": "Dieses Jahr war ein Jahr voller Veränderungen für mich.",
+      "timings": [
+        {
+          "word": "امسال",
+          "cleanWord": "امسال",
+          "start": 0,
+          "end": 0.5880962643678161
+        },
+        {
+          "word": "سال",
+          "cleanWord": "سال",
+          "start": 0.5880962643678161,
+          "end": 0.9409540229885058
+        },
+        {
+          "word": "پر",
+          "cleanWord": "پر",
+          "start": 0.9409540229885058,
+          "end": 1.1761925287356323
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 1.1761925287356323,
+          "end": 1.4114310344827588
+        },
+        {
+          "word": "تغییرات",
+          "cleanWord": "تغییرات",
+          "start": 1.4114310344827588,
+          "end": 2.2347658045977012
+        },
+        {
+          "word": "برای",
+          "cleanWord": "برای",
+          "start": 2.2347658045977012,
+          "end": 2.705242816091954
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 2.705242816091954,
+          "end": 2.9404813218390804
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 2.9404813218390804,
+          "end": 3.4109583333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "در بهار شغلم را عوض کردم و کار جدیدی پیدا کردم.",
+      "latin": "Dar bahār shaghlam rā avaz kardam va kār-e jadīdī peydā kardam.",
+      "germanDecode": "In Frühling Beruf-meinen D.O. wechselten machte-ich und Arbeit-von neue fand-ich.",
+      "germanTranslation": "Im Frühling wechselte ich meinen Beruf und fand neue Arbeit.",
+      "timings": [
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0,
+          "end": 0.23626801801801803
+        },
+        {
+          "word": "بهار",
+          "cleanWord": "بهار",
+          "start": 0.23626801801801803,
+          "end": 0.7088040540540541
+        },
+        {
+          "word": "شغلم",
+          "cleanWord": "شغلم",
+          "start": 0.7088040540540541,
+          "end": 1.1813400900900901
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 1.1813400900900901,
+          "end": 1.4176081081081082
+        },
+        {
+          "word": "عوض",
+          "cleanWord": "عوض",
+          "start": 1.4176081081081082,
+          "end": 1.7720101351351354
+        },
+        {
+          "word": "کردم",
+          "cleanWord": "کردم",
+          "start": 1.7720101351351354,
+          "end": 2.2445461711711716
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.2445461711711716,
+          "end": 2.3626801801801807
+        },
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 2.3626801801801807,
+          "end": 2.717082207207208
+        },
+        {
+          "word": "جدیدی",
+          "cleanWord": "جدیدی",
+          "start": 2.717082207207208,
+          "end": 3.3077522522522527
+        },
+        {
+          "word": "پیدا",
+          "cleanWord": "پیدا",
+          "start": 3.3077522522522527,
+          "end": 3.780288288288289
+        },
+        {
+          "word": "کردم.",
+          "cleanWord": "کردم",
+          "start": 3.780288288288289,
+          "end": 4.370958333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "در تابستان به شمال سفر کردم و خاطرات خوبی ساختم.",
+      "latin": "Dar tābestān be shomāl safar kardam va khāterāt-e khūbī sākhtam.",
+      "germanDecode": "In Sommer nach Norden Reise machte-ich und Erinnerungen-von gut machte-ich.",
+      "germanTranslation": "Im Sommer reiste ich in den Norden und machte gute Erinnerungen.",
+      "timings": [
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0,
+          "end": 0.22620299145299144
+        },
+        {
+          "word": "تابستان",
+          "cleanWord": "تابستان",
+          "start": 0.22620299145299144,
+          "end": 1.0179134615384615
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.0179134615384615,
+          "end": 1.244116452991453
+        },
+        {
+          "word": "شمال",
+          "cleanWord": "شمال",
+          "start": 1.244116452991453,
+          "end": 1.6965224358974358
+        },
+        {
+          "word": "سفر",
+          "cleanWord": "سفر",
+          "start": 1.6965224358974358,
+          "end": 2.035826923076923
+        },
+        {
+          "word": "کردم",
+          "cleanWord": "کردم",
+          "start": 2.035826923076923,
+          "end": 2.488232905982906
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.488232905982906,
+          "end": 2.6013344017094018
+        },
+        {
+          "word": "خاطرات",
+          "cleanWord": "خاطرات",
+          "start": 2.6013344017094018,
+          "end": 3.2799433760683763
+        },
+        {
+          "word": "خوبی",
+          "cleanWord": "خوبی",
+          "start": 3.2799433760683763,
+          "end": 3.7323493589743593
+        },
+        {
+          "word": "ساختم.",
+          "cleanWord": "ساختم",
+          "start": 3.7323493589743593,
+          "end": 4.410958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "پاییز رانندگی یاد گرفتم و ماشین کوچکی خریدم.",
+      "latin": "Pāyīz rānandagī yād gereftam va māshīn-e kūchakī kharīdam.",
+      "germanDecode": "Herbst Fahren Lernen nahm-ich und Auto-von klein kaufte-ich.",
+      "germanTranslation": "Im Herbst lernte ich Autofahren und kaufte ein kleines Auto.",
+      "timings": [
+        {
+          "word": "پاییز",
+          "cleanWord": "پاییز",
+          "start": 0,
+          "end": 0.5690484234234234
+        },
+        {
+          "word": "رانندگی",
+          "cleanWord": "رانندگی",
+          "start": 0.5690484234234234,
+          "end": 1.3657162162162162
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 1.3657162162162162,
+          "end": 1.7071452702702703
+        },
+        {
+          "word": "گرفتم",
+          "cleanWord": "گرفتم",
+          "start": 1.7071452702702703,
+          "end": 2.2761936936936937
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.2761936936936937,
+          "end": 2.3900033783783785
+        },
+        {
+          "word": "ماشین",
+          "cleanWord": "ماشین",
+          "start": 2.3900033783783785,
+          "end": 2.959051801801802
+        },
+        {
+          "word": "کوچکی",
+          "cleanWord": "کوچکی",
+          "start": 2.959051801801802,
+          "end": 3.5281002252252254
+        },
+        {
+          "word": "خریدم.",
+          "cleanWord": "خریدم",
+          "start": 3.5281002252252254,
+          "end": 4.210958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "زمستان که آمد، به کلاس زبان رفتم و دوست جدیدی پیدا کردم.",
+      "latin": "Zemestān ke āmad, be kelās-e zabān raftam va dūst-e jadīdī peydā kardam.",
+      "germanDecode": "Winter als kam-er, zu Klasse-von Sprache ging-ich und Freund-von neue fand-ich.",
+      "germanTranslation": "Als der Winter kam, ging ich zu einem Sprachkurs und fand eine neue Freundin.",
+      "timings": [
+        {
+          "word": "زمستان",
+          "cleanWord": "زمستان",
+          "start": 0,
+          "end": 0.7961277777777778
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 0.7961277777777778,
+          "end": 1.0615037037037036
+        },
+        {
+          "word": "آمد،",
+          "cleanWord": "آمد،",
+          "start": 1.0615037037037036,
+          "end": 1.5922555555555555
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.5922555555555555,
+          "end": 1.8576314814814814
+        },
+        {
+          "word": "کلاس",
+          "cleanWord": "کلاس",
+          "start": 1.8576314814814814,
+          "end": 2.388383333333333
+        },
+        {
+          "word": "زبان",
+          "cleanWord": "زبان",
+          "start": 2.388383333333333,
+          "end": 2.9191351851851848
+        },
+        {
+          "word": "رفتم",
+          "cleanWord": "رفتم",
+          "start": 2.9191351851851848,
+          "end": 3.4498870370370365
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 3.4498870370370365,
+          "end": 3.5825749999999994
+        },
+        {
+          "word": "دوست",
+          "cleanWord": "دوست",
+          "start": 3.5825749999999994,
+          "end": 4.113326851851851
+        },
+        {
+          "word": "جدیدی",
+          "cleanWord": "جدیدی",
+          "start": 4.113326851851851,
+          "end": 4.776766666666666
+        },
+        {
+          "word": "پیدا",
+          "cleanWord": "پیدا",
+          "start": 4.776766666666666,
+          "end": 5.307518518518518
+        },
+        {
+          "word": "کردم.",
+          "cleanWord": "کردم",
+          "start": 5.307518518518518,
+          "end": 5.970958333333333
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "در همین مدت برادرم ازدواج کرد و جشن بزرگی گرفتیم.",
+      "latin": "Dar hamīn moddat barādaram ezdevāj kard va jashn-e bozorgī gereftīm.",
+      "germanDecode": "In dieser Zeit Bruder-mein Heirat machte-er und Fest-von groß nahmen-wir.",
+      "germanTranslation": "In dieser Zeit heiratete mein Bruder und wir veranstalteten eine große Feier.",
+      "timings": [
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0,
+          "end": 0.22854791666666668
+        },
+        {
+          "word": "همین",
+          "cleanWord": "همین",
+          "start": 0.22854791666666668,
+          "end": 0.6856437500000001
+        },
+        {
+          "word": "مدت",
+          "cleanWord": "مدت",
+          "start": 0.6856437500000001,
+          "end": 1.0284656250000002
+        },
+        {
+          "word": "برادرم",
+          "cleanWord": "برادرم",
+          "start": 1.0284656250000002,
+          "end": 1.714109375
+        },
+        {
+          "word": "ازدواج",
+          "cleanWord": "ازدواج",
+          "start": 1.714109375,
+          "end": 2.399753125
+        },
+        {
+          "word": "کرد",
+          "cleanWord": "کرد",
+          "start": 2.399753125,
+          "end": 2.742575
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.742575,
+          "end": 2.8568489583333334
+        },
+        {
+          "word": "جشن",
+          "cleanWord": "جشن",
+          "start": 2.8568489583333334,
+          "end": 3.1996708333333332
+        },
+        {
+          "word": "بزرگی",
+          "cleanWord": "بزرگی",
+          "start": 3.1996708333333332,
+          "end": 3.771040625
+        },
+        {
+          "word": "گرفتیم.",
+          "cleanWord": "گرفتیم",
+          "start": 3.771040625,
+          "end": 4.5709583333333335
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "یک بار مریض شدم اما خوشبختانه زود خوب شدم.",
+      "latin": "Yek bār marīz shodam ammā khoshbakhtāne zūd khūb shodam.",
+      "germanDecode": "Ein Mal krank wurde-ich aber glücklicherweise schnell gut wurde-ich.",
+      "germanTranslation": "Einmal wurde ich krank, aber glücklicherweise wurde ich schnell gesund.",
+      "timings": [
+        {
+          "word": "یک",
+          "cleanWord": "یک",
+          "start": 0,
+          "end": 0.2453504901960784
+        },
+        {
+          "word": "بار",
+          "cleanWord": "بار",
+          "start": 0.2453504901960784,
+          "end": 0.613376225490196
+        },
+        {
+          "word": "مریض",
+          "cleanWord": "مریض",
+          "start": 0.613376225490196,
+          "end": 1.1040772058823527
+        },
+        {
+          "word": "شدم",
+          "cleanWord": "شدم",
+          "start": 1.1040772058823527,
+          "end": 1.4721029411764703
+        },
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 1.4721029411764703,
+          "end": 1.840128676470588
+        },
+        {
+          "word": "خوشبختانه",
+          "cleanWord": "خوشبختانه",
+          "start": 1.840128676470588,
+          "end": 2.944205882352941
+        },
+        {
+          "word": "زود",
+          "cleanWord": "زود",
+          "start": 2.944205882352941,
+          "end": 3.3122316176470585
+        },
+        {
+          "word": "خوب",
+          "cleanWord": "خوب",
+          "start": 3.3122316176470585,
+          "end": 3.680257352941176
+        },
+        {
+          "word": "شدم.",
+          "cleanWord": "شدم",
+          "start": 3.680257352941176,
+          "end": 4.170958333333333
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "یک فرصت خوب را از دست دادم اما درس مهمی یاد گرفتم.",
+      "latin": "Yek forsat-e khūb rā az dast dādam ammā dars-e mohemmī yād gereftam.",
+      "germanDecode": "Eine Gelegenheit-von gut D.O. von Hand gab-ich aber Lektion-von wichtig Lernen nahm-ich.",
+      "germanTranslation": "Ich verpasste eine gute Gelegenheit, aber lernte eine wichtige Lektion.",
+      "timings": [
+        {
+          "word": "یک",
+          "cleanWord": "یک",
+          "start": 0,
+          "end": 0.2508183760683761
+        },
+        {
+          "word": "فرصت",
+          "cleanWord": "فرصت",
+          "start": 0.2508183760683761,
+          "end": 0.7524551282051283
+        },
+        {
+          "word": "خوب",
+          "cleanWord": "خوب",
+          "start": 0.7524551282051283,
+          "end": 1.1286826923076925
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 1.1286826923076925,
+          "end": 1.3795010683760687
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 1.3795010683760687,
+          "end": 1.6303194444444449
+        },
+        {
+          "word": "دست",
+          "cleanWord": "دست",
+          "start": 1.6303194444444449,
+          "end": 2.006547008547009
+        },
+        {
+          "word": "دادم",
+          "cleanWord": "دادم",
+          "start": 2.006547008547009,
+          "end": 2.508183760683761
+        },
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 2.508183760683761,
+          "end": 2.8844113247863254
+        },
+        {
+          "word": "درس",
+          "cleanWord": "درس",
+          "start": 2.8844113247863254,
+          "end": 3.2606388888888898
+        },
+        {
+          "word": "مهمی",
+          "cleanWord": "مهمی",
+          "start": 3.2606388888888898,
+          "end": 3.762275641025642
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 3.762275641025642,
+          "end": 4.138503205128206
+        },
+        {
+          "word": "گرفتم.",
+          "cleanWord": "گرفتم",
+          "start": 4.138503205128206,
+          "end": 4.890958333333335
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "نوروز را با خانواده بزرگ جشن گرفتیم و خیلی لذت بردیم.",
+      "latin": "Nowrūz rā bā khānevāde-ye bozorg jashn gereftīm va kheylī lazzat bordīm.",
+      "germanDecode": "Nowruz D.O. mit Familie-von groß Fest nahmen-wir und sehr Genuss nahmen-wir.",
+      "germanTranslation": "Wir feierten Nowruz mit der Großfamilie und genossen es sehr.",
+      "timings": [
+        {
+          "word": "نوروز",
+          "cleanWord": "نوروز",
+          "start": 0,
+          "end": 0.5919718992248062
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 0.5919718992248062,
+          "end": 0.8287606589147287
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.8287606589147287,
+          "end": 1.0655494186046512
+        },
+        {
+          "word": "خانواده",
+          "cleanWord": "خانواده",
+          "start": 1.0655494186046512,
+          "end": 1.89431007751938
+        },
+        {
+          "word": "بزرگ",
+          "cleanWord": "بزرگ",
+          "start": 1.89431007751938,
+          "end": 2.367887596899225
+        },
+        {
+          "word": "جشن",
+          "cleanWord": "جشن",
+          "start": 2.367887596899225,
+          "end": 2.7230707364341082
+        },
+        {
+          "word": "گرفتیم",
+          "cleanWord": "گرفتیم",
+          "start": 2.7230707364341082,
+          "end": 3.4334370155038756
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 3.4334370155038756,
+          "end": 3.5518313953488367
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 3.5518313953488367,
+          "end": 4.025408914728682
+        },
+        {
+          "word": "لذت",
+          "cleanWord": "لذت",
+          "start": 4.025408914728682,
+          "end": 4.380592054263565
+        },
+        {
+          "word": "بردیم.",
+          "cleanWord": "بردیم",
+          "start": 4.380592054263565,
+          "end": 5.090958333333333
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "از مادربزرگم آشپزی یاد گرفتم و حالا می‌توانم غذای خوبی درست کنم.",
+      "latin": "Az mādarbozorgam āshpazī yād gereftam va hālā mītavānam ghazāye khūbī dorost konam.",
+      "germanDecode": "Von Großmutter-meiner Kochen Lernen nahm-ich und jetzt kann-ich Essen-von gut richtig mache-ich.",
+      "germanTranslation": "Von meiner Großmutter lernte ich kochen und jetzt kann ich gutes Essen zubereiten.",
+      "timings": [
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0,
+          "end": 0.20267767295597483
+        },
+        {
+          "word": "مادربزرگم",
+          "cleanWord": "مادربزرگم",
+          "start": 0.20267767295597483,
+          "end": 1.1147272012578615
+        },
+        {
+          "word": "آشپزی",
+          "cleanWord": "آشپزی",
+          "start": 1.1147272012578615,
+          "end": 1.6214213836477986
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 1.6214213836477986,
+          "end": 1.9254378930817608
+        },
+        {
+          "word": "گرفتم",
+          "cleanWord": "گرفتم",
+          "start": 1.9254378930817608,
+          "end": 2.432132075471698
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.432132075471698,
+          "end": 2.5334709119496854
+        },
+        {
+          "word": "حالا",
+          "cleanWord": "حالا",
+          "start": 2.5334709119496854,
+          "end": 2.938826257861635
+        },
+        {
+          "word": "می‌توانم",
+          "cleanWord": "می‌توانم",
+          "start": 2.938826257861635,
+          "end": 3.749536949685534
+        },
+        {
+          "word": "غذای",
+          "cleanWord": "غذای",
+          "start": 3.749536949685534,
+          "end": 4.154892295597484
+        },
+        {
+          "word": "خوبی",
+          "cleanWord": "خوبی",
+          "start": 4.154892295597484,
+          "end": 4.5602476415094335
+        },
+        {
+          "word": "درست",
+          "cleanWord": "درست",
+          "start": 4.5602476415094335,
+          "end": 4.965602987421383
+        },
+        {
+          "word": "کنم.",
+          "cleanWord": "کنم",
+          "start": 4.965602987421383,
+          "end": 5.370958333333333
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "همه این تجربه‌ها مرا عاقل‌تر و قوی‌تر کرده است.",
+      "latin": "Hame īn tajrobe-hā marā āghel-tar va ghavī-tar karde ast.",
+      "germanDecode": "Alle diese Erfahrungen mich D.O. klüger und stärker gemacht hat-es.",
+      "germanTranslation": "All diese Erfahrungen haben mich klüger und stärker gemacht.",
+      "timings": [
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 0,
+          "end": 0.36699679487179493
+        },
+        {
+          "word": "این",
+          "cleanWord": "این",
+          "start": 0.36699679487179493,
+          "end": 0.7339935897435899
+        },
+        {
+          "word": "تجربه‌ها",
+          "cleanWord": "تجربه‌ها",
+          "start": 0.7339935897435899,
+          "end": 1.7126517094017095
+        },
+        {
+          "word": "مرا",
+          "cleanWord": "مرا",
+          "start": 1.7126517094017095,
+          "end": 2.0796485042735045
+        },
+        {
+          "word": "عاقل‌تر",
+          "cleanWord": "عاقل‌تر",
+          "start": 2.0796485042735045,
+          "end": 2.9359743589743594
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.9359743589743594,
+          "end": 3.0583066239316246
+        },
+        {
+          "word": "قوی‌تر",
+          "cleanWord": "قوی‌تر",
+          "start": 3.0583066239316246,
+          "end": 3.7923002136752144
+        },
+        {
+          "word": "کرده",
+          "cleanWord": "کرده",
+          "start": 3.7923002136752144,
+          "end": 4.281629273504274
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 4.281629273504274,
+          "end": 4.770958333333334
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "آینده را با امید و انرژی تازه‌ای انتظار می‌کشم.",
+      "latin": "Āyande rā bā omīd va enerzī-ye tāze-ī entezār mīkesham.",
+      "germanDecode": "Zukunft D.O. mit Hoffnung und Energie-von frisch-ein Erwartung ziehe-ich.",
+      "germanTranslation": "Ich erwarte die Zukunft mit Hoffnung und frischer Energie.",
+      "timings": [
+        {
+          "word": "آینده",
+          "cleanWord": "آینده",
+          "start": 0,
+          "end": 0.539866452991453
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 0.539866452991453,
+          "end": 0.7558130341880341
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.7558130341880341,
+          "end": 0.9717596153846153
+        },
+        {
+          "word": "امید",
+          "cleanWord": "امید",
+          "start": 0.9717596153846153,
+          "end": 1.4036527777777776
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.4036527777777776,
+          "end": 1.5116260683760683
+        },
+        {
+          "word": "انرژی",
+          "cleanWord": "انرژی",
+          "start": 1.5116260683760683,
+          "end": 2.0514925213675212
+        },
+        {
+          "word": "تازه‌ای",
+          "cleanWord": "تازه‌ای",
+          "start": 2.0514925213675212,
+          "end": 2.8073055555555553
+        },
+        {
+          "word": "انتظار",
+          "cleanWord": "انتظار",
+          "start": 2.8073055555555553,
+          "end": 3.4551452991452987
+        },
+        {
+          "word": "می‌کشم.",
+          "cleanWord": "می‌کشم",
+          "start": 3.4551452991452987,
+          "end": 4.210958333333333
+        }
+      ]
+    }
+  ]
+}

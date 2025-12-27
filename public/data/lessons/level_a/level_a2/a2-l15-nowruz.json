@@ -1,0 +1,781 @@
+{
+  "id": "a2-l15-nowruz",
+  "title": "A2 Lektion 15: Das Nowruz-Fest",
+  "description": "Eine Erzählung über das persische Neujahr und kulturelle Traditionen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "امسال نوروز را بعد از سال‌ها با خانواده بزرگ جشن گرفتیم.",
+      "latin": "Emsāl Nowrūz rā ba'd az sāl-hā bā khānevāde-ye bozorg jashn gereftīm.",
+      "germanDecode": "Dieses-Jahr Nowruz D.O. nach von Jahren mit Familie-von groß Fest nahmen-wir.",
+      "germanTranslation": "Dieses Jahr feierten wir Nowruz nach Jahren mit der Großfamilie.",
+      "timings": [
+        {
+          "word": "امسال",
+          "cleanWord": "امسال",
+          "start": 0,
+          "end": 0.5707563405797101
+        },
+        {
+          "word": "نوروز",
+          "cleanWord": "نوروز",
+          "start": 0.5707563405797101,
+          "end": 1.1415126811594203
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 1.1415126811594203,
+          "end": 1.3698152173913043
+        },
+        {
+          "word": "بعد",
+          "cleanWord": "بعد",
+          "start": 1.3698152173913043,
+          "end": 1.7122690217391303
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 1.7122690217391303,
+          "end": 1.9405715579710143
+        },
+        {
+          "word": "سال‌ها",
+          "cleanWord": "سال‌ها",
+          "start": 1.9405715579710143,
+          "end": 2.6254791666666666
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 2.6254791666666666,
+          "end": 2.8537817028985506
+        },
+        {
+          "word": "خانواده",
+          "cleanWord": "خانواده",
+          "start": 2.8537817028985506,
+          "end": 3.652840579710145
+        },
+        {
+          "word": "بزرگ",
+          "cleanWord": "بزرگ",
+          "start": 3.652840579710145,
+          "end": 4.109445652173913
+        },
+        {
+          "word": "جشن",
+          "cleanWord": "جشن",
+          "start": 4.109445652173913,
+          "end": 4.45189945652174
+        },
+        {
+          "word": "گرفتیم.",
+          "cleanWord": "گرفتیم",
+          "start": 4.45189945652174,
+          "end": 5.250958333333334
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "دو هفته قبل همه شروع به تمیز کردن خانه‌هایمان کردیم.",
+      "latin": "Do hafte ghabl hame shorū' be tamīz kardan-e khāne-hāyemān kardīm.",
+      "germanDecode": "Zwei Wochen vorher alle Beginn zu sauber Machen-von Häuser-unser machten-wir.",
+      "germanTranslation": "Zwei Wochen zuvor begannen alle, unsere Häuser zu putzen.",
+      "timings": [
+        {
+          "word": "دو",
+          "cleanWord": "دو",
+          "start": 0,
+          "end": 0.19957945736434107
+        },
+        {
+          "word": "هفته",
+          "cleanWord": "هفته",
+          "start": 0.19957945736434107,
+          "end": 0.5987383720930233
+        },
+        {
+          "word": "قبل",
+          "cleanWord": "قبل",
+          "start": 0.5987383720930233,
+          "end": 0.8981075581395349
+        },
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 0.8981075581395349,
+          "end": 1.1974767441860465
+        },
+        {
+          "word": "شروع",
+          "cleanWord": "شروع",
+          "start": 1.1974767441860465,
+          "end": 1.5966356589147286
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.5966356589147286,
+          "end": 1.7962151162790696
+        },
+        {
+          "word": "تمیز",
+          "cleanWord": "تمیز",
+          "start": 1.7962151162790696,
+          "end": 2.1953740310077516
+        },
+        {
+          "word": "کردن",
+          "cleanWord": "کردن",
+          "start": 2.1953740310077516,
+          "end": 2.5945329457364337
+        },
+        {
+          "word": "خانه‌هایمان",
+          "cleanWord": "خانه‌هایمان",
+          "start": 2.5945329457364337,
+          "end": 3.6922199612403097
+        },
+        {
+          "word": "کردیم.",
+          "cleanWord": "کردیم",
+          "start": 3.6922199612403097,
+          "end": 4.290958333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "این سنت قدیمی ایرانی است که خانه را از بالا تا پایین می‌شوییم.",
+      "latin": "Īn sonnat-e ghadīmī-ye Īrānī ast ke khāne rā az bālā tā pāyīn mīshūyīm.",
+      "germanDecode": "Dies Tradition-von alt-von Iranisch ist dass Haus D.O. von oben bis unten waschen-wir.",
+      "germanTranslation": "Das ist eine alte iranische Tradition, bei der wir das Haus von oben bis unten waschen.",
+      "timings": [
+        {
+          "word": "این",
+          "cleanWord": "این",
+          "start": 0,
+          "end": 0.3126575
+        },
+        {
+          "word": "سنت",
+          "cleanWord": "سنت",
+          "start": 0.3126575,
+          "end": 0.625315
+        },
+        {
+          "word": "قدیمی",
+          "cleanWord": "قدیمی",
+          "start": 0.625315,
+          "end": 1.1464108333333334
+        },
+        {
+          "word": "ایرانی",
+          "cleanWord": "ایرانی",
+          "start": 1.1464108333333334,
+          "end": 1.7717258333333334
+        },
+        {
+          "word": "است",
+          "cleanWord": "است",
+          "start": 1.7717258333333334,
+          "end": 2.0843833333333333
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 2.0843833333333333,
+          "end": 2.2928216666666668
+        },
+        {
+          "word": "خانه",
+          "cleanWord": "خانه",
+          "start": 2.2928216666666668,
+          "end": 2.7096983333333333
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 2.7096983333333333,
+          "end": 2.918136666666667
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 2.918136666666667,
+          "end": 3.1265750000000003
+        },
+        {
+          "word": "بالا",
+          "cleanWord": "بالا",
+          "start": 3.1265750000000003,
+          "end": 3.543451666666667
+        },
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 3.543451666666667,
+          "end": 3.7518900000000004
+        },
+        {
+          "word": "پایین",
+          "cleanWord": "پایین",
+          "start": 3.7518900000000004,
+          "end": 4.272985833333333
+        },
+        {
+          "word": "می‌شوییم.",
+          "cleanWord": "می‌شوییم",
+          "start": 4.272985833333333,
+          "end": 5.210958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "مادرم هفت‌سین را بسیار زیبا چیده بود.",
+      "latin": "Mādaram haft-sīn rā besyār zībā chīde būd.",
+      "germanDecode": "Mutter-meine Sieben-S D.O. sehr schön arrangiert hatte-sie.",
+      "germanTranslation": "Meine Mutter hatte die Haft-Seen sehr schön arrangiert.",
+      "timings": [
+        {
+          "word": "مادرم",
+          "cleanWord": "مادرم",
+          "start": 0,
+          "end": 0.621122311827957
+        },
+        {
+          "word": "هفت‌سین",
+          "cleanWord": "هفت‌سین",
+          "start": 0.621122311827957,
+          "end": 1.4906935483870967
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 1.4906935483870967,
+          "end": 1.7391424731182794
+        },
+        {
+          "word": "بسیار",
+          "cleanWord": "بسیار",
+          "start": 1.7391424731182794,
+          "end": 2.3602647849462364
+        },
+        {
+          "word": "زیبا",
+          "cleanWord": "زیبا",
+          "start": 2.3602647849462364,
+          "end": 2.857162634408602
+        },
+        {
+          "word": "چیده",
+          "cleanWord": "چیده",
+          "start": 2.857162634408602,
+          "end": 3.3540604838709673
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 3.3540604838709673,
+          "end": 3.850958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "سبزه، سیب، سیر، سمنو، سنجد، سرکه و سکه روی میز بود.",
+      "latin": "Sabze, sīb, sīr, samanu, sanjed, serke va sekke rūye mīz būd.",
+      "germanDecode": "Grün, Apfel, Knoblauch, Süßpudding, Sanddorn, Essig und Münze auf-von Tisch war-es.",
+      "germanTranslation": "Grünes, Apfel, Knoblauch, Samanu, Sanddorn, Essig und Münzen waren auf dem Tisch.",
+      "timings": [
+        {
+          "word": "سبزه،",
+          "cleanWord": "سبزه،",
+          "start": 0,
+          "end": 1.1232876016260163
+        },
+        {
+          "word": "سیب،",
+          "cleanWord": "سیب،",
+          "start": 1.1232876016260163,
+          "end": 2.0219176829268295
+        },
+        {
+          "word": "سیر،",
+          "cleanWord": "سیر،",
+          "start": 2.0219176829268295,
+          "end": 2.9205477642276425
+        },
+        {
+          "word": "سمنو،",
+          "cleanWord": "سمنو،",
+          "start": 2.9205477642276425,
+          "end": 4.043835365853659
+        },
+        {
+          "word": "سنجد،",
+          "cleanWord": "سنجد،",
+          "start": 4.043835365853659,
+          "end": 5.167122967479675
+        },
+        {
+          "word": "سرکه",
+          "cleanWord": "سرکه",
+          "start": 5.167122967479675,
+          "end": 6.065753048780488
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 6.065753048780488,
+          "end": 6.290410569105691
+        },
+        {
+          "word": "سکه",
+          "cleanWord": "سکه",
+          "start": 6.290410569105691,
+          "end": 6.964383130081301
+        },
+        {
+          "word": "روی",
+          "cleanWord": "روی",
+          "start": 6.964383130081301,
+          "end": 7.638355691056911
+        },
+        {
+          "word": "میز",
+          "cleanWord": "میز",
+          "start": 7.638355691056911,
+          "end": 8.31232825203252
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 8.31232825203252,
+          "end": 9.210958333333334
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "لحظه تحویل سال همه دور هم جمع شدیم.",
+      "latin": "Lahze-ye tahvīl-e sāl hame dowr-e ham jam' shodīm.",
+      "germanDecode": "Moment-von Übergabe-von Jahr alle Rund-von zusammen gesammelt wurden-wir.",
+      "germanTranslation": "Zum Moment des Jahreswechsels versammelten wir uns alle zusammen.",
+      "timings": [
+        {
+          "word": "لحظه",
+          "cleanWord": "لحظه",
+          "start": 0,
+          "end": 0.544422619047619
+        },
+        {
+          "word": "تحویل",
+          "cleanWord": "تحویل",
+          "start": 0.544422619047619,
+          "end": 1.2249508928571429
+        },
+        {
+          "word": "سال",
+          "cleanWord": "سال",
+          "start": 1.2249508928571429,
+          "end": 1.6332678571428572
+        },
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 1.6332678571428572,
+          "end": 2.0415848214285712
+        },
+        {
+          "word": "دور",
+          "cleanWord": "دور",
+          "start": 2.0415848214285712,
+          "end": 2.4499017857142853
+        },
+        {
+          "word": "هم",
+          "cleanWord": "هم",
+          "start": 2.4499017857142853,
+          "end": 2.722113095238095
+        },
+        {
+          "word": "جمع",
+          "cleanWord": "جمع",
+          "start": 2.722113095238095,
+          "end": 3.130430059523809
+        },
+        {
+          "word": "شدیم.",
+          "cleanWord": "شدیم",
+          "start": 3.130430059523809,
+          "end": 3.810958333333333
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "پدربزرگ قرآن خواند و برای همه دعای خیر کرد.",
+      "latin": "Pedarbozorg Ghor'ān khānd va barāye hame do'āye khayr kard.",
+      "germanDecode": "Großvater Koran las-er und für alle Gebet-von gut machte-er.",
+      "germanTranslation": "Der Großvater las den Koran und betete für alle.",
+      "timings": [
+        {
+          "word": "پدربزرگ",
+          "cleanWord": "پدربزرگ",
+          "start": 0,
+          "end": 0.8581916666666667
+        },
+        {
+          "word": "قرآن",
+          "cleanWord": "قرآن",
+          "start": 0.8581916666666667,
+          "end": 1.3485869047619048
+        },
+        {
+          "word": "خواند",
+          "cleanWord": "خواند",
+          "start": 1.3485869047619048,
+          "end": 1.9615809523809524
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.9615809523809524,
+          "end": 2.0841797619047617
+        },
+        {
+          "word": "برای",
+          "cleanWord": "برای",
+          "start": 2.0841797619047617,
+          "end": 2.574575
+        },
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 2.574575,
+          "end": 2.9423714285714286
+        },
+        {
+          "word": "دعای",
+          "cleanWord": "دعای",
+          "start": 2.9423714285714286,
+          "end": 3.4327666666666667
+        },
+        {
+          "word": "خیر",
+          "cleanWord": "خیر",
+          "start": 3.4327666666666667,
+          "end": 3.800563095238095
+        },
+        {
+          "word": "کرد.",
+          "cleanWord": "کرد",
+          "start": 3.800563095238095,
+          "end": 4.290958333333333
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "بعد از تحویل همه یکدیگر را بوسیدیم و تبریک گفتیم.",
+      "latin": "Ba'd az tahvīl hame yekdīgar rā būsīdīm va tabrīk goftīm.",
+      "germanDecode": "Nach von Übergabe alle einander D.O. küssten-wir und Glückwunsch sagten-wir.",
+      "germanTranslation": "Nach dem Jahreswechsel küssten wir uns alle und gratulierten einander.",
+      "timings": [
+        {
+          "word": "بعد",
+          "cleanWord": "بعد",
+          "start": 0,
+          "end": 0.342821875
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0.342821875,
+          "end": 0.5713697916666667
+        },
+        {
+          "word": "تحویل",
+          "cleanWord": "تحویل",
+          "start": 0.5713697916666667,
+          "end": 1.1427395833333334
+        },
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 1.1427395833333334,
+          "end": 1.4855614583333334
+        },
+        {
+          "word": "یکدیگر",
+          "cleanWord": "یکدیگر",
+          "start": 1.4855614583333334,
+          "end": 2.1712052083333333
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 2.1712052083333333,
+          "end": 2.399753125
+        },
+        {
+          "word": "بوسیدیم",
+          "cleanWord": "بوسیدیم",
+          "start": 2.399753125,
+          "end": 3.1996708333333332
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 3.1996708333333332,
+          "end": 3.3139447916666667
+        },
+        {
+          "word": "تبریک",
+          "cleanWord": "تبریک",
+          "start": 3.3139447916666667,
+          "end": 3.8853145833333333
+        },
+        {
+          "word": "گفتیم.",
+          "cleanWord": "گفتیم",
+          "start": 3.8853145833333333,
+          "end": 4.5709583333333335
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "روزهای بعد به دیدن اقوام و دوستان رفتیم.",
+      "latin": "Rūzhāye ba'd be dīdan-e aghvām va dūstān raftīm.",
+      "germanDecode": "Tage-von nach zu Sehen-von Verwandte und Freunde gingen-wir.",
+      "germanTranslation": "In den folgenden Tagen gingen wir Verwandte und Freunde besuchen.",
+      "timings": [
+        {
+          "word": "روزهای",
+          "cleanWord": "روزهای",
+          "start": 0,
+          "end": 0.6929015151515151
+        },
+        {
+          "word": "بعد",
+          "cleanWord": "بعد",
+          "start": 0.6929015151515151,
+          "end": 1.0393522727272726
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.0393522727272726,
+          "end": 1.2703194444444443
+        },
+        {
+          "word": "دیدن",
+          "cleanWord": "دیدن",
+          "start": 1.2703194444444443,
+          "end": 1.7322537878787878
+        },
+        {
+          "word": "اقوام",
+          "cleanWord": "اقوام",
+          "start": 1.7322537878787878,
+          "end": 2.3096717171717174
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.3096717171717174,
+          "end": 2.4251553030303032
+        },
+        {
+          "word": "دوستان",
+          "cleanWord": "دوستان",
+          "start": 2.4251553030303032,
+          "end": 3.1180568181818185
+        },
+        {
+          "word": "رفتیم.",
+          "cleanWord": "رفتیم",
+          "start": 3.1180568181818185,
+          "end": 3.8109583333333337
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "همه جا آجیل، شیرینی و چای تعارف می‌کردند.",
+      "latin": "Hame-jā ājīl, shīrīnī va chāy ta'ārof mikardand.",
+      "germanDecode": "Überall Nüsse, Süßigkeit und Tee Anbieten machten-sie.",
+      "germanTranslation": "Überall boten sie Nüsse, Süßigkeiten und Tee an.",
+      "timings": [
+        {
+          "word": "همه",
+          "cleanWord": "همه",
+          "start": 0,
+          "end": 0.4068492647058824
+        },
+        {
+          "word": "جا",
+          "cleanWord": "جا",
+          "start": 0.4068492647058824,
+          "end": 0.6780821078431374
+        },
+        {
+          "word": "آجیل،",
+          "cleanWord": "آجیل،",
+          "start": 0.6780821078431374,
+          "end": 1.3561642156862748
+        },
+        {
+          "word": "شیرینی",
+          "cleanWord": "شیرینی",
+          "start": 1.3561642156862748,
+          "end": 2.1698627450980394
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.1698627450980394,
+          "end": 2.3054791666666667
+        },
+        {
+          "word": "چای",
+          "cleanWord": "چای",
+          "start": 2.3054791666666667,
+          "end": 2.712328431372549
+        },
+        {
+          "word": "تعارف",
+          "cleanWord": "تعارف",
+          "start": 2.712328431372549,
+          "end": 3.3904105392156865
+        },
+        {
+          "word": "می‌کردند.",
+          "cleanWord": "می‌کردند",
+          "start": 3.3904105392156865,
+          "end": 4.6109583333333335
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "بچه‌ها عیدی گرفتند و خیلی خوشحال بودند.",
+      "latin": "Bachehā 'eydī gereftand va kheylī khoshhāl būdand.",
+      "germanDecode": "Kinder Festgeld nahmen-sie und sehr glücklich waren-sie.",
+      "germanTranslation": "Die Kinder bekamen Festgeld und waren sehr glücklich.",
+      "timings": [
+        {
+          "word": "بچه‌ها",
+          "cleanWord": "بچه‌ها",
+          "start": 0,
+          "end": 0.6565378787878788
+        },
+        {
+          "word": "عیدی",
+          "cleanWord": "عیدی",
+          "start": 0.6565378787878788,
+          "end": 1.0942297979797981
+        },
+        {
+          "word": "گرفتند",
+          "cleanWord": "گرفتند",
+          "start": 1.0942297979797981,
+          "end": 1.750767676767677
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.750767676767677,
+          "end": 1.8601906565656567
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 1.8601906565656567,
+          "end": 2.297882575757576
+        },
+        {
+          "word": "خوشحال",
+          "cleanWord": "خوشحال",
+          "start": 2.297882575757576,
+          "end": 2.9544204545454544
+        },
+        {
+          "word": "بودند.",
+          "cleanWord": "بودند",
+          "start": 2.9544204545454544,
+          "end": 3.6109583333333335
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "سیزده‌بدر با پیک‌نیک در پارک نوروز را تمام کردیم.",
+      "latin": "Sīzdah-bedar bā pīknīk dar pārk Nowrūz rā tamām kardīm.",
+      "germanDecode": "Dreizehn-draußen mit Picknick in Park Nowruz D.O. beendet machten-wir.",
+      "germanTranslation": "Am dreizehnten Tag beendeten wir Nowruz mit einem Picknick im Park.",
+      "timings": [
+        {
+          "word": "سیزده‌بدر",
+          "cleanWord": "سیزده‌بدر",
+          "start": 0,
+          "end": 0.9419176829268292
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.9419176829268292,
+          "end": 1.1512327235772357
+        },
+        {
+          "word": "پیک‌نیک",
+          "cleanWord": "پیک‌نیک",
+          "start": 1.1512327235772357,
+          "end": 1.8838353658536584
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 1.8838353658536584,
+          "end": 2.0931504065040647
+        },
+        {
+          "word": "پارک",
+          "cleanWord": "پارک",
+          "start": 2.0931504065040647,
+          "end": 2.5117804878048777
+        },
+        {
+          "word": "نوروز",
+          "cleanWord": "نوروز",
+          "start": 2.5117804878048777,
+          "end": 3.035068089430894
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 3.035068089430894,
+          "end": 3.2443831300813004
+        },
+        {
+          "word": "تمام",
+          "cleanWord": "تمام",
+          "start": 3.2443831300813004,
+          "end": 3.6630132113821134
+        },
+        {
+          "word": "کردیم.",
+          "cleanWord": "کردیم",
+          "start": 3.6630132113821134,
+          "end": 4.290958333333333
+        }
+      ]
+    }
+  ]
+}

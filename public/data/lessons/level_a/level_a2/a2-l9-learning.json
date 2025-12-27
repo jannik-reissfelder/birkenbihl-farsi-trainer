@@ -1,0 +1,727 @@
+{
+  "id": "a2-l9-learning",
+  "title": "A2 Lektion 9: Eine Lernerfahrung",
+  "description": "Eine Erzählung über das Erlernen einer neuen Fähigkeit und persönliche Entwicklung.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "سال گذشته تصمیم گرفتم رانندگی یاد بگیرم.",
+      "latin": "Sāl-e gozashte tasmīm gereftam rānandagī yād begiram.",
+      "germanDecode": "Jahr-von vergangen Entscheidung nahm-ich Fahren Lernen nehme-ich.",
+      "germanTranslation": "Letztes Jahr entschied ich mich, Autofahren zu lernen.",
+      "timings": [
+        {
+          "word": "سال",
+          "cleanWord": "سال",
+          "start": 0,
+          "end": 0.3362610294117647
+        },
+        {
+          "word": "گذشته",
+          "cleanWord": "گذشته",
+          "start": 0.3362610294117647,
+          "end": 0.8966960784313726
+        },
+        {
+          "word": "تصمیم",
+          "cleanWord": "تصمیم",
+          "start": 0.8966960784313726,
+          "end": 1.4571311274509804
+        },
+        {
+          "word": "گرفتم",
+          "cleanWord": "گرفتم",
+          "start": 1.4571311274509804,
+          "end": 2.0175661764705883
+        },
+        {
+          "word": "رانندگی",
+          "cleanWord": "رانندگی",
+          "start": 2.0175661764705883,
+          "end": 2.8021752450980393
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 2.8021752450980393,
+          "end": 3.138436274509804
+        },
+        {
+          "word": "بگیرم.",
+          "cleanWord": "بگیرم",
+          "start": 3.138436274509804,
+          "end": 3.8109583333333332
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "تا آن زمان همیشه با اتوبوس یا مترو جابجا می‌شدم.",
+      "latin": "Tā ān zamān hamīshe bā otobūs yā metro jābe-jā mishoodam.",
+      "germanDecode": "Bis jene Zeit immer mit Bus oder Metro Ort-zu-Ort wurde-ich.",
+      "germanTranslation": "Bis zu der Zeit bewegte ich mich immer mit Bus oder Metro fort.",
+      "timings": [
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 0,
+          "end": 0.20158760683760682
+        },
+        {
+          "word": "آن",
+          "cleanWord": "آن",
+          "start": 0.20158760683760682,
+          "end": 0.40317521367521364
+        },
+        {
+          "word": "زمان",
+          "cleanWord": "زمان",
+          "start": 0.40317521367521364,
+          "end": 0.8063504273504273
+        },
+        {
+          "word": "همیشه",
+          "cleanWord": "همیشه",
+          "start": 0.8063504273504273,
+          "end": 1.3103194444444444
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 1.3103194444444444,
+          "end": 1.5119070512820512
+        },
+        {
+          "word": "اتوبوس",
+          "cleanWord": "اتوبوس",
+          "start": 1.5119070512820512,
+          "end": 2.1166698717948718
+        },
+        {
+          "word": "یا",
+          "cleanWord": "یا",
+          "start": 2.1166698717948718,
+          "end": 2.3182574786324786
+        },
+        {
+          "word": "مترو",
+          "cleanWord": "مترو",
+          "start": 2.3182574786324786,
+          "end": 2.721432692307692
+        },
+        {
+          "word": "جابجا",
+          "cleanWord": "جابجا",
+          "start": 2.721432692307692,
+          "end": 3.225401709401709
+        },
+        {
+          "word": "می‌شدم.",
+          "cleanWord": "می‌شدم",
+          "start": 3.225401709401709,
+          "end": 3.930958333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "اما فهمیدم که ماشین داشتن خیلی مفید است.",
+      "latin": "Ammā fahmīdam ke māshīn dāshtan kheylī mofīd ast.",
+      "germanDecode": "Aber verstand-ich dass Auto Haben sehr nützlich ist.",
+      "germanTranslation": "Aber ich verstand, dass ein Auto zu haben sehr nützlich ist.",
+      "timings": [
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 0,
+          "end": 0.32463257575757576
+        },
+        {
+          "word": "فهمیدم",
+          "cleanWord": "فهمیدم",
+          "start": 0.32463257575757576,
+          "end": 0.9738977272727273
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 0.9738977272727273,
+          "end": 1.1903194444444445
+        },
+        {
+          "word": "ماشین",
+          "cleanWord": "ماشین",
+          "start": 1.1903194444444445,
+          "end": 1.7313737373737375
+        },
+        {
+          "word": "داشتن",
+          "cleanWord": "داشتن",
+          "start": 1.7313737373737375,
+          "end": 2.2724280303030304
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 2.2724280303030304,
+          "end": 2.7052714646464646
+        },
+        {
+          "word": "مفید",
+          "cleanWord": "مفید",
+          "start": 2.7052714646464646,
+          "end": 3.138114898989899
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 3.138114898989899,
+          "end": 3.570958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "در آموزشگاه رانندگی ثبت‌نام کردم.",
+      "latin": "Dar āmūzeshgāh-e rānandagī sabt-nām kardam.",
+      "germanDecode": "In Schule-von Fahren Anmeldung machte-ich.",
+      "germanTranslation": "Ich meldete mich in einer Fahrschule an.",
+      "timings": [
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0,
+          "end": 0.2269626436781609
+        },
+        {
+          "word": "آموزشگاه",
+          "cleanWord": "آموزشگاه",
+          "start": 0.2269626436781609,
+          "end": 1.1348132183908046
+        },
+        {
+          "word": "رانندگی",
+          "cleanWord": "رانندگی",
+          "start": 1.1348132183908046,
+          "end": 1.929182471264368
+        },
+        {
+          "word": "ثبت‌نام",
+          "cleanWord": "ثبت‌نام",
+          "start": 1.929182471264368,
+          "end": 2.723551724137931
+        },
+        {
+          "word": "کردم.",
+          "cleanWord": "کردم",
+          "start": 2.723551724137931,
+          "end": 3.290958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "مربی من آقای احمدی بود که خیلی صبور و مهربان بود.",
+      "latin": "Morabī-ye man āghāye Ahmadī būd ke kheylī sabūr va mehrabān būd.",
+      "germanDecode": "Trainer-von mir Herr-von Ahmadi war-er der sehr geduldig und freundlich war-er.",
+      "germanTranslation": "Mein Trainer war Herr Ahmadi, der sehr geduldig und freundlich war.",
+      "timings": [
+        {
+          "word": "مربی",
+          "cleanWord": "مربی",
+          "start": 0,
+          "end": 0.456508547008547
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.456508547008547,
+          "end": 0.6847628205128204
+        },
+        {
+          "word": "آقای",
+          "cleanWord": "آقای",
+          "start": 0.6847628205128204,
+          "end": 1.1412713675213675
+        },
+        {
+          "word": "احمدی",
+          "cleanWord": "احمدی",
+          "start": 1.1412713675213675,
+          "end": 1.7119070512820511
+        },
+        {
+          "word": "بود",
+          "cleanWord": "بود",
+          "start": 1.7119070512820511,
+          "end": 2.0542884615384613
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 2.0542884615384613,
+          "end": 2.282542735042735
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 2.282542735042735,
+          "end": 2.739051282051282
+        },
+        {
+          "word": "صبور",
+          "cleanWord": "صبور",
+          "start": 2.739051282051282,
+          "end": 3.1955598290598286
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 3.1955598290598286,
+          "end": 3.309686965811965
+        },
+        {
+          "word": "مهربان",
+          "cleanWord": "مهربان",
+          "start": 3.309686965811965,
+          "end": 3.9944497863247856
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 3.9944497863247856,
+          "end": 4.4509583333333325
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "اولین جلسه خیلی ترسیده بودم و دستم می‌لرزید.",
+      "latin": "Avvalīn jalase kheylī tarsīde būdam va dastam mīlarzīd.",
+      "germanDecode": "Erste Sitzung sehr gefürchtet hatte-ich und Hand-meine zitterte-sie.",
+      "germanTranslation": "In der ersten Stunde hatte ich große Angst und meine Hand zitterte.",
+      "timings": [
+        {
+          "word": "اولین",
+          "cleanWord": "اولین",
+          "start": 0,
+          "end": 0.6014808558558559
+        },
+        {
+          "word": "جلسه",
+          "cleanWord": "جلسه",
+          "start": 0.6014808558558559,
+          "end": 1.0826655405405405
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 1.0826655405405405,
+          "end": 1.5638502252252253
+        },
+        {
+          "word": "ترسیده",
+          "cleanWord": "ترسیده",
+          "start": 1.5638502252252253,
+          "end": 2.2856272522522523
+        },
+        {
+          "word": "بودم",
+          "cleanWord": "بودم",
+          "start": 2.2856272522522523,
+          "end": 2.766811936936937
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.766811936936937,
+          "end": 2.8871081081081083
+        },
+        {
+          "word": "دستم",
+          "cleanWord": "دستم",
+          "start": 2.8871081081081083,
+          "end": 3.368292792792793
+        },
+        {
+          "word": "می‌لرزید.",
+          "cleanWord": "می‌لرزید",
+          "start": 3.368292792792793,
+          "end": 4.450958333333333
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "کم کم یاد گرفتم و اعتماد به نفسم بیشتر شد.",
+      "latin": "Kam kam yād gereftam va e'temād be nafsam bīshtar shod.",
+      "germanDecode": "Wenig wenig Lernen nahm-ich und Vertrauen zu Selbst-mein mehr wurde-es.",
+      "germanTranslation": "Nach und nach lernte ich und mein Selbstvertrauen wurde größer.",
+      "timings": [
+        {
+          "word": "کم",
+          "cleanWord": "کم",
+          "start": 0,
+          "end": 0.23339141414141415
+        },
+        {
+          "word": "کم",
+          "cleanWord": "کم",
+          "start": 0.23339141414141415,
+          "end": 0.4667828282828283
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 0.4667828282828283,
+          "end": 0.8168699494949495
+        },
+        {
+          "word": "گرفتم",
+          "cleanWord": "گرفتم",
+          "start": 0.8168699494949495,
+          "end": 1.4003484848484848
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.4003484848484848,
+          "end": 1.517044191919192
+        },
+        {
+          "word": "اعتماد",
+          "cleanWord": "اعتماد",
+          "start": 1.517044191919192,
+          "end": 2.2172184343434345
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.2172184343434345,
+          "end": 2.4506098484848486
+        },
+        {
+          "word": "نفسم",
+          "cleanWord": "نفسم",
+          "start": 2.4506098484848486,
+          "end": 2.917392676767677
+        },
+        {
+          "word": "بیشتر",
+          "cleanWord": "بیشتر",
+          "start": 2.917392676767677,
+          "end": 3.500871212121212
+        },
+        {
+          "word": "شد.",
+          "cleanWord": "شد",
+          "start": 3.500871212121212,
+          "end": 3.8509583333333333
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "بعد از دو ماه تمرین، برای امتحان آماده شدم.",
+      "latin": "Ba'd az do māh tamrīn, barāye emtehān āmāde shodam.",
+      "germanDecode": "Nach von zwei Monat Übung, für Prüfung bereit wurde-ich.",
+      "germanTranslation": "Nach zwei Monaten Übung war ich für die Prüfung bereit.",
+      "timings": [
+        {
+          "word": "بعد",
+          "cleanWord": "بعد",
+          "start": 0,
+          "end": 0.3095107142857143
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0.3095107142857143,
+          "end": 0.5158511904761904
+        },
+        {
+          "word": "دو",
+          "cleanWord": "دو",
+          "start": 0.5158511904761904,
+          "end": 0.7221916666666666
+        },
+        {
+          "word": "ماه",
+          "cleanWord": "ماه",
+          "start": 0.7221916666666666,
+          "end": 1.0317023809523809
+        },
+        {
+          "word": "تمرین،",
+          "cleanWord": "تمرین،",
+          "start": 1.0317023809523809,
+          "end": 1.6507238095238095
+        },
+        {
+          "word": "برای",
+          "cleanWord": "برای",
+          "start": 1.6507238095238095,
+          "end": 2.0634047619047617
+        },
+        {
+          "word": "امتحان",
+          "cleanWord": "امتحان",
+          "start": 2.0634047619047617,
+          "end": 2.6824261904761904
+        },
+        {
+          "word": "آماده",
+          "cleanWord": "آماده",
+          "start": 2.6824261904761904,
+          "end": 3.198277380952381
+        },
+        {
+          "word": "شدم.",
+          "cleanWord": "شدم",
+          "start": 3.198277380952381,
+          "end": 3.610958333333333
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "روز امتحان نگران بودم اما تمام تلاشم را کردم.",
+      "latin": "Rūz-e emtehān nagarān būdam ammā tamām-e talāsham rā kardam.",
+      "germanDecode": "Tag-von Prüfung besorgt war-ich aber ganz-von Anstrengung-meine D.O. machte-ich.",
+      "germanTranslation": "Am Prüfungstag war ich besorgt, aber ich gab mein Bestes.",
+      "timings": [
+        {
+          "word": "روز",
+          "cleanWord": "روز",
+          "start": 0,
+          "end": 0.31548310810810815
+        },
+        {
+          "word": "امتحان",
+          "cleanWord": "امتحان",
+          "start": 0.31548310810810815,
+          "end": 0.9464493243243244
+        },
+        {
+          "word": "نگران",
+          "cleanWord": "نگران",
+          "start": 0.9464493243243244,
+          "end": 1.4722545045045046
+        },
+        {
+          "word": "بودم",
+          "cleanWord": "بودم",
+          "start": 1.4722545045045046,
+          "end": 1.8928986486486488
+        },
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 1.8928986486486488,
+          "end": 2.208381756756757
+        },
+        {
+          "word": "تمام",
+          "cleanWord": "تمام",
+          "start": 2.208381756756757,
+          "end": 2.629025900900901
+        },
+        {
+          "word": "تلاشم",
+          "cleanWord": "تلاشم",
+          "start": 2.629025900900901,
+          "end": 3.154831081081081
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 3.154831081081081,
+          "end": 3.365153153153153
+        },
+        {
+          "word": "کردم.",
+          "cleanWord": "کردم",
+          "start": 3.365153153153153,
+          "end": 3.8909583333333333
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "خوشبختانه امتحان را با موفقیت گذراندم.",
+      "latin": "Khoshbakhtāne emtehān rā bā mowaffaghīyat gozarāndam.",
+      "germanDecode": "Glücklicherweise Prüfung D.O. mit Erfolg verbrachte-ich.",
+      "germanTranslation": "Glücklicherweise bestand ich die Prüfung erfolgreich.",
+      "timings": [
+        {
+          "word": "خوشبختانه",
+          "cleanWord": "خوشبختانه",
+          "start": 0,
+          "end": 0.9738977272727273
+        },
+        {
+          "word": "امتحان",
+          "cleanWord": "امتحان",
+          "start": 0.9738977272727273,
+          "end": 1.6231628787878787
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 1.6231628787878787,
+          "end": 1.8395845959595958
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 1.8395845959595958,
+          "end": 2.056006313131313
+        },
+        {
+          "word": "موفقیت",
+          "cleanWord": "موفقیت",
+          "start": 2.056006313131313,
+          "end": 2.705271464646464
+        },
+        {
+          "word": "گذراندم.",
+          "cleanWord": "گذراندم",
+          "start": 2.705271464646464,
+          "end": 3.570958333333333
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "حالا گواهینامه دارم و ماشین کوچکی خریدم.",
+      "latin": "Hālā gavāhīnāme dāram va māshīn-e kūchakī kharīdam.",
+      "germanDecode": "Jetzt Führerschein habe-ich und Auto-von klein kaufte-ich.",
+      "germanTranslation": "Jetzt habe ich einen Führerschein und kaufte ein kleines Auto.",
+      "timings": [
+        {
+          "word": "حالا",
+          "cleanWord": "حالا",
+          "start": 0,
+          "end": 0.4295245098039216
+        },
+        {
+          "word": "گواهینامه",
+          "cleanWord": "گواهینامه",
+          "start": 0.4295245098039216,
+          "end": 1.3959546568627452
+        },
+        {
+          "word": "دارم",
+          "cleanWord": "دارم",
+          "start": 1.3959546568627452,
+          "end": 1.8254791666666668
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.8254791666666668,
+          "end": 1.9328602941176471
+        },
+        {
+          "word": "ماشین",
+          "cleanWord": "ماشین",
+          "start": 1.9328602941176471,
+          "end": 2.469765931372549
+        },
+        {
+          "word": "کوچکی",
+          "cleanWord": "کوچکی",
+          "start": 2.469765931372549,
+          "end": 3.006671568627451
+        },
+        {
+          "word": "خریدم.",
+          "cleanWord": "خریدم",
+          "start": 3.006671568627451,
+          "end": 3.6509583333333335
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "فهمیدم که هیچ وقت خیلی دیر نیست تا چیز جدید یاد بگیریم.",
+      "latin": "Fahmīdam ke hīch vaght kheylī dīr nīst tā chīz-e jadīd yād begīrīm.",
+      "germanDecode": "Verstand-ich dass keine Zeit sehr spät nicht-ist damit Ding-von neu Lernen nehmen-wir.",
+      "germanTranslation": "Ich verstand, dass es nie zu spät ist, etwas Neues zu lernen.",
+      "timings": [
+        {
+          "word": "فهمیدم",
+          "cleanWord": "فهمیدم",
+          "start": 0,
+          "end": 0.6560397727272728
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 0.6560397727272728,
+          "end": 0.8747196969696971
+        },
+        {
+          "word": "هیچ",
+          "cleanWord": "هیچ",
+          "start": 0.8747196969696971,
+          "end": 1.2027395833333334
+        },
+        {
+          "word": "وقت",
+          "cleanWord": "وقت",
+          "start": 1.2027395833333334,
+          "end": 1.5307594696969697
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 1.5307594696969697,
+          "end": 1.9681193181818184
+        },
+        {
+          "word": "دیر",
+          "cleanWord": "دیر",
+          "start": 1.9681193181818184,
+          "end": 2.296139204545455
+        },
+        {
+          "word": "نیست",
+          "cleanWord": "نیست",
+          "start": 2.296139204545455,
+          "end": 2.7334990530303034
+        },
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 2.7334990530303034,
+          "end": 2.9521789772727276
+        },
+        {
+          "word": "چیز",
+          "cleanWord": "چیز",
+          "start": 2.9521789772727276,
+          "end": 3.280198863636364
+        },
+        {
+          "word": "جدید",
+          "cleanWord": "جدید",
+          "start": 3.280198863636364,
+          "end": 3.7175587121212126
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 3.7175587121212126,
+          "end": 4.045578598484849
+        },
+        {
+          "word": "بگیریم.",
+          "cleanWord": "بگیریم",
+          "start": 4.045578598484849,
+          "end": 4.810958333333334
+        }
+      ]
+    }
+  ]
+}

@@ -59,7 +59,8 @@ const AuthenticatedApp: React.FC = () => {
   const handleSelectLesson = useCallback(async (lesson: LessonMetadata) => {
     setIsNavigating(true);
     try {
-        const response = await fetch(`/data/lessons/${lesson.id}.json`);
+        const level = lesson.id.startsWith('a1') ? 'level_a1' : 'level_a2';
+        const response = await fetch(`/data/lessons/level_a/${level}/${lesson.id}.json`);
         if (!response.ok) throw new Error(`Lesson ${lesson.id} not found`);
         const lessonData = await response.json();
         setSelectedLesson(lessonData);
@@ -102,7 +103,8 @@ const AuthenticatedApp: React.FC = () => {
       // ChatView needs the full lesson, so we fetch it.
       setIsNavigating(true);
       try {
-        const response = await fetch(`/data/lessons/${lessonMeta.id}.json`);
+        const level = lessonMeta.id.startsWith('a1') ? 'level_a1' : 'level_a2';
+        const response = await fetch(`/data/lessons/level_a/${level}/${lessonMeta.id}.json`);
         const lessonData = await response.json();
         setSelectedLesson(lessonData);
         setView('chat');

@@ -1,0 +1,775 @@
+{
+  "id": "a2-l14-missed-opportunity",
+  "title": "A2 Lektion 14: Eine verpasste Gelegenheit",
+  "description": "Eine Erzählung über eine verpasste Chance und daraus gelernte Lektionen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "سال گذشته فرصت خوبی برای سفر به اروپا داشتم اما از دست دادم.",
+      "latin": "Sāl-e gozashte forsat-e khūbī barāye safar be Orūpā dāshtam ammā az dast dādam.",
+      "germanDecode": "Jahr-von vergangen Gelegenheit-von gut für Reise nach Europa hatte-ich aber von Hand gab-ich.",
+      "germanTranslation": "Letztes Jahr hatte ich eine gute Gelegenheit für eine Europareise, aber ich verpasste sie.",
+      "timings": [
+        {
+          "word": "سال",
+          "cleanWord": "سال",
+          "start": 0,
+          "end": 0.3106848958333333
+        },
+        {
+          "word": "گذشته",
+          "cleanWord": "گذشته",
+          "start": 0.3106848958333333,
+          "end": 0.8284930555555554
+        },
+        {
+          "word": "فرصت",
+          "cleanWord": "فرصت",
+          "start": 0.8284930555555554,
+          "end": 1.242739583333333
+        },
+        {
+          "word": "خوبی",
+          "cleanWord": "خوبی",
+          "start": 1.242739583333333,
+          "end": 1.6569861111111108
+        },
+        {
+          "word": "برای",
+          "cleanWord": "برای",
+          "start": 1.6569861111111108,
+          "end": 2.0712326388888886
+        },
+        {
+          "word": "سفر",
+          "cleanWord": "سفر",
+          "start": 2.0712326388888886,
+          "end": 2.381917534722222
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.381917534722222,
+          "end": 2.589040798611111
+        },
+        {
+          "word": "اروپا",
+          "cleanWord": "اروپا",
+          "start": 2.589040798611111,
+          "end": 3.106848958333333
+        },
+        {
+          "word": "داشتم",
+          "cleanWord": "داشتم",
+          "start": 3.106848958333333,
+          "end": 3.624657118055555
+        },
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 3.624657118055555,
+          "end": 3.9353420138888886
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 3.9353420138888886,
+          "end": 4.142465277777777
+        },
+        {
+          "word": "دست",
+          "cleanWord": "دست",
+          "start": 4.142465277777777,
+          "end": 4.45315017361111
+        },
+        {
+          "word": "دادم.",
+          "cleanWord": "دادم",
+          "start": 4.45315017361111,
+          "end": 4.970958333333332
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "شرکت برای کارمندان بهترین سفر مجانی به آلمان تدارک دیده بود.",
+      "latin": "Sherkat barāye kārmandān behtarīn safar-e majjānī be Ālmān tadārok dīde būd.",
+      "germanDecode": "Firma für Angestellte beste Reise-von kostenlos nach Deutschland Vorbereitung gesehen hatte-sie.",
+      "germanTranslation": "Die Firma hatte für die besten Angestellten eine kostenlose Reise nach Deutschland vorbereitet.",
+      "timings": [
+        {
+          "word": "شرکت",
+          "cleanWord": "شرکت",
+          "start": 0,
+          "end": 0.43607666666666667
+        },
+        {
+          "word": "برای",
+          "cleanWord": "برای",
+          "start": 0.43607666666666667,
+          "end": 0.8721533333333333
+        },
+        {
+          "word": "کارمندان",
+          "cleanWord": "کارمندان",
+          "start": 0.8721533333333333,
+          "end": 1.7443066666666667
+        },
+        {
+          "word": "بهترین",
+          "cleanWord": "بهترین",
+          "start": 1.7443066666666667,
+          "end": 2.3984216666666667
+        },
+        {
+          "word": "سفر",
+          "cleanWord": "سفر",
+          "start": 2.3984216666666667,
+          "end": 2.7254791666666667
+        },
+        {
+          "word": "مجانی",
+          "cleanWord": "مجانی",
+          "start": 2.7254791666666667,
+          "end": 3.270575
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 3.270575,
+          "end": 3.4886133333333333
+        },
+        {
+          "word": "آلمان",
+          "cleanWord": "آلمان",
+          "start": 3.4886133333333333,
+          "end": 4.033709166666666
+        },
+        {
+          "word": "تدارک",
+          "cleanWord": "تدارک",
+          "start": 4.033709166666666,
+          "end": 4.578804999999999
+        },
+        {
+          "word": "دیده",
+          "cleanWord": "دیده",
+          "start": 4.578804999999999,
+          "end": 5.014881666666666
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 5.014881666666666,
+          "end": 5.4509583333333325
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "برای انتخاب شدن باید پروژه مهمی را به موقع تمام می‌کردم.",
+      "latin": "Barāye entekhāb shodan bāyad prōzhe-ye mohemmī rā be mowaghha' tamām mikarddam.",
+      "germanDecode": "Für Auswahl Werden muss Projekt-von wichtig D.O. zu Zeit beendet machte-ich.",
+      "germanTranslation": "Um ausgewählt zu werden, musste ich ein wichtiges Projekt rechtzeitig beenden.",
+      "timings": [
+        {
+          "word": "برای",
+          "cleanWord": "برای",
+          "start": 0,
+          "end": 0.39051811594202895
+        },
+        {
+          "word": "انتخاب",
+          "cleanWord": "انتخاب",
+          "start": 0.39051811594202895,
+          "end": 0.9762952898550725
+        },
+        {
+          "word": "شدن",
+          "cleanWord": "شدن",
+          "start": 0.9762952898550725,
+          "end": 1.2691838768115944
+        },
+        {
+          "word": "باید",
+          "cleanWord": "باید",
+          "start": 1.2691838768115944,
+          "end": 1.6597019927536234
+        },
+        {
+          "word": "پروژه",
+          "cleanWord": "پروژه",
+          "start": 1.6597019927536234,
+          "end": 2.1478496376811598
+        },
+        {
+          "word": "مهمی",
+          "cleanWord": "مهمی",
+          "start": 2.1478496376811598,
+          "end": 2.538367753623189
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 2.538367753623189,
+          "end": 2.733626811594203
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.733626811594203,
+          "end": 2.9288858695652173
+        },
+        {
+          "word": "موقع",
+          "cleanWord": "موقع",
+          "start": 2.9288858695652173,
+          "end": 3.3194039855072464
+        },
+        {
+          "word": "تمام",
+          "cleanWord": "تمام",
+          "start": 3.3194039855072464,
+          "end": 3.7099221014492754
+        },
+        {
+          "word": "می‌کردم.",
+          "cleanWord": "می‌کردم",
+          "start": 3.7099221014492754,
+          "end": 4.490958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "اما من مشغول کارهای دیگر بودم و زمان کافی نگذاشتم.",
+      "latin": "Ammā man mashghūl-e kārhāye dīgar būdam va zamān-e kāfī nagozāshtam.",
+      "germanDecode": "Aber ich beschäftigt-von Arbeiten-von andere war-ich und Zeit-von genug nicht-ließ-ich.",
+      "germanTranslation": "Aber ich war mit anderen Arbeiten beschäftigt und ließ nicht genug Zeit.",
+      "timings": [
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 0,
+          "end": 0.3373871951219512
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.3373871951219512,
+          "end": 0.5623119918699186
+        },
+        {
+          "word": "مشغول",
+          "cleanWord": "مشغول",
+          "start": 0.5623119918699186,
+          "end": 1.1246239837398373
+        },
+        {
+          "word": "کارهای",
+          "cleanWord": "کارهای",
+          "start": 1.1246239837398373,
+          "end": 1.7993983739837396
+        },
+        {
+          "word": "دیگر",
+          "cleanWord": "دیگر",
+          "start": 1.7993983739837396,
+          "end": 2.2492479674796746
+        },
+        {
+          "word": "بودم",
+          "cleanWord": "بودم",
+          "start": 2.2492479674796746,
+          "end": 2.6990975609756096
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.6990975609756096,
+          "end": 2.8115599593495935
+        },
+        {
+          "word": "زمان",
+          "cleanWord": "زمان",
+          "start": 2.8115599593495935,
+          "end": 3.2614095528455285
+        },
+        {
+          "word": "کافی",
+          "cleanWord": "کافی",
+          "start": 3.2614095528455285,
+          "end": 3.7112591463414635
+        },
+        {
+          "word": "نگذاشتم.",
+          "cleanWord": "نگذاشتم",
+          "start": 3.7112591463414635,
+          "end": 4.6109583333333335
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "هر روز با خودم می‌گفتم فردا شروع می‌کنم.",
+      "latin": "Har rūz bā khodam mīgoftam fardā shorū' mikonam.",
+      "germanDecode": "Jeden Tag mit mir-selbst sagte-ich morgen Beginn mache-ich.",
+      "germanTranslation": "Jeden Tag sagte ich mir, morgen fange ich an.",
+      "timings": [
+        {
+          "word": "هر",
+          "cleanWord": "هر",
+          "start": 0,
+          "end": 0.20672474747474748
+        },
+        {
+          "word": "روز",
+          "cleanWord": "روز",
+          "start": 0.20672474747474748,
+          "end": 0.5168118686868687
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.5168118686868687,
+          "end": 0.7235366161616161
+        },
+        {
+          "word": "خودم",
+          "cleanWord": "خودم",
+          "start": 0.7235366161616161,
+          "end": 1.136986111111111
+        },
+        {
+          "word": "می‌گفتم",
+          "cleanWord": "می‌گفتم",
+          "start": 1.136986111111111,
+          "end": 1.8605227272727272
+        },
+        {
+          "word": "فردا",
+          "cleanWord": "فردا",
+          "start": 1.8605227272727272,
+          "end": 2.273972222222222
+        },
+        {
+          "word": "شروع",
+          "cleanWord": "شروع",
+          "start": 2.273972222222222,
+          "end": 2.687421717171717
+        },
+        {
+          "word": "می‌کنم.",
+          "cleanWord": "می‌کنم",
+          "start": 2.687421717171717,
+          "end": 3.4109583333333333
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "هفته آخر که فهمیدم دیر شده است.",
+      "latin": "Hafte-ye ākhar ke fahmīdam dīr shode ast.",
+      "germanDecode": "Woche-von letzten als verstand-ich spät geworden ist.",
+      "germanTranslation": "In der letzten Woche verstand ich, dass es zu spät war.",
+      "timings": [
+        {
+          "word": "هفته",
+          "cleanWord": "هفته",
+          "start": 0,
+          "end": 0.48175333333333337
+        },
+        {
+          "word": "آخر",
+          "cleanWord": "آخر",
+          "start": 0.48175333333333337,
+          "end": 0.8430683333333333
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 0.8430683333333333,
+          "end": 1.083945
+        },
+        {
+          "word": "فهمیدم",
+          "cleanWord": "فهمیدم",
+          "start": 1.083945,
+          "end": 1.806575
+        },
+        {
+          "word": "دیر",
+          "cleanWord": "دیر",
+          "start": 1.806575,
+          "end": 2.16789
+        },
+        {
+          "word": "شده",
+          "cleanWord": "شده",
+          "start": 2.16789,
+          "end": 2.5292049999999997
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.5292049999999997,
+          "end": 3.010958333333333
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "سه شب بی‌خواب ماندم و تلاش کردم تمام کنم.",
+      "latin": "Seh shab bī-khāb māndam va talāsh kardam tamām konam.",
+      "germanDecode": "Drei Nacht ohne-Schlaf blieb-ich und Anstrengung machte-ich beenden mache-ich.",
+      "germanTranslation": "Drei Nächte blieb ich ohne Schlaf und bemühte mich, es zu beenden.",
+      "timings": [
+        {
+          "word": "سه",
+          "cleanWord": "سه",
+          "start": 0,
+          "end": 0.23581565656565656
+        },
+        {
+          "word": "شب",
+          "cleanWord": "شب",
+          "start": 0.23581565656565656,
+          "end": 0.4716313131313131
+        },
+        {
+          "word": "بی‌خواب",
+          "cleanWord": "بی‌خواب",
+          "start": 0.4716313131313131,
+          "end": 1.2969861111111112
+        },
+        {
+          "word": "ماندم",
+          "cleanWord": "ماندم",
+          "start": 1.2969861111111112,
+          "end": 1.8865252525252525
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.8865252525252525,
+          "end": 2.004433080808081
+        },
+        {
+          "word": "تلاش",
+          "cleanWord": "تلاش",
+          "start": 2.004433080808081,
+          "end": 2.476064393939394
+        },
+        {
+          "word": "کردم",
+          "cleanWord": "کردم",
+          "start": 2.476064393939394,
+          "end": 2.9476957070707073
+        },
+        {
+          "word": "تمام",
+          "cleanWord": "تمام",
+          "start": 2.9476957070707073,
+          "end": 3.4193270202020205
+        },
+        {
+          "word": "کنم.",
+          "cleanWord": "کنم",
+          "start": 3.4193270202020205,
+          "end": 3.8909583333333337
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "farsi": "اما کیفیت کار خوب نبود و مدیر راضی نشد.",
+      "latin": "Ammā keyfīyat-e kār khūb nabūd va modīr rāzī nashod.",
+      "germanDecode": "Aber Qualität-von Arbeit gut nicht-war und Chef zufrieden nicht-wurde-er.",
+      "germanTranslation": "Aber die Arbeitsqualität war nicht gut und der Chef war nicht zufrieden.",
+      "timings": [
+        {
+          "word": "اما",
+          "cleanWord": "اما",
+          "start": 0,
+          "end": 0.411383064516129
+        },
+        {
+          "word": "کیفیت",
+          "cleanWord": "کیفیت",
+          "start": 0.411383064516129,
+          "end": 1.097021505376344
+        },
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 1.097021505376344,
+          "end": 1.5084045698924728
+        },
+        {
+          "word": "خوب",
+          "cleanWord": "خوب",
+          "start": 1.5084045698924728,
+          "end": 1.9197876344086018
+        },
+        {
+          "word": "نبود",
+          "cleanWord": "نبود",
+          "start": 1.9197876344086018,
+          "end": 2.4682983870967736
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.4682983870967736,
+          "end": 2.6054260752688165
+        },
+        {
+          "word": "مدیر",
+          "cleanWord": "مدیر",
+          "start": 2.6054260752688165,
+          "end": 3.1539368279569886
+        },
+        {
+          "word": "راضی",
+          "cleanWord": "راضی",
+          "start": 3.1539368279569886,
+          "end": 3.7024475806451607
+        },
+        {
+          "word": "نشد.",
+          "cleanWord": "نشد",
+          "start": 3.7024475806451607,
+          "end": 4.250958333333332
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "farsi": "همکار دیگری انتخاب شد و به آلمان رفت.",
+      "latin": "Hamkār-e dīgarī entekhāb shod va be Ālmān raft.",
+      "germanDecode": "Kollege-von andere Auswahl wurde-er und nach Deutschland ging-er.",
+      "germanTranslation": "Ein anderer Kollege wurde ausgewählt und reiste nach Deutschland.",
+      "timings": [
+        {
+          "word": "همکار",
+          "cleanWord": "همکار",
+          "start": 0,
+          "end": 0.6418263888888889
+        },
+        {
+          "word": "دیگری",
+          "cleanWord": "دیگری",
+          "start": 0.6418263888888889,
+          "end": 1.2836527777777778
+        },
+        {
+          "word": "انتخاب",
+          "cleanWord": "انتخاب",
+          "start": 1.2836527777777778,
+          "end": 2.0538444444444446
+        },
+        {
+          "word": "شد",
+          "cleanWord": "شد",
+          "start": 2.0538444444444446,
+          "end": 2.310575
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 2.310575,
+          "end": 2.4389402777777778
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 2.4389402777777778,
+          "end": 2.6956708333333332
+        },
+        {
+          "word": "آلمان",
+          "cleanWord": "آلمان",
+          "start": 2.6956708333333332,
+          "end": 3.337497222222222
+        },
+        {
+          "word": "رفت.",
+          "cleanWord": "رفت",
+          "start": 3.337497222222222,
+          "end": 3.850958333333333
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "farsi": "خیلی ناراحت شدم و پشیمان بودم.",
+      "latin": "Kheylī nārāhat shodam va pashīmān būdam.",
+      "germanDecode": "Sehr traurig wurde-ich und bereute war-ich.",
+      "germanTranslation": "Ich wurde sehr traurig und bereute es.",
+      "timings": [
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 0,
+          "end": 0.40495333333333333
+        },
+        {
+          "word": "ناراحت",
+          "cleanWord": "ناراحت",
+          "start": 0.40495333333333333,
+          "end": 1.0123833333333334
+        },
+        {
+          "word": "شدم",
+          "cleanWord": "شدم",
+          "start": 1.0123833333333334,
+          "end": 1.3160983333333334
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.3160983333333334,
+          "end": 1.4173366666666667
+        },
+        {
+          "word": "پشیمان",
+          "cleanWord": "پشیمان",
+          "start": 1.4173366666666667,
+          "end": 2.024766666666667
+        },
+        {
+          "word": "بودم.",
+          "cleanWord": "بودم",
+          "start": 2.024766666666667,
+          "end": 2.5309583333333334
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "farsi": "از آن روز یاد گرفتم که تعویق انداختن خطرناک است.",
+      "latin": "Az ān rūz yād gereftam ke ta'vīgh andākhtan khatarnāk ast.",
+      "germanDecode": "Von jenem Tag Lernen nahm-ich dass Aufschub Werfen gefährlich ist.",
+      "germanTranslation": "Von jenem Tag an lernte ich, dass Aufschieben gefährlich ist.",
+      "timings": [
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0,
+          "end": 0.2323568376068376
+        },
+        {
+          "word": "آن",
+          "cleanWord": "آن",
+          "start": 0.2323568376068376,
+          "end": 0.4647136752136752
+        },
+        {
+          "word": "روز",
+          "cleanWord": "روز",
+          "start": 0.4647136752136752,
+          "end": 0.8132489316239316
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 0.8132489316239316,
+          "end": 1.1617841880341881
+        },
+        {
+          "word": "گرفتم",
+          "cleanWord": "گرفتم",
+          "start": 1.1617841880341881,
+          "end": 1.7426762820512822
+        },
+        {
+          "word": "که",
+          "cleanWord": "که",
+          "start": 1.7426762820512822,
+          "end": 1.97503311965812
+        },
+        {
+          "word": "تعویق",
+          "cleanWord": "تعویق",
+          "start": 1.97503311965812,
+          "end": 2.5559252136752137
+        },
+        {
+          "word": "انداختن",
+          "cleanWord": "انداختن",
+          "start": 2.5559252136752137,
+          "end": 3.3691741452991453
+        },
+        {
+          "word": "خطرناک",
+          "cleanWord": "خطرناک",
+          "start": 3.3691741452991453,
+          "end": 4.0662446581196585
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 4.0662446581196585,
+          "end": 4.530958333333333
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "farsi": "حالا همیشه کارهایم را به موقع انجام می‌دهم.",
+      "latin": "Hālā hamīshe kārhāyam rā be mowaghha' anjām mīdaham.",
+      "germanDecode": "Jetzt immer Arbeiten-meine D.O. zu Zeit Durchführung gebe-ich.",
+      "germanTranslation": "Jetzt führe ich meine Arbeiten immer rechtzeitig durch.",
+      "timings": [
+        {
+          "word": "حالا",
+          "cleanWord": "حالا",
+          "start": 0,
+          "end": 0.3567731481481481
+        },
+        {
+          "word": "همیشه",
+          "cleanWord": "همیشه",
+          "start": 0.3567731481481481,
+          "end": 0.8027395833333333
+        },
+        {
+          "word": "کارهایم",
+          "cleanWord": "کارهایم",
+          "start": 0.8027395833333333,
+          "end": 1.4270925925925924
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 1.4270925925925924,
+          "end": 1.6054791666666663
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.6054791666666663,
+          "end": 1.7838657407407403
+        },
+        {
+          "word": "موقع",
+          "cleanWord": "موقع",
+          "start": 1.7838657407407403,
+          "end": 2.1406388888888883
+        },
+        {
+          "word": "انجام",
+          "cleanWord": "انجام",
+          "start": 2.1406388888888883,
+          "end": 2.5866053240740734
+        },
+        {
+          "word": "می‌دهم.",
+          "cleanWord": "می‌دهم",
+          "start": 2.5866053240740734,
+          "end": 3.2109583333333327
+        }
+      ]
+    }
+  ]
+}
