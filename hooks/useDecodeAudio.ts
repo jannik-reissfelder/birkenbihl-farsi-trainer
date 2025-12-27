@@ -70,16 +70,38 @@ export const useDecodeAudio = (
     }
 
     try {
-      const base64Audio = await generateSpeech(text);
-      
-      if (signal.aborted) return null;
+      let audioBuffer: AudioBuffer | null = null;
 
-      if (!audioContext) return null;
-
-      const audioData = decode(base64Audio);
-      const audioBuffer = await decodeAudioData(audioData, audioContext, 24000, 1);
+      // Try to load local audio file first
+      const level = lessonId.startsWith('a1') ? 'level_a1' : 'level_a2';
+      const audioPath = `/audio/level_a/${level}/${lessonId}/audio_${index + 1}.wav`;
       
-      if (signal.aborted) return null;
+      try {
+        console.log(`Loading local audio: ${audioPath}`);
+        const response = await fetch(audioPath);
+        if (response.ok) {
+          const arrayBuffer = await response.arrayBuffer();
+          if (!signal.aborted && audioContext) {
+            audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
+            console.log(`Successfully loaded local audio for sentence ${index + 1}`);
+          }
+        }
+      } catch (localErr) {
+        console.warn(`Could not load local audio for sentence ${index + 1}, falling back to TTS`, localErr);
+      }
+
+      // Fallback to Gemini TTS if local audio failed or doesn't exist
+      if (!audioBuffer && !signal.aborted) {
+        console.log(`Using Gemini TTS for sentence ${index + 1}`);
+        const base64Audio = await generateSpeech(text);
+        
+        if (!audioContext) return null;
+
+        const audioData = decode(base64Audio);
+        audioBuffer = await decodeAudioData(audioData, audioContext, 24000, 1);
+      }
+      
+      if (signal.aborted || !audioBuffer) return null;
 
       evictOldestCacheEntry();
       audioCache.set(cacheKey, {
