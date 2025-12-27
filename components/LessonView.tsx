@@ -350,7 +350,7 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
             
             if ((sentence as any).timings && (sentence as any).timings.length > 0) {
                 const level = lesson.id.startsWith('a1') ? 'level_a1' : 'level_a2';
-                const lessonFolder = lesson.id.match(/^(a\d+-l\d+)/)?.[1] || lesson.id;
+                const lessonFolder = lesson.id; // Use full lesson ID like decode mode
                 const audioPath = `/audio/level_a/${level}/${lessonFolder}/audio_${sentence.id}.wav`;
                 console.log(`Loading hardcoded audio: ${audioPath}`);
                 
