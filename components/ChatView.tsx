@@ -82,6 +82,7 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
   const [interventionText, setInterventionText] = useState('');
   const [isInjecting, setIsInjecting] = useState(false);
   const [showScenarioPrompt, setShowScenarioPrompt] = useState(false);
+  const [chatMode, setChatMode] = useState<'lesson' | 'free'>('lesson');
 
   const sessionPromiseRef = useRef<Promise<Session> | null>(null);
   const isClosingIntentionalRef = useRef(false);
@@ -167,9 +168,7 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
     };
   }, [cleanupLiveResources]);
 
-  const getBaseSystemInstruction = useCallback(() => {
-    const learnedSentences = lesson.sentences.map(s => `- "${s.farsi}" (German: "${s.germanTranslation}")`).join('\n');
-
+  const getSystemInstruction = useCallback((mode: 'lesson' | 'free') => {
     // Build graduated vocabulary section with null safety
     const graduatedCards = activeVocabulary?.cards ?? [];
     let graduatedVocabSection = '';
@@ -184,6 +183,27 @@ ${vocabList}
 
 **Important:** These are words the student knows well, so naturally incorporate them into your conversation. This helps bridge their passive knowledge into active speaking ability.`;
     }
+
+    if (mode === 'free') {
+      return `You are a friendly Farsi speaker having a natural daily conversation with a German-speaking learner. Your persona is a regular local in Tehran, not a formal tutor. You must only speak Farsi.
+
+**Daily Farsi Guidelines:**
+- Use everyday, spoken Farsi (not formal/textbook Farsi)
+- Incorporate common contractions and natural filler words
+- Speak like real Tehran locals in daily situations
+- Avoid textbook-style formalities
+- Keep sentences simple and conversational
+
+**Student Context:**
+- This is a language learner, so be patient and helpful
+- If they struggle, gently guide with simpler alternatives
+- Use their mastered vocabulary when natural${graduatedVocabSection}
+
+Start with a friendly, casual Farsi greeting like you would with a friend.`;
+    }
+
+    // Original lesson-based instruction
+    const learnedSentences = lesson.sentences.map(s => `- "${s.farsi}" (German: "${s.germanTranslation}")`).join('\n');
 
     return `You are a Farsi language tutor playing a roleplay scenario with a German-speaking student to help them practice. Your persona is a friendly local in Tehran. You must only speak Farsi.
 
@@ -214,7 +234,7 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
     setError(null);
     setMessages([]);
     try {
-      const baseInstruction = getBaseSystemInstruction();
+      const baseInstruction = getSystemInstruction('lesson');
       const generatedScenarios = await generateRoleplayScenarios(baseInstruction);
       setScenarios(generatedScenarios);
       setStatus('scenarioChoice');
@@ -231,7 +251,7 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
     setStatus('connecting');
     setError(null);
 
-    let systemInstruction = getBaseSystemInstruction();
+    let systemInstruction = getSystemInstruction(chatMode);
     if (selectedScenario) {
       systemInstruction += `\n\n**Role-play Scenario:** You must start a conversation based on the following situation: "${selectedScenario.german}". Greet the user in Farsi and begin the role-play.`;
     } else {
@@ -531,37 +551,33 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
       {showScenarioPrompt && !hasStarted && (
         <div className="absolute inset-0 bg-black/70 backdrop-blur-sm z-30 flex items-center justify-center p-4 animate-fade-in">
           <div className="bg-gray-800 rounded-xl shadow-2xl border border-gray-700 max-w-md w-full p-6">
-            <h4 className="text-xl font-bold text-white mb-4">Möchtest du ein Gesprächsszenario?</h4>
+            <h4 className="text-xl font-bold text-white mb-4">Wie möchtest du üben?</h4>
             <p className="text-gray-400 mb-6">
-              Ein Szenario gibt dem Gespräch eine bestimmte Richtung (z.B. "Im Restaurant" oder "Beim Einkaufen").
+              Wähle zwischen Lektions-basiertem Gespräch oder freiem Sprechen für den Alltag.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col gap-3">
               <button
                 onClick={async () => {
+                  setChatMode('lesson');
                   setShowScenarioPrompt(false);
                   await generateAndShowScenarios();
                 }}
-                className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-colors flex-1"
+                className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-colors flex items-center justify-center gap-2"
                 disabled={status === 'generatingScenarios'}
               >
-                {status === 'generatingScenarios' ? (
-                  <span className="flex items-center justify-center gap-2">
-                    <SpinnerIcon className="h-5 w-5" />
-                    Lädt...
-                  </span>
-                ) : (
-                  'Ja, Szenario vorschlagen'
-                )}
+                📚 Lektions-basiertes Gespräch
+                {status === 'generatingScenarios' && <SpinnerIcon className="h-5 w-5" />}
               </button>
               <button
                 onClick={() => {
+                  setChatMode('free');
                   setShowScenarioPrompt(false);
                   startLiveChat();
                 }}
-                className="px-6 py-3 bg-gray-600 hover:bg-gray-500 text-white font-semibold rounded-lg transition-colors flex-1"
+                className="px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-semibold rounded-lg transition-colors flex items-center justify-center gap-2"
                 disabled={status === 'connecting'}
               >
-                Nein, direkt starten
+                🗣️ Freies Sprechen (Alltag)
               </button>
             </div>
           </div>
