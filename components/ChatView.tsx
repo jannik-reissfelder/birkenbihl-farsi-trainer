@@ -83,6 +83,7 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
   const [isInjecting, setIsInjecting] = useState(false);
   const [showScenarioPrompt, setShowScenarioPrompt] = useState(false);
   const [chatMode, setChatMode] = useState<'lesson' | 'free'>('lesson');
+  const [showLessonScenarioOptions, setShowLessonScenarioOptions] = useState(false);
 
   const sessionPromiseRef = useRef<Promise<Session> | null>(null);
   const isClosingIntentionalRef = useRef(false);
@@ -557,16 +558,14 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
             </p>
             <div className="flex flex-col gap-3">
               <button
-                onClick={async () => {
+                onClick={() => {
                   setChatMode('lesson');
                   setShowScenarioPrompt(false);
-                  await generateAndShowScenarios();
+                  setShowLessonScenarioOptions(true);
                 }}
                 className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-colors flex items-center justify-center gap-2"
-                disabled={status === 'generatingScenarios'}
               >
                 📚 Lektions-basiertes Gespräch
-                {status === 'generatingScenarios' && <SpinnerIcon className="h-5 w-5" />}
               </button>
               <button
                 onClick={() => {
@@ -578,6 +577,46 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
                 disabled={status === 'connecting'}
               >
                 🗣️ Freies Sprechen (Alltag)
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {showLessonScenarioOptions && !hasStarted && (
+        <div className="absolute inset-0 bg-black/70 backdrop-blur-sm z-30 flex items-center justify-center p-4 animate-fade-in">
+          <div className="bg-gray-800 rounded-xl shadow-2xl border border-gray-700 max-w-md w-full p-6">
+            <h4 className="text-xl font-bold text-white mb-4">Möchtest du ein Gesprächsszenario?</h4>
+            <p className="text-gray-400 mb-6">
+              Ein Szenario gibt dem Gespräch eine bestimmte Richtung (z.B. "Im Restaurant" oder "Beim Einkaufen").
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button
+                onClick={async () => {
+                  setShowLessonScenarioOptions(false);
+                  await generateAndShowScenarios();
+                }}
+                className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-colors flex-1"
+                disabled={status === 'generatingScenarios'}
+              >
+                {status === 'generatingScenarios' ? (
+                  <span className="flex items-center justify-center gap-2">
+                    <SpinnerIcon className="h-5 w-5" />
+                    Lädt...
+                  </span>
+                ) : (
+                  'Ja, Szenario vorschlagen'
+                )}
+              </button>
+              <button
+                onClick={() => {
+                  setShowLessonScenarioOptions(false);
+                  startLiveChat();
+                }}
+                className="px-6 py-3 bg-gray-600 hover:bg-gray-500 text-white font-semibold rounded-lg transition-colors flex-1"
+                disabled={status === 'connecting'}
+              >
+                Nein, direkt starten
               </button>
             </div>
           </div>
