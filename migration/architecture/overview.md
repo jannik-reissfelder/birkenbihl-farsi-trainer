@@ -78,7 +78,7 @@
 | Database | Supabase PostgreSQL | All persistent data |
 | Authentication | Supabase Auth | Email/password with verification |
 | TTS | Google Gemini API | Farsi text-to-speech |
-| Conversation AI | Gemini Live API | Real-time chat for Live Chat step |
+| Conversation AI | Gemini Live API | Real-time chat with dual-mode system (lesson-based + free speaking) |
 | Text Generation | Gemini API | Dynamic hints, explanations |
 
 ### Client-Side APIs

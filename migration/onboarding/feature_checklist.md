@@ -206,6 +206,25 @@ Follow the DecodeStep pattern:
 5. Add barrel export: `index.ts`
 6. Integrate in `LessonView.tsx`
 
+### Adding Dialogue Modes
+
+Follow the Free Speaking Mode pattern:
+
+1. **Add mode state:** `const [chatMode, setChatMode] = useState<'lesson' | 'free'>('lesson');`
+2. **Create mode-aware system instruction builder:**
+   ```typescript
+   const getSystemInstruction = useCallback((mode: 'lesson' | 'free') => {
+     if (mode === 'free') {
+       // Daily Farsi prompt
+     } else {
+       // Lesson-based prompt
+     }
+   }, [lesson, activeVocabulary]);
+   ```
+3. **Implement two-step flow for complex modes**
+4. **Preserve existing functionality** while adding new options
+5. **Test both modes independently**
+
 ### Adding to Vocabulary System
 
 1. Use `VocabularyContext` for card operations

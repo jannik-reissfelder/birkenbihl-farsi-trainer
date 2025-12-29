@@ -69,7 +69,10 @@ This document maps the React component hierarchy and their relationships based o
 │   │
 │   ├── ActiveVocabulary.tsx       # Active vocabulary display
 │   ├── AnalyticsDashboard.tsx     # Progress analytics view
-│   ├── ChatView.tsx               # Live chat with AI
+│   ├── ChatView.tsx               # Live chat with AI - Dual mode system
+│   │   ├── Features: Lesson-based conversations, Free speaking mode
+│   │   ├── State: chatMode, showLessonScenarioOptions, showScenarioPrompt
+│   │   ├── Integration: Gemini Live API, Audio processing, SRS vocabulary
 │   ├── DailyDoseView.tsx          # Daily learning view
 │   ├── Dashboard.tsx              # Main dashboard
 │   ├── FreeShadowingSession.tsx   # Free practice shadowing

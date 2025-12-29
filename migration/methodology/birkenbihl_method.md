@@ -182,8 +182,11 @@ The app follows a strict 4-step progression. **This order is non-negotiable.**
 **Goal:** Spontaneous conversation with AI.
 
 - AI-powered conversation in Farsi
-- Contextual to lesson vocabulary
+- **Dual-mode system:**
+  - **Lesson-based:** Contextual to lesson vocabulary with scenario generation
+  - **Free speaking:** Daily conversational Farsi for real-life practice
 - Powered by Gemini Live API
+- Integrates mastered SRS vocabulary for reinforcement
 
 ---
 
