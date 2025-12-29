@@ -29,6 +29,23 @@ const SRSPractice: React.FC<SRSPracticeProps> = ({ onComplete }) => {
 
   const currentCard = useMemo(() => dueCards[currentCardIndex], [dueCards, currentCardIndex]);
 
+  const highlightWord = (text: string, targetWord: string): React.ReactNode => {
+    if (!targetWord || targetWord.trim() === '') return text;
+    
+    // Simple highlight - wrap target word in styled span
+    const parts = text.split(new RegExp(`(${targetWord})`, 'gi'));
+    
+    return parts.map((part, index) => 
+      part.toLowerCase() === targetWord.toLowerCase() ? (
+        <span key={index} className="bg-yellow-500/30 px-1 rounded font-semibold text-yellow-300">
+          {part}
+        </span>
+      ) : (
+        part
+      )
+    );
+  };
+
   const createClozeText = (text: string, targetWord: string, caseSensitive = true): React.ReactNode => {
     if (!targetWord || targetWord.trim() === '') {
       return text;
@@ -210,7 +227,7 @@ const SRSPractice: React.FC<SRSPracticeProps> = ({ onComplete }) => {
             <div className="p-6 bg-gray-900/50 rounded-lg">
               <div className="text-sm text-gray-500 mb-2">German Word-by-Word:</div>
               <p className="text-xl text-gray-300 leading-relaxed">
-                {createClozeText(currentCard.contextSentence.germanDecode, currentCard.word, false)}
+                {highlightWord(currentCard.contextSentence.germanDecode, currentCard.word)}
               </p>
             </div>
 
