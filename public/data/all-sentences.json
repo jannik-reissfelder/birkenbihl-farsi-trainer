@@ -621,51 +621,60 @@
   "lessonTitle": "Lektion 8: Zeit und Datum"
 },
 
-  {
-    "id": 1,
-    "farsi": "زن کارهای خانه را انجام می‌دهد.",
-    "latin": "Zan kār-hāye khāne rā anjām midahad.",
-    "germanDecode": "Frau Arbeiten-PL-von Haus D.O. Vollendung gibt-er.",
-    "germanTranslation": "Die Frau erledigt die Hausarbeiten.",
-    "lessonId": "a1-l9",
-    "lessonTitle": "Lektion 9: Tägliche Aktivitäten"
-  },
-  {
-    "id": 2,
-    "farsi": "او برنامه‌ریزی برای فردا می‌کند.",
-    "latin": "U barnāmerizi barāye fardā mikonad.",
-    "germanDecode": "er Planung für morgen macht-er.",
-    "germanTranslation": "Er plant für morgen.",
-    "lessonId": "a1-l9",
-    "lessonTitle": "Lektion 9: Tägliche Aktivitäten"
-  },
-  {
-    "id": 3,
-    "farsi": "ما از این میز استفاده می‌کنیم.",
-    "latin": "Mā az in mīz estefāde mikonim.",
-    "germanDecode": "Wir von diesem Tisch Gebrauch machen-wir.",
-    "germanTranslation": "Wir benutzen diesen Tisch.",
-    "lessonId": "a1-l9",
-    "lessonTitle": "Lektion 9: Tägliche Aktivitäten"
-  },
-  {
-    "id": 4,
-    "farsi": "ما می‌توانیم با کارت پرداخت کنیم.",
-    "latin": "Mā mitavānim bā kārt pardākht konim.",
-    "germanDecode": "Wir können-wir mit Karte Zahlung machen-wir.",
-    "germanTranslation": "Wir können mit Karte bezahlen.",
-    "lessonId": "a1-l9",
-    "lessonTitle": "Lektion 9: Tägliche Aktivitäten"
-  },
-  {
-    "id": 5,
-    "farsi": "من همیشه تلویزیون تماشا می‌کنم.",
-    "latin": "Man hamishe televīziyon tamāshā mikonam.",
-    "germanDecode": "Ich immer Fernsehen schauen mache-ich.",
-    "germanTranslation": "Ich schaue immer fern.",
-    "lessonId": "a1-l9",
-    "lessonTitle": "Lektion 9: Tägliche Aktivitäten"
-  },
+      {
+      "id": 1,
+      "farsi": "سر من درد می‌کند.",
+      "latin": "Sar-e man dard mikonad.",
+      "germanDecode": "Kopf-von mir Schmerz macht-er.",
+      "germanTranslation": "Mein Kopf tut weh.",
+      "lessonId": "a1-l9-body",
+      "lessonTitle": "Lektion 9: Körperteile"
+    },
+    {
+      "id": 2,
+      "farsi": "او چشم‌های آبی دارد.",
+      "latin": "Ū chashmhāye ābī dārad.",
+      "germanDecode": "Er Augen-von blau hat-er.",
+      "germanTranslation": "Er hat blaue Augen.",
+      "lessonId": "a1-l9-body",
+      "lessonTitle": "Lektion 9: Körperteile"
+    },
+    {
+      "id": 3,
+      "farsi": "دست راست من شکسته است.",
+      "latin": "Dast-e rāst-e man shekaste ast.",
+      "germanDecode": "Hand-von recht-von mir gebrochen ist.",
+      "germanTranslation": "Meine rechte Hand ist gebrochen.",
+      "lessonId": "a1-l9-body",
+      "lessonTitle": "Lektion 9: Körperteile"
+    },
+    {
+      "id": 4,
+      "farsi": "پا در کفش تنگ است.",
+      "latin": "Pā dar kafsh tang ast.",
+      "germanDecode": "Fuß in Schuh eng ist.",
+      "germanTranslation": "Der Fuß ist im engen Schuh.",
+      "lessonId": "a1-l9-body",
+      "lessonTitle": "Lektion 9: Körperteile"
+    },
+    {
+      "id": 5,
+      "farsi": "دندان من سالم است.",
+      "latin": "Dandān-e man sālem ast.",
+      "germanDecode": "Zahn-von mir gesund ist.",
+      "germanTranslation": "Mein Zahn ist gesund.",
+      "lessonId": "a1-l9-body",
+      "lessonTitle": "Lektion 9: Körperteile"
+    },
+    {
+      "id": 6,
+      "farsi": "گوش چپم درد می‌کند.",
+      "latin": "Gūsh-e chapam dard mikonad.",
+      "germanDecode": "Ohr-von links-mein Schmerz macht-es.",
+      "germanTranslation": "Mein linkes Ohr tut weh.",
+      "lessonId": "a1-l9-body",
+      "lessonTitle": "Lektion 9: Körperteile"
+    },
   {
     "id": 1,
     "farsi": "دیروز صبح ساعت شش از خواب بیدار شدم.",
