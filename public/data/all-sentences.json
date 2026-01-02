@@ -5,7 +5,7 @@
   "latin": "Salām",
   "germanDecode": "Hallo",
   "germanTranslation": "Hallo",
-  "lessonId": "a1-l1",
+  "lessonId": "a1-l1-greetings",
   "lessonTitle": "Lektion 1: Begrüßungen"
 },
 {
@@ -14,7 +14,7 @@
   "latin": "Khūb hastīd?",
   "germanDecode": "Gut sind-Sie?",
   "germanTranslation": "Wie geht es Ihnen?",
-  "lessonId": "a1-l1",
+  "lessonId": "a1-l1-greetings",
   "lessonTitle": "Lektion 1: Begrüßungen"
 },
 {
@@ -23,7 +23,7 @@
   "latin": "Man khūb hastam, motashakkeram.",
   "germanDecode": "Ich gut bin-ich, danke.",
   "germanTranslation": "Mir geht es gut, danke.",
-  "lessonId": "a1-l1",
+  "lessonId": "a1-l1-greetings",
   "lessonTitle": "Lektion 1: Begrüßungen"
 },
 {
@@ -32,7 +32,7 @@
   "latin": "Esm-e shomā chīst?",
   "germanDecode": "Name-von Ihnen was-ist?",
   "germanTranslation": "Wie ist Ihr Name?",
-  "lessonId": "a1-l1",
+  "lessonId": "a1-l1-greetings",
   "lessonTitle": "Lektion 1: Begrüßungen"
 },
 {
@@ -41,7 +41,7 @@
   "latin": "Man Sārā hastam. Khoshbakhtam!",
   "germanDecode": "Ich Sara bin-ich. Glücklich-bin-ich!",
   "germanTranslation": "Ich bin Sara. Freut mich!",
-  "lessonId": "a1-l1",
+  "lessonId": "a1-l1-greetings",
   "lessonTitle": "Lektion 1: Begrüßungen"
 },
 {
@@ -50,7 +50,7 @@
   "latin": "Man Rezā hastam. Man ham khoshbakhtam.",
   "germanDecode": "Ich Reza bin-ich. Ich auch glücklich-bin-ich.",
   "germanTranslation": "Ich bin Reza. Freut mich ebenso.",
-  "lessonId": "a1-l1",
+  "lessonId": "a1-l1-greetings",
   "lessonTitle": "Lektion 1: Begrüßungen"
 },
 {
@@ -59,7 +59,7 @@
   "latin": "Mībinametūn, Khodāhāfez!",
   "germanDecode": "Sehe-Sie-(ich), Gott-Hüter!",
   "germanTranslation": "Bis bald (wir sehen uns), tschüss!",
-  "lessonId": "a1-l1",
+  "lessonId": "a1-l1-greetings",
   "lessonTitle": "Lektion 1: Begrüßungen"
 },
   {
@@ -889,7 +889,7 @@
   "latin": "Salām, man ahl-e Ālmān hastam.",
   "germanDecode": "Hallo, ich Einwohner-von Deutschland bin-ich.",
   "germanTranslation": "Hallo, ich komme aus Deutschland.",
-  "lessonId": "a1-l2",
+  "lessonId": "a1-l2-origin",
   "lessonTitle": "Lektion 2: Herkunft & Identität"
 },
 {
@@ -898,7 +898,7 @@
   "latin": "Shomā ahl-e kojā hastīd?",
   "germanDecode": "Sie Einwohner-von wo sind-Sie?",
   "germanTranslation": "Woher kommen Sie?",
-  "lessonId": "a1-l2",
+  "lessonId": "a1-l2-origin",
   "lessonTitle": "Lektion 2: Herkunft & Identität"
 },
 {
@@ -907,7 +907,7 @@
   "latin": "Esm-e man ʿAlī ast va ahl-e Tehrān hastam.",
   "germanDecode": "Name-von mir Ali ist und Einwohner-von Teheran bin-ich.",
   "germanTranslation": "Ich heiße Ali und komme aus Teheran.",
-  "lessonId": "a1-l2",
+  "lessonId": "a1-l2-origin",
   "lessonTitle": "Lektion 2: Herkunft & Identität"
 },
 {
@@ -916,7 +916,7 @@
   "latin": "Shomā dar Īrān zendegī mikonīd?",
   "germanDecode": "Sie im Iran Leben machen-Sie?",
   "germanTranslation": "Leben Sie im Iran?",
-  "lessonId": "a1-l2",
+  "lessonId": "a1-l2-origin",
   "lessonTitle": "Lektion 2: Herkunft & Identität"
 },
 {
@@ -925,7 +925,7 @@
   "latin": "Man do māh ast injā hastam.",
   "germanDecode": "Ich zwei Monate ist hier bin-ich.",
   "germanTranslation": "Ich bin seit zwei Monaten hier.",
-  "lessonId": "a1-l2",
+  "lessonId": "a1-l2-origin",
   "lessonTitle": "Lektion 2: Herkunft & Identität"
 },
 {
@@ -934,7 +934,7 @@
   "latin": "Khosh āmadīd!",
   "germanDecode": "Gut gekommen-seid-ihr!",
   "germanTranslation": "Willkommen!",
-  "lessonId": "a1-l2",
+  "lessonId": "a1-l2-origin",
   "lessonTitle": "Lektion 2: Herkunft & Identität"
 }
   ,
