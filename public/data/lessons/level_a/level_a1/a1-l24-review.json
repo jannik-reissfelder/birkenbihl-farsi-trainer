@@ -1,0 +1,211 @@
+{
+  "id": "a1-l24-review",
+  "title": "Lektion 24: Wiederholung und Zusammenfassung",
+  "description": "Zusammenfassung der wichtigsten A1-Strukturen und Vokabeln.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "من نام من احمد است.",
+      "latin": "Man, nām-e man Ahmad ast.",
+      "germanDecode": "Ich, Name-von mir Ahmad ist.",
+      "germanTranslation": "Ich, mein Name ist Ahmad.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.3961277777777778
+        },
+        {
+          "word": "نام",
+          "cleanWord": "نام",
+          "start": 0.3961277777777778,
+          "end": 0.9903194444444445
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.9903194444444445,
+          "end": 1.3864472222222224
+        },
+        {
+          "word": "احمد",
+          "cleanWord": "احمد",
+          "start": 1.3864472222222224,
+          "end": 2.178702777777778
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.178702777777778,
+          "end": 2.970958333333334
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "او از ایران آمده است.",
+      "latin": "Ū az Īrān āmade ast.",
+      "germanDecode": "Er aus Iran gekommen ist.",
+      "germanTranslation": "Er ist aus dem Iran gekommen.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.32599509803921567
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0.32599509803921567,
+          "end": 0.6519901960784313
+        },
+        {
+          "word": "ایران",
+          "cleanWord": "ایران",
+          "start": 0.6519901960784313,
+          "end": 1.4669779411764705
+        },
+        {
+          "word": "آمده",
+          "cleanWord": "آمده",
+          "start": 1.4669779411764705,
+          "end": 2.118968137254902
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.118968137254902,
+          "end": 2.770958333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "ما فارسی یاد می‌گیریم.",
+      "latin": "Mā Fārsī yād mīgīrīm.",
+      "germanDecode": "Wir Persisch Lernen lernen-wir.",
+      "germanTranslation": "Wir lernen Persisch.",
+      "timings": [
+        {
+          "word": "ما",
+          "cleanWord": "ما",
+          "start": 0,
+          "end": 0.34641666666666665
+        },
+        {
+          "word": "فارسی",
+          "cleanWord": "فارسی",
+          "start": 0.34641666666666665,
+          "end": 1.2124583333333332
+        },
+        {
+          "word": "یاد",
+          "cleanWord": "یاد",
+          "start": 1.2124583333333332,
+          "end": 1.7320833333333332
+        },
+        {
+          "word": "می‌گیریم.",
+          "cleanWord": "می‌گیریم",
+          "start": 1.7320833333333332,
+          "end": 3.290958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "آنها دوستان خوبی هستند.",
+      "latin": "Ānhā dūstān-e khūbī hastand.",
+      "germanDecode": "Sie Freunde-von gut sind-sie.",
+      "germanTranslation": "Sie sind gute Freunde.",
+      "timings": [
+        {
+          "word": "آنها",
+          "cleanWord": "آنها",
+          "start": 0,
+          "end": 0.5301916666666667
+        },
+        {
+          "word": "دوستان",
+          "cleanWord": "دوستان",
+          "start": 0.5301916666666667,
+          "end": 1.3254791666666668
+        },
+        {
+          "word": "خوبی",
+          "cleanWord": "خوبی",
+          "start": 1.3254791666666668,
+          "end": 1.8556708333333334
+        },
+        {
+          "word": "هستند.",
+          "cleanWord": "هستند",
+          "start": 1.8556708333333334,
+          "end": 2.6509583333333335
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "خانواده مهم است.",
+      "latin": "Khānevāde mohem ast.",
+      "germanDecode": "Familie wichtig ist.",
+      "germanTranslation": "Familie ist wichtig.",
+      "timings": [
+        {
+          "word": "خانواده",
+          "cleanWord": "خانواده",
+          "start": 0,
+          "end": 1.3254791666666668
+        },
+        {
+          "word": "مهم",
+          "cleanWord": "مهم",
+          "start": 1.3254791666666668,
+          "end": 1.8935416666666667
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.8935416666666667,
+          "end": 2.6509583333333335
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "امیدوارم شما موفق باشید.",
+      "latin": "Omīdvāram shomā movaffagh bāshīd.",
+      "germanDecode": "Hoffe-ich Sie erfolgreich seien-Sie.",
+      "germanTranslation": "Ich hoffe, Sie haben Erfolg.",
+      "timings": [
+        {
+          "word": "امیدوارم",
+          "cleanWord": "امیدوارم",
+          "start": 0,
+          "end": 0.8422698412698412
+        },
+        {
+          "word": "شما",
+          "cleanWord": "شما",
+          "start": 0.8422698412698412,
+          "end": 1.1581210317460315
+        },
+        {
+          "word": "موفق",
+          "cleanWord": "موفق",
+          "start": 1.1581210317460315,
+          "end": 1.5792559523809522
+        },
+        {
+          "word": "باشید.",
+          "cleanWord": "باشید",
+          "start": 1.5792559523809522,
+          "end": 2.210958333333333
+        }
+      ]
+    }
+  ]
+}

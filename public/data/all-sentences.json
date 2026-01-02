@@ -1,49 +1,67 @@
 [
   {
-    "id": 1,
-    "farsi": "سلام",
-    "latin": "Salām",
-    "germanDecode": "Hallo",
-    "germanTranslation": "Hallo",
-    "lessonId": "a1-l1",
-    "lessonTitle": "Lektion 1: Begrüßungen"
-  },
-  {
-    "id": 2,
-    "farsi": "حال شما چطور است؟",
-    "latin": "Hāl-e shomā chetor ast?",
-    "germanDecode": "Zustand-von Ihr wie ist?",
-    "germanTranslation": "Wie geht es Ihnen?",
-    "lessonId": "a1-l1",
-    "lessonTitle": "Lektion 1: Begrüßungen"
-  },
-  {
-    "id": 3,
-    "farsi": "من خوبم، ممنون",
-    "latin": "Man khūbam, mamnūn",
-    "germanDecode": "Ich gut-bin, danke",
-    "germanTranslation": "Mir geht es gut, danke",
-    "lessonId": "a1-l1",
-    "lessonTitle": "Lektion 1: Begrüßungen"
-  },
-  {
-    "id": 4,
-    "farsi": "اسم شما چیست؟",
-    "latin": "Esm-e shomā chist?",
-    "germanDecode": "Name-von Ihr was ist?",
-    "germanTranslation": "Wie heißen Sie?",
-    "lessonId": "a1-l1",
-    "lessonTitle": "Lektion 1: Begrüßungen"
-  },
-  {
-    "id": 5,
-    "farsi": "اسم من ... است",
-    "latin": "Esm-e man ... ast",
-    "germanDecode": "Name-von mein ... ist",
-    "germanTranslation": "Mein Name ist ...",
-    "lessonId": "a1-l1",
-    "lessonTitle": "Lektion 1: Begrüßungen"
-  },
+  "id": 1,
+  "farsi": "سلام",
+  "latin": "Salām",
+  "germanDecode": "Hallo",
+  "germanTranslation": "Hallo",
+  "lessonId": "a1-l1",
+  "lessonTitle": "Lektion 1: Begrüßungen"
+},
+{
+  "id": 2,
+  "farsi": "خوب هستید؟",
+  "latin": "Khūb hastīd?",
+  "germanDecode": "Gut sind-Sie?",
+  "germanTranslation": "Wie geht es Ihnen?",
+  "lessonId": "a1-l1",
+  "lessonTitle": "Lektion 1: Begrüßungen"
+},
+{
+  "id": 3,
+  "farsi": "من خوب هستم، متشکرم.",
+  "latin": "Man khūb hastam, motashakkeram.",
+  "germanDecode": "Ich gut bin-ich, danke.",
+  "germanTranslation": "Mir geht es gut, danke.",
+  "lessonId": "a1-l1",
+  "lessonTitle": "Lektion 1: Begrüßungen"
+},
+{
+  "id": 4,
+  "farsi": "اسم شما چیست؟",
+  "latin": "Esm-e shomā chīst?",
+  "germanDecode": "Name-von Ihnen was-ist?",
+  "germanTranslation": "Wie ist Ihr Name?",
+  "lessonId": "a1-l1",
+  "lessonTitle": "Lektion 1: Begrüßungen"
+},
+{
+  "id": 5,
+  "farsi": "من سارا هستم. خوشبختم!",
+  "latin": "Man Sārā hastam. Khoshbakhtam!",
+  "germanDecode": "Ich Sara bin-ich. Glücklich-bin-ich!",
+  "germanTranslation": "Ich bin Sara. Freut mich!",
+  "lessonId": "a1-l1",
+  "lessonTitle": "Lektion 1: Begrüßungen"
+},
+{
+  "id": 6,
+  "farsi": "من رضا هستم. من هم خوشبختم.",
+  "latin": "Man Rezā hastam. Man ham khoshbakhtam.",
+  "germanDecode": "Ich Reza bin-ich. Ich auch glücklich-bin-ich.",
+  "germanTranslation": "Ich bin Reza. Freut mich ebenso.",
+  "lessonId": "a1-l1",
+  "lessonTitle": "Lektion 1: Begrüßungen"
+},
+{
+  "id": 7,
+  "farsi": "می‌بینمتون، خداحافظ!",
+  "latin": "Mībinametūn, Khodāhāfez!",
+  "germanDecode": "Sehe-Sie-(ich), Gott-Hüter!",
+  "germanTranslation": "Bis bald (wir sehen uns), tschüss!",
+  "lessonId": "a1-l1",
+  "lessonTitle": "Lektion 1: Begrüßungen"
+},
   {
   "id": 1,
   "farsi": "امروز هوا آفتابی است.",
@@ -480,51 +498,446 @@
   "lessonTitle": "Lektion 17: Haus und Zuhause"
 },
 
-  {
-    "id": 1,
-    "farsi": "شما اهل کجا هستید؟",
-    "latin": "Shomā ahl-e kojā hastid?",
-    "germanDecode": "Sie von wo sind-Sie?",
-    "germanTranslation": "Woher kommen Sie?",
-    "lessonId": "a1-l2",
-    "lessonTitle": "Lektion 2: Herkunft & Identität"
-  },
-  {
-    "id": 2,
-    "farsi": "من اهل آلمان هستم",
-    "latin": "Man ahl-e Ālmān hastam",
-    "germanDecode": "Ich von Deutschland bin-ich",
-    "germanTranslation": "Ich komme aus Deutschland",
-    "lessonId": "a1-l2",
-    "lessonTitle": "Lektion 2: Herkunft & Identität"
-  },
-  {
-    "id": 3,
-    "farsi": "من آلمانی هستم",
-    "latin": "Man Ālmāni hastam",
-    "germanDecode": "Ich Deutsch bin-ich",
-    "germanTranslation": "Ich bin Deutscher",
-    "lessonId": "a1-l2",
-    "lessonTitle": "Lektion 2: Herkunft & Identität"
-  },
-  {
-    "id": 4,
-    "farsi": "شما اینجا چه کار می کنید؟",
-    "latin": "Shomā injā che kār mikonid?",
-    "germanDecode": "Sie hier was Arbeit machen-Sie?",
-    "germanTranslation": "Was machen Sie hier?",
-    "lessonId": "a1-l2",
-    "lessonTitle": "Lektion 2: Herkunft & Identität"
-  },
-  {
-    "id": 5,
-    "farsi": "من برای تعطیلات اینجا هستم",
-    "latin": "Man barāye ta'tilāt injā hastam",
-    "germanDecode": "Ich für Urlaub hier bin-ich",
-    "germanTranslation": "Ich bin hier im Urlaub",
-    "lessonId": "a1-l2",
-    "lessonTitle": "Lektion 2: Herkunft & Identität"
-  },
+{
+  "id": 1,
+  "farsi": "میز برای دو نفر لطفاً.",
+  "latin": "Mīz barāye do nafar lotfan.",
+  "germanDecode": "Tisch für zwei Personen bitte.",
+  "germanTranslation": "Einen Tisch für zwei Personen, bitte.",
+  "lessonId": "a1-l18-restaurant",
+  "lessonTitle": "Lektion 18: Im Restaurant"
+},
+{
+  "id": 2,
+  "farsi": "منو را می‌توانم ببینم؟",
+  "latin": "Menyū rā mītavānam bebīnam?",
+  "germanDecode": "Menü D.O. kann-ich sehen?",
+  "germanTranslation": "Kann ich die Speisekarte sehen?",
+  "lessonId": "a1-l18-restaurant",
+  "lessonTitle": "Lektion 18: Im Restaurant"
+},
+{
+  "id": 3,
+  "farsi": "من کباب سفارش می‌دهم.",
+  "latin": "Man kabāb sefāresh mīdaham.",
+  "germanDecode": "Ich Kebab Bestellung gebe-ich.",
+  "germanTranslation": "Ich bestelle Kebab.",
+  "lessonId": "a1-l18-restaurant",
+  "lessonTitle": "Lektion 18: Im Restaurant"
+},
+{
+  "id": 4,
+  "farsi": "آب و نان بیاورید.",
+  "latin": "Āb va nān biyāvarīd.",
+  "germanDecode": "Wasser und Brot bringen-Sie.",
+  "germanTranslation": "Bringen Sie Wasser und Brot.",
+  "lessonId": "a1-l18-restaurant",
+  "lessonTitle": "Lektion 18: Im Restaurant"
+},
+{
+  "id": 5,
+  "farsi": "حساب لطفاً!",
+  "latin": "Hesāb lotfan!",
+  "germanDecode": "Rechnung bitte!",
+  "germanTranslation": "Die Rechnung, bitte!",
+  "lessonId": "a1-l18-restaurant",
+  "lessonTitle": "Lektion 18: Im Restaurant"
+},
+{
+  "id": 6,
+  "farsi": "غذا بسیار خوشمزه بود.",
+  "latin": "Ghazā besyār khoshmaze būd.",
+  "germanDecode": "Essen sehr lecker war-es.",
+  "germanTranslation": "Das Essen war sehr lecker.",
+  "lessonId": "a1-l18-restaurant",
+  "lessonTitle": "Lektion 18: Im Restaurant"
+},
+
+{
+  "id": 1,
+  "farsi": "گوشی من شارژ ندارد.",
+  "latin": "Gūshī-ye man shārzh nadārad.",
+  "germanDecode": "Handy-von mir Ladung nicht-hat-es.",
+  "germanTranslation": "Mein Handy hat keinen Akku.",
+  "lessonId": "a1-l19-technology",
+  "lessonTitle": "Lektion 19: Technologie"
+},
+{
+  "id": 2,
+  "farsi": "کامپیوتر روشن نمی‌شود.",
+  "latin": "Kāmpyūtar roshan namīshavad.",
+  "germanDecode": "Computer an nicht-wird-es.",
+  "germanTranslation": "Der Computer geht nicht an.",
+  "lessonId": "a1-l19-technology",
+  "lessonTitle": "Lektion 19: Technologie"
+},
+{
+  "id": 3,
+  "farsi": "اینترنت قطع است.",
+  "latin": "Īnternet ghat' ast.",
+  "germanDecode": "Internet abgeschnitten ist.",
+  "germanTranslation": "Das Internet ist unterbrochen.",
+  "lessonId": "a1-l19-technology",
+  "lessonTitle": "Lektion 19: Technologie"
+},
+{
+  "id": 4,
+  "farsi": "من یک ایمیل می‌فرستم.",
+  "latin": "Man yek īmeyl mīferestam.",
+  "germanDecode": "Ich eine E-Mail sende-ich.",
+  "germanTranslation": "Ich sende eine E-Mail.",
+  "lessonId": "a1-l19-technology",
+  "lessonTitle": "Lektion 19: Technologie"
+},
+{
+  "id": 5,
+  "farsi": "رمز عبور را فراموش کردم.",
+  "latin": "Ramz-e obūr rā farāmūsh kardam.",
+  "germanDecode": "Passwort-von Übergang D.O. vergessen machte-ich.",
+  "germanTranslation": "Ich habe das Passwort vergessen.",
+  "lessonId": "a1-l19-technology",
+  "lessonTitle": "Lektion 19: Technologie"
+},
+{
+  "id": 6,
+  "farsi": "می‌توانید چاپگر درست کنید؟",
+  "latin": "Mītavānīd chāpgar dorost konīd?",
+  "germanDecode": "Können-Sie Drucker richtig machen-Sie?",
+  "germanTranslation": "Können Sie den Drucker reparieren?",
+  "lessonId": "a1-l19-technology",
+  "lessonTitle": "Lektion 19: Technologie"
+},
+
+{
+  "id": 1,
+  "farsi": "من در دانشگاه درس می‌خوانم.",
+  "latin": "Man dar dāneshgāh dars mikkhānam.",
+  "germanDecode": "Ich in Universität Lektion lese-ich.",
+  "germanTranslation": "Ich studiere an der Universität.",
+  "lessonId": "a1-l20-education",
+  "lessonTitle": "Lektion 20: Bildung und Schule"
+},
+{
+  "id": 2,
+  "farsi": "امتحان فردا است.",
+  "latin": "Emtehān fardā ast.",
+  "germanDecode": "Prüfung morgen ist.",
+  "germanTranslation": "Die Prüfung ist morgen.",
+  "lessonId": "a1-l20-education",
+  "lessonTitle": "Lektion 20: Bildung und Schule"
+},
+{
+  "id": 3,
+  "farsi": "کتاب درسی گران است.",
+  "latin": "Ketāb-e darsī gerān ast.",
+  "germanDecode": "Buch-von Unterricht teuer ist.",
+  "germanTranslation": "Das Lehrbuch ist teuer.",
+  "lessonId": "a1-l20-education",
+  "lessonTitle": "Lektion 20: Bildung und Schule"
+},
+{
+  "id": 4,
+  "farsi": "معلم خیلی صبور است.",
+  "latin": "Mo'allem kheylī sabūr ast.",
+  "germanDecode": "Lehrer sehr geduldig ist.",
+  "germanTranslation": "Der Lehrer ist sehr geduldig.",
+  "lessonId": "a1-l20-education",
+  "lessonTitle": "Lektion 20: Bildung und Schule"
+},
+{
+  "id": 5,
+  "farsi": "دانش‌آموزان تکلیف دارند.",
+  "latin": "Dānesh-āmūzān takklīf dārand.",
+  "germanDecode": "Schüler-Plural Hausaufgabe haben-sie.",
+  "germanTranslation": "Die Schüler haben Hausaufgaben.",
+  "lessonId": "a1-l20-education",
+  "lessonTitle": "Lektion 20: Bildung und Schule"
+},
+{
+  "id": 6,
+  "farsi": "من فارسی یاد می‌گیرم.",
+  "latin": "Man Fārsī yād mīgīram.",
+  "germanDecode": "Ich Persisch Lernen lerne-ich.",
+  "germanTranslation": "Ich lerne Persisch.",
+  "lessonId": "a1-l20-education",
+  "lessonTitle": "Lektion 20: Bildung und Schule"
+},
+
+{
+  "id": 1,
+  "farsi": "من به ایران می‌روم.",
+  "latin": "Man be Īrān mīravam.",
+  "germanDecode": "Ich nach Iran gehe-ich.",
+  "germanTranslation": "Ich fahre in den Iran.",
+  "lessonId": "a1-l21-traveling",
+  "lessonTitle": "Lektion 21: Reisen"
+},
+{
+  "id": 2,
+  "farsi": "گذرنامه کجاست؟",
+  "latin": "Gozarnāme kojāst?",
+  "germanDecode": "Reisepass wo-ist?",
+  "germanTranslation": "Wo ist der Reisepass?",
+  "lessonId": "a1-l21-traveling",
+  "lessonTitle": "Lektion 21: Reisen"
+},
+{
+  "id": 3,
+  "farsi": "هتل رزرو کردم.",
+  "latin": "Hotel rezerv kardam.",
+  "germanDecode": "Hotel reserviert machte-ich.",
+  "germanTranslation": "Ich habe ein Hotel reserviert.",
+  "lessonId": "a1-l21-traveling",
+  "lessonTitle": "Lektion 21: Reisen"
+},
+{
+  "id": 4,
+  "farsi": "فرودگاه چه وقت می‌رویم؟",
+  "latin": "Forūdgāh che vaght mīravīm?",
+  "germanDecode": "Flughafen welche Zeit gehen-wir?",
+  "germanTranslation": "Wann fahren wir zum Flughafen?",
+  "lessonId": "a1-l21-traveling",
+  "lessonTitle": "Lektion 21: Reisen"
+},
+{
+  "id": 5,
+  "farsi": "چمدان سنگین است.",
+  "latin": "Chamedān sangīn ast.",
+  "germanDecode": "Koffer schwer ist.",
+  "germanTranslation": "Der Koffer ist schwer.",
+  "lessonId": "a1-l21-traveling",
+  "lessonTitle": "Lektion 21: Reisen"
+},
+{
+  "id": 6,
+  "farsi": "سفر خوش بود.",
+  "latin": "Safar khosh būd.",
+  "germanDecode": "Reise schön war-es.",
+  "germanTranslation": "Die Reise war schön.",
+  "lessonId": "a1-l21-traveling",
+  "lessonTitle": "Lektion 21: Reisen"
+},
+
+{
+  "id": 1,
+  "farsi": "الو، سلام!",
+  "latin": "Aloo, salām!",
+  "germanDecode": "Hallo, Hallo!",
+  "germanTranslation": "Hallo!",
+  "lessonId": "a1-l22-phone",
+  "lessonTitle": "Lektion 22: Telefon und Kommunikation"
+},
+{
+  "id": 2,
+  "farsi": "من احمد هستم.",
+  "latin": "Man Ahmad hastam.",
+  "germanDecode": "Ich Ahmad bin-ich.",
+  "germanTranslation": "Ich bin Ahmad.",
+  "lessonId": "a1-l22-phone",
+  "lessonTitle": "Lektion 22: Telefon und Kommunikation"
+},
+{
+  "id": 3,
+  "farsi": "شماره اشتباه گرفتید.",
+  "latin": "Shomāre eshtebāh gereftīd.",
+  "germanDecode": "Nummer falsch nahmen-Sie.",
+  "germanTranslation": "Sie haben die falsche Nummer gewählt.",
+  "lessonId": "a1-l22-phone",
+  "lessonTitle": "Lektion 22: Telefon und Kommunikation"
+},
+{
+  "id": 4,
+  "farsi": "لطفاً صبر کنید.",
+  "latin": "Lotfan sabr konīd.",
+  "germanDecode": "Bitte Geduld machen-Sie.",
+  "germanTranslation": "Bitte warten Sie.",
+  "lessonId": "a1-l22-phone",
+  "lessonTitle": "Lektion 22: Telefon und Kommunikation"
+},
+{
+  "id": 5,
+  "farsi": "پیغام دارم.",
+  "latin": "Payghām dāram.",
+  "germanDecode": "Nachricht habe-ich.",
+  "germanTranslation": "Ich habe eine Nachricht.",
+  "lessonId": "a1-l22-phone",
+  "lessonTitle": "Lektion 22: Telefon und Kommunikation"
+},
+{
+  "id": 6,
+  "farsi": "بعداً زنگ می‌زنم.",
+  "latin": "Ba'dan zang mīzanam.",
+  "germanDecode": "Später Klingel schlage-ich.",
+  "germanTranslation": "Ich rufe später an.",
+  "lessonId": "a1-l22-phone",
+  "lessonTitle": "Lektion 22: Telefon und Kommunikation"
+},
+
+{
+  "id": 1,
+  "farsi": "من خوشحال هستم.",
+  "latin": "Man khoshhāl hastam.",
+  "germanDecode": "Ich glücklich bin-ich.",
+  "germanTranslation": "Ich bin glücklich.",
+  "lessonId": "a1-l23-emotions",
+  "lessonTitle": "Lektion 23: Gefühle und Emotionen"
+},
+{
+  "id": 2,
+  "farsi": "او غمگین است.",
+  "latin": "Ū ghamgīn ast.",
+  "germanDecode": "Er traurig ist.",
+  "germanTranslation": "Er ist traurig.",
+  "lessonId": "a1-l23-emotions",
+  "lessonTitle": "Lektion 23: Gefühle und Emotionen"
+},
+{
+  "id": 3,
+  "farsi": "نگران نباشید.",
+  "latin": "Nagarān nabāshīd.",
+  "germanDecode": "Besorgt nicht-seien-Sie.",
+  "germanTranslation": "Machen Sie sich keine Sorgen.",
+  "lessonId": "a1-l23-emotions",
+  "lessonTitle": "Lektion 23: Gefühle und Emotionen"
+},
+{
+  "id": 4,
+  "farsi": "کودک از سگ می‌ترسد.",
+  "latin": "Kūdak az sag mītarasad.",
+  "germanDecode": "Kind von Hund fürchtet-es.",
+  "germanTranslation": "Das Kind hat Angst vor dem Hund.",
+  "lessonId": "a1-l23-emotions",
+  "lessonTitle": "Lektion 23: Gefühle und Emotionen"
+},
+{
+  "id": 5,
+  "farsi": "من عصبانی نیستم.",
+  "latin": "Man asabānī nīstam.",
+  "germanDecode": "Ich wütend nicht-bin-ich.",
+  "germanTranslation": "Ich bin nicht wütend.",
+  "lessonId": "a1-l23-emotions",
+  "lessonTitle": "Lektion 23: Gefühle und Emotionen"
+},
+{
+  "id": 6,
+  "farsi": "احساس خوبی دارم.",
+  "latin": "Ehsās-e khūbī dāram.",
+  "germanDecode": "Gefühl-von gut habe-ich.",
+  "germanTranslation": "Ich habe ein gutes Gefühl.",
+  "lessonId": "a1-l23-emotions",
+  "lessonTitle": "Lektion 23: Gefühle und Emotionen"
+},
+
+{
+  "id": 1,
+  "farsi": "من نام من احمد است.",
+  "latin": "Man, nām-e man Ahmad ast.",
+  "germanDecode": "Ich, Name-von mir Ahmad ist.",
+  "germanTranslation": "Ich, mein Name ist Ahmad.",
+  "lessonId": "a1-l24-review",
+  "lessonTitle": "Lektion 24: Wiederholung und Zusammenfassung"
+},
+{
+  "id": 2,
+  "farsi": "او از ایران آمده است.",
+  "latin": "Ū az Īrān āmade ast.",
+  "germanDecode": "Er aus Iran gekommen ist.",
+  "germanTranslation": "Er ist aus dem Iran gekommen.",
+  "lessonId": "a1-l24-review",
+  "lessonTitle": "Lektion 24: Wiederholung und Zusammenfassung"
+},
+{
+  "id": 3,
+  "farsi": "ما فارسی یاد می‌گیریم.",
+  "latin": "Mā Fārsī yād mīgīrīm.",
+  "germanDecode": "Wir Persisch Lernen lernen-wir.",
+  "germanTranslation": "Wir lernen Persisch.",
+  "lessonId": "a1-l24-review",
+  "lessonTitle": "Lektion 24: Wiederholung und Zusammenfassung"
+},
+{
+  "id": 4,
+  "farsi": "آنها دوستان خوبی هستند.",
+  "latin": "Ānhā dūstān-e khūbī hastand.",
+  "germanDecode": "Sie Freunde-von gut sind-sie.",
+  "germanTranslation": "Sie sind gute Freunde.",
+  "lessonId": "a1-l24-review",
+  "lessonTitle": "Lektion 24: Wiederholung und Zusammenfassung"
+},
+{
+  "id": 5,
+  "farsi": "خانواده مهم است.",
+  "latin": "Khānevāde mohem ast.",
+  "germanDecode": "Familie wichtig ist.",
+  "germanTranslation": "Familie ist wichtig.",
+  "lessonId": "a1-l24-review",
+  "lessonTitle": "Lektion 24: Wiederholung und Zusammenfassung"
+},
+{
+  "id": 6,
+  "farsi": "امیدوارم شما موفق باشید.",
+  "latin": "Omīdvāram shomā movaffagh bāshīd.",
+  "germanDecode": "Hoffe-ich Sie erfolgreich seien-Sie.",
+  "germanTranslation": "Ich hoffe, Sie haben Erfolg.",
+  "lessonId": "a1-l24-review",
+  "lessonTitle": "Lektion 24: Wiederholung und Zusammenfassung"
+},
+
+{
+  "id": 1,
+  "farsi": "سلام، من اهل آلمان هستم.",
+  "latin": "Salām, man ahl-e Ālmān hastam.",
+  "germanDecode": "Hallo, ich Einwohner-von Deutschland bin-ich.",
+  "germanTranslation": "Hallo, ich komme aus Deutschland.",
+  "lessonId": "a1-l2",
+  "lessonTitle": "Lektion 2: Herkunft & Identität"
+},
+{
+  "id": 2,
+  "farsi": "شما اهل کجا هستید؟",
+  "latin": "Shomā ahl-e kojā hastīd?",
+  "germanDecode": "Sie Einwohner-von wo sind-Sie?",
+  "germanTranslation": "Woher kommen Sie?",
+  "lessonId": "a1-l2",
+  "lessonTitle": "Lektion 2: Herkunft & Identität"
+},
+{
+  "id": 3,
+  "farsi": "اسم من علی است و اهل تهران هستم.",
+  "latin": "Esm-e man ʿAlī ast va ahl-e Tehrān hastam.",
+  "germanDecode": "Name-von mir Ali ist und Einwohner-von Teheran bin-ich.",
+  "germanTranslation": "Ich heiße Ali und komme aus Teheran.",
+  "lessonId": "a1-l2",
+  "lessonTitle": "Lektion 2: Herkunft & Identität"
+},
+{
+  "id": 4,
+  "farsi": "شما در ایران زندگی می‌کنید؟",
+  "latin": "Shomā dar Īrān zendegī mikonīd?",
+  "germanDecode": "Sie im Iran Leben machen-Sie?",
+  "germanTranslation": "Leben Sie im Iran?",
+  "lessonId": "a1-l2",
+  "lessonTitle": "Lektion 2: Herkunft & Identität"
+},
+{
+  "id": 5,
+  "farsi": "من دو ماه است اینجا هستم.",
+  "latin": "Man do māh ast injā hastam.",
+  "germanDecode": "Ich zwei Monate ist hier bin-ich.",
+  "germanTranslation": "Ich bin seit zwei Monaten hier.",
+  "lessonId": "a1-l2",
+  "lessonTitle": "Lektion 2: Herkunft & Identität"
+},
+{
+  "id": 6,
+  "farsi": "خوش آمدید!",
+  "latin": "Khosh āmadīd!",
+  "germanDecode": "Gut gekommen-seid-ihr!",
+  "germanTranslation": "Willkommen!",
+  "lessonId": "a1-l2",
+  "lessonTitle": "Lektion 2: Herkunft & Identität"
+}
+  ,
     {
     "id": 1,
     "farsi": "من پنج سیب دارم.",

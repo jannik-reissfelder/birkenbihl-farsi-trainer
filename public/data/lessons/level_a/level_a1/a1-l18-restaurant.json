@@ -1,0 +1,199 @@
+{
+  "id": "a1-l18-restaurant",
+  "title": "Lektion 18: Im Restaurant",
+  "description": "Essen bestellen und Restaurantgespräche führen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "میز برای دو نفر لطفاً.",
+      "latin": "Mīz barāye do nafar lotfan.",
+      "germanDecode": "Tisch für zwei Personen bitte.",
+      "germanTranslation": "Einen Tisch für zwei Personen, bitte.",
+      "timings": [
+        {
+          "word": "میز",
+          "cleanWord": "میز",
+          "start": 0,
+          "end": 0.3151597222222222
+        },
+        {
+          "word": "برای",
+          "cleanWord": "برای",
+          "start": 0.3151597222222222,
+          "end": 0.7353726851851852
+        },
+        {
+          "word": "دو",
+          "cleanWord": "دو",
+          "start": 0.7353726851851852,
+          "end": 0.9454791666666666
+        },
+        {
+          "word": "نفر",
+          "cleanWord": "نفر",
+          "start": 0.9454791666666666,
+          "end": 1.2606388888888889
+        },
+        {
+          "word": "لطفاً.",
+          "cleanWord": "لطفاً",
+          "start": 1.2606388888888889,
+          "end": 1.8909583333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "منو را می‌توانم ببینم؟",
+      "latin": "Menyū rā mītavānam bebīnam?",
+      "germanDecode": "Menü D.O. kann-ich sehen?",
+      "germanTranslation": "Kann ich die Speisekarte sehen?",
+      "timings": [
+        {
+          "word": "منو",
+          "cleanWord": "منو",
+          "start": 0,
+          "end": 0.31120394736842105
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 0.31120394736842105,
+          "end": 0.518673245614035
+        },
+        {
+          "word": "می‌توانم",
+          "cleanWord": "می‌توانم",
+          "start": 0.518673245614035,
+          "end": 1.348550438596491
+        },
+        {
+          "word": "ببینم؟",
+          "cleanWord": "ببینم؟",
+          "start": 1.348550438596491,
+          "end": 1.9709583333333331
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "من کباب سفارش می‌دهم.",
+      "latin": "Man kabāb sefāresh mīdaham.",
+      "germanDecode": "Ich Kebab Bestellung gebe-ich.",
+      "germanTranslation": "Ich bestelle Kebab.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.21899537037037037
+        },
+        {
+          "word": "کباب",
+          "cleanWord": "کباب",
+          "start": 0.21899537037037037,
+          "end": 0.656986111111111
+        },
+        {
+          "word": "سفارش",
+          "cleanWord": "سفارش",
+          "start": 0.656986111111111,
+          "end": 1.2044745370370369
+        },
+        {
+          "word": "می‌دهم.",
+          "cleanWord": "می‌دهم",
+          "start": 1.2044745370370369,
+          "end": 1.9709583333333334
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "آب و نان بیاورید.",
+      "latin": "Āb va nān biyāvarīd.",
+      "germanDecode": "Wasser und Brot bringen-Sie.",
+      "germanTranslation": "Bringen Sie Wasser und Brot.",
+      "timings": [
+        {
+          "word": "آب",
+          "cleanWord": "آب",
+          "start": 0,
+          "end": 0.2701369047619047
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 0.2701369047619047,
+          "end": 0.4052053571428571
+        },
+        {
+          "word": "نان",
+          "cleanWord": "نان",
+          "start": 0.4052053571428571,
+          "end": 0.8104107142857142
+        },
+        {
+          "word": "بیاورید.",
+          "cleanWord": "بیاورید",
+          "start": 0.8104107142857142,
+          "end": 1.890958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "حساب لطفاً!",
+      "latin": "Hesāb lotfan!",
+      "germanDecode": "Rechnung bitte!",
+      "germanTranslation": "Die Rechnung, bitte!",
+      "timings": [
+        {
+          "word": "حساب",
+          "cleanWord": "حساب",
+          "start": 0,
+          "end": 0.5803833333333334
+        },
+        {
+          "word": "لطفاً!",
+          "cleanWord": "لطفاً",
+          "start": 0.5803833333333334,
+          "end": 1.4509583333333333
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "غذا بسیار خوشمزه بود.",
+      "latin": "Ghazā besyār khoshmaze būd.",
+      "germanDecode": "Essen sehr lecker war-es.",
+      "germanTranslation": "Das Essen war sehr lecker.",
+      "timings": [
+        {
+          "word": "غذا",
+          "cleanWord": "غذا",
+          "start": 0,
+          "end": 0.4018263888888889
+        },
+        {
+          "word": "بسیار",
+          "cleanWord": "بسیار",
+          "start": 0.4018263888888889,
+          "end": 1.0715370370370372
+        },
+        {
+          "word": "خوشمزه",
+          "cleanWord": "خوشمزه",
+          "start": 1.0715370370370372,
+          "end": 1.875189814814815
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 1.875189814814815,
+          "end": 2.4109583333333333
+        }
+      ]
+    }
+  ]
+}

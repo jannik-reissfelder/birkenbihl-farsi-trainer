@@ -1,0 +1,202 @@
+{
+  "id": "a1-l1",
+  "title": "Lektion 1: Begrüßungen",
+  "description": "Verb \"sein\" (hastam/bin), Personalpronomina in einfachen Nennsätzen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "سلام",
+      "latin": "Salām",
+      "germanDecode": "Hallo",
+      "germanTranslation": "Hallo",
+      "timings": [
+        {
+          "word": "سلام",
+          "cleanWord": "سلام",
+          "start": 0,
+          "end": 0.7709583333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "خوب هستید؟",
+      "latin": "Khūb hastīd?",
+      "germanDecode": "Gut sind-Sie?",
+      "germanTranslation": "Wie geht es Ihnen?",
+      "timings": [
+        {
+          "word": "خوب",
+          "cleanWord": "خوب",
+          "start": 0,
+          "end": 0.3769861111111111
+        },
+        {
+          "word": "هستید؟",
+          "cleanWord": "هستید؟",
+          "start": 0.3769861111111111,
+          "end": 1.1309583333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "من خوب هستم، متشکرم.",
+      "latin": "Man khūb hastam, motashakkeram.",
+      "germanDecode": "Ich gut bin-ich, danke.",
+      "germanTranslation": "Mir geht es gut, danke.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.2789362745098039
+        },
+        {
+          "word": "خوب",
+          "cleanWord": "خوب",
+          "start": 0.2789362745098039,
+          "end": 0.6973406862745097
+        },
+        {
+          "word": "هستم،",
+          "cleanWord": "هستم،",
+          "start": 0.6973406862745097,
+          "end": 1.3946813725490195
+        },
+        {
+          "word": "متشکرم.",
+          "cleanWord": "متشکرم",
+          "start": 1.3946813725490195,
+          "end": 2.3709583333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "اسم شما چیست؟",
+      "latin": "Esm-e shomā chīst?",
+      "germanDecode": "Name-von Ihnen was-ist?",
+      "germanTranslation": "Wie ist Ihr Name?",
+      "timings": [
+        {
+          "word": "اسم",
+          "cleanWord": "اسم",
+          "start": 0,
+          "end": 0.42844318181818175
+        },
+        {
+          "word": "شما",
+          "cleanWord": "شما",
+          "start": 0.42844318181818175,
+          "end": 0.8568863636363635
+        },
+        {
+          "word": "چیست؟",
+          "cleanWord": "چیست؟",
+          "start": 0.8568863636363635,
+          "end": 1.570958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "من سارا هستم. خوشبختم!",
+      "latin": "Man Sārā hastam. Khoshbakhtam!",
+      "germanDecode": "Ich Sara bin-ich. Glücklich-bin-ich!",
+      "germanTranslation": "Ich bin Sara. Freut mich!",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.27483771929824563
+        },
+        {
+          "word": "سارا",
+          "cleanWord": "سارا",
+          "start": 0.27483771929824563,
+          "end": 0.8245131578947369
+        },
+        {
+          "word": "هستم.",
+          "cleanWord": "هستم",
+          "start": 0.8245131578947369,
+          "end": 1.511607456140351
+        },
+        {
+          "word": "خوشبختم!",
+          "cleanWord": "خوشبختم",
+          "start": 1.511607456140351,
+          "end": 2.6109583333333335
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "من رضا هستم. من هم خوشبختم.",
+      "latin": "Man Rezā hastam. Man ham khoshbakhtam.",
+      "germanDecode": "Ich Reza bin-ich. Ich auch glücklich-bin-ich.",
+      "germanTranslation": "Ich bin Reza. Freut mich ebenso.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.2664507575757576
+        },
+        {
+          "word": "رضا",
+          "cleanWord": "رضا",
+          "start": 0.2664507575757576,
+          "end": 0.666126893939394
+        },
+        {
+          "word": "هستم.",
+          "cleanWord": "هستم",
+          "start": 0.666126893939394,
+          "end": 1.332253787878788
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 1.332253787878788,
+          "end": 1.5987045454545454
+        },
+        {
+          "word": "هم",
+          "cleanWord": "هم",
+          "start": 1.5987045454545454,
+          "end": 1.865155303030303
+        },
+        {
+          "word": "خوشبختم.",
+          "cleanWord": "خوشبختم",
+          "start": 1.865155303030303,
+          "end": 2.9309583333333333
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "farsi": "می‌بینمتون، خداحافظ!",
+      "latin": "Mībinametūn, Khodāhāfez!",
+      "germanDecode": "Sehe-Sie-(ich), Gott-Hüter!",
+      "germanTranslation": "Bis bald (wir sehen uns), tschüss!",
+      "timings": [
+        {
+          "word": "می‌بینمتون،",
+          "cleanWord": "می‌بینمتون،",
+          "start": 0,
+          "end": 1.1642390350877194
+        },
+        {
+          "word": "خداحافظ!",
+          "cleanWord": "خداحافظ",
+          "start": 1.1642390350877194,
+          "end": 2.0109583333333334
+        }
+      ]
+    }
+  ]
+}

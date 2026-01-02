@@ -1,0 +1,157 @@
+{
+  "id": "a1-l22-phone",
+  "title": "Lektion 22: Telefon und Kommunikation",
+  "description": "Telefonieren und grundlegende Kommunikationssituationen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "الو، سلام!",
+      "latin": "Aloo, salām!",
+      "germanDecode": "Hallo, Hallo!",
+      "germanTranslation": "Hallo!",
+      "timings": [
+        {
+          "word": "الو،",
+          "cleanWord": "الو،",
+          "start": 0,
+          "end": 0.591537037037037
+        },
+        {
+          "word": "سلام!",
+          "cleanWord": "سلام",
+          "start": 0.591537037037037,
+          "end": 1.3309583333333332
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "من احمد هستم.",
+      "latin": "Man Ahmad hastam.",
+      "germanDecode": "Ich Ahmad bin-ich.",
+      "germanTranslation": "Ich bin Ahmad.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.32199242424242425
+        },
+        {
+          "word": "احمد",
+          "cleanWord": "احمد",
+          "start": 0.32199242424242425,
+          "end": 0.9659772727272727
+        },
+        {
+          "word": "هستم.",
+          "cleanWord": "هستم",
+          "start": 0.9659772727272727,
+          "end": 1.7709583333333332
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "شماره اشتباه گرفتید.",
+      "latin": "Shomāre eshtebāh gereftīd.",
+      "germanDecode": "Nummer falsch nahmen-Sie.",
+      "germanTranslation": "Sie haben die falsche Nummer gewählt.",
+      "timings": [
+        {
+          "word": "شماره",
+          "cleanWord": "شماره",
+          "start": 0,
+          "end": 0.5363773148148149
+        },
+        {
+          "word": "اشتباه",
+          "cleanWord": "اشتباه",
+          "start": 0.5363773148148149,
+          "end": 1.1800300925925926
+        },
+        {
+          "word": "گرفتید.",
+          "cleanWord": "گرفتید",
+          "start": 1.1800300925925926,
+          "end": 1.9309583333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "لطفاً صبر کنید.",
+      "latin": "Lotfan sabr konīd.",
+      "germanDecode": "Bitte Geduld machen-Sie.",
+      "germanTranslation": "Bitte warten Sie.",
+      "timings": [
+        {
+          "word": "لطفاً",
+          "cleanWord": "لطفاً",
+          "start": 0,
+          "end": 0.5734455128205129
+        },
+        {
+          "word": "صبر",
+          "cleanWord": "صبر",
+          "start": 0.5734455128205129,
+          "end": 0.9175128205128207
+        },
+        {
+          "word": "کنید.",
+          "cleanWord": "کنید",
+          "start": 0.9175128205128207,
+          "end": 1.4909583333333336
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "پیغام دارم.",
+      "latin": "Payghām dāram.",
+      "germanDecode": "Nachricht habe-ich.",
+      "germanTranslation": "Ich habe eine Nachricht.",
+      "timings": [
+        {
+          "word": "پیغام",
+          "cleanWord": "پیغام",
+          "start": 0,
+          "end": 0.6854791666666666
+        },
+        {
+          "word": "دارم.",
+          "cleanWord": "دارم",
+          "start": 0.6854791666666666,
+          "end": 1.3709583333333333
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "بعداً زنگ می‌زنم.",
+      "latin": "Ba'dan zang mīzanam.",
+      "germanDecode": "Später Klingel schlage-ich.",
+      "germanTranslation": "Ich rufe später an.",
+      "timings": [
+        {
+          "word": "بعداً",
+          "cleanWord": "بعداً",
+          "start": 0,
+          "end": 0.5236527777777777
+        },
+        {
+          "word": "زنگ",
+          "cleanWord": "زنگ",
+          "start": 0.5236527777777777,
+          "end": 0.8378444444444444
+        },
+        {
+          "word": "می‌زنم.",
+          "cleanWord": "می‌زنم",
+          "start": 0.8378444444444444,
+          "end": 1.5709583333333332
+        }
+      ]
+    }
+  ]
+}

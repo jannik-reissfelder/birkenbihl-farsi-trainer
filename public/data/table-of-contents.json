@@ -7,12 +7,12 @@
       {
         "id": "a1-l1",
         "title": "Lektion 1: Begrüßungen",
-        "description": "Verb \"sein\" (ist/sind), Personalpronomina in einfachen Nennsätzen."
+        "description": "Verb \"sein\" (ist/sind), Personalpronomina in einfachen Nennsätzen und Begrüßungen."
       },
       {
         "id": "a1-l2",
         "title": "Lektion 2: Herkunft & Identität",
-        "description": "Verb \"sein\" (hastam/bin), Präpositionen (von, aus)."
+        "description": "Verb \"sein\" (hastam/bin), Präpositionen (von, aus) und Herkunft."
       },
       {
         "id": "a1-l3-numbers",
@@ -88,6 +88,41 @@
   "id": "a1-l17-home",
   "title": "Lektion 17: Haus und Zuhause",
   "description": "Über das Zuhause und Zimmer im Haus sprechen."
+},
+{
+  "id": "a1-l18-restaurant",
+  "title": "Lektion 18: Im Restaurant",
+  "description": "Essen bestellen und Restaurantgespräche führen."
+},
+{
+  "id": "a1-l19-technology",
+  "title": "Lektion 19: Technologie",
+  "description": "Über Computer, Handys und moderne Technologie sprechen."
+},
+{
+  "id": "a1-l20-education",
+  "title": "Lektion 20: Bildung und Schule",
+  "description": "Über Schule, Studium und Lernen sprechen."
+},
+{
+  "id": "a1-l21-traveling",
+  "title": "Lektion 21: Reisen",
+  "description": "Grundlegende Reisetätigkeiten und Tourismussprache."
+},
+{
+  "id": "a1-l22-phone",
+  "title": "Lektion 22: Telefon und Kommunikation",
+  "description": "Telefonieren und grundlegende Kommunikationssituationen."
+},
+{
+  "id": "a1-l23-emotions",
+  "title": "Lektion 23: Gefühle und Emotionen",
+  "description": "Über Gefühle sprechen und emotionale Zustände ausdrücken."
+},
+{
+  "id": "a1-l24-review",
+  "title": "Lektion 24: Wiederholung und Zusammenfassung",
+  "description": "Zusammenfassung der wichtigsten A1-Strukturen und Vokabeln."
 }
     ]
   },
