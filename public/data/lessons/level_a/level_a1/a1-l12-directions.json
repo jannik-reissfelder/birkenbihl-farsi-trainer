@@ -1,0 +1,168 @@
+{
+  "id": "a1-l12-directions",
+  "title": "Lektion 12: Richtungen und Orte",
+  "description": "Wegbeschreibungen verstehen und nach dem Weg fragen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "بانک کجاست؟",
+      "latin": "Bānk kojāst?",
+      "germanDecode": "Bank wo-ist?",
+      "germanTranslation": "Wo ist die Bank?",
+      "timings": [
+        {
+          "word": "بانک",
+          "cleanWord": "بانک",
+          "start": 0,
+          "end": 0.7403833333333334
+        },
+        {
+          "word": "کجاست؟",
+          "cleanWord": "کجاست؟",
+          "start": 0.7403833333333334,
+          "end": 1.8509583333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "به راست بپیچید.",
+      "latin": "Be rāst bepichīd.",
+      "germanDecode": "Nach rechts biegen-Sie.",
+      "germanTranslation": "Biegen Sie nach rechts ab.",
+      "timings": [
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0,
+          "end": 0.28476282051282054
+        },
+        {
+          "word": "راست",
+          "cleanWord": "راست",
+          "start": 0.28476282051282054,
+          "end": 0.8542884615384616
+        },
+        {
+          "word": "بپیچید.",
+          "cleanWord": "بپیچید",
+          "start": 0.8542884615384616,
+          "end": 1.8509583333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "داروخانه آن طرف خیابان است.",
+      "latin": "Dārūkhāne ān taraf-e khiyābān ast.",
+      "germanDecode": "Apotheke jene Seite-von Straße ist.",
+      "germanTranslation": "Die Apotheke ist auf der anderen Straßenseite.",
+      "timings": [
+        {
+          "word": "داروخانه",
+          "cleanWord": "داروخانه",
+          "start": 0,
+          "end": 1.1725072463768116
+        },
+        {
+          "word": "آن",
+          "cleanWord": "آن",
+          "start": 1.1725072463768116,
+          "end": 1.4656340579710145
+        },
+        {
+          "word": "طرف",
+          "cleanWord": "طرف",
+          "start": 1.4656340579710145,
+          "end": 1.905324275362319
+        },
+        {
+          "word": "خیابان",
+          "cleanWord": "خیابان",
+          "start": 1.905324275362319,
+          "end": 2.7847047101449274
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.7847047101449274,
+          "end": 3.3709583333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "من گم شده‌ام.",
+      "latin": "Man gom shodeam.",
+      "germanDecode": "Ich verloren geworden-ich-bin.",
+      "germanTranslation": "Ich habe mich verlaufen.",
+      "timings": []
+    },
+    {
+      "id": 5,
+      "farsi": "ایستگاه اتوبوس نزدیک است.",
+      "latin": "Īstgāh-e otobūs nazdīk ast.",
+      "germanDecode": "Haltestelle-von Bus nah ist.",
+      "germanTranslation": "Die Bushaltestelle ist nah.",
+      "timings": [
+        {
+          "word": "ایستگاه",
+          "cleanWord": "ایستگاه",
+          "start": 0,
+          "end": 1.008941287878788
+        },
+        {
+          "word": "اتوبوس",
+          "cleanWord": "اتوبوس",
+          "start": 1.008941287878788,
+          "end": 1.873748106060606
+        },
+        {
+          "word": "نزدیک",
+          "cleanWord": "نزدیک",
+          "start": 1.873748106060606,
+          "end": 2.5944204545454546
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.5944204545454546,
+          "end": 3.1709583333333335
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "بیمارستان پشت پارک است.",
+      "latin": "Bīmārestān posht-e pārk ast.",
+      "germanDecode": "Krankenhaus hinter-von Park ist.",
+      "germanTranslation": "Das Krankenhaus ist hinter dem Park.",
+      "timings": [
+        {
+          "word": "بیمارستان",
+          "cleanWord": "بیمارستان",
+          "start": 0,
+          "end": 1.3909312500000002
+        },
+        {
+          "word": "پشت",
+          "cleanWord": "پشت",
+          "start": 1.3909312500000002,
+          "end": 1.854575
+        },
+        {
+          "word": "پارک",
+          "cleanWord": "پارک",
+          "start": 1.854575,
+          "end": 2.472766666666667
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.472766666666667,
+          "end": 3.0909583333333335
+        }
+      ]
+    }
+  ]
+}

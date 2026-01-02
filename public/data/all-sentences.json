@@ -45,86 +45,167 @@
     "lessonTitle": "Lektion 1: Begrüßungen"
   },
   {
-    "id": 1,
-    "farsi": "خانه اتاق‌های زیادی دارد.",
-    "latin": "Khāne otāgh-hāye ziyādi dārad.",
-    "germanDecode": "Haus Zimmer-PL-die viele hat-es.",
-    "germanTranslation": "Das Haus hat viele Zimmer.",
-    "lessonId": "a1-l10",
-    "lessonTitle": "Lektion 10: Im Haus"
-  },
-  {
-    "id": 2,
-    "farsi": "مبل در اتاق نشیمن است.",
-    "latin": "Mobl dar otāgh-e neshiman ast.",
-    "germanDecode": "Sofa in Zimmer-von sitzen ist.",
-    "germanTranslation": "Das Sofa ist im Wohnzimmer.",
-    "lessonId": "a1-l10",
-    "lessonTitle": "Lektion 10: Im Haus"
-  },
-  {
-    "id": 3,
-    "farsi": "من فرش را دوست دارم.",
-    "latin": "Man farsh rā dūst dāram.",
-    "germanDecode": "Ich Teppich D.O. Freund habe-ich.",
-    "germanTranslation": "Ich mag den Teppich.",
-    "lessonId": "a1-l10",
-    "lessonTitle": "Lektion 10: Im Haus"
-  },
-  {
-    "id": 1,
-    "farsi": "یخچال در آشپزخانه است.",
-    "latin": "Yakhchāl dar āshpazkhāne ast.",
-    "germanDecode": "Kühlschrank in Küche ist.",
-    "germanTranslation": "Der Kühlschrank ist in der Küche.",
-    "lessonId": "a1-l11",
-    "lessonTitle": "Lektion 11: Küche und Bad"
-  },
-  {
-    "id": 2,
-    "farsi": "من ظرف‌ها را می‌شویم.",
-    "latin": "Man zarf-hā rā mishūyam.",
-    "germanDecode": "Ich Geschirr-PL D.O. wasche-ich.",
-    "germanTranslation": "Ich wasche das Geschirr.",
-    "lessonId": "a1-l11",
-    "lessonTitle": "Lektion 11: Küche und Bad"
-  },
-  {
-    "id": 3,
-    "farsi": "حمام کجاست؟",
-    "latin": "Hammām kojāst?",
-    "germanDecode": "Bad wo-ist?",
-    "germanTranslation": "Wo ist das Badezimmer?",
-    "lessonId": "a1-l11",
-    "lessonTitle": "Lektion 11: Küche und Bad"
-  },
-  {
-    "id": 1,
-    "farsi": "سبزیجات برای شما خوب است.",
-    "latin": "Sabzijāt barāye shomā khūb ast.",
-    "germanDecode": "Gemüse für Sie gut ist.",
-    "germanTranslation": "Gemüse ist gut für Sie.",
-    "lessonId": "a1-l12",
-    "lessonTitle": "Lektion 12: Lebensmittel"
-  },
-  {
-    "id": 2,
-    "farsi": "من یک سیب می‌خورم.",
-    "latin": "Man yek sīb mikhoram.",
-    "germanDecode": "Ich ein Apfel esse-ich.",
-    "germanTranslation": "Ich esse einen Apfel.",
-    "lessonId": "a1-l12",
-    "lessonTitle": "Lektion 12: Lebensmittel"
-  },
-  {
-    "id": 3,
-    "farsi": "آشپز آب پرتقال درست کرد.",
-    "latin": "Āshpaz āb porteghāl dorost kard.",
-    "germanDecode": "Koch Saft Orange richtig machte.",
-    "germanTranslation": "Der Koch hat Orangensaft gemacht.",
-    "lessonId": "a1-l12",
-    "lessonTitle": "Lektion 12: Lebensmittel"
-  },
+  "id": 1,
+  "farsi": "امروز هوا آفتابی است.",
+  "latin": "Emrūz havā āftābī ast.",
+  "germanDecode": "Heute Wetter sonnig ist.",
+  "germanTranslation": "Heute ist das Wetter sonnig.",
+  "lessonId": "a1-l10-weather",
+  "lessonTitle": "Lektion 10: Wetter"
+},
+{
+  "id": 2,
+  "farsi": "باران می‌بارد.",
+  "latin": "Bārān mībārad.",
+  "germanDecode": "Regen regnet-es.",
+  "germanTranslation": "Es regnet.",
+  "lessonId": "a1-l10-weather",
+  "lessonTitle": "Lektion 10: Wetter"
+},
+{
+  "id": 3,
+  "farsi": "دیروز برف آمد.",
+  "latin": "Dīrūz barf āmad.",
+  "germanDecode": "Gestern Schnee kam-es.",
+  "germanTranslation": "Gestern hat es geschneit.",
+  "lessonId": "a1-l10-weather",
+  "lessonTitle": "Lektion 10: Wetter"
+},
+{
+  "id": 4,
+  "farsi": "هوا خیلی سرد است.",
+  "latin": "Havā kheylī sard ast.",
+  "germanDecode": "Wetter sehr kalt ist.",
+  "germanTranslation": "Das Wetter ist sehr kalt.",
+  "lessonId": "a1-l10-weather",
+  "lessonTitle": "Lektion 10: Wetter"
+},
+{
+  "id": 5,
+  "farsi": "تابستان گرم و خشک است.",
+  "latin": "Tābestān garm va khoshk ast.",
+  "germanDecode": "Sommer heiß und trocken ist.",
+  "germanTranslation": "Der Sommer ist heiß und trocken.",
+  "lessonId": "a1-l10-weather",
+  "lessonTitle": "Lektion 10: Wetter"
+},
+{
+  "id": 6,
+  "farsi": "باد شدید می‌وزد.",
+  "latin": "Bād-e shadīd mīvazad.",
+  "germanDecode": "Wind-von stark weht-er.",
+  "germanTranslation": "Starker Wind weht.",
+  "lessonId": "a1-l10-weather",
+  "lessonTitle": "Lektion 10: Wetter"
+},
+{
+  "id": 1,
+  "farsi": "من با اتوبوس می‌روم.",
+  "latin": "Man bā otobūs mīravam.",
+  "germanDecode": "Ich mit Bus gehe-ich.",
+  "germanTranslation": "Ich fahre mit dem Bus.",
+  "lessonId": "a1-l11-transport",
+  "lessonTitle": "Lektion 11: Verkehrsmittel"
+},
+{
+  "id": 2,
+  "farsi": "تاکسی خیلی گران است.",
+  "latin": "Tāksī kheylī gerān ast.",
+  "germanDecode": "Taxi sehr teuer ist.",
+  "germanTranslation": "Taxi ist sehr teuer.",
+  "lessonId": "a1-l11-transport",
+  "lessonTitle": "Lektion 11: Verkehrsmittel"
+},
+{
+  "id": 3,
+  "farsi": "قطار ساعت سه می‌رسد.",
+  "latin": "Ghatār sā'at-e seh mīresad.",
+  "germanDecode": "Zug Uhr-von drei ankommt-er.",
+  "germanTranslation": "Der Zug kommt um drei Uhr an.",
+  "lessonId": "a1-l11-transport",
+  "lessonTitle": "Lektion 11: Verkehrsmittel"
+},
+{
+  "id": 4,
+  "farsi": "بلیط هواپیما کجا بخرم؟",
+  "latin": "Belīt-e havāpeymā kojā bekhoram?",
+  "germanDecode": "Ticket-von Flugzeug wo kaufe-ich?",
+  "germanTranslation": "Wo kaufe ich ein Flugticket?",
+  "lessonId": "a1-l11-transport",
+  "lessonTitle": "Lektion 11: Verkehrsmittel"
+},
+{
+  "id": 5,
+  "farsi": "ماشین من خراب است.",
+  "latin": "Māshīn-e man kharāb ast.",
+  "germanDecode": "Auto-von mir kaputt ist.",
+  "germanTranslation": "Mein Auto ist kaputt.",
+  "lessonId": "a1-l11-transport",
+  "lessonTitle": "Lektion 11: Verkehrsmittel"
+},
+{
+  "id": 6,
+  "farsi": "ایستگاه مترو کجاست؟",
+  "latin": "Īstgāh-e metro kojāst?",
+  "germanDecode": "Station-von Metro wo-ist?",
+  "germanTranslation": "Wo ist die Metro-Station?",
+  "lessonId": "a1-l11-transport",
+  "lessonTitle": "Lektion 11: Verkehrsmittel"
+},
+{
+  "id": 1,
+  "farsi": "بانک کجاست؟",
+  "latin": "Bānk kojāst?",
+  "germanDecode": "Bank wo-ist?",
+  "germanTranslation": "Wo ist die Bank?",
+  "lessonId": "a1-l12-directions",
+  "lessonTitle": "Lektion 12: Richtungen und Orte"
+},
+{
+  "id": 2,
+  "farsi": "به راست بپیچید.",
+  "latin": "Be rāst bepichīd.",
+  "germanDecode": "Nach rechts biegen-Sie.",
+  "germanTranslation": "Biegen Sie nach rechts ab.",
+  "lessonId": "a1-l12-directions",
+  "lessonTitle": "Lektion 12: Richtungen und Orte"
+},
+{
+  "id": 3,
+  "farsi": "داروخانه آن طرف خیابان است.",
+  "latin": "Dārūkhāne ān taraf-e khiyābān ast.",
+  "germanDecode": "Apotheke jene Seite-von Straße ist.",
+  "germanTranslation": "Die Apotheke ist auf der anderen Straßenseite.",
+  "lessonId": "a1-l12-directions",
+  "lessonTitle": "Lektion 12: Richtungen und Orte"
+},
+{
+  "id": 4,
+  "farsi": "من گم شده‌ام.",
+  "latin": "Man gom shodeam.",
+  "germanDecode": "Ich verloren geworden-ich-bin.",
+  "germanTranslation": "Ich habe mich verlaufen.",
+  "lessonId": "a1-l12-directions",
+  "lessonTitle": "Lektion 12: Richtungen und Orte"
+},
+{
+  "id": 5,
+  "farsi": "ایستگاه اتوبوس نزدیک است.",
+  "latin": "Īstgāh-e otobūs nazdīk ast.",
+  "germanDecode": "Haltestelle-von Bus nah ist.",
+  "germanTranslation": "Die Bushaltestelle ist nah.",
+  "lessonId": "a1-l12-directions",
+  "lessonTitle": "Lektion 12: Richtungen und Orte"
+},
+{
+  "id": 6,
+  "farsi": "بیمارستان پشت پارک است.",
+  "latin": "Bīmārestān posht-e pārk ast.",
+  "germanDecode": "Krankenhaus hinter-von Park ist.",
+  "germanTranslation": "Das Krankenhaus ist hinter dem Park.",
+  "lessonId": "a1-l12-directions",
+  "lessonTitle": "Lektion 12: Richtungen und Orte"
+},
   {
     "id": 1,
     "farsi": "ساعت کوچک است.",

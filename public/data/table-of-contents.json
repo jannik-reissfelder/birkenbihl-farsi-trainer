@@ -50,20 +50,20 @@
       "description": "Grundlegende Körperteile benennen und über körperliche Beschwerden sprechen."
     },
       {
-        "id": "a1-l10",
-        "title": "Lektion 10: Im Haus",
-        "description": "Vokabular für Möbel und Räume im Haus."
-      },
-      {
-        "id": "a1-l11",
-        "title": "Lektion 11: Küche und Bad",
-        "description": "Gegenstände und Handlungen in Küche und Bad."
-      },
-      {
-        "id": "a1-l12",
-        "title": "Lektion 12: Lebensmittel",
-        "description": "Grundwortschatz für Obst, Gemüse und Getränke."
-      },
+      "id": "a1-l10-weather",
+      "title": "Lektion 10: Wetter",
+      "description": "Über das Wetter sprechen und Wettervorhersagen verstehen."
+    },
+    {
+      "id": "a1-l11-transport",
+      "title": "Lektion 11: Verkehrsmittel",
+      "description": "Verschiedene Transportmittel und öffentliche Verkehrsmittel nutzen."
+    },
+    {
+      "id": "a1-l12-directions",
+      "title": "Lektion 12: Richtungen und Orte",
+      "description": "Wegbeschreibungen verstehen und nach dem Weg fragen."
+    },
       {
         "id": "a1-l13",
         "title": "Lektion 13: Beschreibungen (Adjektive)",
