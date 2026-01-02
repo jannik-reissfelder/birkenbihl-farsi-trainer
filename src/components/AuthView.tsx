@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { supabase } from '../lib/supabaseClient';
 
 export default function AuthView() {
   const [isSignUp, setIsSignUp] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [firstName, setFirstName] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
@@ -19,7 +20,10 @@ export default function AuthView() {
           email,
           password,
           options: {
-            emailRedirectTo: window.location.origin,
+            emailRedirectTo: `${window.location.origin}/welcome`,
+            data: {
+              first_name: firstName,
+            }
           },
         });
         
@@ -31,6 +35,7 @@ export default function AuthView() {
         });
         setEmail('');
         setPassword('');
+        setFirstName('');
       } else {
         const { error } = await supabase.auth.signInWithPassword({
           email,
@@ -63,6 +68,23 @@ export default function AuthView() {
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4">
+            {isSignUp && (
+              <div>
+                <label htmlFor="firstName" className="block text-sm font-medium text-gray-200 mb-2">
+                  Vorname
+                </label>
+                <input
+                  id="firstName"
+                  type="text"
+                  value={firstName}
+                  onChange={(e) => setFirstName(e.target.value)}
+                  placeholder="z.B. Sarah"
+                  required
+                  className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                />
+              </div>
+            )}
+
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-200 mb-2">
                 E-Mail-Adresse
