@@ -265,6 +265,10 @@ const App: React.FC = () => {
   
   // Check if we're on the welcome page
   const isWelcomePage = window.location.pathname === '/welcome';
+  
+  // Check if user just verified email (has access_token in hash)
+  const hasAccessToken = window.location.hash.includes('access_token');
+  const isEmailVerification = hasAccessToken && !user && !authLoading;
 
   if (authLoading) {
     return (
@@ -277,8 +281,8 @@ const App: React.FC = () => {
     );
   }
 
-  // Show welcome page if user just verified email
-  if (isWelcomePage) {
+  // Show welcome page if user just verified email or is on welcome page
+  if (isWelcomePage || isEmailVerification) {
     return <WelcomeView />;
   }
 
