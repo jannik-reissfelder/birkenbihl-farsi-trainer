@@ -65,30 +65,30 @@
       "description": "Wegbeschreibungen verstehen und nach dem Weg fragen."
     },
       {
-        "id": "a1-l13",
-        "title": "Lektion 13: Beschreibungen (Adjektive)",
-        "description": "Einfache Adjektive zur Beschreibung von Dingen."
-      },
-      {
-        "id": "a1-l14",
-        "title": "Lektion 14: Gefühle und Zustände",
-        "description": "Ausdrücken von Gefühlen und Beschreiben von Zuständen."
-      },
-      {
-        "id": "a1-l15",
-        "title": "Lektion 15: Orte und Präpositionen",
-        "description": "Einfache Präpositionen zur Angabe von Orten."
-      },
-      {
-        "id": "a1-l16",
-        "title": "Lektion 16: Verbindungen und Vergleiche",
-        "description": "Sätze mit Konjunktionen wie 'und', 'aber' verbinden."
-      },
-      {
-        "id": "a1-l17",
-        "title": "Lektion 17: Tagesablauf und Ereignisse",
-        "description": "Beschreiben von Ereignissen zu bestimmten Tageszeiten."
-      }
+  "id": "a1-l13-clothes",
+  "title": "Lektion 13: Kleidung",
+  "description": "Kleidungsstücke benennen und über Kleidung sprechen."
+},
+{
+  "id": "a1-l14-health",
+  "title": "Lektion 14: Gesundheit und Arztbesuch",
+  "description": "Über Krankheiten sprechen und beim Arzt kommunizieren."
+},
+{
+  "id": "a1-l15-hobbies",
+  "title": "Lektion 15: Hobbys und Aktivitäten",
+  "description": "Über Freizeitaktivitäten und persönliche Interessen sprechen."
+},
+{
+  "id": "a1-l16-work",
+  "title": "Lektion 16: Arbeit und Berufe",
+  "description": "Über den Beruf sprechen und einfache Arbeitssituationen beschreiben."
+},
+{
+  "id": "a1-l17-home",
+  "title": "Lektion 17: Haus und Zuhause",
+  "description": "Über das Zuhause und Zimmer im Haus sprechen."
+}
     ]
   },
   {

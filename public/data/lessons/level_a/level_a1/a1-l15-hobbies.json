@@ -1,0 +1,205 @@
+{
+  "id": "a1-l15-hobbies",
+  "title": "Lektion 15: Hobbys und Aktivitäten",
+  "description": "Über Freizeitaktivitäten und persönliche Interessen sprechen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "من فوتبال بازی می‌کنم.",
+      "latin": "Man fūtbāl bāzī mikonam.",
+      "germanDecode": "Ich Fußball Spiel mache-ich.",
+      "germanTranslation": "Ich spiele Fußball.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.27483771929824563
+        },
+        {
+          "word": "فوتبال",
+          "cleanWord": "فوتبال",
+          "start": 0.27483771929824563,
+          "end": 1.0993508771929825
+        },
+        {
+          "word": "بازی",
+          "cleanWord": "بازی",
+          "start": 1.0993508771929825,
+          "end": 1.6490263157894738
+        },
+        {
+          "word": "می‌کنم.",
+          "cleanWord": "می‌کنم",
+          "start": 1.6490263157894738,
+          "end": 2.6109583333333335
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "خواندن کتاب دوست دارم.",
+      "latin": "Khāndan-e ketāb dūst dāram.",
+      "germanDecode": "Lesen-von Buch lieb habe-ich.",
+      "germanTranslation": "Ich lese gerne Bücher.",
+      "timings": [
+        {
+          "word": "خواندن",
+          "cleanWord": "خواندن",
+          "start": 0,
+          "end": 0.79925
+        },
+        {
+          "word": "کتاب",
+          "cleanWord": "کتاب",
+          "start": 0.79925,
+          "end": 1.3320833333333333
+        },
+        {
+          "word": "دوست",
+          "cleanWord": "دوست",
+          "start": 1.3320833333333333,
+          "end": 1.8649166666666666
+        },
+        {
+          "word": "دارم.",
+          "cleanWord": "دارم",
+          "start": 1.8649166666666666,
+          "end": 2.5309583333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "او موسیقی گوش می‌دهد.",
+      "latin": "Ū mūsīqī gūsh mīdahad.",
+      "germanDecode": "Er Musik Ohr gibt-er.",
+      "germanTranslation": "Er hört Musik.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.3567731481481481
+        },
+        {
+          "word": "موسیقی",
+          "cleanWord": "موسیقی",
+          "start": 0.3567731481481481,
+          "end": 1.4270925925925924
+        },
+        {
+          "word": "گوش",
+          "cleanWord": "گوش",
+          "start": 1.4270925925925924,
+          "end": 1.9622523148148145
+        },
+        {
+          "word": "می‌دهد.",
+          "cleanWord": "می‌دهد",
+          "start": 1.9622523148148145,
+          "end": 3.210958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "ما به سینما می‌رویم.",
+      "latin": "Mā be sīnamā mīravīm.",
+      "germanDecode": "Wir zu Kino gehen-wir.",
+      "germanTranslation": "Wir gehen ins Kino.",
+      "timings": [
+        {
+          "word": "ما",
+          "cleanWord": "ما",
+          "start": 0,
+          "end": 0.3636421568627451
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0.3636421568627451,
+          "end": 0.7272843137254902
+        },
+        {
+          "word": "سینما",
+          "cleanWord": "سینما",
+          "start": 0.7272843137254902,
+          "end": 1.6363897058823529
+        },
+        {
+          "word": "می‌رویم.",
+          "cleanWord": "می‌رویم",
+          "start": 1.6363897058823529,
+          "end": 3.090958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "شنا کردن سخت است.",
+      "latin": "Shenā kardan sakht ast.",
+      "germanDecode": "Schwimmen machen schwer ist.",
+      "germanTranslation": "Schwimmen ist schwer.",
+      "timings": [
+        {
+          "word": "شنا",
+          "cleanWord": "شنا",
+          "start": 0,
+          "end": 0.5252053571428571
+        },
+        {
+          "word": "کردن",
+          "cleanWord": "کردن",
+          "start": 0.5252053571428571,
+          "end": 1.2254791666666667
+        },
+        {
+          "word": "سخت",
+          "cleanWord": "سخت",
+          "start": 1.2254791666666667,
+          "end": 1.7506845238095239
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.7506845238095239,
+          "end": 2.4509583333333333
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "عکاسی سرگرمی من است.",
+      "latin": "Akkāsī sargarmī-ye man ast.",
+      "germanDecode": "Fotografie Unterhaltung-von mir ist.",
+      "germanTranslation": "Fotografie ist mein Hobby.",
+      "timings": [
+        {
+          "word": "عکاسی",
+          "cleanWord": "عکاسی",
+          "start": 0,
+          "end": 0.6973406862745098
+        },
+        {
+          "word": "سرگرمی",
+          "cleanWord": "سرگرمی",
+          "start": 0.6973406862745098,
+          "end": 1.5341495098039215
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 1.5341495098039215,
+          "end": 1.8130857843137254
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.8130857843137254,
+          "end": 2.3709583333333333
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "a1-l14-health",
+  "title": "Lektion 14: Gesundheit und Arztbesuch",
+  "description": "Über Krankheiten sprechen und beim Arzt kommunizieren.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "من مریض هستم.",
+      "latin": "Man marīz hastam.",
+      "germanDecode": "Ich krank bin-ich.",
+      "germanTranslation": "Ich bin krank.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.4456287878787879
+        },
+        {
+          "word": "مریض",
+          "cleanWord": "مریض",
+          "start": 0.4456287878787879,
+          "end": 1.3368863636363637
+        },
+        {
+          "word": "هستم.",
+          "cleanWord": "هستم",
+          "start": 1.3368863636363637,
+          "end": 2.4509583333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "شکم من درد می‌کند.",
+      "latin": "Shakam-e man dard mikonad.",
+      "germanDecode": "Bauch-von mir Schmerz macht-er.",
+      "germanTranslation": "Mein Bauch tut weh.",
+      "timings": [
+        {
+          "word": "شکم",
+          "cleanWord": "شکم",
+          "start": 0,
+          "end": 0.5061916666666667
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.5061916666666667,
+          "end": 0.8436527777777778
+        },
+        {
+          "word": "درد",
+          "cleanWord": "درد",
+          "start": 0.8436527777777778,
+          "end": 1.3498444444444444
+        },
+        {
+          "word": "می‌کند.",
+          "cleanWord": "می‌کند",
+          "start": 1.3498444444444444,
+          "end": 2.5309583333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "تب دارم.",
+      "latin": "Tab dāram.",
+      "germanDecode": "Fieber habe-ich.",
+      "germanTranslation": "Ich habe Fieber.",
+      "timings": []
+    },
+    {
+      "id": 4,
+      "farsi": "دکتر دارو تجویز کرد.",
+      "latin": "Doktor dārū tajvīz kard.",
+      "germanDecode": "Arzt Medizin verschrieben machte-er.",
+      "germanTranslation": "Der Arzt hat Medizin verschrieben.",
+      "timings": [
+        {
+          "word": "دکتر",
+          "cleanWord": "دکتر",
+          "start": 0,
+          "end": 0.5955196078431373
+        },
+        {
+          "word": "دارو",
+          "cleanWord": "دارو",
+          "start": 0.5955196078431373,
+          "end": 1.1910392156862746
+        },
+        {
+          "word": "تجویز",
+          "cleanWord": "تجویز",
+          "start": 1.1910392156862746,
+          "end": 1.9354387254901964
+        },
+        {
+          "word": "کرد.",
+          "cleanWord": "کرد",
+          "start": 1.9354387254901964,
+          "end": 2.5309583333333334
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "من به دندانپزشک می‌روم.",
+      "latin": "Man be dandānpezeshk mīravam.",
+      "germanDecode": "Ich zu Zahnarzt gehe-ich.",
+      "germanTranslation": "Ich gehe zum Zahnarzt.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.30509583333333334
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0.30509583333333334,
+          "end": 0.6101916666666667
+        },
+        {
+          "word": "دندانپزشک",
+          "cleanWord": "دندانپزشک",
+          "start": 0.6101916666666667,
+          "end": 1.9831229166666668
+        },
+        {
+          "word": "می‌روم.",
+          "cleanWord": "می‌روم",
+          "start": 1.9831229166666668,
+          "end": 3.0509583333333334
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "نوبت کی خالی است؟",
+      "latin": "Nowbat key khālī ast?",
+      "germanDecode": "Termin wann frei ist?",
+      "germanTranslation": "Wann ist ein Termin frei?",
+      "timings": [
+        {
+          "word": "نوبت",
+          "cleanWord": "نوبت",
+          "start": 0,
+          "end": 0.6774166666666667
+        },
+        {
+          "word": "کی",
+          "cleanWord": "کی",
+          "start": 0.6774166666666667,
+          "end": 1.016125
+        },
+        {
+          "word": "خالی",
+          "cleanWord": "خالی",
+          "start": 1.016125,
+          "end": 1.6935416666666665
+        },
+        {
+          "word": "است؟",
+          "cleanWord": "است؟",
+          "start": 1.6935416666666665,
+          "end": 2.3709583333333333
+        }
+      ]
+    }
+  ]
+}

@@ -207,131 +207,279 @@
   "lessonTitle": "Lektion 12: Richtungen und Orte"
 },
   {
-    "id": 1,
-    "farsi": "ساعت کوچک است.",
-    "latin": "Sā'at koochak ast.",
-    "germanDecode": "Uhr klein ist.",
-    "germanTranslation": "Die Uhr ist klein.",
-    "lessonId": "a1-l13",
-    "lessonTitle": "Lektion 13: Beschreibungen (Adjektive)"
-  },
-  {
-    "id": 2,
-    "farsi": "گل زیبا است.",
-    "latin": "Gol zibā ast.",
-    "germanDecode": "Blume schön ist.",
-    "germanTranslation": "Die Blume ist schön.",
-    "lessonId": "a1-l13",
-    "lessonTitle": "Lektion 13: Beschreibungen (Adjektive)"
-  },
-  {
-    "id": 3,
-    "farsi": "زبان انگلیسی دشوار است.",
-    "latin": "Zabān-e englisi doshvār ast.",
-    "germanDecode": "Sprache-die englische schwierig ist.",
-    "germanTranslation": "Die englische Sprache ist schwierig.",
-    "lessonId": "a1-l13",
-    "lessonTitle": "Lektion 13: Beschreibungen (Adjektive)"
-  },
-  {
-    "id": 1,
-    "farsi": "آنها به جوک می‌خندند.",
-    "latin": "Ānhā be jok mikhandand.",
-    "germanDecode": "Sie zu Witz lachen-sie.",
-    "germanTranslation": "Sie lachen über den Witz.",
-    "lessonId": "a1-l14",
-    "lessonTitle": "Lektion 14: Gefühle und Zustände"
-  },
-  {
-    "id": 2,
-    "farsi": "او زیبا است.",
-    "latin": "Ū zibā ast.",
-    "germanDecode": "er schön ist.",
-    "germanTranslation": "Sie ist schön.",
-    "lessonId": "a1-l14",
-    "lessonTitle": "Lektion 14: Gefühle und Zustände"
-  },
-  {
-    "id": 3,
-    "farsi": "من از خانه دور هستم.",
-    "latin": "Man az khāne door hastam.",
-    "germanDecode": "Ich von Haus weit bin-ich.",
-    "germanTranslation": "Ich bin weit von zu Hause.",
-    "lessonId": "a1-l14",
-    "lessonTitle": "Lektion 14: Gefühle und Zustände"
-  },
-  {
-    "id": 1,
-    "farsi": "کتاب روی میز است.",
-    "latin": "Ketāb ruy-e mīz ast.",
-    "germanDecode": "Buch auf-von Tisch ist.",
-    "germanTranslation": "Das Buch ist auf dem Tisch.",
-    "lessonId": "a1-l15",
-    "lessonTitle": "Lektion 15: Orte und Präpositionen"
-  },
-  {
-    "id": 2,
-    "farsi": "بعد از تعطیلات، من می‌آیم.",
-    "latin": "Ba'd az ta'tilāt, man miāyam.",
-    "germanDecode": "Nach von Urlaub, ich komme-ich.",
-    "germanTranslation": "Nach dem Urlaub komme ich.",
-    "lessonId": "a1-l15",
-    "lessonTitle": "Lektion 15: Orte und Präpositionen"
-  },
-  {
-    "id": 3,
-    "farsi": "ماشین در پارکینگ است.",
-    "latin": "Māshin dar pārking ast.",
-    "germanDecode": "Auto in Garage ist.",
-    "germanTranslation": "Das Auto ist in der Garage.",
-    "lessonId": "a1-l15",
-    "lessonTitle": "Lektion 15: Orte und Präpositionen"
-  },
-  {
-    "id": 1,
-    "farsi": "او می‌خواهد برود، ولی من می‌خواهم بمانم.",
-    "latin": "Ū mikhāhad beravad, vali man mikhāham bemānam.",
-    "germanDecode": "er will-er gehen-er, aber ich will-ich bleiben-ich.",
-    "germanTranslation": "Er will gehen, aber ich will bleiben.",
-    "lessonId": "a1-l16",
-    "lessonTitle": "Lektion 16: Verbindungen und Vergleiche"
-  },
-  {
-    "id": 2,
-    "farsi": "من با دوستم به مدرسه می‌روم.",
-    "latin": "Man bā dūstam be madreseh miravam.",
-    "germanDecode": "Ich mit Freund-mein zur Schule gehe-ich.",
-    "germanTranslation": "Ich gehe mit meinem Freund zur Schule.",
-    "lessonId": "a1-l16",
-    "lessonTitle": "Lektion 16: Verbindungen und Vergleiche"
-  },
-  {
-    "id": 3,
-    "farsi": "من خوب هستم و شما بد هستید.",
-    "latin": "Man khūb hastam va shomā bad hastīd.",
-    "germanDecode": "Ich gut bin-ich und Sie schlecht sind-Sie.",
-    "germanTranslation": "Mir geht es gut und Ihnen geht es schlecht.",
-    "lessonId": "a1-l16",
-    "lessonTitle": "Lektion 16: Verbindungen und Vergleiche"
-  },
-  {
-    "id": 1,
-    "farsi": "توریست‌ها غروب را دیدند.",
-    "latin": "Toorīsthā ghorūb rā dīdand.",
-    "germanDecode": "Touristen-PL Sonnenuntergang D.O. sahen-sie.",
-    "germanTranslation": "Die Touristen sahen den Sonnenuntergang.",
-    "lessonId": "a1-l17",
-    "lessonTitle": "Lektion 17: Tagesablauf und Ereignisse"
-  },
-  {
-    "id": 2,
-    "farsi": "حدود نیمه شب می‌خوابم.",
-    "latin": "Hodūd-e nime-shab mikhābam.",
-    "germanDecode": "Ungefähr-von halb-Nacht schlafe-ich.",
-    "germanTranslation": "Ich schlafe ungefähr um Mitternacht.",
-    "lessonId": "a1-l17",
-    "lessonTitle": "Lektion 17: Tagesablauf und Ereignisse"
-  },
+  "id": 1,
+  "farsi": "این کت قرمز زیبا است.",
+  "latin": "In kot-e ghermez zībā ast.",
+  "germanDecode": "Diese Jacke-von rot schön ist.",
+  "germanTranslation": "Diese rote Jacke ist schön.",
+  "lessonId": "a1-l13-clothes",
+  "lessonTitle": "Lektion 13: Kleidung"
+},
+{
+  "id": 2,
+  "farsi": "شلوار من کوتاه است.",
+  "latin": "Shalvār-e man kūtāh ast.",
+  "germanDecode": "Hose-von mir kurz ist.",
+  "germanTranslation": "Meine Hose ist kurz.",
+  "lessonId": "a1-l13-clothes",
+  "lessonTitle": "Lektion 13: Kleidung"
+},
+{
+  "id": 3,
+  "farsi": "کفش نو می‌خرم.",
+  "latin": "Kafsh-e now mikhoram.",
+  "germanDecode": "Schuh-von neu kaufe-ich.",
+  "germanTranslation": "Ich kaufe neue Schuhe.",
+  "lessonId": "a1-l13-clothes",
+  "lessonTitle": "Lektion 13: Kleidung"
+},
+{
+  "id": 4,
+  "farsi": "پیراهن سفید می‌پوشم.",
+  "latin": "Pīrāhan-e sefīd mīpūsham.",
+  "germanDecode": "Hemd-von weiß trage-ich.",
+  "germanTranslation": "Ich trage ein weißes Hemd.",
+  "lessonId": "a1-l13-clothes",
+  "lessonTitle": "Lektion 13: Kleidung"
+},
+{
+  "id": 5,
+  "farsi": "کلاه آفتابی لازم دارم.",
+  "latin": "Kolāh-e āftābī lāzem dāram.",
+  "germanDecode": "Hut-von Sonne nötig habe-ich.",
+  "germanTranslation": "Ich brauche einen Sonnenhut.",
+  "lessonId": "a1-l13-clothes",
+  "lessonTitle": "Lektion 13: Kleidung"
+},
+{
+  "id": 6,
+  "farsi": "جوراب من پاره شده است.",
+  "latin": "Jūrāb-e man pāre shode ast.",
+  "germanDecode": "Socke-von mir zerrissen geworden ist.",
+  "germanTranslation": "Meine Socke ist zerrissen.",
+  "lessonId": "a1-l13-clothes",
+  "lessonTitle": "Lektion 13: Kleidung"
+},
+{
+  "id": 1,
+  "farsi": "من مریض هستم.",
+  "latin": "Man marīz hastam.",
+  "germanDecode": "Ich krank bin-ich.",
+  "germanTranslation": "Ich bin krank.",
+  "lessonId": "a1-l14-health",
+  "lessonTitle": "Lektion 14: Gesundheit und Arztbesuch"
+},
+{
+  "id": 2,
+  "farsi": "شکم من درد می‌کند.",
+  "latin": "Shakam-e man dard mikonad.",
+  "germanDecode": "Bauch-von mir Schmerz macht-er.",
+  "germanTranslation": "Mein Bauch tut weh.",
+  "lessonId": "a1-l14-health",
+  "lessonTitle": "Lektion 14: Gesundheit und Arztbesuch"
+},
+{
+  "id": 3,
+  "farsi": "تب دارم.",
+  "latin": "Tab dāram.",
+  "germanDecode": "Fieber habe-ich.",
+  "germanTranslation": "Ich habe Fieber.",
+  "lessonId": "a1-l14-health",
+  "lessonTitle": "Lektion 14: Gesundheit und Arztbesuch"
+},
+{
+  "id": 4,
+  "farsi": "دکتر دارو تجویز کرد.",
+  "latin": "Doktor dārū tajvīz kard.",
+  "germanDecode": "Arzt Medizin verschrieben machte-er.",
+  "germanTranslation": "Der Arzt hat Medizin verschrieben.",
+  "lessonId": "a1-l14-health",
+  "lessonTitle": "Lektion 14: Gesundheit und Arztbesuch"
+},
+{
+  "id": 5,
+  "farsi": "من به دندانپزشک می‌روم.",
+  "latin": "Man be dandānpezeshk mīravam.",
+  "germanDecode": "Ich zu Zahnarzt gehe-ich.",
+  "germanTranslation": "Ich gehe zum Zahnarzt.",
+  "lessonId": "a1-l14-health",
+  "lessonTitle": "Lektion 14: Gesundheit und Arztbesuch"
+},
+{
+  "id": 6,
+  "farsi": "نوبت کی خالی است؟",
+  "latin": "Nowbat key khālī ast?",
+  "germanDecode": "Termin wann frei ist?",
+  "germanTranslation": "Wann ist ein Termin frei?",
+  "lessonId": "a1-l14-health",
+  "lessonTitle": "Lektion 14: Gesundheit und Arztbesuch"
+},
+
+    {
+  "id": 1,
+  "farsi": "من فوتبال بازی می‌کنم.",
+  "latin": "Man fūtbāl bāzī mikonam.",
+  "germanDecode": "Ich Fußball Spiel mache-ich.",
+  "germanTranslation": "Ich spiele Fußball.",
+  "lessonId": "a1-l15-hobbies",
+  "lessonTitle": "Lektion 15: Hobbys und Aktivitäten"
+},
+{
+  "id": 2,
+  "farsi": "خواندن کتاب دوست دارم.",
+  "latin": "Khāndan-e ketāb dūst dāram.",
+  "germanDecode": "Lesen-von Buch lieb habe-ich.",
+  "germanTranslation": "Ich lese gerne Bücher.",
+  "lessonId": "a1-l15-hobbies",
+  "lessonTitle": "Lektion 15: Hobbys und Aktivitäten"
+},
+{
+  "id": 3,
+  "farsi": "او موسیقی گوش می‌دهد.",
+  "latin": "Ū mūsīqī gūsh mīdahad.",
+  "germanDecode": "Er Musik Ohr gibt-er.",
+  "germanTranslation": "Er hört Musik.",
+  "lessonId": "a1-l15-hobbies",
+  "lessonTitle": "Lektion 15: Hobbys und Aktivitäten"
+},
+{
+  "id": 4,
+  "farsi": "ما به سینما می‌رویم.",
+  "latin": "Mā be sīnamā mīravīm.",
+  "germanDecode": "Wir zu Kino gehen-wir.",
+  "germanTranslation": "Wir gehen ins Kino.",
+  "lessonId": "a1-l15-hobbies",
+  "lessonTitle": "Lektion 15: Hobbys und Aktivitäten"
+},
+{
+  "id": 5,
+  "farsi": "شنا کردن سخت است.",
+  "latin": "Shenā kardan sakht ast.",
+  "germanDecode": "Schwimmen machen schwer ist.",
+  "germanTranslation": "Schwimmen ist schwer.",
+  "lessonId": "a1-l15-hobbies",
+  "lessonTitle": "Lektion 15: Hobbys und Aktivitäten"
+},
+{
+  "id": 6,
+  "farsi": "عکاسی سرگرمی من است.",
+  "latin": "Akkāsī sargarmī-ye man ast.",
+  "germanDecode": "Fotografie Unterhaltung-von mir ist.",
+  "germanTranslation": "Fotografie ist mein Hobby.",
+  "lessonId": "a1-l15-hobbies",
+  "lessonTitle": "Lektion 15: Hobbys und Aktivitäten"
+},
+
+{
+  "id": 1,
+  "farsi": "من معلم هستم.",
+  "latin": "Man mo'allem hastam.",
+  "germanDecode": "Ich Lehrer bin-ich.",
+  "germanTranslation": "Ich bin Lehrer.",
+  "lessonId": "a1-l16-work",
+  "lessonTitle": "Lektion 16: Arbeit und Berufe"
+},
+{
+  "id": 2,
+  "farsi": "او در بیمارستان کار می‌کند.",
+  "latin": "Ū dar bīmārestān kār mikonad.",
+  "germanDecode": "Er in Krankenhaus Arbeit macht-er.",
+  "germanTranslation": "Er arbeitet im Krankenhaus.",
+  "lessonId": "a1-l16-work",
+  "lessonTitle": "Lektion 16: Arbeit und Berufe"
+},
+{
+  "id": 3,
+  "farsi": "پزشک مهربان است.",
+  "latin": "Pezeshk mehrabān ast.",
+  "germanDecode": "Arzt freundlich ist.",
+  "germanTranslation": "Der Arzt ist freundlich.",
+  "lessonId": "a1-l16-work",
+  "lessonTitle": "Lektion 16: Arbeit und Berufe"
+},
+{
+  "id": 4,
+  "farsi": "من مهندس نرم‌افزار هستم.",
+  "latin": "Man mohandēs-e narmafzār hastam.",
+  "germanDecode": "Ich Ingenieur-von Software bin-ich.",
+  "germanTranslation": "Ich bin Software-Ingenieur.",
+  "lessonId": "a1-l16-work",
+  "lessonTitle": "Lektion 16: Arbeit und Berufe"
+},
+{
+  "id": 5,
+  "farsi": "شغل شما چیست؟",
+  "latin": "Shogh-e shomā chīst?",
+  "germanDecode": "Beruf-von Sie was-ist?",
+  "germanTranslation": "Was ist Ihr Beruf?",
+  "lessonId": "a1-l16-work",
+  "lessonTitle": "Lektion 16: Arbeit und Berufe"
+},
+{
+  "id": 6,
+  "farsi": "من کار پاره‌وقت دارم.",
+  "latin": "Man kār-e pāre-vaght dāram.",
+  "germanDecode": "Ich Arbeit-von Teil-Zeit habe-ich.",
+  "germanTranslation": "Ich habe eine Teilzeitarbeit.",
+  "lessonId": "a1-l16-work",
+  "lessonTitle": "Lektion 16: Arbeit und Berufe"
+},
+
+{
+  "id": 1,
+  "farsi": "خانه من کوچک است.",
+  "latin": "Khāne-ye man kūchak ast.",
+  "germanDecode": "Haus-von mir klein ist.",
+  "germanTranslation": "Mein Haus ist klein.",
+  "lessonId": "a1-l17-home",
+  "lessonTitle": "Lektion 17: Haus und Zuhause"
+},
+{
+  "id": 2,
+  "farsi": "در آشپزخانه غذا می‌پزم.",
+  "latin": "Dar āshpazkhhāne ghazā mīpazam.",
+  "germanDecode": "In Küche Essen koche-ich.",
+  "germanTranslation": "Ich koche in der Küche.",
+  "lessonId": "a1-l17-home",
+  "lessonTitle": "Lektion 17: Haus und Zuhause"
+},
+{
+  "id": 3,
+  "farsi": "اتاق خواب راحت است.",
+  "latin": "Otāgh-e khāb rāhat ast.",
+  "germanDecode": "Zimmer-von Schlaf bequem ist.",
+  "germanTranslation": "Das Schlafzimmer ist bequem.",
+  "lessonId": "a1-l17-home",
+  "lessonTitle": "Lektion 17: Haus und Zuhause"
+},
+{
+  "id": 4,
+  "farsi": "تلویزیون در نشیمن است.",
+  "latin": "Televizyon dar nashīman ast.",
+  "germanDecode": "Fernseher in Wohnzimmer ist.",
+  "germanTranslation": "Der Fernseher ist im Wohnzimmer.",
+  "lessonId": "a1-l17-home",
+  "lessonTitle": "Lektion 17: Haus und Zuhause"
+},
+{
+  "id": 5,
+  "farsi": "حمام تمیز است.",
+  "latin": "Hammām tamīz ast.",
+  "germanDecode": "Badezimmer sauber ist.",
+  "germanTranslation": "Das Badezimmer ist sauber.",
+  "lessonId": "a1-l17-home",
+  "lessonTitle": "Lektion 17: Haus und Zuhause"
+},
+{
+  "id": 6,
+  "farsi": "کلید خانه گم شده است.",
+  "latin": "Kelīd-e khāne gom shode ast.",
+  "germanDecode": "Schlüssel-von Haus verloren geworden ist.",
+  "germanTranslation": "Der Hausschlüssel ist verloren gegangen.",
+  "lessonId": "a1-l17-home",
+  "lessonTitle": "Lektion 17: Haus und Zuhause"
+},
+
   {
     "id": 1,
     "farsi": "شما اهل کجا هستید؟",
