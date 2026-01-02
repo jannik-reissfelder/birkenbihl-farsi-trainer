@@ -1,0 +1,211 @@
+{
+  "id": "a1-l8-time",
+  "title": "Lektion 8: Zeit und Datum",
+  "description": "Uhrzeiten, Wochentage und grundlegende Zeitangaben verstehen und verwenden.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "ساعت چند است؟",
+      "latin": "Sā'at chand ast?",
+      "germanDecode": "Uhr wieviel ist?",
+      "germanTranslation": "Wie spät ist es?",
+      "timings": [
+        {
+          "word": "ساعت",
+          "cleanWord": "ساعت",
+          "start": 0,
+          "end": 0.7603484848484849
+        },
+        {
+          "word": "چند",
+          "cleanWord": "چند",
+          "start": 0.7603484848484849,
+          "end": 1.3306098484848485
+        },
+        {
+          "word": "است؟",
+          "cleanWord": "است؟",
+          "start": 1.3306098484848485,
+          "end": 2.0909583333333335
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "ساعت دو و نیم است.",
+      "latin": "Sā'at-e do va nīm ast.",
+      "germanDecode": "Uhr-von zwei und halb ist.",
+      "germanTranslation": "Es ist halb drei.",
+      "timings": [
+        {
+          "word": "ساعت",
+          "cleanWord": "ساعت",
+          "start": 0,
+          "end": 0.9517023809523809
+        },
+        {
+          "word": "دو",
+          "cleanWord": "دو",
+          "start": 0.9517023809523809,
+          "end": 1.4275535714285714
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.4275535714285714,
+          "end": 1.6654791666666666
+        },
+        {
+          "word": "نیم",
+          "cleanWord": "نیم",
+          "start": 1.6654791666666666,
+          "end": 2.3792559523809524
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.3792559523809524,
+          "end": 3.3309583333333332
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "امروز دوشنبه است.",
+      "latin": "Emrūz doshanbe ast.",
+      "germanDecode": "Heute Montag ist.",
+      "germanTranslation": "Heute ist Montag.",
+      "timings": [
+        {
+          "word": "امروز",
+          "cleanWord": "امروز",
+          "start": 0,
+          "end": 0.9503194444444444
+        },
+        {
+          "word": "دوشنبه",
+          "cleanWord": "دوشنبه",
+          "start": 0.9503194444444444,
+          "end": 2.0907027777777776
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.0907027777777776,
+          "end": 2.8509583333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "من فردا به دکتر می‌روم.",
+      "latin": "Man fardā be doktor mīravam.",
+      "germanDecode": "Ich morgen zu Arzt gehe-ich.",
+      "germanTranslation": "Ich gehe morgen zum Arzt.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.37589035087719297
+        },
+        {
+          "word": "فردا",
+          "cleanWord": "فردا",
+          "start": 0.37589035087719297,
+          "end": 1.127671052631579
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 1.127671052631579,
+          "end": 1.5035614035087719
+        },
+        {
+          "word": "دکتر",
+          "cleanWord": "دکتر",
+          "start": 1.5035614035087719,
+          "end": 2.255342105263158
+        },
+        {
+          "word": "می‌روم.",
+          "cleanWord": "می‌روم",
+          "start": 2.255342105263158,
+          "end": 3.5709583333333335
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "کلاس ساعت هشت شروع می‌شود.",
+      "latin": "Kelās sā'at-e hasht shorū' mishavad.",
+      "germanDecode": "Klasse Uhr-von acht Beginn wird-es.",
+      "germanTranslation": "Der Unterricht beginnt um acht Uhr.",
+      "timings": [
+        {
+          "word": "کلاس",
+          "cleanWord": "کلاس",
+          "start": 0,
+          "end": 0.5692651515151516
+        },
+        {
+          "word": "ساعت",
+          "cleanWord": "ساعت",
+          "start": 0.5692651515151516,
+          "end": 1.1385303030303031
+        },
+        {
+          "word": "هشت",
+          "cleanWord": "هشت",
+          "start": 1.1385303030303031,
+          "end": 1.5654791666666668
+        },
+        {
+          "word": "شروع",
+          "cleanWord": "شروع",
+          "start": 1.5654791666666668,
+          "end": 2.134744318181818
+        },
+        {
+          "word": "می‌شود.",
+          "cleanWord": "می‌شود",
+          "start": 2.134744318181818,
+          "end": 3.1309583333333335
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "دیروز خیلی سرد بود.",
+      "latin": "Dīrūz kheylī sard būd.",
+      "germanDecode": "Gestern sehr kalt war-es.",
+      "germanTranslation": "Gestern war es sehr kalt.",
+      "timings": [
+        {
+          "word": "دیروز",
+          "cleanWord": "دیروز",
+          "start": 0,
+          "end": 0.9409244791666667
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 0.9409244791666667,
+          "end": 1.6936640625
+        },
+        {
+          "word": "سرد",
+          "cleanWord": "سرد",
+          "start": 1.6936640625,
+          "end": 2.25821875
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 2.25821875,
+          "end": 3.0109583333333334
+        }
+      ]
+    }
+  ]
+}

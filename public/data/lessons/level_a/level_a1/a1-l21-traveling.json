@@ -1,0 +1,175 @@
+{
+  "id": "a1-l21-traveling",
+  "title": "Lektion 21: Reisen",
+  "description": "Grundlegende Reisetätigkeiten und Tourismussprache.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "من به ایران می‌روم.",
+      "latin": "Man be Īrān mīravam.",
+      "germanDecode": "Ich nach Iran gehe-ich.",
+      "germanTranslation": "Ich fahre in den Iran.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.3963697916666667
+        },
+        {
+          "word": "به",
+          "cleanWord": "به",
+          "start": 0.3963697916666667,
+          "end": 0.7927395833333334
+        },
+        {
+          "word": "ایران",
+          "cleanWord": "ایران",
+          "start": 0.7927395833333334,
+          "end": 1.7836640625000002
+        },
+        {
+          "word": "می‌روم.",
+          "cleanWord": "می‌روم",
+          "start": 1.7836640625000002,
+          "end": 3.1709583333333335
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "گذرنامه کجاست؟",
+      "latin": "Gozarnāme kojāst?",
+      "germanDecode": "Reisepass wo-ist?",
+      "germanTranslation": "Wo ist der Reisepass?",
+      "timings": [
+        {
+          "word": "گذرنامه",
+          "cleanWord": "گذرنامه",
+          "start": 0,
+          "end": 1.3412852564102564
+        },
+        {
+          "word": "کجاست؟",
+          "cleanWord": "کجاست؟",
+          "start": 1.3412852564102564,
+          "end": 2.4909583333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "هتل رزرو کردم.",
+      "latin": "Hotel rezerv kardam.",
+      "germanDecode": "Hotel reserviert machte-ich.",
+      "germanTranslation": "Ich habe ein Hotel reserviert.",
+      "timings": [
+        {
+          "word": "هتل",
+          "cleanWord": "هتل",
+          "start": 0,
+          "end": 0.5327395833333334
+        },
+        {
+          "word": "رزرو",
+          "cleanWord": "رزرو",
+          "start": 0.5327395833333334,
+          "end": 1.243059027777778
+        },
+        {
+          "word": "کردم.",
+          "cleanWord": "کردم",
+          "start": 1.243059027777778,
+          "end": 2.1309583333333335
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "فرودگاه چه وقت می‌رویم؟",
+      "latin": "Forūdgāh che vaght mīravīm?",
+      "germanDecode": "Flughafen welche Zeit gehen-wir?",
+      "germanTranslation": "Wann fahren wir zum Flughafen?",
+      "timings": [
+        {
+          "word": "فرودگاه",
+          "cleanWord": "فرودگاه",
+          "start": 0,
+          "end": 1.0258354166666666
+        },
+        {
+          "word": "چه",
+          "cleanWord": "چه",
+          "start": 1.0258354166666666,
+          "end": 1.3189312499999999
+        },
+        {
+          "word": "وقت",
+          "cleanWord": "وقت",
+          "start": 1.3189312499999999,
+          "end": 1.758575
+        },
+        {
+          "word": "می‌رویم؟",
+          "cleanWord": "می‌رویم؟",
+          "start": 1.758575,
+          "end": 2.9309583333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "چمدان سنگین است.",
+      "latin": "Chamedān sangīn ast.",
+      "germanDecode": "Koffer schwer ist.",
+      "germanTranslation": "Der Koffer ist schwer.",
+      "timings": [
+        {
+          "word": "چمدان",
+          "cleanWord": "چمدان",
+          "start": 0,
+          "end": 0.9753422619047618
+        },
+        {
+          "word": "سنگین",
+          "cleanWord": "سنگین",
+          "start": 0.9753422619047618,
+          "end": 1.9506845238095236
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.9506845238095236,
+          "end": 2.730958333333333
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "سفر خوش بود.",
+      "latin": "Safar khosh būd.",
+      "germanDecode": "Reise schön war-es.",
+      "germanTranslation": "Die Reise war schön.",
+      "timings": [
+        {
+          "word": "سفر",
+          "cleanWord": "سفر",
+          "start": 0,
+          "end": 0.6632874999999999
+        },
+        {
+          "word": "خوش",
+          "cleanWord": "خوش",
+          "start": 0.6632874999999999,
+          "end": 1.3265749999999998
+        },
+        {
+          "word": "بود.",
+          "cleanWord": "بود",
+          "start": 1.3265749999999998,
+          "end": 2.210958333333333
+        }
+      ]
+    }
+  ]
+}

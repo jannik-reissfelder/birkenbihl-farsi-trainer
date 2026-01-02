@@ -1,0 +1,169 @@
+{
+  "id": "a1-l23-emotions",
+  "title": "Lektion 23: Gefühle und Emotionen",
+  "description": "Über Gefühle sprechen und emotionale Zustände ausdrücken.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "من خوشحال هستم.",
+      "latin": "Man khoshhāl hastam.",
+      "germanDecode": "Ich glücklich bin-ich.",
+      "germanTranslation": "Ich bin glücklich.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.25399358974358976
+        },
+        {
+          "word": "خوشحال",
+          "cleanWord": "خوشحال",
+          "start": 0.25399358974358976,
+          "end": 1.015974358974359
+        },
+        {
+          "word": "هستم.",
+          "cleanWord": "هستم",
+          "start": 1.015974358974359,
+          "end": 1.6509583333333335
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "او غمگین است.",
+      "latin": "Ū ghamgīn ast.",
+      "germanDecode": "Er traurig ist.",
+      "germanTranslation": "Er ist traurig.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.3292651515151515
+        },
+        {
+          "word": "غمگین",
+          "cleanWord": "غمگین",
+          "start": 0.3292651515151515,
+          "end": 1.1524280303030303
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.1524280303030303,
+          "end": 1.8109583333333332
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "نگران نباشید.",
+      "latin": "Nagarān nabāshīd.",
+      "germanDecode": "Besorgt nicht-seien-Sie.",
+      "germanTranslation": "Machen Sie sich keine Sorgen.",
+      "timings": [
+        {
+          "word": "نگران",
+          "cleanWord": "نگران",
+          "start": 0,
+          "end": 0.7045659722222223
+        },
+        {
+          "word": "نباشید.",
+          "cleanWord": "نباشید",
+          "start": 0.7045659722222223,
+          "end": 1.6909583333333336
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "کودک از سگ می‌ترسد.",
+      "latin": "Kūdak az sag mītarasad.",
+      "germanDecode": "Kind von Hund fürchtet-es.",
+      "germanTranslation": "Das Kind hat Angst vor dem Hund.",
+      "timings": [
+        {
+          "word": "کودک",
+          "cleanWord": "کودک",
+          "start": 0,
+          "end": 0.48273958333333333
+        },
+        {
+          "word": "از",
+          "cleanWord": "از",
+          "start": 0.48273958333333333,
+          "end": 0.724109375
+        },
+        {
+          "word": "سگ",
+          "cleanWord": "سگ",
+          "start": 0.724109375,
+          "end": 0.9654791666666667
+        },
+        {
+          "word": "می‌ترسد.",
+          "cleanWord": "می‌ترسد",
+          "start": 0.9654791666666667,
+          "end": 1.9309583333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "من عصبانی نیستم.",
+      "latin": "Man asabānī nīstam.",
+      "germanDecode": "Ich wütend nicht-bin-ich.",
+      "germanTranslation": "Ich bin nicht wütend.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.2529940476190476
+        },
+        {
+          "word": "عصبانی",
+          "cleanWord": "عصبانی",
+          "start": 0.2529940476190476,
+          "end": 1.0119761904761904
+        },
+        {
+          "word": "نیستم.",
+          "cleanWord": "نیستم",
+          "start": 1.0119761904761904,
+          "end": 1.7709583333333332
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "احساس خوبی دارم.",
+      "latin": "Ehsās-e khūbī dāram.",
+      "germanDecode": "Gefühl-von gut habe-ich.",
+      "germanTranslation": "Ich habe ein gutes Gefühl.",
+      "timings": [
+        {
+          "word": "احساس",
+          "cleanWord": "احساس",
+          "start": 0,
+          "end": 0.5896279761904762
+        },
+        {
+          "word": "خوبی",
+          "cleanWord": "خوبی",
+          "start": 0.5896279761904762,
+          "end": 1.0613303571428572
+        },
+        {
+          "word": "دارم.",
+          "cleanWord": "دارم",
+          "start": 1.0613303571428572,
+          "end": 1.6509583333333335
+        }
+      ]
+    }
+  ]
+}

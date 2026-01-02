@@ -1,0 +1,223 @@
+{
+  "id": "a1-l3-numbers",
+  "title": "Lektion 3: Zahlen und Zählen",
+  "description": "Grundlegende Zahlen von 0-20 und einfache Zählaktivitäten im täglichen Leben.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "من پنج سیب دارم.",
+      "latin": "Man panj sīb dāram.",
+      "germanDecode": "Ich fünf Äpfel habe-ich.",
+      "germanTranslation": "Ich habe fünf Äpfel.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.5124551282051282
+        },
+        {
+          "word": "پنج",
+          "cleanWord": "پنج",
+          "start": 0.5124551282051282,
+          "end": 1.2811378205128205
+        },
+        {
+          "word": "سیب",
+          "cleanWord": "سیب",
+          "start": 1.2811378205128205,
+          "end": 2.0498205128205127
+        },
+        {
+          "word": "دارم.",
+          "cleanWord": "دارم",
+          "start": 2.0498205128205127,
+          "end": 3.3309583333333332
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "او ده تا قلم می‌خرد.",
+      "latin": "Ū dah tā ghalam mikharad.",
+      "germanDecode": "Er zehn Stück Stift kauft-er.",
+      "germanTranslation": "Er kauft zehn Stifte.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.47636979166666665
+        },
+        {
+          "word": "ده",
+          "cleanWord": "ده",
+          "start": 0.47636979166666665,
+          "end": 0.9527395833333333
+        },
+        {
+          "word": "تا",
+          "cleanWord": "تا",
+          "start": 0.9527395833333333,
+          "end": 1.429109375
+        },
+        {
+          "word": "قلم",
+          "cleanWord": "قلم",
+          "start": 1.429109375,
+          "end": 2.1436640625
+        },
+        {
+          "word": "می‌خرد.",
+          "cleanWord": "می‌خرد",
+          "start": 2.1436640625,
+          "end": 3.8109583333333337
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "ما سه نفر هستیم.",
+      "latin": "Mā seh nafar hastīm.",
+      "germanDecode": "Wir drei Personen sind-wir.",
+      "germanTranslation": "Wir sind drei Personen.",
+      "timings": [
+        {
+          "word": "ما",
+          "cleanWord": "ما",
+          "start": 0,
+          "end": 0.36476282051282055
+        },
+        {
+          "word": "سه",
+          "cleanWord": "سه",
+          "start": 0.36476282051282055,
+          "end": 0.7295256410256411
+        },
+        {
+          "word": "نفر",
+          "cleanWord": "نفر",
+          "start": 0.7295256410256411,
+          "end": 1.276669871794872
+        },
+        {
+          "word": "هستیم.",
+          "cleanWord": "هستیم",
+          "start": 1.276669871794872,
+          "end": 2.3709583333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "کلاس بیست دانشجو دارد.",
+      "latin": "Kelās bīst dānshjū dārad.",
+      "germanDecode": "Klasse zwanzig Studenten hat-es.",
+      "germanTranslation": "Die Klasse hat zwanzig Studenten.",
+      "timings": [
+        {
+          "word": "کلاس",
+          "cleanWord": "کلاس",
+          "start": 0,
+          "end": 0.7938859649122806
+        },
+        {
+          "word": "بیست",
+          "cleanWord": "بیست",
+          "start": 0.7938859649122806,
+          "end": 1.5877719298245612
+        },
+        {
+          "word": "دانشجو",
+          "cleanWord": "دانشجو",
+          "start": 1.5877719298245612,
+          "end": 2.778600877192982
+        },
+        {
+          "word": "دارد.",
+          "cleanWord": "دارد",
+          "start": 2.778600877192982,
+          "end": 3.7709583333333327
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "یک، دو، سه، چهار، پنج.",
+      "latin": "Yek, do, seh, chahār, panj.",
+      "germanDecode": "Eins, zwei, drei, vier, fünf.",
+      "germanTranslation": "Eins, zwei, drei, vier, fünf.",
+      "timings": [
+        {
+          "word": "یک،",
+          "cleanWord": "یک،",
+          "start": 0,
+          "end": 1.1351597222222223
+        },
+        {
+          "word": "دو،",
+          "cleanWord": "دو،",
+          "start": 1.1351597222222223,
+          "end": 2.2703194444444446
+        },
+        {
+          "word": "سه،",
+          "cleanWord": "سه،",
+          "start": 2.2703194444444446,
+          "end": 3.405479166666667
+        },
+        {
+          "word": "چهار،",
+          "cleanWord": "چهار،",
+          "start": 3.405479166666667,
+          "end": 5.297412037037038
+        },
+        {
+          "word": "پنج.",
+          "cleanWord": "پنج",
+          "start": 5.297412037037038,
+          "end": 6.810958333333334
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "من هفت سال سن دارم.",
+      "latin": "Man haft sāl sen dāram.",
+      "germanDecode": "Ich sieben Jahr Alter habe-ich.",
+      "germanTranslation": "Ich bin sieben Jahre alt.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.40679444444444446
+        },
+        {
+          "word": "هفت",
+          "cleanWord": "هفت",
+          "start": 0.40679444444444446,
+          "end": 1.0169861111111111
+        },
+        {
+          "word": "سال",
+          "cleanWord": "سال",
+          "start": 1.0169861111111111,
+          "end": 1.6271777777777778
+        },
+        {
+          "word": "سن",
+          "cleanWord": "سن",
+          "start": 1.6271777777777778,
+          "end": 2.0339722222222223
+        },
+        {
+          "word": "دارم.",
+          "cleanWord": "دارم",
+          "start": 2.0339722222222223,
+          "end": 3.0509583333333334
+        }
+      ]
+    }
+  ]
+}

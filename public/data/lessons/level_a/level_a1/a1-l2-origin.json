@@ -1,0 +1,241 @@
+{
+  "id": "a1-l2-origin",
+  "title": "Lektion 2: Herkunft & Identität",
+  "description": "Verb \"sein\" (hastam/bin), Präpositionen (von, aus) und Herkunft.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "سلام، من اهل آلمان هستم.",
+      "latin": "Salām, man ahl-e Ālmān hastam.",
+      "germanDecode": "Hallo, ich Einwohner-von Deutschland bin-ich.",
+      "germanTranslation": "Hallo, ich komme aus Deutschland.",
+      "timings": [
+        {
+          "word": "سلام،",
+          "cleanWord": "سلام،",
+          "start": 0,
+          "end": 0.5927395833333333
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.5927395833333333,
+          "end": 0.8298354166666666
+        },
+        {
+          "word": "اهل",
+          "cleanWord": "اهل",
+          "start": 0.8298354166666666,
+          "end": 1.1854791666666666
+        },
+        {
+          "word": "آلمان",
+          "cleanWord": "آلمان",
+          "start": 1.1854791666666666,
+          "end": 1.77821875
+        },
+        {
+          "word": "هستم.",
+          "cleanWord": "هستم",
+          "start": 1.77821875,
+          "end": 2.3709583333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "شما اهل کجا هستید؟",
+      "latin": "Shomā ahl-e kojā hastīd?",
+      "germanDecode": "Sie Einwohner-von wo sind-Sie?",
+      "germanTranslation": "Woher kommen Sie?",
+      "timings": [
+        {
+          "word": "شما",
+          "cleanWord": "شما",
+          "start": 0,
+          "end": 0.4901916666666667
+        },
+        {
+          "word": "اهل",
+          "cleanWord": "اهل",
+          "start": 0.4901916666666667,
+          "end": 0.9803833333333334
+        },
+        {
+          "word": "کجا",
+          "cleanWord": "کجا",
+          "start": 0.9803833333333334,
+          "end": 1.4705750000000002
+        },
+        {
+          "word": "هستید؟",
+          "cleanWord": "هستید؟",
+          "start": 1.4705750000000002,
+          "end": 2.4509583333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "اسم من علی است و اهل تهران هستم.",
+      "latin": "Esm-e man ʿAlī ast va ahl-e Tehrān hastam.",
+      "germanDecode": "Name-von mir Ali ist und Einwohner-von Teheran bin-ich.",
+      "germanTranslation": "Ich heiße Ali und komme aus Teheran.",
+      "timings": [
+        {
+          "word": "اسم",
+          "cleanWord": "اسم",
+          "start": 0,
+          "end": 0.45251499999999995
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.45251499999999995,
+          "end": 0.7541916666666666
+        },
+        {
+          "word": "علی",
+          "cleanWord": "علی",
+          "start": 0.7541916666666666,
+          "end": 1.2067066666666666
+        },
+        {
+          "word": "است",
+          "cleanWord": "است",
+          "start": 1.2067066666666666,
+          "end": 1.6592216666666666
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.6592216666666666,
+          "end": 1.81006
+        },
+        {
+          "word": "اهل",
+          "cleanWord": "اهل",
+          "start": 1.81006,
+          "end": 2.262575
+        },
+        {
+          "word": "تهران",
+          "cleanWord": "تهران",
+          "start": 2.262575,
+          "end": 3.016766666666667
+        },
+        {
+          "word": "هستم.",
+          "cleanWord": "هستم",
+          "start": 3.016766666666667,
+          "end": 3.7709583333333336
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "شما در ایران زندگی می‌کنید؟",
+      "latin": "Shomā dar Īrān zendegī mikonīd?",
+      "germanDecode": "Sie im Iran Leben machen-Sie?",
+      "germanTranslation": "Leben Sie im Iran?",
+      "timings": [
+        {
+          "word": "شما",
+          "cleanWord": "شما",
+          "start": 0,
+          "end": 0.330125
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0.330125,
+          "end": 0.5502083333333333
+        },
+        {
+          "word": "ایران",
+          "cleanWord": "ایران",
+          "start": 0.5502083333333333,
+          "end": 1.1004166666666666
+        },
+        {
+          "word": "زندگی",
+          "cleanWord": "زندگی",
+          "start": 1.1004166666666666,
+          "end": 1.6506249999999998
+        },
+        {
+          "word": "می‌کنید؟",
+          "cleanWord": "می‌کنید؟",
+          "start": 1.6506249999999998,
+          "end": 2.530958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "من دو ماه است اینجا هستم.",
+      "latin": "Man do māh ast injā hastam.",
+      "germanDecode": "Ich zwei Monate ist hier bin-ich.",
+      "germanTranslation": "Ich bin seit zwei Monaten hier.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.2810958333333333
+        },
+        {
+          "word": "دو",
+          "cleanWord": "دو",
+          "start": 0.2810958333333333,
+          "end": 0.5621916666666666
+        },
+        {
+          "word": "ماه",
+          "cleanWord": "ماه",
+          "start": 0.5621916666666666,
+          "end": 0.9838354166666666
+        },
+        {
+          "word": "است",
+          "cleanWord": "است",
+          "start": 0.9838354166666666,
+          "end": 1.4054791666666666
+        },
+        {
+          "word": "اینجا",
+          "cleanWord": "اینجا",
+          "start": 1.4054791666666666,
+          "end": 2.10821875
+        },
+        {
+          "word": "هستم.",
+          "cleanWord": "هستم",
+          "start": 2.10821875,
+          "end": 2.8109583333333332
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "خوش آمدید!",
+      "latin": "Khosh āmadīd!",
+      "germanDecode": "Gut gekommen-seid-ihr!",
+      "germanTranslation": "Willkommen!",
+      "timings": [
+        {
+          "word": "خوش",
+          "cleanWord": "خوش",
+          "start": 0,
+          "end": 0.4169861111111111
+        },
+        {
+          "word": "آمدید!",
+          "cleanWord": "آمدید",
+          "start": 0.4169861111111111,
+          "end": 1.2509583333333334
+        }
+      ]
+    }
+  ]
+}

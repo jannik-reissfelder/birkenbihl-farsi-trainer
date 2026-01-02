@@ -1,0 +1,205 @@
+{
+  "id": "a1-l13-clothes",
+  "title": "Lektion 13: Kleidung",
+  "description": "Kleidungsstücke benennen und über Kleidung sprechen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "این کت قرمز زیبا است.",
+      "latin": "In kot-e ghermez zībā ast.",
+      "germanDecode": "Diese Jacke-von rot schön ist.",
+      "germanTranslation": "Diese rote Jacke ist schön.",
+      "timings": [
+        {
+          "word": "این",
+          "cleanWord": "این",
+          "start": 0,
+          "end": 0.5101691176470589
+        },
+        {
+          "word": "کت",
+          "cleanWord": "کت",
+          "start": 0.5101691176470589,
+          "end": 0.8502818627450981
+        },
+        {
+          "word": "قرمز",
+          "cleanWord": "قرمز",
+          "start": 0.8502818627450981,
+          "end": 1.5305073529411763
+        },
+        {
+          "word": "زیبا",
+          "cleanWord": "زیبا",
+          "start": 1.5305073529411763,
+          "end": 2.210732843137255
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.210732843137255,
+          "end": 2.8909583333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "شلوار من کوتاه است.",
+      "latin": "Shalvār-e man kūtāh ast.",
+      "germanDecode": "Hose-von mir kurz ist.",
+      "germanTranslation": "Meine Hose ist kurz.",
+      "timings": [
+        {
+          "word": "شلوار",
+          "cleanWord": "شلوار",
+          "start": 0,
+          "end": 0.8909244791666666
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.8909244791666666,
+          "end": 1.2472942708333332
+        },
+        {
+          "word": "کوتاه",
+          "cleanWord": "کوتاه",
+          "start": 1.2472942708333332,
+          "end": 2.13821875
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.13821875,
+          "end": 2.8509583333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "کفش نو می‌خرم.",
+      "latin": "Kafsh-e now mikhoram.",
+      "germanDecode": "Schuh-von neu kaufe-ich.",
+      "germanTranslation": "Ich kaufe neue Schuhe.",
+      "timings": [
+        {
+          "word": "کفش",
+          "cleanWord": "کفش",
+          "start": 0,
+          "end": 0.5027395833333334
+        },
+        {
+          "word": "نو",
+          "cleanWord": "نو",
+          "start": 0.5027395833333334,
+          "end": 0.8378993055555556
+        },
+        {
+          "word": "می‌خرم.",
+          "cleanWord": "می‌خرم",
+          "start": 0.8378993055555556,
+          "end": 2.0109583333333334
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "پیراهن سفید می‌پوشم.",
+      "latin": "Pīrāhan-e sefīd mīpūsham.",
+      "germanDecode": "Hemd-von weiß trage-ich.",
+      "germanTranslation": "Ich trage ein weißes Hemd.",
+      "timings": [
+        {
+          "word": "پیراهن",
+          "cleanWord": "پیراهن",
+          "start": 0,
+          "end": 0.9103194444444443
+        },
+        {
+          "word": "سفید",
+          "cleanWord": "سفید",
+          "start": 0.9103194444444443,
+          "end": 1.517199074074074
+        },
+        {
+          "word": "می‌پوشم.",
+          "cleanWord": "می‌پوشم",
+          "start": 1.517199074074074,
+          "end": 2.730958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "کلاه آفتابی لازم دارم.",
+      "latin": "Kolāh-e āftābī lāzem dāram.",
+      "germanDecode": "Hut-von Sonne nötig habe-ich.",
+      "germanTranslation": "Ich brauche einen Sonnenhut.",
+      "timings": [
+        {
+          "word": "کلاه",
+          "cleanWord": "کلاه",
+          "start": 0,
+          "end": 0.4823070175438596
+        },
+        {
+          "word": "آفتابی",
+          "cleanWord": "آفتابی",
+          "start": 0.4823070175438596,
+          "end": 1.205767543859649
+        },
+        {
+          "word": "لازم",
+          "cleanWord": "لازم",
+          "start": 1.205767543859649,
+          "end": 1.6880745614035084
+        },
+        {
+          "word": "دارم.",
+          "cleanWord": "دارم",
+          "start": 1.6880745614035084,
+          "end": 2.2909583333333328
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "جوراب من پاره شده است.",
+      "latin": "Jūrāb-e man pāre shode ast.",
+      "germanDecode": "Socke-von mir zerrissen geworden ist.",
+      "germanTranslation": "Meine Socke ist zerrissen.",
+      "timings": [
+        {
+          "word": "جوراب",
+          "cleanWord": "جوراب",
+          "start": 0,
+          "end": 0.6919328703703704
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.6919328703703704,
+          "end": 0.9687060185185186
+        },
+        {
+          "word": "پاره",
+          "cleanWord": "پاره",
+          "start": 0.9687060185185186,
+          "end": 1.5222523148148148
+        },
+        {
+          "word": "شده",
+          "cleanWord": "شده",
+          "start": 1.5222523148148148,
+          "end": 1.9374120370370371
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.9374120370370371,
+          "end": 2.4909583333333334
+        }
+      ]
+    }
+  ]
+}

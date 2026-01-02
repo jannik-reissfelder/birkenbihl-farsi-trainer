@@ -1,0 +1,187 @@
+{
+  "id": "a1-l10-weather",
+  "title": "Lektion 10: Wetter",
+  "description": "Über das Wetter sprechen und Wettervorhersagen verstehen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "امروز هوا آفتابی است.",
+      "latin": "Emrūz havā āftābī ast.",
+      "germanDecode": "Heute Wetter sonnig ist.",
+      "germanTranslation": "Heute ist das Wetter sonnig.",
+      "timings": [
+        {
+          "word": "امروز",
+          "cleanWord": "امروز",
+          "start": 0,
+          "end": 0.958599537037037
+        },
+        {
+          "word": "هوا",
+          "cleanWord": "هوا",
+          "start": 0.958599537037037,
+          "end": 1.5337592592592593
+        },
+        {
+          "word": "آفتابی",
+          "cleanWord": "آفتابی",
+          "start": 1.5337592592592593,
+          "end": 2.6840787037037037
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.6840787037037037,
+          "end": 3.4509583333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "باران می‌بارد.",
+      "latin": "Bārān mībārad.",
+      "germanDecode": "Regen regnet-es.",
+      "germanTranslation": "Es regnet.",
+      "timings": [
+        {
+          "word": "باران",
+          "cleanWord": "باران",
+          "start": 0,
+          "end": 0.6349839743589744
+        },
+        {
+          "word": "می‌بارد.",
+          "cleanWord": "می‌بارد",
+          "start": 0.6349839743589744,
+          "end": 1.6509583333333335
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "دیروز برف آمد.",
+      "latin": "Dīrūz barf āmad.",
+      "germanDecode": "Gestern Schnee kam-es.",
+      "germanTranslation": "Gestern hat es geschneit.",
+      "timings": [
+        {
+          "word": "دیروز",
+          "cleanWord": "دیروز",
+          "start": 0,
+          "end": 0.871232638888889
+        },
+        {
+          "word": "برف",
+          "cleanWord": "برف",
+          "start": 0.871232638888889,
+          "end": 1.3939722222222224
+        },
+        {
+          "word": "آمد.",
+          "cleanWord": "آمد",
+          "start": 1.3939722222222224,
+          "end": 2.0909583333333335
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "هوا خیلی سرد است.",
+      "latin": "Havā kheylī sard ast.",
+      "germanDecode": "Wetter sehr kalt ist.",
+      "germanTranslation": "Das Wetter ist sehr kalt.",
+      "timings": [
+        {
+          "word": "هوا",
+          "cleanWord": "هوا",
+          "start": 0,
+          "end": 0.5766339285714285
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 0.5766339285714285,
+          "end": 1.3454791666666663
+        },
+        {
+          "word": "سرد",
+          "cleanWord": "سرد",
+          "start": 1.3454791666666663,
+          "end": 1.9221130952380947
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.9221130952380947,
+          "end": 2.6909583333333327
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "تابستان گرم و خشک است.",
+      "latin": "Tābestān garm va khoshk ast.",
+      "germanDecode": "Sommer heiß und trocken ist.",
+      "germanTranslation": "Der Sommer ist heiß und trocken.",
+      "timings": [
+        {
+          "word": "تابستان",
+          "cleanWord": "تابستان",
+          "start": 0,
+          "end": 1.1398171296296296
+        },
+        {
+          "word": "گرم",
+          "cleanWord": "گرم",
+          "start": 1.1398171296296296,
+          "end": 1.628310185185185
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.628310185185185,
+          "end": 1.7911412037037036
+        },
+        {
+          "word": "خشک",
+          "cleanWord": "خشک",
+          "start": 1.7911412037037036,
+          "end": 2.279634259259259
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.279634259259259,
+          "end": 2.930958333333333
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "باد شدید می‌وزد.",
+      "latin": "Bād-e shadīd mīvazad.",
+      "germanDecode": "Wind-von stark weht-er.",
+      "germanTranslation": "Starker Wind weht.",
+      "timings": [
+        {
+          "word": "باد",
+          "cleanWord": "باد",
+          "start": 0,
+          "end": 0.47377678571428566
+        },
+        {
+          "word": "شدید",
+          "cleanWord": "شدید",
+          "start": 0.47377678571428566,
+          "end": 1.1054791666666666
+        },
+        {
+          "word": "می‌وزد.",
+          "cleanWord": "می‌وزد",
+          "start": 1.1054791666666666,
+          "end": 2.210958333333333
+        }
+      ]
+    }
+  ]
+}

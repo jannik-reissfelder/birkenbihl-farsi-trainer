@@ -1,0 +1,223 @@
+{
+  "id": "a1-l4-colors",
+  "title": "Lektion 4: Farben",
+  "description": "Grundlegende Farben und ihre Verwendung zur Beschreibung von Gegenständen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "این گل قرمز است.",
+      "latin": "In gol ghermez ast.",
+      "germanDecode": "Diese Blume rot ist.",
+      "germanTranslation": "Diese Blume ist rot.",
+      "timings": [
+        {
+          "word": "این",
+          "cleanWord": "این",
+          "start": 0,
+          "end": 0.9256057692307692
+        },
+        {
+          "word": "گل",
+          "cleanWord": "گل",
+          "start": 0.9256057692307692,
+          "end": 1.542676282051282
+        },
+        {
+          "word": "قرمز",
+          "cleanWord": "قرمز",
+          "start": 1.542676282051282,
+          "end": 2.7768173076923075
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.7768173076923075,
+          "end": 4.010958333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "آسمان آبی و زیبا است.",
+      "latin": "Āsmān ābī va zībā ast.",
+      "germanDecode": "Himmel blau und schön ist.",
+      "germanTranslation": "Der Himmel ist blau und schön.",
+      "timings": [
+        {
+          "word": "آسمان",
+          "cleanWord": "آسمان",
+          "start": 0,
+          "end": 1.214987745098039
+        },
+        {
+          "word": "آبی",
+          "cleanWord": "آبی",
+          "start": 1.214987745098039,
+          "end": 1.9439803921568626
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 1.9439803921568626,
+          "end": 2.1869779411764703
+        },
+        {
+          "word": "زیبا",
+          "cleanWord": "زیبا",
+          "start": 2.1869779411764703,
+          "end": 3.1589681372549014
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 3.1589681372549014,
+          "end": 4.130958333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "او یک ماشین سفید دارد.",
+      "latin": "Ū yek māshīn sefīd dārad.",
+      "germanDecode": "Er ein Auto weiß hat-er.",
+      "germanTranslation": "Er hat ein weißes Auto.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.4012175925925926
+        },
+        {
+          "word": "یک",
+          "cleanWord": "یک",
+          "start": 0.4012175925925926,
+          "end": 0.8024351851851852
+        },
+        {
+          "word": "ماشین",
+          "cleanWord": "ماشین",
+          "start": 0.8024351851851852,
+          "end": 1.8054791666666667
+        },
+        {
+          "word": "سفید",
+          "cleanWord": "سفید",
+          "start": 1.8054791666666667,
+          "end": 2.6079143518518517
+        },
+        {
+          "word": "دارد.",
+          "cleanWord": "دارد",
+          "start": 2.6079143518518517,
+          "end": 3.6109583333333335
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "برگ‌های درخت سبز هستند.",
+      "latin": "Barghāye darakht sabz hastand.",
+      "germanDecode": "Blätter-von Baum grün sind-sie.",
+      "germanTranslation": "Die Blätter des Baumes sind grün.",
+      "timings": [
+        {
+          "word": "برگ‌های",
+          "cleanWord": "برگ‌های",
+          "start": 0,
+          "end": 1.3898354166666667
+        },
+        {
+          "word": "درخت",
+          "cleanWord": "درخت",
+          "start": 1.3898354166666667,
+          "end": 2.1840270833333335
+        },
+        {
+          "word": "سبز",
+          "cleanWord": "سبز",
+          "start": 2.1840270833333335,
+          "end": 2.7796708333333333
+        },
+        {
+          "word": "هستند.",
+          "cleanWord": "هستند",
+          "start": 2.7796708333333333,
+          "end": 3.9709583333333334
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "من لباس مشکی می‌پوشم.",
+      "latin": "Man lebās-e meshkī mīpūsham.",
+      "germanDecode": "Ich Kleidung-von schwarz trage-ich.",
+      "germanTranslation": "Ich trage schwarze Kleidung.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.3123287037037037
+        },
+        {
+          "word": "لباس",
+          "cleanWord": "لباس",
+          "start": 0.3123287037037037,
+          "end": 0.9369861111111111
+        },
+        {
+          "word": "مشکی",
+          "cleanWord": "مشکی",
+          "start": 0.9369861111111111,
+          "end": 1.5616435185185185
+        },
+        {
+          "word": "می‌پوشم.",
+          "cleanWord": "می‌پوشم",
+          "start": 1.5616435185185185,
+          "end": 2.8109583333333332
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "این کتاب زرد رنگ است.",
+      "latin": "In ketāb zard rang ast.",
+      "germanDecode": "Dieses Buch gelb Farbe ist.",
+      "germanTranslation": "Dieses Buch ist gelb.",
+      "timings": [
+        {
+          "word": "این",
+          "cleanWord": "این",
+          "start": 0,
+          "end": 0.5101691176470589
+        },
+        {
+          "word": "کتاب",
+          "cleanWord": "کتاب",
+          "start": 0.5101691176470589,
+          "end": 1.190394607843137
+        },
+        {
+          "word": "زرد",
+          "cleanWord": "زرد",
+          "start": 1.190394607843137,
+          "end": 1.700563725490196
+        },
+        {
+          "word": "رنگ",
+          "cleanWord": "رنگ",
+          "start": 1.700563725490196,
+          "end": 2.210732843137255
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.210732843137255,
+          "end": 2.8909583333333333
+        }
+      ]
+    }
+  ]
+}

@@ -5,105 +5,125 @@
     "description": "Grundlagen der persischen Sprache, Begrüßungen und einfache Sätze.",
     "lessons": [
       {
-        "id": "a1-l1",
+        "id": "a1-l1-greetings",
         "title": "Lektion 1: Begrüßungen",
-        "description": "Verb \"sein\" (ist/sind), Personalpronomina in einfachen Nennsätzen."
+        "description": "Verb \"sein\" (ist/sind), Personalpronomina in einfachen Nennsätzen und Begrüßungen."
       },
       {
-        "id": "a1-l2",
+        "id": "a1-l2-origin",
         "title": "Lektion 2: Herkunft & Identität",
-        "description": "Verb \"sein\" (hastam/bin), Präpositionen (von, aus)."
+        "description": "Verb \"sein\" (hastam/bin), Präpositionen (von, aus) und Herkunft."
       },
       {
-        "id": "a1-l3",
-        "title": "Lektion 3: Familie und Beruf",
-        "description": "Verb \"haben\" (darad/hat), Substantive im Plural."
+        "id": "a1-l3-numbers",
+        "title": "Lektion 3: Zahlen und Zählen",
+        "description": "Grundlegende Zahlen von 0-20 und einfache Zählaktivitäten im täglichen Leben."
       },
       {
-        "id": "a1-l4",
-        "title": "Lektion 4: Zahlen und Zeit",
-        "description": "Einfache Verben in der Gegenwartsform, Fragesätze."
+        "id": "a1-l4-colors",
+        "title": "Lektion 4: Farben",               
+        "description": "Grundlegende Farben und ihre Verwendung zur Beschreibung von Gegenständen." 
       },
       {
-        "id": "a1-l5",
-        "title": "Lektion 5: Im Restaurant",
-        "description": "Wunschäußerungen (mikham/ich will), einfache Bitten, Präteritum (bood/war)."
+        "id": "a1-l5-family",
+        "title": "Lektion 5: Familie",
+        "description": "Familienmitglieder vorstellen und über die Familie sprechen."
       },
       {
-        "id": "a1-l6",
-        "title": "Lektion 6: Freizeit & Hobbys",
-        "description": "Erste einfache Trennung von Subjekt/Objekt/Verb zur Festigung der SOV-Regel."
-      },
+  "id": "a1-l6-food",
+  "title": "Lektion 6: Essen und Trinken",
+  "description": "Grundlegende Lebensmittel, Getränke und einfache Restaurantgespräche."
+  },
+    {
+      "id": "a1-l7-shopping",
+      "title": "Lektion 7: Einkaufen",
+      "description": "Grundlegende Einkaufsgespräche, Preise erfragen und bezahlen."
+    },
+    {
+      "id": "a1-l8-time",
+      "title": "Lektion 8: Zeit und Datum",
+      "description": "Uhrzeiten, Wochentage und grundlegende Zeitangaben verstehen und verwenden."
+    },
+    {
+      "id": "a1-l9-body",
+      "title": "Lektion 9: Körperteile",
+      "description": "Grundlegende Körperteile benennen und über körperliche Beschwerden sprechen."
+    },
       {
-        "id": "a1-l6-verbs",
-        "title": "Essentielle Verben Teil 1",
-        "description": "Lerne die wichtigsten Verben der persischen Sprache."
-      },
+      "id": "a1-l10-weather",
+      "title": "Lektion 10: Wetter",
+      "description": "Über das Wetter sprechen und Wettervorhersagen verstehen."
+    },
+    {
+      "id": "a1-l11-transport",
+      "title": "Lektion 11: Verkehrsmittel",
+      "description": "Verschiedene Transportmittel und öffentliche Verkehrsmittel nutzen."
+    },
+    {
+      "id": "a1-l12-directions",
+      "title": "Lektion 12: Richtungen und Orte",
+      "description": "Wegbeschreibungen verstehen und nach dem Weg fragen."
+    },
       {
-        "id": "a1-l6-verbs2",
-        "title": "Essentielle Verben Teil 2",
-        "description": "Vertiefe dein Wissen über die wichtigsten Verben der persischen Sprache."
-      },
-      {
-        "id": "a1-l6-verbs3",
-        "title": "Essentielle Verben Teil 3",
-        "description": "Fokus auf das Modalverb 'können' (tavānestan) und weitere wichtige Verben."
-      },
-      {
-        "id": "a1-l7",
-        "title": "Lektion 7: Zeit und Kalender",
-        "description": "Grundlagen zu Zeitangaben und Wochentagen."
-      },
-      {
-        "id": "a1-l8",
-        "title": "Lektion 8: Morgenroutine",
-        "description": "Verben und Vokabular rund um den Start in den Tag."
-      },
-      {
-        "id": "a1-l9",
-        "title": "Lektion 9: Tägliche Aktivitäten",
-        "description": "Beschreibe alltägliche Handlungen und Aufgaben."
-      },
-      {
-        "id": "a1-l10",
-        "title": "Lektion 10: Im Haus",
-        "description": "Vokabular für Möbel und Räume im Haus."
-      },
-      {
-        "id": "a1-l11",
-        "title": "Lektion 11: Küche und Bad",
-        "description": "Gegenstände und Handlungen in Küche und Bad."
-      },
-      {
-        "id": "a1-l12",
-        "title": "Lektion 12: Lebensmittel",
-        "description": "Grundwortschatz für Obst, Gemüse und Getränke."
-      },
-      {
-        "id": "a1-l13",
-        "title": "Lektion 13: Beschreibungen (Adjektive)",
-        "description": "Einfache Adjektive zur Beschreibung von Dingen."
-      },
-      {
-        "id": "a1-l14",
-        "title": "Lektion 14: Gefühle und Zustände",
-        "description": "Ausdrücken von Gefühlen und Beschreiben von Zuständen."
-      },
-      {
-        "id": "a1-l15",
-        "title": "Lektion 15: Orte und Präpositionen",
-        "description": "Einfache Präpositionen zur Angabe von Orten."
-      },
-      {
-        "id": "a1-l16",
-        "title": "Lektion 16: Verbindungen und Vergleiche",
-        "description": "Sätze mit Konjunktionen wie 'und', 'aber' verbinden."
-      },
-      {
-        "id": "a1-l17",
-        "title": "Lektion 17: Tagesablauf und Ereignisse",
-        "description": "Beschreiben von Ereignissen zu bestimmten Tageszeiten."
-      }
+  "id": "a1-l13-clothes",
+  "title": "Lektion 13: Kleidung",
+  "description": "Kleidungsstücke benennen und über Kleidung sprechen."
+},
+{
+  "id": "a1-l14-health",
+  "title": "Lektion 14: Gesundheit und Arztbesuch",
+  "description": "Über Krankheiten sprechen und beim Arzt kommunizieren."
+},
+{
+  "id": "a1-l15-hobbies",
+  "title": "Lektion 15: Hobbys und Aktivitäten",
+  "description": "Über Freizeitaktivitäten und persönliche Interessen sprechen."
+},
+{
+  "id": "a1-l16-work",
+  "title": "Lektion 16: Arbeit und Berufe",
+  "description": "Über den Beruf sprechen und einfache Arbeitssituationen beschreiben."
+},
+{
+  "id": "a1-l17-home",
+  "title": "Lektion 17: Haus und Zuhause",
+  "description": "Über das Zuhause und Zimmer im Haus sprechen."
+},
+{
+  "id": "a1-l18-restaurant",
+  "title": "Lektion 18: Im Restaurant",
+  "description": "Essen bestellen und Restaurantgespräche führen."
+},
+{
+  "id": "a1-l19-technology",
+  "title": "Lektion 19: Technologie",
+  "description": "Über Computer, Handys und moderne Technologie sprechen."
+},
+{
+  "id": "a1-l20-education",
+  "title": "Lektion 20: Bildung und Schule",
+  "description": "Über Schule, Studium und Lernen sprechen."
+},
+{
+  "id": "a1-l21-traveling",
+  "title": "Lektion 21: Reisen",
+  "description": "Grundlegende Reisetätigkeiten und Tourismussprache."
+},
+{
+  "id": "a1-l22-phone",
+  "title": "Lektion 22: Telefon und Kommunikation",
+  "description": "Telefonieren und grundlegende Kommunikationssituationen."
+},
+{
+  "id": "a1-l23-emotions",
+  "title": "Lektion 23: Gefühle und Emotionen",
+  "description": "Über Gefühle sprechen und emotionale Zustände ausdrücken."
+},
+{
+  "id": "a1-l24-review",
+  "title": "Lektion 24: Wiederholung und Zusammenfassung",
+  "description": "Zusammenfassung der wichtigsten A1-Strukturen und Vokabeln."
+}
     ]
   },
   {

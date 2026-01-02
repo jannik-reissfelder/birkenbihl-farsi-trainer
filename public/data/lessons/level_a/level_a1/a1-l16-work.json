@@ -1,0 +1,193 @@
+{
+  "id": "a1-l16-work",
+  "title": "Lektion 16: Arbeit und Berufe",
+  "description": "Über den Beruf sprechen und einfache Arbeitssituationen beschreiben.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "من معلم هستم.",
+      "latin": "Man mo'allem hastam.",
+      "germanDecode": "Ich Lehrer bin-ich.",
+      "germanTranslation": "Ich bin Lehrer.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.4819924242424243
+        },
+        {
+          "word": "معلم",
+          "cleanWord": "معلم",
+          "start": 0.4819924242424243,
+          "end": 1.4459772727272728
+        },
+        {
+          "word": "هستم.",
+          "cleanWord": "هستم",
+          "start": 1.4459772727272728,
+          "end": 2.6509583333333335
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "او در بیمارستان کار می‌کند.",
+      "latin": "Ū dar bīmārestān kār mikonad.",
+      "germanDecode": "Er in Krankenhaus Arbeit macht-er.",
+      "germanTranslation": "Er arbeitet im Krankenhaus.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.2757355072463768
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0.2757355072463768,
+          "end": 0.5514710144927536
+        },
+        {
+          "word": "بیمارستان",
+          "cleanWord": "بیمارستان",
+          "start": 0.5514710144927536,
+          "end": 1.7922807971014496
+        },
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 1.7922807971014496,
+          "end": 2.205884057971015
+        },
+        {
+          "word": "می‌کند.",
+          "cleanWord": "می‌کند",
+          "start": 2.205884057971015,
+          "end": 3.170958333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "پزشک مهربان است.",
+      "latin": "Pezeshk mehrabān ast.",
+      "germanDecode": "Arzt freundlich ist.",
+      "germanTranslation": "Der Arzt ist freundlich.",
+      "timings": [
+        {
+          "word": "پزشک",
+          "cleanWord": "پزشک",
+          "start": 0,
+          "end": 0.6659880952380952
+        },
+        {
+          "word": "مهربان",
+          "cleanWord": "مهربان",
+          "start": 0.6659880952380952,
+          "end": 1.664970238095238
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.664970238095238,
+          "end": 2.3309583333333332
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "من مهندس نرم‌افزار هستم.",
+      "latin": "Man mohandēs-e narmafzār hastam.",
+      "germanDecode": "Ich Ingenieur-von Software bin-ich.",
+      "germanTranslation": "Ich bin Software-Ingenieur.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.2791388888888889
+        },
+        {
+          "word": "مهندس",
+          "cleanWord": "مهندس",
+          "start": 0.2791388888888889,
+          "end": 0.9769861111111111
+        },
+        {
+          "word": "نرم‌افزار",
+          "cleanWord": "نرم‌افزار",
+          "start": 0.9769861111111111,
+          "end": 2.233111111111111
+        },
+        {
+          "word": "هستم.",
+          "cleanWord": "هستم",
+          "start": 2.233111111111111,
+          "end": 2.9309583333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "شغل شما چیست؟",
+      "latin": "Shogh-e shomā chīst?",
+      "germanDecode": "Beruf-von Sie was-ist?",
+      "germanTranslation": "Was ist Ihr Beruf?",
+      "timings": [
+        {
+          "word": "شغل",
+          "cleanWord": "شغل",
+          "start": 0,
+          "end": 0.515715909090909
+        },
+        {
+          "word": "شما",
+          "cleanWord": "شما",
+          "start": 0.515715909090909,
+          "end": 1.031431818181818
+        },
+        {
+          "word": "چیست؟",
+          "cleanWord": "چیست؟",
+          "start": 1.031431818181818,
+          "end": 1.8909583333333333
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "من کار پاره‌وقت دارم.",
+      "latin": "Man kār-e pāre-vaght dāram.",
+      "germanDecode": "Ich Arbeit-von Teil-Zeit habe-ich.",
+      "germanTranslation": "Ich habe eine Teilzeitarbeit.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.3078842592592592
+        },
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 0.3078842592592592,
+          "end": 0.769710648148148
+        },
+        {
+          "word": "پاره‌وقت",
+          "cleanWord": "پاره‌وقت",
+          "start": 0.769710648148148,
+          "end": 2.001247685185185
+        },
+        {
+          "word": "دارم.",
+          "cleanWord": "دارم",
+          "start": 2.001247685185185,
+          "end": 2.7709583333333327
+        }
+      ]
+    }
+  ]
+}

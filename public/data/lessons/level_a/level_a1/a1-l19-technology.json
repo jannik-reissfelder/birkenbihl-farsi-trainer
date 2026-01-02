@@ -1,0 +1,199 @@
+{
+  "id": "a1-l19-technology",
+  "title": "Lektion 19: Technologie",
+  "description": "Über Computer, Handys und moderne Technologie sprechen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "گوشی من شارژ ندارد.",
+      "latin": "Gūshī-ye man shārzh nadārad.",
+      "germanDecode": "Handy-von mir Ladung nicht-hat-es.",
+      "germanTranslation": "Mein Handy hat keinen Akku.",
+      "timings": [
+        {
+          "word": "گوشی",
+          "cleanWord": "گوشی",
+          "start": 0,
+          "end": 0.6027395833333333
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.6027395833333333,
+          "end": 0.904109375
+        },
+        {
+          "word": "شارژ",
+          "cleanWord": "شارژ",
+          "start": 0.904109375,
+          "end": 1.5068489583333333
+        },
+        {
+          "word": "ندارد.",
+          "cleanWord": "ندارد",
+          "start": 1.5068489583333333,
+          "end": 2.4109583333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "کامپیوتر روشن نمی‌شود.",
+      "latin": "Kāmpyūtar roshan namīshavad.",
+      "germanDecode": "Computer an nicht-wird-es.",
+      "germanTranslation": "Der Computer geht nicht an.",
+      "timings": [
+        {
+          "word": "کامپیوتر",
+          "cleanWord": "کامپیوتر",
+          "start": 0,
+          "end": 1.0123833333333334
+        },
+        {
+          "word": "روشن",
+          "cleanWord": "روشن",
+          "start": 1.0123833333333334,
+          "end": 1.5185750000000002
+        },
+        {
+          "word": "نمی‌شود.",
+          "cleanWord": "نمی‌شود",
+          "start": 1.5185750000000002,
+          "end": 2.5309583333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "اینترنت قطع است.",
+      "latin": "Īnternet ghat' ast.",
+      "germanDecode": "Internet abgeschnitten ist.",
+      "germanTranslation": "Das Internet ist unterbrochen.",
+      "timings": [
+        {
+          "word": "اینترنت",
+          "cleanWord": "اینترنت",
+          "start": 0,
+          "end": 0.9654791666666667
+        },
+        {
+          "word": "قطع",
+          "cleanWord": "قطع",
+          "start": 0.9654791666666667,
+          "end": 1.3792559523809524
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.3792559523809524,
+          "end": 1.9309583333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "من یک ایمیل می‌فرستم.",
+      "latin": "Man yek īmeyl mīferestam.",
+      "germanDecode": "Ich eine E-Mail sende-ich.",
+      "germanTranslation": "Ich sende eine E-Mail.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.22788425925925926
+        },
+        {
+          "word": "یک",
+          "cleanWord": "یک",
+          "start": 0.22788425925925926,
+          "end": 0.4557685185185185
+        },
+        {
+          "word": "ایمیل",
+          "cleanWord": "ایمیل",
+          "start": 0.4557685185185185,
+          "end": 1.0254791666666667
+        },
+        {
+          "word": "می‌فرستم.",
+          "cleanWord": "می‌فرستم",
+          "start": 1.0254791666666667,
+          "end": 2.0509583333333334
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "رمز عبور را فراموش کردم.",
+      "latin": "Ramz-e obūr rā farāmūsh kardam.",
+      "germanDecode": "Passwort-von Übergang D.O. vergessen machte-ich.",
+      "germanTranslation": "Ich habe das Passwort vergessen.",
+      "timings": [
+        {
+          "word": "رمز",
+          "cleanWord": "رمز",
+          "start": 0,
+          "end": 0.40364374999999997
+        },
+        {
+          "word": "عبور",
+          "cleanWord": "عبور",
+          "start": 0.40364374999999997,
+          "end": 0.9418354166666666
+        },
+        {
+          "word": "را",
+          "cleanWord": "را",
+          "start": 0.9418354166666666,
+          "end": 1.2109312499999998
+        },
+        {
+          "word": "فراموش",
+          "cleanWord": "فراموش",
+          "start": 1.2109312499999998,
+          "end": 2.01821875
+        },
+        {
+          "word": "کردم.",
+          "cleanWord": "کردم",
+          "start": 2.01821875,
+          "end": 2.690958333333333
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "می‌توانید چاپگر درست کنید؟",
+      "latin": "Mītavānīd chāpgar dorost konīd?",
+      "germanDecode": "Können-Sie Drucker richtig machen-Sie?",
+      "germanTranslation": "Können Sie den Drucker reparieren?",
+      "timings": [
+        {
+          "word": "می‌توانید",
+          "cleanWord": "می‌توانید",
+          "start": 0,
+          "end": 0.9590706521739131
+        },
+        {
+          "word": "چاپگر",
+          "cleanWord": "چاپگر",
+          "start": 0.9590706521739131,
+          "end": 1.4918876811594202
+        },
+        {
+          "word": "درست",
+          "cleanWord": "درست",
+          "start": 1.4918876811594202,
+          "end": 1.918141304347826
+        },
+        {
+          "word": "کنید؟",
+          "cleanWord": "کنید؟",
+          "start": 1.918141304347826,
+          "end": 2.4509583333333333
+        }
+      ]
+    }
+  ]
+}

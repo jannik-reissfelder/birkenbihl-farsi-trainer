@@ -1,0 +1,229 @@
+{
+  "id": "a1-l5-family",
+  "title": "Lektion 5: Familie",
+  "description": "Familienmitglieder vorstellen und über die Familie sprechen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "این مادر من است.",
+      "latin": "In mādar-e man ast.",
+      "germanDecode": "Diese Mutter-von mir ist.",
+      "germanTranslation": "Das ist meine Mutter.",
+      "timings": [
+        {
+          "word": "این",
+          "cleanWord": "این",
+          "start": 0,
+          "end": 0.8056057692307693
+        },
+        {
+          "word": "مادر",
+          "cleanWord": "مادر",
+          "start": 0.8056057692307693,
+          "end": 1.879746794871795
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 1.879746794871795,
+          "end": 2.416817307692308
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.416817307692308,
+          "end": 3.490958333333334
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "پدرم در بانک کار می‌کند.",
+      "latin": "Pedaram dar bānk kār mikonad.",
+      "germanDecode": "Vater-mein in Bank Arbeit macht-er.",
+      "germanTranslation": "Mein Vater arbeitet in einer Bank.",
+      "timings": [
+        {
+          "word": "پدرم",
+          "cleanWord": "پدرم",
+          "start": 0,
+          "end": 0.9141916666666667
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0.9141916666666667,
+          "end": 1.3712875000000002
+        },
+        {
+          "word": "بانک",
+          "cleanWord": "بانک",
+          "start": 1.3712875000000002,
+          "end": 2.2854791666666667
+        },
+        {
+          "word": "کار",
+          "cleanWord": "کار",
+          "start": 2.2854791666666667,
+          "end": 2.971122916666667
+        },
+        {
+          "word": "می‌کند.",
+          "cleanWord": "می‌کند",
+          "start": 2.971122916666667,
+          "end": 4.5709583333333335
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "برادر کوچکم دانشجو است.",
+      "latin": "Barādar-e kūchakam dānshjū ast.",
+      "germanDecode": "Bruder-von klein-mein Student ist.",
+      "germanTranslation": "Mein kleiner Bruder ist Student.",
+      "timings": [
+        {
+          "word": "برادر",
+          "cleanWord": "برادر",
+          "start": 0,
+          "end": 1.0327395833333333
+        },
+        {
+          "word": "کوچکم",
+          "cleanWord": "کوچکم",
+          "start": 1.0327395833333333,
+          "end": 2.0654791666666665
+        },
+        {
+          "word": "دانشجو",
+          "cleanWord": "دانشجو",
+          "start": 2.0654791666666665,
+          "end": 3.3047666666666666
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 3.3047666666666666,
+          "end": 4.130958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "خواهرم بیست ساله است.",
+      "latin": "Khāharam bīst sāleh ast.",
+      "germanDecode": "Schwester-meine zwanzig Jahre-alt ist.",
+      "germanTranslation": "Meine Schwester ist zwanzig Jahre alt.",
+      "timings": [
+        {
+          "word": "خواهرم",
+          "cleanWord": "خواهرم",
+          "start": 0,
+          "end": 1.216986111111111
+        },
+        {
+          "word": "بیست",
+          "cleanWord": "بیست",
+          "start": 1.216986111111111,
+          "end": 2.0283101851851852
+        },
+        {
+          "word": "ساله",
+          "cleanWord": "ساله",
+          "start": 2.0283101851851852,
+          "end": 2.839634259259259
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.839634259259259,
+          "end": 3.650958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "ما یک خانواده بزرگ داریم.",
+      "latin": "Mā yek khānevādeh bozorg dārīm.",
+      "germanDecode": "Wir eine Familie groß haben-wir.",
+      "germanTranslation": "Wir haben eine große Familie.",
+      "timings": [
+        {
+          "word": "ما",
+          "cleanWord": "ما",
+          "start": 0,
+          "end": 0.45818650793650795
+        },
+        {
+          "word": "یک",
+          "cleanWord": "یک",
+          "start": 0.45818650793650795,
+          "end": 0.9163730158730159
+        },
+        {
+          "word": "خانواده",
+          "cleanWord": "خانواده",
+          "start": 0.9163730158730159,
+          "end": 2.5200257936507935
+        },
+        {
+          "word": "بزرگ",
+          "cleanWord": "بزرگ",
+          "start": 2.5200257936507935,
+          "end": 3.4363988095238094
+        },
+        {
+          "word": "داریم.",
+          "cleanWord": "داریم",
+          "start": 3.4363988095238094,
+          "end": 4.810958333333334
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "پدربزرگ من در تهران زندگی می‌کند.",
+      "latin": "Pedarbozorg-e man dar Tehrān zendegī mikonad.",
+      "germanDecode": "Großvater-von mir in Tehran Leben macht-er.",
+      "germanTranslation": "Mein Großvater lebt in Teheran.",
+      "timings": [
+        {
+          "word": "پدربزرگ",
+          "cleanWord": "پدربزرگ",
+          "start": 0,
+          "end": 1.5727395833333333
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 1.5727395833333333,
+          "end": 2.02209375
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 2.02209375,
+          "end": 2.4714479166666665
+        },
+        {
+          "word": "تهران",
+          "cleanWord": "تهران",
+          "start": 2.4714479166666665,
+          "end": 3.594833333333333
+        },
+        {
+          "word": "زندگی",
+          "cleanWord": "زندگی",
+          "start": 3.594833333333333,
+          "end": 4.718218749999999
+        },
+        {
+          "word": "می‌کند.",
+          "cleanWord": "می‌کند",
+          "start": 4.718218749999999,
+          "end": 6.290958333333332
+        }
+      ]
+    }
+  ]
+}

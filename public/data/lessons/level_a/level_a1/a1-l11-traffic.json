@@ -1,0 +1,174 @@
+{
+  "id": "a1-l11-transport",
+  "title": "Lektion 11: Verkehrsmittel",
+  "description": "Verschiedene Transportmittel und öffentliche Verkehrsmittel nutzen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "من با اتوبوس می‌روم.",
+      "latin": "Man bā otobūs mīravam.",
+      "germanDecode": "Ich mit Bus gehe-ich.",
+      "germanTranslation": "Ich fahre mit dem Bus.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.26952450980392156
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.26952450980392156,
+          "end": 0.5390490196078431
+        },
+        {
+          "word": "اتوبوس",
+          "cleanWord": "اتوبوس",
+          "start": 0.5390490196078431,
+          "end": 1.3476225490196079
+        },
+        {
+          "word": "می‌روم.",
+          "cleanWord": "می‌روم",
+          "start": 1.3476225490196079,
+          "end": 2.290958333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "تاکسی خیلی گران است.",
+      "latin": "Tāksī kheylī gerān ast.",
+      "germanDecode": "Taxi sehr teuer ist.",
+      "germanTranslation": "Taxi ist sehr teuer.",
+      "timings": [
+        {
+          "word": "تاکسی",
+          "cleanWord": "تاکسی",
+          "start": 0,
+          "end": 0.7443995098039217
+        },
+        {
+          "word": "خیلی",
+          "cleanWord": "خیلی",
+          "start": 0.7443995098039217,
+          "end": 1.3399191176470588
+        },
+        {
+          "word": "گران",
+          "cleanWord": "گران",
+          "start": 1.3399191176470588,
+          "end": 1.9354387254901961
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.9354387254901961,
+          "end": 2.5309583333333334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "قطار ساعت سه می‌رسد.",
+      "latin": "Ghatār sā'at-e seh mīresad.",
+      "germanDecode": "Zug Uhr-von drei ankommt-er.",
+      "germanTranslation": "Der Zug kommt um drei Uhr an.",
+      "timings": [
+        {
+          "word": "قطار",
+          "cleanWord": "قطار",
+          "start": 0,
+          "end": 0.6237549019607843
+        },
+        {
+          "word": "ساعت",
+          "cleanWord": "ساعت",
+          "start": 0.6237549019607843,
+          "end": 1.2475098039215686
+        },
+        {
+          "word": "سه",
+          "cleanWord": "سه",
+          "start": 1.2475098039215686,
+          "end": 1.5593872549019607
+        },
+        {
+          "word": "می‌رسد.",
+          "cleanWord": "می‌رسد",
+          "start": 1.5593872549019607,
+          "end": 2.6509583333333335
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "بلیط هواپیما کجا بخرم؟",
+      "latin": "Belīt-e havāpeymā kojā bekhoram?",
+      "germanDecode": "Ticket-von Flugzeug wo kaufe-ich?",
+      "germanTranslation": "Wo kaufe ich ein Flugticket?",
+      "timings": [
+        {
+          "word": "بلیط",
+          "cleanWord": "بلیط",
+          "start": 0,
+          "end": 0.6086228070175438
+        },
+        {
+          "word": "هواپیما",
+          "cleanWord": "هواپیما",
+          "start": 0.6086228070175438,
+          "end": 1.6737127192982455
+        },
+        {
+          "word": "کجا",
+          "cleanWord": "کجا",
+          "start": 1.6737127192982455,
+          "end": 2.130179824561403
+        },
+        {
+          "word": "بخرم؟",
+          "cleanWord": "بخرم؟",
+          "start": 2.130179824561403,
+          "end": 2.890958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "ماشین من خراب است.",
+      "latin": "Māshīn-e man kharāb ast.",
+      "germanDecode": "Auto-von mir kaputt ist.",
+      "germanTranslation": "Mein Auto ist kaputt.",
+      "timings": []
+    },
+    {
+      "id": 6,
+      "farsi": "ایستگاه مترو کجاست؟",
+      "latin": "Īstgāh-e metro kojāst?",
+      "germanDecode": "Station-von Metro wo-ist?",
+      "germanTranslation": "Wo ist die Metro-Station?",
+      "timings": [
+        {
+          "word": "ایستگاه",
+          "cleanWord": "ایستگاه",
+          "start": 0,
+          "end": 1.04215931372549
+        },
+        {
+          "word": "مترو",
+          "cleanWord": "مترو",
+          "start": 1.04215931372549,
+          "end": 1.6376789215686274
+        },
+        {
+          "word": "کجاست؟",
+          "cleanWord": "کجاست؟",
+          "start": 1.6376789215686274,
+          "end": 2.5309583333333334
+        }
+      ]
+    }
+  ]
+}

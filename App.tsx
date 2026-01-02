@@ -21,6 +21,7 @@ import { useProgress } from './hooks/useProgress';
 import { SpinnerIcon } from './components/icons/SpinnerIcon';
 import { useAuth } from './src/contexts/AuthContext';
 import AuthView from './src/components/AuthView';
+import WelcomeView from './src/components/WelcomeView';
 
 // The View type now includes vocabulary management views
 type View = 'dashboard' | 'browseLevels' | 'browseLessons' | 'lesson' | 'chat' | 'playlistSetup' | 'playlist' | 'freeShadowingSetup' | 'freeShadowingSession' | 'methodology' | 'vocabulary' | 'srsReview' | 'activeVocabulary' | 'analytics';
@@ -261,6 +262,9 @@ const AuthenticatedApp: React.FC = () => {
 
 const App: React.FC = () => {
   const { user, loading: authLoading } = useAuth();
+  
+  // Check if we're on the welcome page
+  const isWelcomePage = window.location.pathname === '/welcome';
 
   if (authLoading) {
     return (
@@ -271,6 +275,11 @@ const App: React.FC = () => {
         </div>
       </div>
     );
+  }
+
+  // Show welcome page if user just verified email
+  if (isWelcomePage) {
+    return <WelcomeView />;
   }
 
   if (!user) {
