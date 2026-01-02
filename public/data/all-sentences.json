@@ -352,409 +352,275 @@
   },
   {
     "id": 1,
-    "farsi": "یک، دو، سه، چهار، پنج",
-    "latin": "Yek, do, se, chahār, panj",
-    "germanDecode": "Eins, zwei, drei, vier, fünf",
-    "germanTranslation": "Eins, zwei, drei, vier, fünf",
-    "lessonId": "a1-l4",
-    "lessonTitle": "Lektion 4: Zahlen und Zeit"
+    "farsi": "این گل قرمز است.",
+    "latin": "In gol ghermez ast.",
+    "germanDecode": "Diese Blume rot ist.",
+    "germanTranslation": "Diese Blume ist rot.",
+    "lessonId": "a1-l4-colors",
+    "lessonTitle": "Lektion 4: Farben"
   },
   {
     "id": 2,
-    "farsi": "ساعت چند است؟",
-    "latin": "Sā'at chand ast?",
-    "germanDecode": "Stunde wie-viel ist?",
-    "germanTranslation": "Wie spät ist es?",
-    "lessonId": "a1-l4",
-    "lessonTitle": "Lektion 4: Zahlen und Zeit"
+    "farsi": "آسمان آبی و زیبا است.",
+    "latin": "Āsmān ābī va zībā ast.",
+    "germanDecode": "Himmel blau und schön ist.",
+    "germanTranslation": "Der Himmel ist blau und schön.",
+    "lessonId": "a1-l4-colors",
+    "lessonTitle": "Lektion 4: Farben"
   },
   {
     "id": 3,
-    "farsi": "ساعت سه است",
-    "latin": "Sā'at se ast",
-    "germanDecode": "Stunde drei ist",
-    "germanTranslation": "Es ist drei Uhr.",
-    "lessonId": "a1-l4",
-    "lessonTitle": "Lektion 4: Zahlen und Zeit"
+    "farsi": "او یک ماشین سفید دارد.",
+    "latin": "Ū yek māshīn sefīd dārad.",
+    "germanDecode": "Er ein Auto weiß hat-er.",
+    "germanTranslation": "Er hat ein weißes Auto.",
+    "lessonId": "a1-l4-colors",
+    "lessonTitle": "Lektion 4: Farben"
   },
   {
     "id": 4,
-    "farsi": "امروز چه روزی است؟",
-    "latin": "Emruz che ruzi ast?",
-    "germanDecode": "Heute welcher Tag ist?",
-    "germanTranslation": "Welcher Tag ist heute?",
-    "lessonId": "a1-l4",
-    "lessonTitle": "Lektion 4: Zahlen und Zeit"
+    "farsi": "برگ‌های درخت سبز هستند.",
+    "latin": "Barghāye darakht sabz hastand.",
+    "germanDecode": "Blätter-von Baum grün sind-sie.",
+    "germanTranslation": "Die Blätter des Baumes sind grün.",
+    "lessonId": "a1-l4-colors",
+    "lessonTitle": "Lektion 4: Farben"
   },
   {
     "id": 5,
-    "farsi": "فردا سه شنبه است",
-    "latin": "Fardā se shanbe ast",
-    "germanDecode": "Morgen Dienstag ist",
-    "germanTranslation": "Morgen ist Dienstag.",
-    "lessonId": "a1-l4",
-    "lessonTitle": "Lektion 4: Zahlen und Zeit"
-  },
-  {
-    "id": 1,
-    "farsi": "من یک قهوه می خواهم",
-    "latin": "Man yek qahve mikham",
-    "germanDecode": "Ich ein Kaffee will-ich",
-    "germanTranslation": "Ich möchte einen Kaffee",
-    "lessonId": "a1-l5",
-    "lessonTitle": "Lektion 5: Im Restaurant"
-  },
-  {
-    "id": 2,
-    "farsi": "یک لیوان آب لطفا",
-    "latin": "Yek livān āb lotfan",
-    "germanDecode": "Ein Glas Wasser bitte",
-    "germanTranslation": "Ein Glas Wasser, bitte",
-    "lessonId": "a1-l5",
-    "lessonTitle": "Lektion 5: Im Restaurant"
-  },
-  {
-    "id": 3,
-    "farsi": "صورت حساب لطفا",
-    "latin": "Sūrat hesāb lotfan",
-    "germanDecode": "Form Rechnung bitte",
-    "germanTranslation": "Die Rechnung, bitte",
-    "lessonId": "a1-l5",
-    "lessonTitle": "Lektion 5: Im Restaurant"
-  },
-  {
-    "id": 4,
-    "farsi": "غذا خیلی خوشمزه بود",
-    "latin": "Ghazā kheyli khoshmaze būd",
-    "germanDecode": "Essen sehr lecker war",
-    "germanTranslation": "Das Essen war sehr lecker",
-    "lessonId": "a1-l5",
-    "lessonTitle": "Lektion 5: Im Restaurant"
-  },
-  {
-    "id": 5,
-    "farsi": "آیا می توانم منو را ببینم؟",
-    "latin": "Āyā mitavānam menu rā bebinam?",
-    "germanDecode": "Ob kann-ich Menü D.O. sehe-ich?",
-    "germanTranslation": "Kann ich die Speisekarte sehen?",
-    "lessonId": "a1-l5",
-    "lessonTitle": "Lektion 5: Im Restaurant"
-  },
-  {
-    "id": 1,
-    "farsi": "من خوب هستم.",
-    "latin": "Man khūb hastam.",
-    "germanDecode": "Ich gut bin-ich.",
-    "germanTranslation": "Mir geht es gut.",
-    "lessonId": "a1-l6-verbs",
-    "lessonTitle": "Essentielle Verben Teil 1"
-  },
-  {
-    "id": 2,
-    "farsi": "شما یک کتاب دارید.",
-    "latin": "Shomā yek ketāb dārīd.",
-    "germanDecode": "Sie ein Buch haben-Sie.",
-    "germanTranslation": "Sie haben ein Buch.",
-    "lessonId": "a1-l6-verbs",
-    "lessonTitle": "Essentielle Verben Teil 1"
-  },
-  {
-    "id": 3,
-    "farsi": "او چای می خواهد.",
-    "latin": "Ū chāy mikhāhad.",
-    "germanDecode": "er Tee will-er.",
-    "germanTranslation": "Er möchte Tee.",
-    "lessonId": "a1-l6-verbs",
-    "lessonTitle": "Essentielle Verben Teil 1"
-  },
-  {
-    "id": 4,
-    "farsi": "ما به بازار می رویم.",
-    "latin": "Mā be bāzār miravīm.",
-    "germanDecode": "Wir zum Markt gehen-wir.",
-    "germanTranslation": "Wir gehen zum Markt.",
-    "lessonId": "a1-l6-verbs",
-    "lessonTitle": "Essentielle Verben Teil 1"
-  },
-  {
-    "id": 5,
-    "farsi": "من شام می خورم.",
-    "latin": "Man shām mikhoram.",
-    "germanDecode": "Ich Abendessen esse-ich.",
-    "germanTranslation": "Ich esse zu Abend.",
-    "lessonId": "a1-l6-verbs",
-    "lessonTitle": "Essentielle Verben Teil 1"
+    "farsi": "من لباس مشکی می‌پوشم.",
+    "latin": "Man lebās-e meshkī mīpūsham.",
+    "germanDecode": "Ich Kleidung-von schwarz trage-ich.",
+    "germanTranslation": "Ich trage schwarze Kleidung.",
+    "lessonId": "a1-l4-colors",
+    "lessonTitle": "Lektion 4: Farben"
   },
   {
     "id": 6,
-    "farsi": "تو او را می بینی.",
-    "latin": "To ū rā mibīnī.",
-    "germanDecode": "Du er D.O. siehst-du.",
-    "germanTranslation": "Du siehst ihn/sie.",
-    "lessonId": "a1-l6-verbs",
-    "lessonTitle": "Essentielle Verben Teil 1"
+    "farsi": "این کتاب زرد رنگ است.",
+    "latin": "In ketāb zard rang ast.",
+    "germanDecode": "Dieses Buch gelb Farbe ist.",
+    "germanTranslation": "Dieses Buch ist gelb.",
+    "lessonId": "a1-l4-colors",
+    "lessonTitle": "Lektion 4: Farben"
   },
-  {
-    "id": 7,
-    "farsi": "آنها کار می کنند.",
-    "latin": "Ānhā kār mikonand.",
-    "germanDecode": "Sie Arbeit machen-sie.",
-    "germanTranslation": "Sie arbeiten.",
-    "lessonId": "a1-l6-verbs",
-    "lessonTitle": "Essentielle Verben Teil 1"
-  },
-  {
+    {
     "id": 1,
-    "farsi": "ما به خانه می‌آییم.",
-    "latin": "Mā be khāne miāyīm.",
-    "germanDecode": "Wir zum Haus kommen-wir.",
-    "germanTranslation": "Wir kommen nach Hause.",
-    "lessonId": "a1-l6-verbs2",
-    "lessonTitle": "Essentielle Verben Teil 2"
+    "farsi": "این مادر من است.",
+    "latin": "In mādar-e man ast.",
+    "germanDecode": "Diese Mutter-von mir ist.",
+    "germanTranslation": "Das ist meine Mutter.",
+    "lessonId": "a1-l5-family",
+    "lessonTitle": "Lektion 5: Familie"
   },
   {
     "id": 2,
-    "farsi": "او با من صحبت می‌کند.",
-    "latin": "Ū bā man sohbat mikonad.",
-    "germanDecode": "er mit mir Gespräch macht-er.",
-    "germanTranslation": "Er spricht mit mir.",
-    "lessonId": "a1-l6-verbs2",
-    "lessonTitle": "Essentielle Verben Teil 2"
+    "farsi": "پدرم در بانک کار می‌کند.",
+    "latin": "Pedaram dar bānk kār mikonad.",
+    "germanDecode": "Vater-mein in Bank Arbeit macht-er.",
+    "germanTranslation": "Mein Vater arbeitet in einer Bank.",
+    "lessonId": "a1-l5-family",
+    "lessonTitle": "Lektion 5: Familie"
   },
   {
     "id": 3,
-    "farsi": "من این را به او می‌دهم.",
-    "latin": "Man in rā be ū mīdaham.",
-    "germanDecode": "Ich dies D.O. zu er gebe-ich.",
-    "germanTranslation": "Ich gebe ihm/ihr das.",
-    "lessonId": "a1-l6-verbs2",
-    "lessonTitle": "Essentielle Verben Teil 2"
+    "farsi": "برادر کوچکم دانشجو است.",
+    "latin": "Barādar-e kūchakam dānshjū ast.",
+    "germanDecode": "Bruder-von klein-mein Student ist.",
+    "germanTranslation": "Mein kleiner Bruder ist Student.",
+    "lessonId": "a1-l5-family",
+    "lessonTitle": "Lektion 5: Familie"
   },
   {
     "id": 4,
-    "farsi": "آنها هر روز کار می‌کنند.",
-    "latin": "Ānhā har rūz kār mikonand.",
-    "germanDecode": "Sie jeden Tag Arbeit machen-sie.",
-    "germanTranslation": "Sie arbeiten jeden Tag.",
-    "lessonId": "a1-l6-verbs2",
-    "lessonTitle": "Essentielle Verben Teil 2"
+    "farsi": "خواهرم بیست ساله است.",
+    "latin": "Khāharam bīst sāleh ast.",
+    "germanDecode": "Schwester-meine zwanzig Jahre-alt ist.",
+    "germanTranslation": "Meine Schwester ist zwanzig Jahre alt.",
+    "lessonId": "a1-l5-family",
+    "lessonTitle": "Lektion 5: Familie"
   },
   {
     "id": 5,
-    "farsi": "تو به مادرت حقیقت را می‌گویی.",
-    "latin": "To be mādar-at haghighat rā migūyī.",
-    "germanDecode": "Du zu Mutter-deiner Wahrheit D.O. sagst-du.",
-    "germanTranslation": "Du sagst deiner Mutter die Wahrheit.",
-    "lessonId": "a1-l6-verbs2",
-    "lessonTitle": "Essentielle Verben Teil 2"
+    "farsi": "ما یک خانواده بزرگ داریم.",
+    "latin": "Mā yek khānevādeh bozorg dārīm.",
+    "germanDecode": "Wir eine Familie groß haben-wir.",
+    "germanTranslation": "Wir haben eine große Familie.",
+    "lessonId": "a1-l5-family",
+    "lessonTitle": "Lektion 5: Familie"
   },
   {
     "id": 6,
-    "farsi": "من باید الآن بروم.",
-    "latin": "Man bāyad alān beravam.",
-    "germanDecode": "Ich muss jetzt gehen-ich.",
-    "germanTranslation": "Ich muss jetzt gehen.",
-    "lessonId": "a1-l6-verbs2",
-    "lessonTitle": "Essentielle Verben Teil 2"
+    "farsi": "پدربزرگ من در تهران زندگی می‌کند.",
+    "latin": "Pedarbozorg-e man dar Tehrān zendegī mikonad.",
+    "germanDecode": "Großvater-von mir in Tehran Leben macht-er.",
+    "germanTranslation": "Mein Großvater lebt in Teheran.",
+    "lessonId": "a1-l5-family",
+    "lessonTitle": "Lektion 5: Familie"
   },
   {
-    "id": 7,
-    "farsi": "من امروز هیچ چیز نمی‌بینم.",
-    "latin": "Man emrooz hich chiz nemībīnam.",
-    "germanDecode": "Ich heute kein Ding nicht-sehe-ich.",
-    "germanTranslation": "Ich sehe heute nichts.",
-    "lessonId": "a1-l6-verbs2",
-    "lessonTitle": "Essentielle Verben Teil 2"
-  },
-  {
-    "id": 1,
-    "farsi": "من می توانم بخوانم.",
-    "latin": "Man mitavānam bekhvānam.",
-    "germanDecode": "Ich kann-ich lese-ich.",
-    "germanTranslation": "Ich kann lesen.",
-    "lessonId": "a1-l6-verbs3",
-    "lessonTitle": "Essentielle Verben Teil 3"
-  },
-  {
-    "id": 2,
-    "farsi": "شما می توانید انگلیسی صحبت کنید.",
-    "latin": "Shomā mitavānīd englīsi sohbat konīd.",
-    "germanDecode": "Sie können-Sie Englisch Gespräch machen-Sie.",
-    "germanTranslation": "Sie können Englisch sprechen.",
-    "lessonId": "a1-l6-verbs3",
-    "lessonTitle": "Essentielle Verben Teil 3"
-  },
-  {
-    "id": 3,
-    "farsi": "آنها جواب را می دانند.",
-    "latin": "Ānhā javāb rā mīdānand.",
-    "germanDecode": "Sie Antwort D.O. wissen-sie.",
-    "germanTranslation": "Sie wissen die Antwort.",
-    "lessonId": "a1-l6-verbs3",
-    "lessonTitle": "Essentielle Verben Teil 3"
-  },
-  {
-    "id": 4,
-    "farsi": "ما به شهر جدید می آییم.",
-    "latin": "Mā be shahr-e jadīd miāyīm.",
-    "germanDecode": "Wir zur Stadt-die neue kommen-wir.",
-    "germanTranslation": "Wir kommen in die neue Stadt.",
-    "lessonId": "a1-l6-verbs3",
-    "lessonTitle": "Essentielle Verben Teil 3"
-  },
-  {
-    "id": 5,
-    "farsi": "او غذا را درست می کند.",
-    "latin": "Ū ghazā rā dorost mikonad.",
-    "germanDecode": "er Essen D.O. richtig macht-er.",
-    "germanTranslation": "Er bereitet das Essen zu.",
-    "lessonId": "a1-l6-verbs3",
-    "lessonTitle": "Essentielle Verben Teil 3"
-  },
-  {
-    "id": 6,
-    "farsi": "من می خواهم یک آزمایش بکنم.",
-    "latin": "Man mikhāham yek āzmāyaš bokonam.",
-    "germanDecode": "Ich will-ich ein Test machen-ich.",
-    "germanTranslation": "Ich möchte einen Test machen.",
-    "lessonId": "a1-l6-verbs3",
-    "lessonTitle": "Essentielle Verben Teil 3"
-  },
-  {
-    "id": 7,
-    "farsi": "بچه ها می خندند.",
-    "latin": "Bachchehā mīkhandand.",
-    "germanDecode": "Kinder-PL lachen-sie.",
-    "germanTranslation": "Die Kinder lachen.",
-    "lessonId": "a1-l6-verbs3",
-    "lessonTitle": "Essentielle Verben Teil 3"
-  },
-  {
-    "id": 1,
-    "farsi": "شما در وقت آزاد خود چه کار می کنید؟",
-    "latin": "Shomā dar vaght-e āzād-e khod che kār mikonid?",
-    "germanDecode": "Sie in Zeit-die freie-von Ihr was Arbeit machen-Sie?",
-    "germanTranslation": "Was machen Sie in Ihrer Freizeit?",
-    "lessonId": "a1-l6",
-    "lessonTitle": "Lektion 6: Freizeit & Hobbys"
-  },
-  {
-    "id": 2,
-    "farsi": "من کتاب می خوانم",
-    "latin": "Man ketāb mikhānam",
-    "germanDecode": "Ich Buch lese-ich",
-    "germanTranslation": "Ich lese ein Buch",
-    "lessonId": "a1-l6",
-    "lessonTitle": "Lektion 6: Freizeit & Hobbys"
-  },
-  {
-    "id": 3,
-    "farsi": "سرگرمی من نقاشی است",
-    "latin": "Sargarmi-e man naqqāshi ast",
-    "germanDecode": "Hobby-von mein Malen ist",
-    "germanTranslation": "Mein Hobby ist Malen",
-    "lessonId": "a1-l6",
-    "lessonTitle": "Lektion 6: Freizeit & Hobbys"
-  },
-  {
-    "id": 4,
-    "farsi": "آخر هفته من به سینما می روم",
-    "latin": "Ākhar-e hafte man be sinamā miravam",
-    "germanDecode": "Ende-von Woche ich zu Kino gehe-ich",
-    "germanTranslation": "Am Wochenende gehe ich ins Kino",
-    "lessonId": "a1-l6",
-    "lessonTitle": "Lektion 6: Freizeit & Hobbys"
-  },
-  {
-    "id": 1,
-    "farsi": "یک سال دوازده ماه است.",
-    "latin": "Yek sāl davāzdah māh ast.",
-    "germanDecode": "Ein Jahr zwölf Monat ist.",
-    "germanTranslation": "Ein Jahr hat zwölf Monate.",
-    "lessonId": "a1-l7",
-    "lessonTitle": "Lektion 7: Zeit und Kalender"
-  },
-  {
-    "id": 2,
-    "farsi": "امروز سه‌شنبه است.",
-    "latin": "Emrooz se-shanbe ast.",
-    "germanDecode": "Heute Dienstag ist.",
-    "germanTranslation": "Heute ist Dienstag.",
-    "lessonId": "a1-l7",
-    "lessonTitle": "Lektion 7: Zeit und Kalender"
-  },
-  {
-    "id": 3,
-    "farsi": "یک ساعت شصت دقیقه دارد.",
-    "latin": "Yek sā'at shast daqiqe dārad.",
-    "germanDecode": "Eine Stunde sechzig Minute hat-es.",
-    "germanTranslation": "Eine Stunde hat sechzig Minuten.",
-    "lessonId": "a1-l7",
-    "lessonTitle": "Lektion 7: Zeit und Kalender"
-  },
-  {
-    "id": 4,
-    "farsi": "ساعت هفت و سی دقیقه است.",
-    "latin": "Sā'at-e haft o si daqiqe ast.",
-    "germanDecode": "Stunde-von sieben und dreißig Minute ist.",
-    "germanTranslation": "Es ist sieben Uhr dreißig.",
-    "lessonId": "a1-l7",
-    "lessonTitle": "Lektion 7: Zeit und Kalender"
-  },
-  {
-    "id": 5,
-    "farsi": "دیروز خوب بود، امروز بد است.",
-    "latin": "Dīrooz khūb būd, emrooz bad ast.",
-    "germanDecode": "Gestern gut war, heute schlecht ist.",
-    "germanTranslation": "Gestern war es gut, heute ist es schlecht.",
-    "lessonId": "a1-l7",
-    "lessonTitle": "Lektion 7: Zeit und Kalender"
-  },
-  {
-    "id": 1,
-    "farsi": "من ساعت هفت صبح بیدار می‌شوم.",
-    "latin": "Man sā'at-e haft-e sobh bidār mishavam.",
-    "germanDecode": "Ich Uhr-von sieben-von Morgen wach werde-ich.",
-    "germanTranslation": "Ich wache um sieben Uhr morgens auf.",
-    "lessonId": "a1-l8",
-    "lessonTitle": "Lektion 8: Morgenroutine"
-  },
-  {
-    "id": 2,
-    "farsi": "من زنگ آلارم را خاموش می‌کنم.",
-    "latin": "Man zang-e ālarm rā khāmūsh mikonam.",
-    "germanDecode": "Ich Klingel-von Alarm D.O. aus mache-ich.",
-    "germanTranslation": "Ich schalte den Wecker aus.",
-    "lessonId": "a1-l8",
-    "lessonTitle": "Lektion 8: Morgenroutine"
-  },
-  {
-    "id": 3,
-    "farsi": "من از رختخواب بیرون می‌آیم.",
-    "latin": "Man az rakht-e-khāb biroon miāyam.",
-    "germanDecode": "Ich aus Bett heraus komme-ich.",
-    "germanTranslation": "Ich stehe aus dem Bett auf.",
-    "lessonId": "a1-l8",
-    "lessonTitle": "Lektion 8: Morgenroutine"
-  },
-  {
-    "id": 4,
-    "farsi": "من صبحانه می‌خورم.",
-    "latin": "Man sobhāne mikhoram.",
-    "germanDecode": "Ich Frühstück esse-ich.",
-    "germanTranslation": "Ich esse Frühstück.",
-    "lessonId": "a1-l8",
-    "lessonTitle": "Lektion 8: Morgenroutine"
-  },
-  {
-    "id": 5,
-    "farsi": "من با عجله به کار می‌روم.",
-    "latin": "Man bā ajaleh be kār miravam.",
-    "germanDecode": "Ich mit Eile zur Arbeit gehe-ich.",
-    "germanTranslation": "Ich gehe eilig zur Arbeit.",
-    "lessonId": "a1-l8",
-    "lessonTitle": "Lektion 8: Morgenroutine"
-  },
+  "id": 1,
+  "farsi": "من چای می‌خورم.",
+  "latin": "Man chāy mikhoram.",
+  "germanDecode": "Ich Tee trinke-ich.",
+  "germanTranslation": "Ich trinke Tee.",
+  "lessonId": "a1-l6-food",
+  "lessonTitle": "Lektion 6: Essen und Trinken"
+},
+{
+  "id": 2,
+  "farsi": "او نان و پنیر می‌خرد.",
+  "latin": "Ū nān va panīr mikharad.",
+  "germanDecode": "Er Brot und Käse kauft-er.",
+  "germanTranslation": "Er kauft Brot und Käse.",
+  "lessonId": "a1-l6-food",
+  "lessonTitle": "Lektion 6: Essen und Trinken"
+},
+{
+  "id": 3,
+  "farsi": "ما برنج با گوشت می‌خوریم.",
+  "latin": "Mā berenj bā gūsht mikhorīm.",
+  "germanDecode": "Wir Reis mit Fleisch essen-wir.",
+  "germanTranslation": "Wir essen Reis mit Fleisch.",
+  "lessonId": "a1-l6-food",
+  "lessonTitle": "Lektion 6: Essen und Trinken"
+},
+{
+  "id": 4,
+  "farsi": "این سیب شیرین است.",
+  "latin": "In sīb shīrīn ast.",
+  "germanDecode": "Dieser Apfel süß ist.",
+  "germanTranslation": "Dieser Apfel ist süß.",
+  "lessonId": "a1-l6-food",
+  "lessonTitle": "Lektion 6: Essen und Trinken"
+},
+{
+  "id": 5,
+  "farsi": "آب لطفاً!",
+  "latin": "Āb lotfan!",
+  "germanDecode": "Wasser bitte!",
+  "germanTranslation": "Wasser, bitte!",
+  "lessonId": "a1-l6-food",
+  "lessonTitle": "Lektion 6: Essen und Trinken"
+},
+{
+  "id": 6,
+  "farsi": "غذا خوشمزه است.",
+  "latin": "Ghazā khoshmaze ast.",
+  "germanDecode": "Essen lecker ist.",
+  "germanTranslation": "Das Essen ist lecker.",
+  "lessonId": "a1-l6-food",
+  "lessonTitle": "Lektion 6: Essen und Trinken"
+},
+{
+  "id": 1,
+  "farsi": "این چقدر است؟",
+  "latin": "In cheghadr ast?",
+  "germanDecode": "Dies wieviel ist?",
+  "germanTranslation": "Wie viel kostet das?",
+  "lessonId": "a1-l7-shopping",
+  "lessonTitle": "Lektion 7: Einkaufen"
+},
+{
+  "id": 2,
+  "farsi": "من یک کیلو پرتقال می‌خواهم.",
+  "latin": "Man yek kīlū portegāl mīkhāham.",
+  "germanDecode": "Ich ein Kilo Orange will-ich.",
+  "germanTranslation": "Ich möchte ein Kilo Orangen.",
+  "lessonId": "a1-l7-shopping",
+  "lessonTitle": "Lektion 7: Einkaufen"
+},
+{
+  "id": 3,
+  "farsi": "کارت اعتباری قبول می‌کنید؟",
+  "latin": "Kārt-e e'tebārī ghabūl mikonīd?",
+  "germanDecode": "Karte-von Kredit akzeptieren machen-Sie?",
+  "germanTranslation": "Nehmen Sie Kreditkarten an?",
+  "lessonId": "a1-l7-shopping",
+  "lessonTitle": "Lektion 7: Einkaufen"
+},
+{
+  "id": 4,
+  "farsi": "من پول نقد می‌دهم.",
+  "latin": "Man pūl-e naghd mīdaham.",
+  "germanDecode": "Ich Geld-von bar gebe-ich.",
+  "germanTranslation": "Ich zahle bar.",
+  "lessonId": "a1-l7-shopping",
+  "lessonTitle": "Lektion 7: Einkaufen"
+},
+{
+  "id": 5,
+  "farsi": "کیف پول من کجاست؟",
+  "latin": "Kīf-e pūl-e man kojāst?",
+  "germanDecode": "Geldbörse-von Geld-von mir wo-ist?",
+  "germanTranslation": "Wo ist meine Geldbörse?",
+  "lessonId": "a1-l7-shopping",
+  "lessonTitle": "Lektion 7: Einkaufen"
+},
+{
+  "id": 6,
+  "farsi": "فروشگاه ساعت نه بسته می‌شود.",
+  "latin": "Forūshgāh sā'at-e noh baste mishavad.",
+  "germanDecode": "Geschäft Uhr-von neun geschlossen wird-es.",
+  "germanTranslation": "Das Geschäft schließt um neun Uhr.",
+  "lessonId": "a1-l7-shopping",
+  "lessonTitle": "Lektion 7: Einkaufen"
+},
+{
+  "id": 1,
+  "farsi": "ساعت چند است؟",
+  "latin": "Sā'at chand ast?",
+  "germanDecode": "Uhr wieviel ist?",
+  "germanTranslation": "Wie spät ist es?",
+  "lessonId": "a1-l8-time",
+  "lessonTitle": "Lektion 8: Zeit und Datum"
+},
+{
+  "id": 2,
+  "farsi": "ساعت دو و نیم است.",
+  "latin": "Sā'at-e do va nīm ast.",
+  "germanDecode": "Uhr-von zwei und halb ist.",
+  "germanTranslation": "Es ist halb drei.",
+  "lessonId": "a1-l8-time",
+  "lessonTitle": "Lektion 8: Zeit und Datum"
+},
+{
+  "id": 3,
+  "farsi": "امروز دوشنبه است.",
+  "latin": "Emrūz doshanbe ast.",
+  "germanDecode": "Heute Montag ist.",
+  "germanTranslation": "Heute ist Montag.",
+  "lessonId": "a1-l8-time",
+  "lessonTitle": "Lektion 8: Zeit und Datum"
+},
+{
+  "id": 4,
+  "farsi": "من فردا به دکتر می‌روم.",
+  "latin": "Man fardā be doktor mīravam.",
+  "germanDecode": "Ich morgen zu Arzt gehe-ich.",
+  "germanTranslation": "Ich gehe morgen zum Arzt.",
+  "lessonId": "a1-l8-time",
+  "lessonTitle": "Lektion 8: Zeit und Datum"
+},
+{
+  "id": 5,
+  "farsi": "کلاس ساعت هشت شروع می‌شود.",
+  "latin": "Kelās sā'at-e hasht shorū' mishavad.",
+  "germanDecode": "Klasse Uhr-von acht Beginn wird-es.",
+  "germanTranslation": "Der Unterricht beginnt um acht Uhr.",
+  "lessonId": "a1-l8-time",
+  "lessonTitle": "Lektion 8: Zeit und Datum"
+},
+{
+  "id": 6,
+  "farsi": "دیروز خیلی سرد بود.",
+  "latin": "Dīrūz kheylī sard būd.",
+  "germanDecode": "Gestern sehr kalt war-es.",
+  "germanTranslation": "Gestern war es sehr kalt.",
+  "lessonId": "a1-l8-time",
+  "lessonTitle": "Lektion 8: Zeit und Datum"
+},
+
   {
     "id": 1,
     "farsi": "زن کارهای خانه را انجام می‌دهد.",

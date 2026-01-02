@@ -1,0 +1,180 @@
+{
+  "id": "a1-l6-food",
+  "title": "Lektion 6: Essen und Trinken",
+  "description": "Grundlegende Lebensmittel, Getränke und einfache Restaurantgespräche.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "من چای می‌خورم.",
+      "latin": "Man chāy mikhoram.",
+      "germanDecode": "Ich Tee trinke-ich.",
+      "germanTranslation": "Ich trinke Tee.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.5001474358974359
+        },
+        {
+          "word": "چای",
+          "cleanWord": "چای",
+          "start": 0.5001474358974359,
+          "end": 1.2503685897435899
+        },
+        {
+          "word": "می‌خورم.",
+          "cleanWord": "می‌خورم",
+          "start": 1.2503685897435899,
+          "end": 3.2509583333333336
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "او نان و پنیر می‌خرد.",
+      "latin": "Ū nān va panīr mikharad.",
+      "germanDecode": "Er Brot und Käse kauft-er.",
+      "germanTranslation": "Er kauft Brot und Käse.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.307171568627451
+        },
+        {
+          "word": "نان",
+          "cleanWord": "نان",
+          "start": 0.307171568627451,
+          "end": 0.7679289215686276
+        },
+        {
+          "word": "و",
+          "cleanWord": "و",
+          "start": 0.7679289215686276,
+          "end": 0.9215147058823531
+        },
+        {
+          "word": "پنیر",
+          "cleanWord": "پنیر",
+          "start": 0.9215147058823531,
+          "end": 1.5358578431372552
+        },
+        {
+          "word": "می‌خرد.",
+          "cleanWord": "می‌خرد",
+          "start": 1.5358578431372552,
+          "end": 2.6109583333333335
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "ما برنج با گوشت می‌خوریم.",
+      "latin": "Mā berenj bā gūsht mikhorīm.",
+      "germanDecode": "Wir Reis mit Fleisch essen-wir.",
+      "germanTranslation": "Wir essen Reis mit Fleisch.",
+      "timings": [
+        {
+          "word": "ما",
+          "cleanWord": "ما",
+          "start": 0,
+          "end": 0.2867579365079365
+        },
+        {
+          "word": "برنج",
+          "cleanWord": "برنج",
+          "start": 0.2867579365079365,
+          "end": 0.8602738095238096
+        },
+        {
+          "word": "با",
+          "cleanWord": "با",
+          "start": 0.8602738095238096,
+          "end": 1.147031746031746
+        },
+        {
+          "word": "گوشت",
+          "cleanWord": "گوشت",
+          "start": 1.147031746031746,
+          "end": 1.7205476190476192
+        },
+        {
+          "word": "می‌خوریم.",
+          "cleanWord": "می‌خوریم",
+          "start": 1.7205476190476192,
+          "end": 3.0109583333333334
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "این سیب شیرین است.",
+      "latin": "In sīb shīrīn ast.",
+      "germanDecode": "Dieser Apfel süß ist.",
+      "germanTranslation": "Dieser Apfel ist süß.",
+      "timings": [
+        {
+          "word": "این",
+          "cleanWord": "این",
+          "start": 0,
+          "end": 0.46619166666666667
+        },
+        {
+          "word": "سیب",
+          "cleanWord": "سیب",
+          "start": 0.46619166666666667,
+          "end": 0.9323833333333333
+        },
+        {
+          "word": "شیرین",
+          "cleanWord": "شیرین",
+          "start": 0.9323833333333333,
+          "end": 1.7093694444444445
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.7093694444444445,
+          "end": 2.3309583333333332
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "آب لطفاً!",
+      "latin": "Āb lotfan!",
+      "germanDecode": "Wasser bitte!",
+      "germanTranslation": "Wasser, bitte!",
+      "timings": []
+    },
+    {
+      "id": 6,
+      "farsi": "غذا خوشمزه است.",
+      "latin": "Ghazā khoshmaze ast.",
+      "germanDecode": "Essen lecker ist.",
+      "germanTranslation": "Das Essen ist lecker.",
+      "timings": [
+        {
+          "word": "غذا",
+          "cleanWord": "غذا",
+          "start": 0,
+          "end": 0.5563750000000001
+        },
+        {
+          "word": "خوشمزه",
+          "cleanWord": "خوشمزه",
+          "start": 0.5563750000000001,
+          "end": 1.6691250000000002
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.6691250000000002,
+          "end": 2.4109583333333333
+        }
+      ]
+    }
+  ]
+}

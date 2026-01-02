@@ -1,0 +1,211 @@
+{
+  "id": "a1-l7-shopping",
+  "title": "Lektion 7: Einkaufen",
+  "description": "Grundlegende Einkaufsgespräche, Preise erfragen und bezahlen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "این چقدر است؟",
+      "latin": "In cheghadr ast?",
+      "germanDecode": "Dies wieviel ist?",
+      "germanTranslation": "Wie viel kostet das?",
+      "timings": [
+        {
+          "word": "این",
+          "cleanWord": "این",
+          "start": 0,
+          "end": 0.4938977272727272
+        },
+        {
+          "word": "چقدر",
+          "cleanWord": "چقدر",
+          "start": 0.4938977272727272,
+          "end": 1.1524280303030303
+        },
+        {
+          "word": "است؟",
+          "cleanWord": "است؟",
+          "start": 1.1524280303030303,
+          "end": 1.8109583333333332
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "من یک کیلو پرتقال می‌خواهم.",
+      "latin": "Man yek kīlū portegāl mīkhāham.",
+      "germanDecode": "Ich ein Kilo Orange will-ich.",
+      "germanTranslation": "Ich möchte ein Kilo Orangen.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.3244311594202898
+        },
+        {
+          "word": "یک",
+          "cleanWord": "یک",
+          "start": 0.3244311594202898,
+          "end": 0.6488623188405797
+        },
+        {
+          "word": "کیلو",
+          "cleanWord": "کیلو",
+          "start": 0.6488623188405797,
+          "end": 1.2977246376811593
+        },
+        {
+          "word": "پرتقال",
+          "cleanWord": "پرتقال",
+          "start": 1.2977246376811593,
+          "end": 2.271018115942029
+        },
+        {
+          "word": "می‌خواهم.",
+          "cleanWord": "می‌خواهم",
+          "start": 2.271018115942029,
+          "end": 3.7309583333333336
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "کارت اعتباری قبول می‌کنید؟",
+      "latin": "Kārt-e e'tebārī ghabūl mikonīd?",
+      "germanDecode": "Karte-von Kredit akzeptieren machen-Sie?",
+      "germanTranslation": "Nehmen Sie Kreditkarten an?",
+      "timings": [
+        {
+          "word": "کارت",
+          "cleanWord": "کارت",
+          "start": 0,
+          "end": 0.5166884057971014
+        },
+        {
+          "word": "اعتباری",
+          "cleanWord": "اعتباری",
+          "start": 0.5166884057971014,
+          "end": 1.420893115942029
+        },
+        {
+          "word": "قبول",
+          "cleanWord": "قبول",
+          "start": 1.420893115942029,
+          "end": 1.9375815217391303
+        },
+        {
+          "word": "می‌کنید؟",
+          "cleanWord": "می‌کنید؟",
+          "start": 1.9375815217391303,
+          "end": 2.970958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "من پول نقد می‌دهم.",
+      "latin": "Man pūl-e naghd mīdaham.",
+      "germanDecode": "Ich Geld-von bar gebe-ich.",
+      "germanTranslation": "Ich zahle bar.",
+      "timings": [
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0,
+          "end": 0.2841277777777778
+        },
+        {
+          "word": "پول",
+          "cleanWord": "پول",
+          "start": 0.2841277777777778,
+          "end": 0.7103194444444445
+        },
+        {
+          "word": "نقد",
+          "cleanWord": "نقد",
+          "start": 0.7103194444444445,
+          "end": 1.1365111111111112
+        },
+        {
+          "word": "می‌دهم.",
+          "cleanWord": "می‌دهم",
+          "start": 1.1365111111111112,
+          "end": 2.1309583333333335
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "کیف پول من کجاست؟",
+      "latin": "Kīf-e pūl-e man kojāst?",
+      "germanDecode": "Geldbörse-von Geld-von mir wo-ist?",
+      "germanTranslation": "Wo ist meine Geldbörse?",
+      "timings": [
+        {
+          "word": "کیف",
+          "cleanWord": "کیف",
+          "start": 0,
+          "end": 0.4909196428571428
+        },
+        {
+          "word": "پول",
+          "cleanWord": "پول",
+          "start": 0.4909196428571428,
+          "end": 0.9818392857142856
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.9818392857142856,
+          "end": 1.3091190476190475
+        },
+        {
+          "word": "کجاست؟",
+          "cleanWord": "کجاست؟",
+          "start": 1.3091190476190475,
+          "end": 2.290958333333333
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "فروشگاه ساعت نه بسته می‌شود.",
+      "latin": "Forūshgāh sā'at-e noh baste mishavad.",
+      "germanDecode": "Geschäft Uhr-von neun geschlossen wird-es.",
+      "germanTranslation": "Das Geschäft schließt um neun Uhr.",
+      "timings": [
+        {
+          "word": "فروشگاه",
+          "cleanWord": "فروشگاه",
+          "start": 0,
+          "end": 1.0765295138888888
+        },
+        {
+          "word": "ساعت",
+          "cleanWord": "ساعت",
+          "start": 1.0765295138888888,
+          "end": 1.6916892361111109
+        },
+        {
+          "word": "نه",
+          "cleanWord": "نه",
+          "start": 1.6916892361111109,
+          "end": 1.999269097222222
+        },
+        {
+          "word": "بسته",
+          "cleanWord": "بسته",
+          "start": 1.999269097222222,
+          "end": 2.614428819444444
+        },
+        {
+          "word": "می‌شود.",
+          "cleanWord": "می‌شود",
+          "start": 2.614428819444444,
+          "end": 3.6909583333333327
+        }
+      ]
+    }
+  ]
+}

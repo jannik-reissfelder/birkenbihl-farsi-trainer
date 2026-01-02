@@ -20,46 +20,31 @@
         "description": "Grundlegende Zahlen von 0-20 und einfache Zählaktivitäten im täglichen Leben."
       },
       {
-        "id": "a1-l4",
-        "title": "Lektion 4: Zahlen und Zeit",
-        "description": "Einfache Verben in der Gegenwartsform, Fragesätze."
+        "id": "a1-l4-colors",
+        "title": "Lektion 4: Farben",               
+        "description": "Grundlegende Farben und ihre Verwendung zur Beschreibung von Gegenständen." 
       },
       {
-        "id": "a1-l5",
-        "title": "Lektion 5: Im Restaurant",
-        "description": "Wunschäußerungen (mikham/ich will), einfache Bitten, Präteritum (bood/war)."
+        "id": "a1-l5-family",
+        "title": "Lektion 5: Familie",
+        "description": "Familienmitglieder vorstellen und über die Familie sprechen."
       },
       {
-        "id": "a1-l6",
-        "title": "Lektion 6: Freizeit & Hobbys",
-        "description": "Erste einfache Trennung von Subjekt/Objekt/Verb zur Festigung der SOV-Regel."
-      },
-      {
-        "id": "a1-l6-verbs",
-        "title": "Essentielle Verben Teil 1",
-        "description": "Lerne die wichtigsten Verben der persischen Sprache."
-      },
-      {
-        "id": "a1-l6-verbs2",
-        "title": "Essentielle Verben Teil 2",
-        "description": "Vertiefe dein Wissen über die wichtigsten Verben der persischen Sprache."
-      },
-      {
-        "id": "a1-l6-verbs3",
-        "title": "Essentielle Verben Teil 3",
-        "description": "Fokus auf das Modalverb 'können' (tavānestan) und weitere wichtige Verben."
-      },
-      {
-        "id": "a1-l7",
-        "title": "Lektion 7: Zeit und Kalender",
-        "description": "Grundlagen zu Zeitangaben und Wochentagen."
-      },
-      {
-        "id": "a1-l8",
-        "title": "Lektion 8: Morgenroutine",
-        "description": "Verben und Vokabular rund um den Start in den Tag."
-      },
-      {
+  "id": "a1-l6-food",
+  "title": "Lektion 6: Essen und Trinken",
+  "description": "Grundlegende Lebensmittel, Getränke und einfache Restaurantgespräche."
+  },
+    {
+      "id": "a1-l7-shopping",
+      "title": "Lektion 7: Einkaufen",
+      "description": "Grundlegende Einkaufsgespräche, Preise erfragen und bezahlen."
+    },
+    {
+      "id": "a1-l8-time",
+      "title": "Lektion 8: Zeit und Datum",
+      "description": "Uhrzeiten, Wochentage und grundlegende Zeitangaben verstehen und verwenden."
+    },
+    {
         "id": "a1-l9",
         "title": "Lektion 9: Tägliche Aktivitäten",
         "description": "Beschreibe alltägliche Handlungen und Aufgaben."

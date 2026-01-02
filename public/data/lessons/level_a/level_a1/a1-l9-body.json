@@ -1,0 +1,217 @@
+{
+  "id": "a1-l9-body",
+  "title": "Lektion 9: Körperteile",
+  "description": "Grundlegende Körperteile benennen und über körperliche Beschwerden sprechen.",
+  "sentences": [
+    {
+      "id": 1,
+      "farsi": "سر من درد می‌کند.",
+      "latin": "Sar-e man dard mikonad.",
+      "germanDecode": "Kopf-von mir Schmerz macht-er.",
+      "germanTranslation": "Mein Kopf tut weh.",
+      "timings": [
+        {
+          "word": "سر",
+          "cleanWord": "سر",
+          "start": 0,
+          "end": 0.344422619047619
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 0.344422619047619,
+          "end": 0.688845238095238
+        },
+        {
+          "word": "درد",
+          "cleanWord": "درد",
+          "start": 0.688845238095238,
+          "end": 1.2054791666666667
+        },
+        {
+          "word": "می‌کند.",
+          "cleanWord": "می‌کند",
+          "start": 1.2054791666666667,
+          "end": 2.4109583333333333
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "farsi": "او چشم‌های آبی دارد.",
+      "latin": "Ū chashmhāye ābī dārad.",
+      "germanDecode": "Er Augen-von blau hat-er.",
+      "germanTranslation": "Er hat blaue Augen.",
+      "timings": [
+        {
+          "word": "او",
+          "cleanWord": "او",
+          "start": 0,
+          "end": 0.3165833333333333
+        },
+        {
+          "word": "چشم‌های",
+          "cleanWord": "چشم‌های",
+          "start": 0.3165833333333333,
+          "end": 1.4246249999999998
+        },
+        {
+          "word": "آبی",
+          "cleanWord": "آبی",
+          "start": 1.4246249999999998,
+          "end": 1.8994999999999997
+        },
+        {
+          "word": "دارد.",
+          "cleanWord": "دارد",
+          "start": 1.8994999999999997,
+          "end": 2.690958333333333
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "farsi": "دست راست من شکسته است.",
+      "latin": "Dast-e rāst-e man shekaste ast.",
+      "germanDecode": "Hand-von recht-von mir gebrochen ist.",
+      "germanTranslation": "Meine rechte Hand ist gebrochen.",
+      "timings": [
+        {
+          "word": "دست",
+          "cleanWord": "دست",
+          "start": 0,
+          "end": 0.4951597222222222
+        },
+        {
+          "word": "راست",
+          "cleanWord": "راست",
+          "start": 0.4951597222222222,
+          "end": 1.155372685185185
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 1.155372685185185,
+          "end": 1.4854791666666665
+        },
+        {
+          "word": "شکسته",
+          "cleanWord": "شکسته",
+          "start": 1.4854791666666665,
+          "end": 2.31074537037037
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.31074537037037,
+          "end": 2.970958333333333
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "farsi": "پا در کفش تنگ است.",
+      "latin": "Pā dar kafsh tang ast.",
+      "germanDecode": "Fuß in Schuh eng ist.",
+      "germanTranslation": "Der Fuß ist im engen Schuh.",
+      "timings": [
+        {
+          "word": "پا",
+          "cleanWord": "پا",
+          "start": 0,
+          "end": 0.32156547619047615
+        },
+        {
+          "word": "در",
+          "cleanWord": "در",
+          "start": 0.32156547619047615,
+          "end": 0.6431309523809523
+        },
+        {
+          "word": "کفش",
+          "cleanWord": "کفش",
+          "start": 0.6431309523809523,
+          "end": 1.1254791666666666
+        },
+        {
+          "word": "تنگ",
+          "cleanWord": "تنگ",
+          "start": 1.1254791666666666,
+          "end": 1.6078273809523809
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 1.6078273809523809,
+          "end": 2.250958333333333
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "farsi": "دندان من سالم است.",
+      "latin": "Dandān-e man sālem ast.",
+      "germanDecode": "Zahn-von mir gesund ist.",
+      "germanTranslation": "Mein Zahn ist gesund.",
+      "timings": [
+        {
+          "word": "دندان",
+          "cleanWord": "دندان",
+          "start": 0,
+          "end": 1.0303194444444443
+        },
+        {
+          "word": "من",
+          "cleanWord": "من",
+          "start": 1.0303194444444443,
+          "end": 1.4424472222222222
+        },
+        {
+          "word": "سالم",
+          "cleanWord": "سالم",
+          "start": 1.4424472222222222,
+          "end": 2.2667027777777777
+        },
+        {
+          "word": "است.",
+          "cleanWord": "است",
+          "start": 2.2667027777777777,
+          "end": 3.0909583333333335
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "farsi": "گوش چپم درد می‌کند.",
+      "latin": "Gūsh-e chapam dard mikonad.",
+      "germanDecode": "Ohr-von links-mein Schmerz macht-es.",
+      "germanTranslation": "Mein linkes Ohr tut weh.",
+      "timings": [
+        {
+          "word": "گوش",
+          "cleanWord": "گوش",
+          "start": 0,
+          "end": 0.5495546875
+        },
+        {
+          "word": "چپم",
+          "cleanWord": "چپم",
+          "start": 0.5495546875,
+          "end": 1.099109375
+        },
+        {
+          "word": "درد",
+          "cleanWord": "درد",
+          "start": 1.099109375,
+          "end": 1.6486640625
+        },
+        {
+          "word": "می‌کند.",
+          "cleanWord": "می‌کند",
+          "start": 1.6486640625,
+          "end": 2.9309583333333333
+        }
+      ]
+    }
+  ]
+}
