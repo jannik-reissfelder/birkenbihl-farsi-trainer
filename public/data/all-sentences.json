@@ -296,50 +296,59 @@
     "lessonId": "a1-l2",
     "lessonTitle": "Lektion 2: Herkunft & Identität"
   },
-  {
+    {
     "id": 1,
-    "farsi": "این خانواده من است",
-    "latin": "In khānevāde-ye man ast",
-    "germanDecode": "Dies Familie-von mein ist",
-    "germanTranslation": "Das ist meine Familie",
-    "lessonId": "a1-l3",
-    "lessonTitle": "Lektion 3: Familie und Beruf"
+    "farsi": "من پنج سیب دارم.",
+    "latin": "Man panj sīb dāram.",
+    "germanDecode": "Ich fünf Äpfel habe-ich.",
+    "germanTranslation": "Ich habe fünf Äpfel.",
+    "lessonId": "a1-l3-numbers",
+    "lessonTitle": "Lektion 3: Zahlen und Zählen"
   },
   {
     "id": 2,
-    "farsi": "من یک برادر و یک خواهر دارم",
-    "latin": "Man yek barādar va yek khāhar dāram",
-    "germanDecode": "Ich ein Bruder und ein Schwester habe-ich",
-    "germanTranslation": "Ich habe einen Bruder und eine Schwester",
-    "lessonId": "a1-l3",
-    "lessonTitle": "Lektion 3: Familie und Beruf"
+    "farsi": "او ده تا قلم می‌خرد.",
+    "latin": "Ū dah tā ghalam mikharad.",
+    "germanDecode": "Er zehn Stück Stift kauft-er.",
+    "germanTranslation": "Er kauft zehn Stifte.",
+    "lessonId": "a1-l3-numbers",
+    "lessonTitle": "Lektion 3: Zahlen und Zählen"
   },
   {
     "id": 3,
-    "farsi": "شغل شما چیست؟",
-    "latin": "Shoghl-e shomā chist?",
-    "germanDecode": "Beruf-von Ihr was ist?",
-    "germanTranslation": "Was ist Ihr Beruf?",
-    "lessonId": "a1-l3",
-    "lessonTitle": "Lektion 3: Familie und Beruf"
+    "farsi": "ما سه نفر هستیم.",
+    "latin": "Mā seh nafar hastīm.",
+    "germanDecode": "Wir drei Personen sind-wir.",
+    "germanTranslation": "Wir sind drei Personen.",
+    "lessonId": "a1-l3-numbers",
+    "lessonTitle": "Lektion 3: Zahlen und Zählen"
   },
   {
     "id": 4,
-    "farsi": "من دانشجو هستم",
-    "latin": "Man dāneshjū hastam",
-    "germanDecode": "Ich Student bin-ich",
-    "germanTranslation": "Ich bin Student/in",
-    "lessonId": "a1-l3",
-    "lessonTitle": "Lektion 3: Familie und Beruf"
+    "farsi": "کلاس بیست دانشجو دارد.",
+    "latin": "Kelās bīst dānshjū dārad.",
+    "germanDecode": "Klasse zwanzig Studenten hat-es.",
+    "germanTranslation": "Die Klasse hat zwanzig Studenten.",
+    "lessonId": "a1-l3-numbers",
+    "lessonTitle": "Lektion 3: Zahlen und Zählen"
   },
   {
     "id": 5,
-    "farsi": "پدر من دکتر است",
-    "latin": "Pedar-e man doktor ast",
-    "germanDecode": "Vater-von mein Arzt ist",
-    "germanTranslation": "Mein Vater ist Arzt",
-    "lessonId": "a1-l3",
-    "lessonTitle": "Lektion 3: Familie und Beruf"
+    "farsi": "یک، دو، سه، چهار، پنج.",
+    "latin": "Yek, do, seh, chahār, panj.",
+    "germanDecode": "Eins, zwei, drei, vier, fünf.",
+    "germanTranslation": "Eins, zwei, drei, vier, fünf.",
+    "lessonId": "a1-l3-numbers",
+    "lessonTitle": "Lektion 3: Zahlen und Zählen"
+  },
+  {
+    "id": 6,
+    "farsi": "من هفت سال سن دارم.",
+    "latin": "Man haft sāl sen dāram.",
+    "germanDecode": "Ich sieben Jahr Alter habe-ich.",
+    "germanTranslation": "Ich bin sieben Jahre alt.",
+    "lessonId": "a1-l3-numbers",
+    "lessonTitle": "Lektion 3: Zahlen und Zählen"
   },
   {
     "id": 1,
