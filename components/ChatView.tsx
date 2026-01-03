@@ -255,7 +255,7 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
     let systemInstruction = getSystemInstruction(chatMode);
     if (selectedScenario) {
       systemInstruction += `\n\n**Role-play Scenario:** You must start a conversation based on the following situation: "${selectedScenario.german}". Greet the user in Farsi and begin the role-play.`;
-    } else {
+    } else if (chatMode === 'lesson') {
       systemInstruction += `\n\n**Role-play Scenario:** Start a general conversation related to the lesson's theme. Greet the user in Farsi and begin the role-play.`;
     }
 
