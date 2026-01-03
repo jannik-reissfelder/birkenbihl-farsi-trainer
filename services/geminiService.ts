@@ -327,6 +327,77 @@ German Intent: "${germanText}"`;
     }
 }
 
+export async function generateConversationSummary(
+    transcript: string,
+): Promise<string> {
+    if (!transcript || !transcript.trim()) {
+        throw new Error("Transcript cannot be empty for summary generation.");
+    }
+    try {
+        const genAI = getAiClient();
+        const prompt = `You are summarizing a Farsi language learning conversation between a student and a tutor.
+
+Analyze this conversation transcript and create a concise summary (2-3 sentences, max 100 words) that captures:
+1. Main topics discussed
+2. Any personal details the student shared (interests, family, work, etc.)
+3. Notable progress or challenges
+
+Write the summary in German (the student's native language) so it can be referenced later.
+
+Conversation transcript:
+${transcript}
+
+Summary (in German, max 100 words):`;
+
+        const response = await genAI.models.generateContent({
+            model: "gemini-2.5-flash-lite",
+            contents: prompt,
+        });
+
+        return response.text.trim();
+    } catch (error) {
+        console.error("Gemini API error in generateConversationSummary:", error);
+        throw new Error("Failed to generate conversation summary.");
+    }
+}
+
+export async function extractTopicsFromConversation(
+    transcript: string,
+): Promise<string[]> {
+    if (!transcript || !transcript.trim()) {
+        return [];
+    }
+    try {
+        const genAI = getAiClient();
+        const prompt = `Extract the main topics discussed in this Farsi learning conversation. Return ONLY a JSON array of topic keywords in German (e.g., ["Familie", "Arbeit", "Hobbys"]).
+
+Conversation:
+${transcript}
+
+Topics (JSON array):`;
+
+        const response = await genAI.models.generateContent({
+            model: "gemini-2.5-flash-lite",
+            contents: prompt,
+            config: {
+                responseMimeType: "application/json",
+                responseSchema: {
+                    type: Type.ARRAY,
+                    items: {
+                        type: Type.STRING,
+                    },
+                },
+            },
+        });
+
+        const topics = JSON.parse(response.text);
+        return Array.isArray(topics) ? topics : [];
+    } catch (error) {
+        console.error("Failed to extract topics:", error);
+        return [];
+    }
+}
+
 export function connectToLiveChat(
     systemInstruction: string,
     callbacks: {

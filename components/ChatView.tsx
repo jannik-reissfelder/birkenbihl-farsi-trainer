@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import type { LiveServerMessage, Session, Blob } from '@google/genai';
 import { Lesson, ChatMessage, Scenario } from '../types';
-import { connectToLiveChat, generateRoleplayScenarios, generateFarsiTTSFromGerman } from '../services/geminiService';
+import { connectToLiveChat, generateRoleplayScenarios, generateFarsiTTSFromGerman, generateConversationSummary, extractTopicsFromConversation } from '../services/geminiService';
 import { useVocabulary } from '../contexts/VocabularyContext';
+import { useAuth } from '../src/contexts/AuthContext';
+import { freeSpeakingQueries } from '../src/lib/supabaseQueries';
 import { BotIcon } from './icons/BotIcon';
 import { SpinnerIcon } from './icons/SpinnerIcon';
 import { MicrophoneIcon } from './icons/MicrophoneIcon';
@@ -73,10 +75,12 @@ function getLiveChatConnectErrorMessage(err: unknown): string {
 
 const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
   const { activeVocabulary } = useVocabulary();
+  const { user } = useAuth();
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [status, setStatus] = useState<Status>('idle');
   const [error, setError] = useState<string | null>(null);
   const [scenarios, setScenarios] = useState<Scenario[] | null>(null);
+  const [currentSessionId, setCurrentSessionId] = useState<string | null>(null);
 
   const [isInterventionModalOpen, setIsInterventionModalOpen] = useState(false);
   const [interventionText, setInterventionText] = useState('');
@@ -157,11 +161,32 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
   }, [stopCurrentPlayback]);
 
   const stopConversation = useCallback(async () => {
+    // Save conversation summary for free mode before cleanup
+    if (chatMode === 'free' && messages.length > 2 && user?.id && currentSessionId) {
+      try {
+        const transcript = messages
+          .map(m => `${m.role === 'user' ? 'Student' : 'Tutor'}: ${m.text}`)
+          .join('\n');
+        
+        const [summary, topics] = await Promise.all([
+          generateConversationSummary(transcript),
+          extractTopicsFromConversation(transcript)
+        ]);
+
+        await freeSpeakingQueries.updateSummary(currentSessionId, summary, topics);
+        console.log('✅ Conversation summary saved successfully');
+      } catch (error) {
+        console.error('Failed to save conversation summary:', error);
+        // Don't block user - just log the error
+      }
+    }
+
     isClosingIntentionalRef.current = true;
     await cleanupLiveResources();
     setStatus('idle');
     setScenarios(null);
-  }, [cleanupLiveResources]);
+    setCurrentSessionId(null);
+  }, [cleanupLiveResources, chatMode, messages, user, currentSessionId]);
 
   useEffect(() => {
     return () => {
@@ -169,7 +194,7 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
     };
   }, [cleanupLiveResources]);
 
-  const getSystemInstruction = useCallback((mode: 'lesson' | 'free') => {
+  const getSystemInstruction = useCallback(async (mode: 'lesson' | 'free') => {
     // Build graduated vocabulary section with null safety
     const graduatedCards = activeVocabulary?.cards ?? [];
     let graduatedVocabSection = '';
@@ -185,6 +210,32 @@ ${vocabList}
 **Important:** These are words the student knows well, so naturally incorporate them into your conversation. This helps bridge their passive knowledge into active speaking ability.`;
     }
 
+    // Load conversation memory for free mode only
+    let memoryContext = '';
+    if (mode === 'free' && user?.id) {
+      try {
+        const recentSessions = await freeSpeakingQueries.getRecentSummaries(user.id, 3);
+        if (recentSessions && recentSessions.length > 0) {
+          const summaries = recentSessions
+            .reverse()
+            .map((s, i) => {
+              const date = new Date(s.ended_at!).toLocaleDateString('de-DE');
+              return `Session ${i + 1} (${date}): ${s.summary}`;
+            })
+            .join('\n');
+
+          memoryContext = `\n\n**Conversation History:**
+You've spoken with this student ${recentSessions.length} time(s) before. Here are brief summaries of your recent conversations:
+${summaries}
+
+Use this context to make the conversation feel natural and continuous. Reference past topics when relevant, but don't force it - the student may want to discuss new things.`;
+        }
+      } catch (error) {
+        console.error('Failed to load conversation memory:', error);
+        // Continue without memory - graceful degradation
+      }
+    }
+
     if (mode === 'free') {
       return `You are a friendly Farsi speaker having a natural daily conversation with a German-speaking learner. Your persona is a regular local in Tehran, not a formal tutor. You must only speak Farsi.
 
@@ -198,7 +249,7 @@ ${vocabList}
 **Student Context:**
 - This is a language learner, so be patient and helpful
 - If they struggle, gently guide with simpler alternatives
-- Use their mastered vocabulary when natural${graduatedVocabSection}
+- Use their mastered vocabulary when natural${graduatedVocabSection}${memoryContext}
 
 Start with a friendly, casual Farsi greeting like you would with a friend.`;
     }
@@ -228,7 +279,7 @@ ${learnedSentences}${graduatedVocabSection}
 6.  **Keep it Simple:** The user is a beginner. Use simple sentence structures and vocabulary, primarily focusing on the content they've learned up to this lesson.
 
 Start the roleplay now with a friendly Farsi greeting that establishes the scene.`;
-  }, [lesson, activeVocabulary]);
+  }, [lesson, activeVocabulary, user]);
 
   const generateAndShowScenarios = async () => {
     setStatus('generatingScenarios');
@@ -259,7 +310,24 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
     console.log('🔍 DEBUG: using mode =', mode);
     console.log('🔍 DEBUG: selectedScenario =', selectedScenario);
 
-    let systemInstruction = getSystemInstruction(mode);
+    // Create session record for free mode
+    if (mode === 'free' && user?.id) {
+      try {
+        const session = await freeSpeakingQueries.create(user.id, {
+          started_at: new Date().toISOString(),
+          ended_at: null,
+          message_count: 0,
+          summary: null,
+          topics_discussed: [],
+        });
+        setCurrentSessionId(session.id);
+      } catch (error) {
+        console.error('Failed to create session record:', error);
+        // Continue anyway - session tracking is not critical
+      }
+    }
+
+    let systemInstruction = await getSystemInstruction(mode);
     if (selectedScenario) {
       systemInstruction += `\n\n**Role-play Scenario:** You must start a conversation based on the following situation: "${selectedScenario.german}". Greet the user in Farsi and begin the role-play.`;
     } else if (mode === 'lesson') {

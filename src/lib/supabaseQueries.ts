@@ -6,6 +6,7 @@ type VocabularyCard = Database['public']['Tables']['vocabulary_cards']['Row'];
 type SrsReview = Database['public']['Tables']['srs_reviews']['Row'];
 type GamificationStats = Database['public']['Tables']['gamification_stats']['Row'];
 type LessonStepProgress = Database['public']['Tables']['lesson_step_progress']['Row'];
+type FreeSpeakingSession = Database['public']['Tables']['free_speaking_sessions']['Row'];
 
 export const lessonProgressQueries = {
   async getAll(userId: string) {
@@ -110,9 +111,10 @@ export const vocabularyQueries = {
   },
 
   async update(cardId: string, updates: Partial<Omit<VocabularyCard, 'id' | 'user_id'>>) {
+    // @ts-ignore - Supabase type inference issue with partial updates
     const { data, error } = await supabase
       .from('vocabulary_cards')
-      .update(updates as any)
+      .update(updates)
       .eq('id', cardId)
       .select()
       .single();
@@ -323,5 +325,63 @@ export const lessonStepProgressQueries = {
       .eq('lesson_id', lessonId);
     
     if (error) throw error;
+  },
+};
+
+export const freeSpeakingQueries = {
+  async getRecentSummaries(userId: string, limit: number = 3) {
+    const { data, error } = await supabase
+      .from('free_speaking_sessions')
+      .select('id, summary, topics_discussed, ended_at')
+      .eq('user_id', userId)
+      .not('summary', 'is', null)
+      .not('ended_at', 'is', null)
+      .order('ended_at', { ascending: false })
+      .limit(limit);
+    
+    if (error) throw error;
+    return data as Pick<FreeSpeakingSession, 'id' | 'summary' | 'topics_discussed' | 'ended_at'>[];
+  },
+
+  async create(userId: string, session: Omit<FreeSpeakingSession, 'id' | 'user_id' | 'created_at'>) {
+    const { data, error } = await supabase
+      .from('free_speaking_sessions')
+      .insert({
+        user_id: userId,
+        ...session,
+      } as any)
+      .select()
+      .single();
+    
+    if (error) throw error;
+    return data as any as FreeSpeakingSession;
+  },
+
+  async updateSummary(sessionId: string, summary: string, topics: string[]) {
+    // @ts-ignore - Table doesn't exist yet, will work after migration
+    const { data, error } = await supabase
+      .from('free_speaking_sessions')
+      .update({
+        summary,
+        topics_discussed: topics,
+        ended_at: new Date().toISOString(),
+      })
+      .eq('id', sessionId)
+      .select()
+      .single();
+    
+    if (error) throw error;
+    return data as any as FreeSpeakingSession;
+  },
+
+  async getSessionCount(userId: string) {
+    const { count, error } = await supabase
+      .from('free_speaking_sessions')
+      .select('*', { count: 'exact', head: true })
+      .eq('user_id', userId)
+      .not('ended_at', 'is', null);
+    
+    if (error) throw error;
+    return count || 0;
   },
 };

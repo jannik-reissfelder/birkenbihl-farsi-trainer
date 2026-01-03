@@ -231,6 +231,38 @@ export interface Database {
           updated_at?: string
         }
       }
+      free_speaking_sessions: {
+        Row: {
+          id: string
+          user_id: string
+          started_at: string
+          ended_at: string | null
+          message_count: number
+          summary: string | null
+          topics_discussed: Json
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          user_id: string
+          started_at?: string
+          ended_at?: string | null
+          message_count?: number
+          summary?: string | null
+          topics_discussed?: Json
+          created_at?: string
+        }
+        Update: {
+          id?: string
+          user_id?: string
+          started_at?: string
+          ended_at?: string | null
+          message_count?: number
+          summary?: string | null
+          topics_discussed?: Json
+          created_at?: string
+        }
+      }
     }
   }
 }
