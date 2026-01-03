@@ -52,10 +52,12 @@ src/
 
 ### Step 4: Check Environment Variables (1 minute)
 
-Required secrets (already configured in Replit):
+Required secrets (configured in Replit Secrets or Vercel Environment Variables):
 - `GEMINI_API_KEY` - Google Gemini API for TTS and chat
-- `SUPABASE_URL` - Database URL
-- `SUPABASE_ANON_KEY` - Public Supabase key
+- `VITE_SUPABASE_URL` - Database URL
+- `VITE_SUPABASE_ANON_KEY` - Public Supabase key
+
+**Note:** For Vercel deployment, ensure `vercel.json` exists in project root for SPA routing.
 
 ### Step 5: Understand the Learning Flow (2 minutes)
 

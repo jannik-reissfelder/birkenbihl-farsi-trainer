@@ -282,11 +282,28 @@ $$ LANGUAGE plpgsql SECURITY DEFINER;
       Login               Signup
           │                   │
           ▼                   ▼
-   ┌──────────────┐   ┌──────────────────┐
-   │  Supabase    │   │  Supabase Auth   │
-   │  signIn()    │   │  signUp()        │
-   └──────┬───────┘   │  + email verify  │
-          │           └────────┬─────────┘
+   ┌──────────────┐   ┌──────────────────────────────────┐
+   │  Supabase    │   │  Supabase Auth signUp()          │
+   │  signIn()    │   │  emailRedirectTo: /welcome       │
+   └──────┬───────┘   └────────┬─────────────────────────┘
+          │                    │
+          │                    ▼
+          │           ┌──────────────────────────────────┐
+          │           │  Email sent with verify link     │
+          │           │  User clicks link in email       │
+          │           └────────┬─────────────────────────┘
+          │                    │
+          │                    ▼
+          │           ┌──────────────────────────────────┐
+          │           │  Redirect to /welcome            │
+          │           │  + access_token in URL hash      │
+          │           └────────┬─────────────────────────┘
+          │                    │
+          │                    ▼
+          │           ┌──────────────────────────────────┐
+          │           │  WelcomeView.tsx displays        │
+          │           │  Email verified confirmation     │
+          │           └────────┬─────────────────────────┘
           │                    │
           ▼                    ▼
    ┌──────────────────────────────────────┐
@@ -295,6 +312,24 @@ $$ LANGUAGE plpgsql SECURITY DEFINER;
    │     RLS policies now apply           │
    └──────────────────────────────────────┘
 ```
+
+### Email Verification Flow Details
+
+**Registration with Email Verification:**
+1. User submits registration form in `AuthView.tsx`
+2. `supabase.auth.signUp()` called with `emailRedirectTo: '/welcome'`
+3. Supabase sends verification email with custom welcome template
+4. User clicks verification link → redirected to `/welcome#access_token=...`
+5. Vercel serves `index.html` via `vercel.json` rewrite rule (SPA routing)
+6. React app loads, `App.tsx` detects `/welcome` path
+7. `WelcomeView.tsx` displays confirmation screen
+8. Supabase client processes auth tokens from URL hash
+9. User authenticated and can proceed to dashboard
+
+**Required Configuration:**
+- **Supabase Dashboard:** Add `https://your-domain.com/welcome` to allowed redirect URLs
+- **Vercel:** `vercel.json` with rewrite rule for SPA routing
+- **Code:** `emailRedirectTo` option in signup call
 
 ---
 
@@ -491,17 +526,19 @@ public/audio/a2-l1/
 
 ## Deployment
 
-### Current: Replit
+### Development: Replit
 
 - Dev server: port 5000
 - Environment variables in Replit Secrets
 - Automatic HTTPS via Replit proxy
 
-### Production: Vercel (Recommended)
+### Production: Vercel
 
 - Optimized for Vite builds
 - Environment variables in Vercel dashboard
-- Edge functions for API routes (optional)
+- SPA routing via `vercel.json` rewrite rules
+- Automatic deployments on Git push
+- **Required:** `vercel.json` with SPA fallback routing for client-side routes (e.g., `/welcome`)
 
 ### Required Environment Variables
 
