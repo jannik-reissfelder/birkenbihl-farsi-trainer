@@ -248,16 +248,27 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
     }
   };
 
-  const startLiveChat = async (selectedScenario?: Scenario) => {
+  const startLiveChat = async (selectedScenario?: Scenario, explicitMode?: 'lesson' | 'free') => {
     setStatus('connecting');
     setError(null);
 
-    let systemInstruction = getSystemInstruction(chatMode);
+    const mode = explicitMode || chatMode;
+    console.log('🔍 DEBUG: startLiveChat called');
+    console.log('🔍 DEBUG: chatMode state =', chatMode);
+    console.log('🔍 DEBUG: explicitMode param =', explicitMode);
+    console.log('🔍 DEBUG: using mode =', mode);
+    console.log('🔍 DEBUG: selectedScenario =', selectedScenario);
+
+    let systemInstruction = getSystemInstruction(mode);
     if (selectedScenario) {
       systemInstruction += `\n\n**Role-play Scenario:** You must start a conversation based on the following situation: "${selectedScenario.german}". Greet the user in Farsi and begin the role-play.`;
-    } else {
+    } else if (mode === 'lesson') {
       systemInstruction += `\n\n**Role-play Scenario:** Start a general conversation related to the lesson's theme. Greet the user in Farsi and begin the role-play.`;
     }
+
+    console.log('🔍 DEBUG: ========== SYSTEM INSTRUCTION START ==========');
+    console.log(systemInstruction);
+    console.log('🔍 DEBUG: ========== SYSTEM INSTRUCTION END ==========');
 
     // 1) Preflight checks (avoid confusing errors)
     if (!window.isSecureContext && window.location.hostname !== 'localhost') {
@@ -569,9 +580,10 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
               </button>
               <button
                 onClick={() => {
+                  console.log('🔍 DEBUG: Free speaking button clicked');
                   setChatMode('free');
                   setShowScenarioPrompt(false);
-                  startLiveChat();
+                  startLiveChat(undefined, 'free');
                 }}
                 className="px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-semibold rounded-lg transition-colors flex items-center justify-center gap-2"
                 disabled={status === 'connecting'}

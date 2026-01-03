@@ -25,7 +25,14 @@ Key features include:
 - **UI/UX**: Modern, accessible interface leveraging shadcn/ui for consistent design, mobile responsiveness, and gradient card designs.
 - **Technical Implementations**: Type-safe database queries via Supabase, a data migration utility for existing local storage data, and Vercel-optimized deployment.
 
-## Recent Changes (December 2025)
+## Recent Changes (January 2026)
+- **Free Speaking Mode Bug Fix**: Fixed React state timing issue in ChatView where free speaking mode was incorrectly using lesson-based system prompts
+  - Added explicit `explicitMode` parameter to `startLiveChat()` function to bypass async state updates
+  - Free speaking mode now correctly generates daily conversational Farsi prompts without lesson content leakage
+  - Added debug logging to track chatMode state and system instruction generation
+- **Workflow System Enhancement**: Created `/close-feature-branch` workflow for professional PR completion with documentation updates
+
+## Previous Changes (December 2025)
 - **Shadcn Component Refactor (COMPLETE)**: Created modular DecodeStep components using shadcn/ui:
   - `TokenColumn.tsx`: Stacked Farsi/Latin/German input with shadcn Button for word marking
   - `TokenStackGrid.tsx`: CSS Grid with RTL column flow using shadcn Card
