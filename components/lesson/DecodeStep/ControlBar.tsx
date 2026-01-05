@@ -12,6 +12,7 @@ interface ControlBarProps {
   showNextStep?: boolean;
   nextStepLabel?: string;
   onNextStep?: () => void;
+  onSkipAnyway?: () => void;
 }
 
 const ChevronLeftIcon = ({ className }: { className?: string }) => (
@@ -43,6 +44,7 @@ export const ControlBar: React.FC<ControlBarProps> = ({
   showNextStep,
   nextStepLabel,
   onNextStep,
+  onSkipAnyway,
 }) => {
   return (
     <div className="mt-6 space-y-4">
@@ -82,6 +84,17 @@ export const ControlBar: React.FC<ControlBarProps> = ({
         {isCorrect && showNextStep && onNextStep && (
           <Button onClick={onNextStep} className="gap-2 bg-blue-600 hover:bg-blue-500">
             {nextStepLabel || 'Weiter'}
+            <ChevronRightIcon className="h-4 w-4" />
+          </Button>
+        )}
+
+        {isChecked && !isCorrect && onSkipAnyway && (
+          <Button 
+            onClick={onSkipAnyway} 
+            variant="outline"
+            className="gap-2 border-yellow-600/50 text-yellow-400 hover:bg-yellow-600/10"
+          >
+            Trotzdem weiter
             <ChevronRightIcon className="h-4 w-4" />
           </Button>
         )}

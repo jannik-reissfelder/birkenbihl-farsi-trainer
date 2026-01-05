@@ -489,6 +489,16 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
     }
   };
 
+  const handleSkipAnyway = () => {
+    // Mark as completed for this sentence to allow navigation
+    setCompletedSteps(prev => new Set(prev).add('decode'));
+    // Reset check state for next sentence
+    setIsDecodeChecked(false);
+    setIsDecodeCorrect(false);
+    // Move to next sentence
+    goToNext();
+  };
+
   // Handler for Token-based word marking (used by DecodeStep component)
   const handleMarkToken = useCallback((token: { german: string; farsi: string; latin: string; isPunctuation: boolean }) => {
     if (token.isPunctuation || !token.german || !token.farsi) return;
@@ -738,6 +748,7 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
             onPlayAudio={decodeAudio.playAudio}
             onAnswerChange={handleDecodeInputChange}
             onCheck={handleCheckDecode}
+            onSkipAnyway={handleSkipAnyway}
             onPrevious={goToPrev}
             onNext={goToNext}
             canGoPrevious={currentIndex > 0}
