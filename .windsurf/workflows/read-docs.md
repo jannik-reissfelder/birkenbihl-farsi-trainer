@@ -1,17 +1,17 @@
 ---
 auto_execution_mode: 1
-description: Loads architectural context from migration/ docs to inform development decisions
+description: Loads architectural context from docs/ folder to inform development decisions
 ---
 
 # Read Documentation
 
 ## Objective
-Internalize current architecture, patterns, and constraints from migration/ folder to ensure new work aligns with existing design.
+Internalize current architecture, patterns, and constraints from docs/ folder to ensure new work aligns with existing design.
 
 ## Process
 
 1. **Load Core Architecture**
-   Read and absorb key architectural documents in migration/:
+   Read and absorb key architectural documents in folder docs/:
    - System design and component relationships
    - Data models and schemas
    - API contracts and interfaces
