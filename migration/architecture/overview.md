@@ -170,6 +170,19 @@
 │                          │ last_login               │                  │
 │                          │ xp_per_level (JSONB)     │                  │
 │                          └──────────────────────────┘                  │
+│          │                                                             │
+│          │               ┌──────────────────────────┐                  │
+│          └──────────────►│ free_speaking_sessions   │                  │
+│                          ├──────────────────────────┤                  │
+│                          │ id (PK)                  │                  │
+│                          │ user_id (FK)             │                  │
+│                          │ started_at               │                  │
+│                          │ ended_at                 │                  │
+│                          │ message_count            │                  │
+│                          │ summary                  │                  │
+│                          │ topics_discussed (JSONB) │                  │
+│                          │ created_at               │                  │
+│                          └──────────────────────────┘                  │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -217,6 +230,22 @@ CREATE TABLE vocabulary_cards (
 ```
 
 **Usage:** Words marked during Decode step. SM-2 algorithm manages spacing.
+
+#### free_speaking_sessions (Conversation Memory)
+```sql
+CREATE TABLE free_speaking_sessions (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    user_id UUID NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
+    started_at TIMESTAMPTZ DEFAULT NOW(),
+    ended_at TIMESTAMPTZ,
+    message_count INT DEFAULT 0,
+    summary TEXT,                    -- AI-generated conversation summary
+    topics_discussed JSONB DEFAULT '[]'::jsonb,  -- Keywords of topics
+    created_at TIMESTAMPTZ DEFAULT NOW()
+);
+```
+
+**Usage:** Stores conversation summaries for free speaking mode. Last 3 summaries are loaded as context for continuity across daily practice sessions. Summaries are AI-generated using Gemini API.
 
 ---
 
