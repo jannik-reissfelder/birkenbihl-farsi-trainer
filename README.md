@@ -22,7 +22,8 @@ A language learning app for German speakers to learn Farsi using the Birkenbihl 
 1. Install dependencies: `npm install`
 2. Set environment variables:
    - `GEMINI_API_KEY` - Google Gemini API key
-   - Supabase credentials (configured via Replit secrets)
+   - `VITE_SUPABASE_URL` - Supabase project URL
+   - `VITE_SUPABASE_ANON_KEY` - Supabase public key
 3. Run: `npm run dev`
 
 ## Database

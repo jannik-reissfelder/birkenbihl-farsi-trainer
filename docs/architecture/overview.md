@@ -482,7 +482,7 @@ User selects lesson
 
 **Configuration:**
 - API key: `GEMINI_API_KEY` environment variable
-- Accessed via Replit secrets
+- Configured in Vercel Environment Variables or local `.env` file
 
 **Endpoints used:**
 1. **Text-to-Speech:** Generate Farsi audio for sentences
@@ -555,11 +555,11 @@ public/audio/a2-l1/
 
 ## Deployment
 
-### Development: Replit
+### Development: Local
 
-- Dev server: port 5000
-- Environment variables in Replit Secrets
-- Automatic HTTPS via Replit proxy
+- Dev server: port 5000 (configurable in `vite.config.ts`)
+- Environment variables in `.env` file
+- Run with `npm run dev`
 
 ### Production: Vercel
 

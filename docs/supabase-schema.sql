@@ -209,7 +209,7 @@ CREATE INDEX IF NOT EXISTS idx_srs_reviews_user ON public.srs_reviews(user_id);
 -- Your database is now ready for multi-user authentication
 -- Next steps:
 -- 1. Copy your Supabase URL and anon key
--- 2. Add them to Replit Secrets as:
+-- 2. Add them to your environment variables as:
 --    - VITE_SUPABASE_URL
 --    - VITE_SUPABASE_ANON_KEY
 -- ================================================================

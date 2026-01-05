@@ -153,7 +153,6 @@ All tables have RLS enabled - users can only access their own data.
 
 | File | Purpose |
 |------|---------|
-| `replit.md` | Project overview, user preferences, recent changes |
 | `components/LessonView.tsx` | Main lesson orchestration (~1000 lines) |
 | `components/lesson/DecodeStep/` | Modular decode UI components |
 | `contexts/VocabularyContext.tsx` | SRS vocabulary management |
@@ -168,31 +167,28 @@ All tables have RLS enabled - users can only access their own data.
 
 | Variable | Purpose | Location |
 |----------|---------|----------|
-| `GEMINI_API_KEY` | Google Gemini API | Replit Secrets |
-| `VITE_SUPABASE_URL` | Supabase project URL | Replit Secrets |
-| `VITE_SUPABASE_ANON_KEY` | Supabase public key | Replit Secrets |
+| `GEMINI_API_KEY` | Google Gemini API | Vercel Environment Variables |
+| `VITE_SUPABASE_URL` | Supabase project URL | Vercel Environment Variables |
+| `VITE_SUPABASE_ANON_KEY` | Supabase public key | Vercel Environment Variables |
 
 ---
 
 ## Getting Started (Suggested Path)
 
 ```
-1. Read replit.md (project root)
+1. Read Birkenbihl Method (methodology/birkenbihl_method.md)
          │
          ▼
-2. Read Birkenbihl Method (methodology/birkenbihl_method.md)
+2. Read System Overview (architecture/overview.md)
          │
          ▼
-3. Read System Overview (architecture/overview.md)
+3. Follow Quick Start (onboarding/quick_start.md)
          │
          ▼
-4. Follow Quick Start (onboarding/quick_start.md)
+4. Before coding: Review Feature Checklist (onboarding/feature_checklist.md)
          │
          ▼
-5. Before coding: Review Feature Checklist (onboarding/feature_checklist.md)
-         │
-         ▼
-6. For refactoring: Consult Lean Strategy (lean_strategy/doc.md)
+5. For refactoring: Consult Lean Strategy (lean_strategy/doc.md)
 ```
 
 ---
@@ -213,7 +209,7 @@ From the [Lean Strategy](./lean_strategy/doc.md):
 
 ## Contact & Support
 
-- **Project documentation:** This folder + `replit.md`
+- **Project documentation:** This folder
 - **Database schema:** `docs/supabase-schema.sql`
 - **Architecture decisions:** `lean_strategy/doc.md`
 

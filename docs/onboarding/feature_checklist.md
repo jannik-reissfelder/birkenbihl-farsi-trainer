@@ -173,7 +173,6 @@ If adding database functionality:
 
 After implementation, update:
 
-- [ ] `replit.md` - Add feature to Recent Changes section
 - [ ] `component_map.md` - Add new components to hierarchy
 - [ ] Inline code comments for complex logic
 - [ ] This checklist if process changed
@@ -253,9 +252,9 @@ Follow the Free Speaking Mode pattern:
 
 If feature causes issues:
 
-1. Check Replit checkpoint history
+1. Check Git commit history
 2. Identify last working state
-3. Use rollback feature if needed
+3. Use Git revert if needed
 4. Document what went wrong
 
 ---

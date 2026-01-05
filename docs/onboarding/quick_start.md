@@ -8,7 +8,7 @@
 ## Prerequisites
 
 Before starting, ensure you have:
-- Access to the Replit project
+- Node.js installed (v18 or higher)
 - Understanding of React, TypeScript, and Tailwind CSS
 - Read the [Birkenbihl Method](../methodology/birkenbihl_method.md) documentation
 
@@ -18,19 +18,20 @@ Before starting, ensure you have:
 
 ### Step 1: Understand the Project (3 minutes)
 
-1. Open `replit.md` in the project root
-2. Read the **Overview** and **User Preferences** sections
+1. Read the [Birkenbihl Method](../methodology/birkenbihl_method.md) documentation
+2. Review the [System Overview](../architecture/overview.md)
 3. Note: The 8 decoding rules are **non-negotiable**
 
 ### Step 2: Run the Application (1 minute)
 
-The app should already be running on port 5000. If not:
+Install dependencies and start the development server:
 
 ```bash
+npm install
 npm run dev
 ```
 
-Open the Webview in Replit to see the app.
+Open your browser at `http://localhost:5173` (default Vite port).
 
 ### Step 3: Explore the Codebase (3 minutes)
 
@@ -52,7 +53,7 @@ src/
 
 ### Step 4: Check Environment Variables (1 minute)
 
-Required secrets (configured in Replit Secrets or Vercel Environment Variables):
+Required environment variables (configured in Vercel Environment Variables or local `.env` file):
 - `GEMINI_API_KEY` - Google Gemini API for TTS and chat
 - `VITE_SUPABASE_URL` - Database URL
 - `VITE_SUPABASE_ANON_KEY` - Public Supabase key
@@ -199,7 +200,7 @@ After completing this guide:
 
 ## Key Contacts
 
-- **Project Owner:** Check replit.md for preferences
+- **Project Owner:** Check migration docs for preferences
 - **Documentation:** This migration folder
 - **Architecture Decisions:** See lean_strategy/doc.md
 

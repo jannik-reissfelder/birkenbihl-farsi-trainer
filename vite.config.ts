@@ -4,19 +4,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
-    const isReplit = !!process.env.REPL_ID || !!process.env.REPLIT || !!process.env.REPL_SLUG;
     return {
       server: {
         port: 5000,
         host: '0.0.0.0',
-        allowedHosts: true,
-        ...(isReplit
-          ? {
-              hmr: {
-                clientPort: 443,
-              },
-            }
-          : {}),
       },
       plugins: [react()],
       define: {
