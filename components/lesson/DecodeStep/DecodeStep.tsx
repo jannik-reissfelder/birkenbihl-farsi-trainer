@@ -47,6 +47,7 @@ interface DecodeStepProps {
   mode: 'full' | 'decode-only' | 'karaoke-only';
   onNextStep?: () => void;
   onComplete?: () => void;
+  onSkipAnyway?: () => void;
   helpState?: {
     isOpen: boolean;
     question: string;
@@ -124,6 +125,7 @@ export const DecodeStep: React.FC<DecodeStepProps> = ({
   mode,
   onNextStep,
   onComplete,
+  onSkipAnyway,
   helpState,
   onToggleHelp,
   onAskHelp,
@@ -262,6 +264,7 @@ export const DecodeStep: React.FC<DecodeStepProps> = ({
         showNextStep={isCorrect && isLastSentence && mode !== 'karaoke-only'}
         nextStepLabel={mode === 'decode-only' ? 'De-kodieren abschließen' : 'Weiter zu Karaoke'}
         onNextStep={mode === 'decode-only' ? onComplete : onNextStep}
+        onSkipAnyway={onSkipAnyway}
       />
 
       <Separator className="my-4 bg-gray-700" />
