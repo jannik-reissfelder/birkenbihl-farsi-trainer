@@ -3,6 +3,9 @@
 -- ================================================================
 -- Run this SQL in your Supabase SQL Editor (Database → SQL Editor)
 -- This creates all tables with Row Level Security for multi-user support
+-- 
+-- NOTE: This is the base schema. For conversation memory feature,
+-- also run: supabase/migrations/20260103_add_free_speaking_sessions.sql
 -- ================================================================
 
 -- Enable UUID extension

@@ -1,4 +1,30 @@
 ---
 auto_execution_mode: 1
-description: This workflow updates all docs in the "migration" folder to match the current architecture and the project most important details based on the latest changes in the codebase.
+description: Updates all docs in migration/ folder to reflect current codebase architecture and key details
 ---
+
+# Update Documentation
+
+## Objective
+Ensure documentation in folder migration/ accurately reflects the current state of the architecture, key components, and recent changes.
+
+## Process
+
+1. **Scan Current State**
+   Review recent commits, changed files, and architecture patterns in the codebase.
+
+2. **Identify Documentation Gaps**
+   Compare current implementation against migration/ docs. Flag outdated sections or missing details.
+
+3. **Update Documentation**
+   Revise migration docs to match reality:
+   - Architecture diagrams and descriptions
+   - Key components and their interactions
+   - Recent changes or refactors
+   - Migration steps if applicable
+
+4. **Verify Consistency**
+   Ensure all docs in migration/ are coherent and cross-references are valid.
+
+## Output
+Updated documentation files ready to commit.

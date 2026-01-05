@@ -5,64 +5,30 @@ description: Closes a feature branch by updating docs, merging to main, and clea
 
 # Close Feature Branch
 
-## Step 1: Verify Current Branch
-Check current branch and confirm with user this is the branch to close.
+## Objective
+Safely merge the current feature branch into main with updated documentation and clean branch management.
 
-## Step 2: Update Documentation
-// turbo
-Trigger the `update-docs` workflow to sync documentation with latest changes.
+## Pre-Merge Tasks
 
-## Step 3: Commit Documentation Updates
-// turbo
-If docs were updated, commit them:
-```bash
-git add migration/
-git commit -m "docs: update documentation for feature"
-```
+1. **Update Documentation**
+   Call `/update-docs` to ensure migration docs reflect current changes.
+   Commit any doc updates with message: `docs: update documentation for feature`
 
-## Step 4: Sync with Main
-// turbo
-Fetch and check if main has new commits:
-```bash
-git fetch origin main
-git log HEAD..origin/main --oneline
-```
+2. **Sync with Main**
+   Rebase onto latest main if there are upstream changes. Resolve conflicts if needed.
 
-If main has updates, ask user: "Rebase onto main? (yes/no)"
-- If yes: `git rebase origin/main`
+## Merge Process
 
-## Step 5: Review Commits
-Show commits to be merged:
-```bash
-git log origin/main..HEAD --oneline --no-merges
-```
+3. **Merge to Main**
+   Switch to main, merge feature branch with `--no-ff` and descriptive commit message.
+   Format: `feat: [clear description of what this feature adds]`
 
-Ask user: "Proceed with merge? (yes/no)"
+4. **Push and Cleanup**
+   Push to remote main.
+   Delete local and remote feature branches unless user specifies to keep them.
 
-## Step 6: Merge to Main
-// turbo
-```bash
-git checkout main
-git pull origin main
-git merge --no-ff [feature-branch] -m "feat: [description]"
-git push origin main
-```
+## Completion
+Confirm merge success and remind about deployment verification if applicable.
 
-## Step 7: Cleanup
-// turbo
-Ask user: "Delete feature branch? (yes/no)"
-
-If yes:
-```bash
-git branch -d [feature-branch]
-git push origin --delete [feature-branch]
-```
-
-## Step 8: Confirm
-Message: "✅ Feature merged to main and branch deleted. Verify deployment if needed."
-
-## Rollback (if needed)
-```bash
-git revert -m 1 [merge-commit-hash]
-git push origin main
-```
+## Safety Note
+If merge fails or needs rollback: `git revert -m 1 [merge-commit-hash]`

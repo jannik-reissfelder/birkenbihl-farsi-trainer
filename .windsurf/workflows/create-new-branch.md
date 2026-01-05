@@ -1,18 +1,26 @@
 ---
 auto_execution_mode: 1
-description: Creates a new development branch from main and triggers documentation reading
+description: Creates a new development branch from main and loads project documentation
 ---
 
-# Create New Development Branch
+# Create Development Branch
 
-## Step 1: Get Feature Description
-Prompt the user: "What feature are you developing? This will be used to name the branch."
+## Objective
+Start a new feature branch from latest main with full architectural context.
 
-## Step 2: Create Branch
-Based on the user's input, create a new branch with format: `feature/[feature-name]`
-- Ensure we're on main branch first
-- Pull latest changes
-- Create and checkout new branch
+## Branch Creation
 
-## Step 3: Trigger Documentation Review
-Automatically trigger the read-docs workflow to ensure all documentation is reviewed before starting development.
+**Expected input:** Feature description provided with workflow trigger (e.g., `/create-dev-branch user authentication refactor`)
+
+If no feature description provided, ask: "What feature are you developing?"
+
+Create branch with format: `feature/[descriptive-name]`
+- Ensure clean state from latest main
+- Use kebab-case, be concise but descriptive
+
+## Context Loading
+
+Automatically trigger `/read-docs` to load architectural knowledge before starting work.
+
+## Output
+New feature branch created and checked out, with full project context loaded.
