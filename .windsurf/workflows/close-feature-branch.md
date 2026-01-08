@@ -6,13 +6,14 @@ description: Closes a feature branch by updating docs, merging to main, and clea
 # Close Feature Branch
 
 ## Objective
-Safely merge the current feature branch into main with updated documentation and clean branch management.
+Safely merge the current feature branch into main with updated documentation and clean branch management. This workflow is designed to ensure a smooth transition of feature changes into the main codebase while maintaining documentation accuracy and proper branch management.
 
 ## Pre-Merge Tasks
 
 1. **Update Documentation**
-   Call `/update-docs` to ensure migration docs reflect current changes.
+   Call `/update-docs` to ensure docs reflect current changes.
    Commit any doc updates with message: `docs: update documentation for feature`
+   Note, only call `/update-docs` if the feature or fix is significant enough to warrant documentation updates. 
 
 2. **Sync with Main**
    Rebase onto latest main if there are upstream changes. Resolve conflicts if needed.
