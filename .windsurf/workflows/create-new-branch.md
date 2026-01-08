@@ -6,7 +6,7 @@ description: Creates a new development branch from main and loads project docume
 # Create Development Branch
 
 ## Objective
-Start a new feature branch from latest main with full architectural context.
+Start a new feature branch from latest main with full architectural context. Do not start working on the feature yet.
 
 ## Branch Creation
 
@@ -23,4 +23,4 @@ Create branch with format: `feature/[descriptive-name]`
 Automatically trigger `/read-docs` to load architectural knowledge before starting work.
 
 ## Output
-New feature branch created and checked out, with full project context loaded.
+New feature branch created and checked out, with full project context loaded. Do not start working on the feature yet.
