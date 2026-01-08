@@ -83,7 +83,6 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
   const [userTranscript, setUserTranscript] = useState<string | null>(null);
   
   // Lesson state
-  const [isMastered, setIsMastered] = useState(false);
   const [completedSteps, setCompletedSteps] = useState(new Set<BirkenbihlStep>());
   const { addXp } = useContext(GamificationContext);
   const { cards: vocabularyCards, addCard, removeCard, removeCardByWords, isWordMarked } = useVocabulary();
@@ -318,21 +317,12 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
     setCompletedSteps(new Set());
     setKaraokeState({ isPlaying: false, currentSentenceIndex: 0, currentWordIndex: -1, loopCount: 1 });
     stopAudio();
-    setIsMastered(false);
   }, [stopAudio]);
   
   useEffect(() => {
     resetAttempt();
     resetHelp();
   }, [currentIndex, resetAttempt, resetHelp]);
-  
-  useEffect(() => {
-    const allStepsComplete = completedSteps.has('decode'); // Karaoke is a lesson-level activity, not per-sentence
-    if (mode === 'full' && allStepsComplete && !isMastered) {
-      setIsMastered(true);
-      addXp(50);
-    }
-  }, [completedSteps, addXp, isMastered, mode]);
   
   const fetchAllKaraokeData = useCallback(async () => {
     if (isKaraokeDataReady || isKaraokeLoading || lesson.sentences.length === 0) return;
@@ -350,7 +340,7 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
             
             if ((sentence as any).timings && (sentence as any).timings.length > 0) {
                 const level = lesson.id.startsWith('a1') ? 'level_a1' : 'level_a2';
-                const lessonFolder = lesson.id; // Use full lesson ID like decode mode
+                const lessonFolder = lesson.id;
                 const audioPath = `/audio/level_a/${level}/${lessonFolder}/audio_${sentence.id}.wav`;
                 console.log(`Loading hardcoded audio: ${audioPath}`);
                 
@@ -411,8 +401,7 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
     } finally {
         setIsKaraokeLoading(false);
     }
-  }, [lesson.sentences, isKaraokeDataReady, isKaraokeLoading, getAudioContext]);
-
+  }, [lesson.sentences, lesson.id, isKaraokeDataReady, isKaraokeLoading, getAudioContext]);
 
   const handleSetStep = (newStep: BirkenbihlStep) => { 
     stopAudio();
@@ -683,40 +672,6 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
   // --- END KARAOKE LOGIC ---
   
   const renderContent = () => {
-    if (isMastered && step !== 'karaoke') {
-        const isLastSentence = currentIndex >= lesson.sentences.length - 1;
-        const isReadyForKaraoke = isLastSentence && mode === 'full';
-
-        return (
-            <div className="text-center p-6 md:p-8 min-h-[350px] flex flex-col justify-center items-center animate-fade-in">
-                <CheckIcon className="h-24 w-24 text-green-400 mb-4" />
-                <h2 className="text-3xl font-bold text-white mb-2">Satz gemeistert!</h2>
-                
-                {isReadyForKaraoke ? (
-                    <p className="text-gray-400 mt-4">Sehr gut! Du hast den letzten Satz de-kodiert. Zeit für die Karaoke-Übung!</p>
-                ) : (
-                    <p className="text-gray-400 mt-4">Sehr gut! Du kannst jetzt mit dem nächsten Satz fortfahren.</p>
-                )}
-
-                {isReadyForKaraoke ? (
-                     <button
-                        onClick={() => handleSetStep('karaoke')}
-                        className="mt-8 flex items-center gap-2 px-6 py-3 rounded-md bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-colors"
-                    >
-                        Weiter zu Karaoke <ChevronRightIcon />
-                    </button>
-                ) : (
-                    <button
-                        onClick={goToNext}
-                        disabled={isLastSentence}
-                        className="mt-8 flex items-center gap-2 px-6 py-3 rounded-md bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-colors disabled:bg-gray-500 disabled:cursor-not-allowed"
-                    >
-                        Weiter <ChevronRightIcon />
-                    </button>
-                )}
-            </div>
-        );
-    }
     if (isLoading && step !== 'karaoke') return <div className="text-center p-8 min-h-[350px] flex items-center justify-center"><SpinnerIcon /></div>;
     if (error) return (
       <div className="text-center p-8 min-h-[350px] flex flex-col items-center justify-center gap-4">
@@ -971,7 +926,7 @@ const LessonView: React.FC<LessonViewProps> = ({ lesson, onLessonComplete, mode 
 
         {renderContent()}
 
-        {mode !== 'karaoke-only' && !isMastered && step !== 'karaoke' && (
+        {mode !== 'karaoke-only' && step !== 'karaoke' && (
             <div className="flex justify-between items-center mt-6 pt-4 border-t border-gray-700">
                 <div className="flex items-center gap-2">
                   {!isFreePractice && onLessonComplete && (
