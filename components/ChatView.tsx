@@ -797,12 +797,21 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
             >
                 Neu starten
             </button>
+        ) : hasStarted ? (
+            <button
+                onClick={handleToggleConversation}
+                className="px-8 py-3 bg-red-600 hover:bg-red-500 text-white font-semibold rounded-lg transition-colors shadow-lg flex items-center gap-2"
+                aria-label="Gespräch beenden"
+            >
+                <StopIcon className="h-5 w-5" />
+                Gespräch beenden
+            </button>
         ) : (
             <button
                 onClick={handleToggleConversation}
                 disabled={status === 'connecting' || status === 'generatingScenarios' || status === 'scenarioChoice'}
                 className={`w-20 h-20 rounded-full flex items-center justify-center transition-all duration-300 shadow-lg border-4 text-white ${buttonClass}`}
-                aria-label={hasStarted ? "Stop conversation" : "Start conversation"}
+                aria-label="Start conversation"
             >
                 {icon}
             </button>
