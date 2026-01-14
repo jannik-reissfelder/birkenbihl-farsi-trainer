@@ -426,7 +426,7 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
           // Handle session resumption token updates
           if (message.sessionResumptionUpdate) {
             const update = message.sessionResumptionUpdate as any;
-            const token = update.handle || update.resumptionToken;
+            const token = update.newHandle || update.handle || update.resumptionToken;
             if (token) {
               resumptionTokenRef.current = token;
               console.log('📝 Session resumption token updated:', token.substring(0, 20) + '...');
