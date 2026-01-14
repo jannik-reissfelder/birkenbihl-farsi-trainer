@@ -71,10 +71,12 @@ This document maps the React component hierarchy and their relationships based o
 │   ├── AnalyticsDashboard.tsx     # Progress analytics view
 │   ├── ChatView.tsx               # Live chat with AI - Dual mode system
 │   │   ├── Features: Lesson-based conversations, Free speaking mode (daily Farsi)
+│   │   ├── Unlimited Sessions: Context window compression + automatic reconnection every ~10min
 │   │   ├── Conversation Memory: Free mode loads last 3 conversation summaries for continuity
 │   │   ├── State: chatMode, showLessonScenarioOptions, showScenarioPrompt, currentSessionId
 │   │   ├── Integration: Gemini Live API, Audio processing, SRS vocabulary, freeSpeakingQueries
-│   │   ├── Fix: Explicit mode parameter to prevent state timing issues in free mode
+│   │   ├── Session Resumption: Uses ref-based token storage for seamless reconnection
+│   │   ├── UI: Clear "Gespräch beenden" button during active conversations
 │   ├── DailyDoseView.tsx          # Daily learning view
 │   ├── Dashboard.tsx              # Main dashboard
 │   ├── FreeShadowingSession.tsx   # Free practice shadowing
