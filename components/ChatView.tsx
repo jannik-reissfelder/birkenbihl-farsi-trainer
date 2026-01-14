@@ -81,6 +81,8 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
   const [error, setError] = useState<string | null>(null);
   const [scenarios, setScenarios] = useState<Scenario[] | null>(null);
   const [currentSessionId, setCurrentSessionId] = useState<string | null>(null);
+  const resumptionTokenRef = useRef<string | null>(null);
+  const [isReconnecting, setIsReconnecting] = useState(false);
 
   const [isInterventionModalOpen, setIsInterventionModalOpen] = useState(false);
   const [interventionText, setInterventionText] = useState('');
@@ -104,6 +106,9 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
   const currentOutputTranscriptionRef = useRef('');
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const systemInstructionRef = useRef<string>('');
+  const selectedScenarioRef = useRef<Scenario | undefined>(undefined);
+
   const pingerIntervalRef = useRef<number | null>(null);
 
   useEffect(() => {
@@ -124,7 +129,9 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
     });
   }, []);
 
-  const cleanupLiveResources = useCallback(async () => {
+  const cleanupLiveResources = useCallback(async (preserveResumption: boolean = false) => {
+    console.log('🧹 Cleaning up live resources, preserveResumption:', preserveResumption);
+    
     if (pingerIntervalRef.current) {
       clearInterval(pingerIntervalRef.current);
       pingerIntervalRef.current = null;
@@ -158,6 +165,15 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
     scriptProcessorRef.current = null;
     mediaStreamSourceRef.current = null;
     mediaStreamRef.current = null;
+
+    if (!preserveResumption) {
+      console.log('🗑️ Clearing resumption token and cached state');
+      resumptionTokenRef.current = null;
+      systemInstructionRef.current = '';
+      selectedScenarioRef.current = undefined;
+    } else {
+      console.log('💾 Preserving resumption token:', resumptionTokenRef.current ? 'present' : 'NULL');
+    }
   }, [stopCurrentPlayback]);
 
   const stopConversation = useCallback(async () => {
@@ -182,10 +198,11 @@ const ChatView: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
     }
 
     isClosingIntentionalRef.current = true;
-    await cleanupLiveResources();
+    await cleanupLiveResources(false);
     setStatus('idle');
     setScenarios(null);
     setCurrentSessionId(null);
+    setIsReconnecting(false);
   }, [cleanupLiveResources, chatMode, messages, user, currentSessionId]);
 
   useEffect(() => {
@@ -299,7 +316,7 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
     }
   };
 
-  const startLiveChat = async (selectedScenario?: Scenario, explicitMode?: 'lesson' | 'free') => {
+  const startLiveChat = async (selectedScenario?: Scenario, explicitMode?: 'lesson' | 'free', isResuming: boolean = false) => {
     setStatus('connecting');
     setError(null);
 
@@ -309,6 +326,8 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
     console.log('🔍 DEBUG: explicitMode param =', explicitMode);
     console.log('🔍 DEBUG: using mode =', mode);
     console.log('🔍 DEBUG: selectedScenario =', selectedScenario);
+    console.log('🔍 DEBUG: isResuming =', isResuming);
+    console.log('🔍 DEBUG: resumptionToken =', resumptionTokenRef.current ? 'present (' + resumptionTokenRef.current.substring(0, 20) + '...)' : 'NULL');
 
     // Create session record for free mode
     if (mode === 'free' && user?.id) {
@@ -327,11 +346,20 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
       }
     }
 
-    let systemInstruction = await getSystemInstruction(mode);
-    if (selectedScenario) {
-      systemInstruction += `\n\n**Role-play Scenario:** You must start a conversation based on the following situation: "${selectedScenario.german}". Greet the user in Farsi and begin the role-play.`;
-    } else if (mode === 'lesson') {
-      systemInstruction += `\n\n**Role-play Scenario:** Start a general conversation related to the lesson's theme. Greet the user in Farsi and begin the role-play.`;
+    // Use cached system instruction if resuming, otherwise generate new one
+    let systemInstruction: string;
+    if (isResuming && systemInstructionRef.current) {
+      systemInstruction = systemInstructionRef.current;
+      console.log('🔄 Using cached system instruction for resumption');
+    } else {
+      systemInstruction = await getSystemInstruction(mode);
+      if (selectedScenario) {
+        systemInstruction += `\n\n**Role-play Scenario:** You must start a conversation based on the following situation: "${selectedScenario.german}". Greet the user in Farsi and begin the role-play.`;
+      } else if (mode === 'lesson') {
+        systemInstruction += `\n\n**Role-play Scenario:** Start a general conversation related to the lesson's theme. Greet the user in Farsi and begin the role-play.`;
+      }
+      systemInstructionRef.current = systemInstruction;
+      selectedScenarioRef.current = selectedScenario;
     }
 
     console.log('🔍 DEBUG: ========== SYSTEM INSTRUCTION START ==========');
@@ -369,9 +397,15 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
       inputAudioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 16000 });
       outputAudioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 24000 });
 
+      console.log('🔌 Connecting to live chat with resumption token:', resumptionTokenRef.current ? 'present' : 'NULL');
+      
       sessionPromiseRef.current = connectToLiveChat(systemInstruction, {
         onopen: () => {
           setStatus('listening');
+          setIsReconnecting(false);
+          if (isResuming) {
+            console.log('✅ Session resumed successfully');
+          }
           const source = inputAudioContextRef.current!.createMediaStreamSource(stream);
           mediaStreamSourceRef.current = source;
 
@@ -389,6 +423,29 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
           scriptProcessor.connect(inputAudioContextRef.current!.destination);
         },
         onmessage: async (message: LiveServerMessage) => {
+          // Handle session resumption token updates
+          if (message.sessionResumptionUpdate) {
+            const update = message.sessionResumptionUpdate as any;
+            const token = update.newHandle || update.handle || update.resumptionToken;
+            if (token) {
+              resumptionTokenRef.current = token;
+              console.log('📝 Session resumption token updated:', token.substring(0, 20) + '...');
+              console.log('✅ Token stored in ref, ready for reconnection');
+            } else {
+              console.warn('⚠️ sessionResumptionUpdate received but no token found:', update);
+            }
+          }
+
+          // Handle GoAway message (connection about to close)
+          if (message.goAway) {
+            console.log('⚠️ GoAway received - connection will reset soon');
+            console.log('🔍 Current state at GoAway:', {
+              resumptionToken: resumptionTokenRef.current ? 'present' : 'NULL',
+              systemInstruction: systemInstructionRef.current ? 'present' : 'NULL'
+            });
+            setIsReconnecting(true);
+          }
+
           if (message.serverContent?.inputTranscription) {
             currentInputTranscriptionRef.current += message.serverContent.inputTranscription.text;
           }
@@ -441,23 +498,52 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
           setStatus('error');
           cleanupLiveResources();
         },
-        onclose: (e: CloseEvent) => {
-          cleanupLiveResources();
+        onclose: async (e: CloseEvent) => {
+          console.log('🔍 DEBUG onclose triggered:', {
+            wasClean: e.wasClean,
+            code: e.code,
+            reason: e.reason,
+            resumptionToken: resumptionTokenRef.current ? 'present' : 'NULL',
+            systemInstruction: systemInstructionRef.current ? 'present' : 'NULL',
+            isClosingIntentional: isClosingIntentionalRef.current
+          });
           if (isClosingIntentionalRef.current) {
-            isClosingIntentionalRef.current = false; // Reset for next session
-            return; // Status is already set to 'idle' by stopConversation.
+            console.log('👋 Intentional close - cleaning up without reconnection');
+            await cleanupLiveResources(false);
+            isClosingIntentionalRef.current = false;
+            return;
           }
 
-          // If it wasn't intentional, it's either a timeout or an error.
+          // If we have a resumption token and it was a clean close, attempt reconnection
+          if (e.wasClean && resumptionTokenRef.current && systemInstructionRef.current) {
+            console.log('🔄 Connection reset detected - attempting automatic reconnection...');
+            console.log('✅ Reconnection conditions met: wasClean=true, token=present, systemInstruction=present');
+            setIsReconnecting(true);
+            await cleanupLiveResources(true);
+            
+            // Wait a moment before reconnecting
+            setTimeout(() => {
+              console.log('⏰ Reconnection timeout fired - calling startLiveChat with isResuming=true');
+              startLiveChat(selectedScenarioRef.current, explicitMode, true);
+            }, 500);
+            return;
+          }
+
+          // Otherwise, handle as error or timeout
+          console.log('❌ Reconnection conditions NOT met:', {
+            wasClean: e.wasClean,
+            hasToken: !!resumptionTokenRef.current,
+            hasSystemInstruction: !!systemInstructionRef.current
+          });
+          await cleanupLiveResources(false);
           if (!e.wasClean) {
             setError("Verbindung unerwartet getrennt. Prüfe dein Netzwerk.");
             setStatus('error');
           } else {
-            // A clean close from the server is most likely an inactivity timeout.
             setStatus('timedOut');
           }
         },
-      });
+      }, resumptionTokenRef.current || undefined);
 
       await sessionPromiseRef.current;
 
@@ -711,12 +797,21 @@ Start the roleplay now with a friendly Farsi greeting that establishes the scene
             >
                 Neu starten
             </button>
+        ) : hasStarted ? (
+            <button
+                onClick={handleToggleConversation}
+                className="px-8 py-3 bg-red-600 hover:bg-red-500 text-white font-semibold rounded-lg transition-colors shadow-lg flex items-center gap-2"
+                aria-label="Gespräch beenden"
+            >
+                <StopIcon className="h-5 w-5" />
+                Gespräch beenden
+            </button>
         ) : (
             <button
                 onClick={handleToggleConversation}
                 disabled={status === 'connecting' || status === 'generatingScenarios' || status === 'scenarioChoice'}
                 className={`w-20 h-20 rounded-full flex items-center justify-center transition-all duration-300 shadow-lg border-4 text-white ${buttonClass}`}
-                aria-label={hasStarted ? "Stop conversation" : "Start conversation"}
+                aria-label="Start conversation"
             >
                 {icon}
             </button>

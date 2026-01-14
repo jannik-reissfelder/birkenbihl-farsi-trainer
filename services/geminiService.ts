@@ -406,6 +406,7 @@ export function connectToLiveChat(
         onerror: (e: ErrorEvent) => void;
         onclose: (e: CloseEvent) => void;
     },
+    resumptionHandle?: string,
 ): Promise<Session> {
     const genAI = getAiClient();
 
@@ -420,6 +421,10 @@ export function connectToLiveChat(
             systemInstruction,
             outputAudioTranscription: {},
             inputAudioTranscription: {},
+            contextWindowCompression: {
+                slidingWindow: {},
+            },
+            sessionResumption: resumptionHandle ? { handle: resumptionHandle } : {},
         },
     });
 
